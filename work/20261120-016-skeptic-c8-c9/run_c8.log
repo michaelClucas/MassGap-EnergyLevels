@@ -1,0 +1,31 @@
+# A single plaquette SU(2): gap(H_FF) = lambda_1; claim 3 at beta=0, ~2beta large
+beta=     0  gap=3.00000  2beta=0
+beta=     1  gap=3.19966  2beta=2
+beta=     5  gap=7.74166  2beta=10
+beta=    10  gap=17.80084  2beta=20
+beta=    50  gap=97.97336  2beta=100
+beta=   200  gap=397.99366  2beta=400
+# B U(1) Kramers bound, L->inf: Var(g')/Var(g); compare beta/I0^2, 2 pi beta^2 e^-2beta
+beta=  2  bound=3.2266e-01  beta/I0^2=3.8487e-01  2pi b^2 e^-2b=4.6032e-01  E g'=0.8076
+beta=  4  bound=2.6687e-02  beta/I0^2=3.1315e-02  2pi b^2 e^-2b=3.3724e-02  E g'=0.9922
+beta=  6  bound=1.2014e-03  beta/I0^2=1.3273e-03  2pi b^2 e^-2b=1.3898e-03  E g'=0.9998
+beta= 10  bound=1.1938e-06  beta/I0^2=1.2613e-06  2pi b^2 e^-2b=1.2951e-06  E g'=1.0000
+beta= 15  bound=1.2550e-10  beta/I0^2=1.3003e-10  2pi b^2 e^-2b=1.3229e-10  E g'=1.0000
+beta= 20  bound=1.0269e-14  beta/I0^2=1.0541e-14  2pi b^2 e^-2b=1.0677e-14  E g'=1.0000
+# C SU(2) nested loops; moments Bessel series (Decimal) vs midpoint quadrature
+beta=2: a=0.433127426722 |a-a_quad|=1.1e-16 |c1-c1_quad|=5.6e-17
+beta=10: a=0.854185308324 |a-a_quad|=2.2e-16 |c1-c1_quad|=1.1e-16
+beta=100: a=0.985037880008 |a-a_quad|=3.1e-15 |c1-c1_quad|=2.2e-15
+beta=    0 smax=  1  nested RQ (explicit vector, Decimal)=3.0000  best single=3.0000  vCv=8.333e-02
+beta=    2 smax= 41  nested RQ (explicit vector, Decimal)=3.9929  best single=3.9930  vCv=6.261e-02
+beta=    2 smax=201  nested RQ (explicit vector, Decimal)=3.9929  best single=3.9930  vCv=6.261e-02
+beta=   10 smax= 41  nested RQ (explicit vector, Decimal)=10.3264  best single=10.5249  vCv=2.421e-02
+beta=   10 smax=201  nested RQ (explicit vector, Decimal)=10.3264  best single=10.5249  vCv=2.421e-02
+beta=   20 smax= 41  nested RQ (explicit vector, Decimal)=12.9110  best single=15.9922  vCv=1.936e-02
+beta=   20 smax=201  nested RQ (explicit vector, Decimal)=12.9110  best single=15.9922  vCv=1.936e-02
+beta=  100 smax= 41  nested RQ (explicit vector, Decimal)=15.6956  best single=33.8132  vCv=1.593e-02
+beta=  100 smax=201  nested RQ (explicit vector, Decimal)=15.6956  best single=33.8132  vCv=1.593e-02
+beta=  500 smax= 41  nested RQ (explicit vector, Decimal)=16.4043  best single=75.9273  vCv=1.524e-02
+beta=  500 smax=201  nested RQ (explicit vector, Decimal)=16.3851  best single=75.9273  vCv=1.526e-02
+beta= 1000 smax= 41  nested RQ (explicit vector, Decimal)=17.5170  best single=107.2535  vCv=1.427e-02
+beta= 1000 smax=201  nested RQ (explicit vector, Decimal)=16.4752  best single=107.2535  vCv=1.517e-02

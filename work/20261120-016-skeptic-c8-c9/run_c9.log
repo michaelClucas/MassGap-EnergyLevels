@@ -1,0 +1,22 @@
+plaquettes per link [2, 2, 2, 2, 2, 2, 2, 2]; plaquette-cut intersections x [2, 0, 2, 0] y [2, 2, 0, 0]
+c_Q max spin >= 2 (P = j<=3/2): any sector 11.0; per flux (0, 0): 11.0, (0, 1): 12.0, (1, 0): 12.0, (1, 1): 12.0
+c_Q max spin >= 3/2 (P = j<=1): any sector 7.5; per flux (0, 0): 8.0, (0, 1): 7.5, (1, 0): 7.5, (1, 1): 8.0
+# split floor (dense chain 2j<=600, t grid 2001) vs d_floor in results.csv
+g2=1 c_Q=11: split=-7.8610205 (t=0.3865) csv=-7.8610291 diff=+8.6e-06 crude=-10.5000
+g2=1.5 c_Q=11: split=-0.6573478 (t=0.1715) csv=-0.6573919 diff=+4.4e-05 crude=-2.4167
+g2=2 c_Q=11: split=4.3194894 (t=0.0965) csv=4.3193986 diff=+9.1e-05 crude=3.0000
+g2=3 c_Q=11: split=12.0463260 (t=0.0430) csv=12.0458277 diff=+5.0e-04 crude=11.1667
+g2=1 c_Q=7.5: split=-8.7024993 (t=0.6975) csv=-8.7025099 diff=+1.1e-05 crude=-12.2500
+g2=1.5 c_Q=7.5: split=-2.6766662 (t=0.3100) csv=-2.6766663 diff=+6.7e-08 crude=-5.0417
+g2=2 c_Q=7.5: split=1.2737500 (t=0.1745) csv=1.2737441 diff=+5.9e-06 crude=-0.5000
+g2=3 c_Q=7.5: split=7.0991669 (t=0.0775) csv=7.0988604 diff=+3.1e-04 crude=5.9167
+# gap intervals recomputed from raw certified block bounds (results.csv)
+g2=1.0: E0 in ground block certified: False; Delta_all in [-inf, 3.3724928]; Delta_00 in [-inf, 3.8194415]  (E0 [-9.9362244,-6.9999784], E1 [-9.9362244,-6.1167829])
+g2=1.5: E0 in ground block certified: False; Delta_all in [-17.7884030, 0.6058086]; Delta_00 in [-17.7884030, 1.7033700]  (E0 [-2.8663314,-2.8208707], E1 [-20.6092738,-1.1629614])
+g2=2.0: E0 in ground block certified: False; Delta_all in [-0.8005445, 1.0335883]; Delta_00 in [2.6055153, 2.6258270]  (E0 [-1.2922669,-1.2918945], E1 [1.3136209,1.3335601])
+g2=3.0: E0 in ground block certified: True; Delta_all in [2.0292728, 2.0342348]; Delta_00 in [4.1279338, 4.1280120]  (E0 [-0.3931398,-0.3931392], E1 [3.7347946,3.7348723])
+# g2 = 1.5 with refine.csv lower bounds
+E1 >= -2.05148656; min E0_lo over (0,0) k != 0 = -1.878095
+gap_00 >= 0.769384 using E0_hi = -2.820870733 (j_max 2 Ritz, results.csv)
+gap_00 >= 0.764004 using E0_hi = -2.815490321 (P Ritz, refine.csv hi_P)
+upper: E1_hi - E0_lo(refine) = 1.701590

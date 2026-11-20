@@ -1,36 +1,38 @@
 # State
 
-Iteration: 3 (2026-11-20)
+Iteration: 4 (2026-11-20)
 
 ## Status
-Iteration 3 done: skeptics passed C4-C7 with corrections; line 2's 2D target found already known in qualitative form (Piazza-Shen); torus gap computed in all flux sectors with certified bounds down to g^2 = 1.5 (zero flux). No result meets a stop condition. Lean toolchain not installed (needs user OK to install `elan`).
+Iteration 4 done. Every line of attack and the first Result-B attempt have now come back negative. The program is converging on Result C (obstruction covering every technique examined). Remaining before a Result C can stop the loop: skeptic on C10-C12, quantum-chemistry methods (HF, CI, CC, DMRG/tensor networks) assessed, a consolidated claim file, `python -m src.reproduce` covering every number in it, and Lean lemmas for key steps.
 
-Compute: CPUs 9-11 via `tools/pin.py`; repin found nothing to fix this iteration. RAM: torus zero-flux j_max = 2 build peaks ~5.4 GB; flux-sector j_max = 2 needs more; don't run two such jobs at once.
+Lean: `elan` 4.4.0 installed (user approved 2026-11-20). `lean/` pinned to Lean v4.36.0 and mathlib v4.36.0; smoke test builds with `lake build` (`work/20261120-017-lean-setup/`). No real lemmas formalized yet.
+
+Compute: CPUs 9-11 via `tools/pin.py`; repin found nothing to fix.
 
 ## Settled
 - Data (`data/`): verified (iteration 2). Headline (Athenodorou-Teper): 4D SU(3) m(2++)/m(0++) = 1.437(11), m(0-+)/m(0++) = 1.549(16), m(0++)/sqrt(sigma) = 3.405(21); 4D SU(inf) 1.497(8), 1.534(11), 3.072(14); 2+1D SU(3) 1.658(5), 2.114(10), 4.368(7).
-- Prior art: see `literature/` and work 001, 007, 011. Key: rigorous lattice gap only at strong coupling (Osterwalder-Seiler, Shen-Zhu-Zhu, Cao-Nissim-Sheffield); Yarotsky covers strong-coupling KS with Gauss law; Piazza-Shen 2610.35286 gives a volume-uniform LSI for 2D lattice SU(N) at all beta.
-- SU(2) KS small-lattice spectra and certified bounds (C1, C2, C3, C5, C9). Finite-volume, fixed-spacing only.
-- C6: the RK-type H_FF and its Bakry-Emery gap are correct but not new.
+- Prior art: `literature/` plus work 001, 007, 011, 013, 014. Rigorous lattice gap only at strong coupling (Osterwalder-Seiler, Shen-Zhu-Zhu, Cao-Nissim-Sheffield, Yarotsky for KS); Piazza-Shen 2610.35286 volume-uniform LSI for 2D SU(N).
+- Skeptic-passed: C1-C9 (with rewording).
 
-## Lines of attack
-1. Line 1 (Hamiltonian lattice, ED + certified bounds): alive as numerics only. Small tori are dominated by torelons and geometry; no continuum content. Certified bounds fail at g^2 <= 1 on 2x2 because the floor d drops below E0. Further pushes cost a lot of RAM for little information. Status: parked unless a later task needs specific bounds.
-2. Line 2 (AKLT/Knabe/martingale/RK): effectively dead for new results. 2D qualitative gap known (Piazza-Shen); KS is frustration-free only with quasi-local terms; H_FF -> KS transfer only at strong coupling (already Yarotsky); H_FF dynamics (z = 2) has no YM continuum limit. Possible small result: explicit beta-dependence of the 2D gap (C8 conjecture Theta(1)), but it is a statement about Langevin dynamics, not Yang-Mills.
-3. Line 3 (configuration space / Gribov / PW): Result-C obstruction, skeptic passed (C7).
-4. Line 4 (theta/Bloch): Result-C obstruction, skeptic passed (C4).
-5. Line 5 (interaction-driven: Mott/BCS/dual superconductor/gap equations): untested by the team; mostly published as models. Needs an obstruction write-up or a Result-B attempt.
-6. Line 6 (stepping stones: O(3) rotor chain, Haldane, 2D sigma model): untested. Use it to check which electron-level proof techniques reproduce known gaps and where they fail.
-7. Result B (quantitative model): not yet attempted. Data is ready.
+## Lines of attack (all assessed)
+1. Line 1 (Hamiltonian lattice ED + certified bounds): numerics only, finite volume (C1, C2, C3, C5, C9). Certified bounds fail at weak coupling because the truncation floor needs exponentially many states (same failure on the rotor chain, C11). Parked.
+2. Line 2 (AKLT/Knabe/martingale/RK + Bakry-Emery): no new result (C6, C8). Works only at strong coupling or for frustration-free deformations with z = 2 dynamics. Calibrated on AKLT (works) and rotor/Heisenberg chains (fails for the same reason) in C11.
+3. Line 3 (configuration space, Gribov, Payne-Weinberger): obstruction (C7).
+4. Line 4 (theta/Bloch): obstruction (C4).
+5. Line 5 (interaction-driven): obstruction (C10, pending skeptic). Possible side question: rigorous 1/N mass generation in 2D CP^{N-1} (not checked against literature; belongs to line 6).
+6. Line 6 (stepping stones): toolkit calibration (C11, pending skeptic). No technique reaches the O(3) continuum gap; its known value comes from integrability.
+7. Result B: first attempt refuted (C12). Constituent-gluon model is a known class and fits worse than Kaidalov-Simonov. No electron-level model in the literature fits within lattice errors.
 
 ## Open questions
-- C8 (011) and C9 (012) need a skeptic.
-- Is a Result C covering every technique the realistic end state? It needs lines 5 and 6 covered and the quantum-chemistry methods (HF, CI, CC, DMRG) assessed.
-- Interval-arithmetic version of certified bounds (currently floating point beyond the plaquette).
+- C10, C11, C12 need a skeptic; C12's competitor numbers (Mathieu-Buisseret-Semay Table 3, Kaidalov-Simonov Table 6) need verification.
+- Quantum-chemistry methods (HF, CI, coupled cluster, DMRG/tensor networks) not yet assessed as gap-proof techniques; required for Result C to cover every technique in the prompt.
+- Lambda_MSbar r0 not in `data/` (needed for kappa = m/Lambda in C10).
+- Interval-arithmetic certified bounds (currently floating point beyond the plaquette).
 - Unvetted claimed full proofs (2506.00284, 2611.11534, Zenodo) remain unrelied on.
 
-## Next planned tasks (iteration 4)
-- Phenomenologist: Result-B attempt. Electron-level bound-state model (e.g. two- or three-constituent-gluon Schrödinger/Salpeter in a linear + Coulomb potential, or a band/Mott picture) fit to glueball ratios with honest parameter count; compare with flux-tube, bag, constituent-gluon, holographic models on the same data (4D SU(3), SU(inf), 2+1D SU(3)).
-- Mathematical physicist: line 5 assessment: mean-field (BCS/Mott/gap-equation) gap mechanisms; where error control fails (no small parameter, gauge dependence of the gluon mass); obstruction or open sub-question.
-- Mathematical/computational physicist: line 6 stepping stone: O(3) quantum rotor chain (and spin-1 Heisenberg/AKLT) as a test bed; which of Temple/certified ED, Knabe, Bakry-Emery, variational bounds reproduce the known gap, and what blocks each from reaching the continuum O(3) sigma-model limit.
-- Skeptic: audit C8 and C9.
-- Lean: blocked on user approval to install `elan`.
+## Next planned tasks (iteration 5)
+- Skeptic: audit C10 (line 5) and C11 (line 6).
+- Skeptic/phenomenologist: audit C12, verify competitor-model numbers from primary sources.
+- Mathematical physicist: quantum-chemistry methods (HF, CI, CC, DMRG/tensor networks) as gap techniques: what each gives (upper bounds, variational, no lower bound), where they fail for YM; cite prior uses on lattice gauge theory.
+- Formalizer: first Lean lemmas: (a) abstract Bloch-decomposition step of C4 (direct sum of operators: spectrum is the union, no in-sector gap bound from band data) or min-max upper bound; (b) Feshbach/Schur-complement lower-bound lemma of C5 in finite dimensions. Report precisely what mathlib lacks.
+- Overseer: after these, draft the consolidated Result-C claim file and extend `src/reproduce.py` to cover every number.

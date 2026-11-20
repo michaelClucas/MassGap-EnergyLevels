@@ -1,0 +1,100 @@
+== A. Large-N gap equation beta = W_d(m) on Z^d (spherical model) ==
+d = 3: W_d(0) = 0.252731  -> no massive solution for beta >= W_d(0) (gapless/ordered phase)
+d = 4: W_d(0) = 0.154933  -> no massive solution for beta >= W_d(0) (gapless/ordered phase)
+d = 2: W_2(m) ~ (1/4pi) ln(32/m^2) diverges as m -> 0: massive solution for every beta
+  beta     m (gap eq)   sqrt(32) exp(-2 pi beta)
+  0.30   7.745798e-01               8.589130e-01
+  0.50   2.398598e-01               2.444548e-01
+  0.80   3.708812e-02               3.711700e-02
+  1.00   1.056300e-02               1.056385e-02
+  1.50   4.565053e-04               4.565054e-04
+Applied to N = 2 (2D XY, s in S^1, weight exp(beta_XY sum s.s')): beta_sph = beta_XY / 2
+ beta_XY      m_gapeq   xi_gapeq = 1/m
+    0.60   7.7458e-01       1.2910e+00
+    0.90   3.2460e-01       3.0807e+00
+    1.20   1.2952e-01       7.7206e+00
+    1.50   5.0748e-02       1.9705e+01
+    2.00   1.0563e-02       9.4670e+01
+    3.00   4.5651e-04       2.1906e+03
+Leading-order gap equation predicts m > 0 at every beta_XY; Froehlich-Spencer 1981 prove
+power-law decay (m = 0) for beta_XY large. Gap equation predicts a gap where none exists.
+
+== B. BCS log vs bosonic Hartree ==
+BCS (constant DOS, cutoff w): 1 = lam * asinh(w/Delta)  =>  Delta/w = 1/sinh(1/lam)
+Boson Hartree, d = 4 lattice (cutoff = 1/a): m^2 = lam * W_4(m), massless bare
+   lam  Delta/w (BCS)  m (boson d=4)  sqrt(lam W4(0))
+  0.05     4.1223e-09     8.7881e-02       8.8015e-02
+  0.10     9.0800e-05     1.2412e-01       1.2447e-01
+  0.20     1.3477e-02     1.7512e-01       1.7603e-01
+  0.50     2.7572e-01     2.7516e-01       2.7833e-01
+  1.00     8.5092e-01     3.8564e-01       3.9362e-01
+BCS: Delta ~ 2w exp(-1/lam): nonperturbative in lam, RG-invariant scale, from the 1D (Fermi-surface) log.
+Boson d = 4: m ~ sqrt(lam) * cutoff: perturbative tadpole, removed by a mass counterterm;
+in a gauge theory it is forbidden by BRST and vanishes in dim. reg.
+
+== C. Coupling at the gap scale, one loop, SU(N) pure YM ==
+alpha(mu) = 4 pi / (beta0 ln(mu^2/Lambda^2)), beta0 = 11N/3; a = alpha N /(4 pi) = 3/(11 ln kappa^2)
+ kappa=m/Lambda    a(mu=m)
+              2     0.1967
+              4     0.0984
+              7     0.0701
+             15     0.0504
+            100     0.0296
+          1e+04     0.0148
+kappa is a pure number fixed by the theory, not a tunable parameter (contrast BCS: lam free).
+
+== D. Gaussian (Hartree/HFB) variational gap vs exact gap, H = p^2/2 + mu x^2/2 + lam x^4 ==
+   mu   lam   E0 exact      E0 MF   gap exact  gap MF(sym) MF broken?  gap MF(brk)  MF/exact  symMF/exact
+  1.0  0.10    0.55915    0.56031  1.2104e+00       1.2212      False       1.2212      1.01        1.009
+  1.0  1.00    0.80377    0.81250  1.9341e+00       2.0000      False       2.0000      1.03        1.034
+  0.0  1.00    0.66799    0.68142  1.7257e+00       1.8171      False       1.8171      1.05        1.053
+ -1.0  0.10   -0.15413   -0.07537  2.9689e-01       0.4855      False       0.4855      1.64        1.635
+ -2.0  0.10   -1.56544   -1.54084  1.5088e-02       0.2880       True       0.0000         0        19.09
+ -3.0  0.10   -4.43604   -4.42637  1.0397e-04       0.1974       True       0.0000         0         1899
+ -4.0  0.10   -8.61191   -8.60506  2.0790e-07       0.1492       True       0.0000         0    7.175e+05
+E0 MF >= E0 exact always (Rayleigh-Ritz). Symmetric MF gap/exact ranges 1.01 to ~1e6 (no constant);
+broken MF predicts 0 where exact > 0. Neither MF gap gives two-sided control of E1 - E0.
+
+== E. Covariant-gauge one-loop tadpole (4-gluon vertex) at zero momentum ==
+D_{rs}(k) = [(delta - k k/k^2) + xi k k/k^2]/k^2; angular average of k_r k_s/k^2 = delta_rs/d
+   xi    Pi_00 / (g^2 C_A I)    (d-1+xi)(d-1)/d
+  0.0                 2.2495             2.2500
+  0.5                 2.6248             2.6250
+  1.0                 3.0000             3.0000
+  3.0                 4.5010             4.5000
+Hartree mass^2 from the quartic vertex is linear in xi: Feynman/Landau = 4/3 in d = 4.
+A physical pole mass is xi-independent (Nielsen identities), so this 'mass' is not one.
+
+== F. Gribov propagator D(p) = p^2/(p^4 + gamma^4), Schwinger function at zero spatial momentum ==
+ t*gamma   C(t) numeric  C(t) closed form
+    0.25   2.395483e-01      2.395483e-01
+    0.50   1.469494e-01      1.469494e-01
+    1.00   1.928180e-02      1.928180e-02
+    1.50  -4.705211e-02     -4.705211e-02
+    2.00  -7.149907e-02     -7.149907e-02
+    3.00  -5.829098e-02     -5.829098e-02
+    4.00  -2.631846e-02     -2.631846e-02
+    6.00   2.230408e-03      2.230408e-03
+C(t) < 0 for gamma t/sqrt2 in (pi/4, 5pi/4): no positive Kallen-Lehmann measure, so gamma is not
+an energy gap of any positive-metric Hamiltonian.
+
+== G1. Peierls: dimerized ring, hoppings t(1 +- delta), per-site band energy, t = 1 ==
+  delta  fermion gain/site  delta^2 ln(1/delta)  boson gain/particle
+  0.200       3.215072e-02         6.437752e-02         0.000000e+00
+  0.100       1.018181e-02         2.302585e-02         0.000000e+00
+  0.050       3.091683e-03         7.489331e-03         0.000000e+00
+  0.020       6.110213e-04         1.564809e-03         0.000000e+00
+  0.010       1.748046e-04         4.605170e-04         0.000000e+00
+  0.005       4.921599e-05         1.324579e-04         0.000000e+00
+fit gain = a delta^2 ln(1/delta) + b delta^2, delta in [0.00125, 0.02]: a = 0.31812, b = 0.28305  (1/pi = 0.31831)
+Fermions: gain ~ c delta^2 ln(1/delta) beats elastic cost K delta^2/2 for every K: dimerization at
+any coupling (Kennedy-Lieb). Free bosons: gain exactly 0, so no instability at any K.
+
+== G2. Landau levels in field B (charge 1), lowest E^2 at k_z = 0 ==
+spin-1 charged vector (W boson / off-diagonal gluon, g-factor 2): E^2 = (2n+1)B - 2 B s_z, s_z = -1, 0(unphys.), +1
+Dirac electron (g = 2):                                         E^2 = (2n+1)B - 2 B s_z, s_z = +-1/2
+n=0: vector E^2/B = [3, -1]   Dirac E^2/B = [2.0, 0.0]
+n=1: vector E^2/B = [5, 1]   Dirac E^2/B = [4.0, 2.0]
+n=2: vector E^2/B = [7, 3]   Dirac E^2/B = [6.0, 4.0]
+Vector n=0, s_z=+1: E^2 = -B < 0 (Nielsen-Olesen tachyon). Dirac minimum is 0, never negative.
+

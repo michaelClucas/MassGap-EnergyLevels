@@ -1,0 +1,54 @@
+model,source,table,JPC,level,value,units,note
+MSB-helicity-B,arXiv:0802.0088,Table 3 (Model B),0++,0,1.724,GeV,two-gluon helicity model; constant fitted to lattice 0++ and 0-+
+MSB-helicity-B,arXiv:0802.0088,Table 3 (Model B),0++,1,2.543,GeV,
+MSB-helicity-B,arXiv:0802.0088,Table 3 (Model B),0-+,0,2.624,GeV,
+MSB-helicity-B,arXiv:0802.0088,Table 3 (Model B),0-+,1,3.443,GeV,
+MSB-helicity-B,arXiv:0802.0088,Table 3 (Model B),2++,0,2.588,GeV,
+MSB-helicity-B,arXiv:0802.0088,Table 3 (Model B),2++,1,3.077,GeV,
+MSB-helicity-B,arXiv:0802.0088,Table 3 (Model B),2-+,0,3.077,GeV,
+MSB-helicity-B,arXiv:0802.0088,Table 3 (Model B),2-+,1,3.732,GeV,
+MSB-helicity-B,arXiv:0802.0088,Table 3 (Model B),3++,0,3.254,GeV,
+KS-Simonov,hep-ph/9911291,Table 6,0++,0,1.58,GeV,no glueball-fitted parameters (sigma from Regge slope; alpha_s=0.3 for spin terms)
+KS-Simonov,hep-ph/9911291,Table 6,0++,1,2.71,GeV,
+KS-Simonov,hep-ph/9911291,Table 6,2++,0,2.59,GeV,
+KS-Simonov,hep-ph/9911291,Table 6,2++,1,3.73,GeV,
+KS-Simonov,hep-ph/9911291,Table 6,0-+,0,2.56,GeV,
+KS-Simonov,hep-ph/9911291,Table 6,0-+,1,3.77,GeV,
+KS-Simonov,hep-ph/9911291,Table 6,2-+,0,3.03,GeV,
+KS-Simonov,hep-ph/9911291,Table 6,2-+,1,4.15,GeV,
+KS-Simonov,hep-ph/9911291,Table 6,3++,0,3.58,GeV,
+KS-Simonov,hep-ph/9911291,Table 6,1--,0,3.49,GeV,
+KS-Simonov,hep-ph/9911291,Table 6,2--,0,3.71,GeV,
+SSJC-CoulombGauge,PRL 76 2011 (1996) as quoted in arXiv:0802.0088,Table 3 of 0802.0088,0++,0,1.980,GeV,quasi-gluon TDA; parameters fitted to static potential
+SSJC-CoulombGauge,PRL 76 2011 (1996) as quoted in arXiv:0802.0088,Table 3 of 0802.0088,0++,1,3.260,GeV,
+SSJC-CoulombGauge,PRL 76 2011 (1996) as quoted in arXiv:0802.0088,Table 3 of 0802.0088,2++,0,2.420,GeV,
+SSJC-CoulombGauge,PRL 76 2011 (1996) as quoted in arXiv:0802.0088,Table 3 of 0802.0088,2++,1,3.110,GeV,
+SSJC-CoulombGauge,PRL 76 2011 (1996) as quoted in arXiv:0802.0088,Table 3 of 0802.0088,0-+,0,2.220,GeV,
+SSJC-CoulombGauge,PRL 76 2011 (1996) as quoted in arXiv:0802.0088,Table 3 of 0802.0088,0-+,1,3.430,GeV,
+SSJC-CoulombGauge,PRL 76 2011 (1996) as quoted in arXiv:0802.0088,Table 3 of 0802.0088,2-+,0,3.090,GeV,
+SSJC-CoulombGauge,PRL 76 2011 (1996) as quoted in arXiv:0802.0088,Table 3 of 0802.0088,2-+,1,4.130,GeV,
+SSJC-CoulombGauge,PRL 76 2011 (1996) as quoted in arXiv:0802.0088,Table 3 of 0802.0088,3++,0,3.330,GeV,
+BMT-AdS7,hep-th/0003115,Table 1 and Table 2,0++,0,2.7034,R_AdS=1,supergravity modes; ratios have no free parameter
+BMT-AdS7,hep-th/0003115,Table 1 and Table 2,0++,1,6.8547,R_AdS=1,sqrt(46.986) from Table 2 (m^2)
+BMT-AdS7,hep-th/0003115,Table 1 and Table 2,2++,0,4.7007,R_AdS=1,T4 mode
+BMT-AdS7,hep-th/0003115,Table 1 and Table 2,0-+,0,5.6555,R_AdS=1,V4 mode
+BMT-AdS7,hep-th/0003115,Table 1 and Table 2,1+-,0,7.3059,R_AdS=1,N4 mode
+BMT-AdS7,hep-th/0003115,Table 1 and Table 2,1--,0,9.1129,R_AdS=1,M4 mode
+FluxTube-IP,Isgur-Paton 1985 via review arXiv:0810.4453,Table 5 of 0810.4453,0++,0,1.52,GeV,parameters chosen by hand per review
+FluxTube-IP,Isgur-Paton 1985 via review arXiv:0810.4453,Table 5 of 0810.4453,1+-,0,2.25,GeV,
+FluxTube-IP,Isgur-Paton 1985 via review arXiv:0810.4453,Table 5 of 0810.4453,0++,1,2.75,GeV,
+FluxTube-IP,Isgur-Paton 1985 via review arXiv:0810.4453,Table 5 of 0810.4453,0-+,0,2.79,GeV,degenerate cluster 0++/0+-/0-+/0--
+FluxTube-IP,Isgur-Paton 1985 via review arXiv:0810.4453,Table 5 of 0810.4453,2++,0,2.84,GeV,
+FluxTube-IP,Isgur-Paton 1985 via review arXiv:0810.4453,Table 5 of 0810.4453,1+-,1,3.25,GeV,
+FluxTube-IP,Isgur-Paton 1985 via review arXiv:0810.4453,Table 5 of 0810.4453,3+-,0,3.35,GeV,
+Bag-JJ,Jaffe-Johnson 1976 via review arXiv:0810.4453,text of 0810.4453,0++,0,0.96,GeV,(TE)^2
+Bag-JJ,Jaffe-Johnson 1976 via review arXiv:0810.4453,text of 0810.4453,2++,0,0.96,GeV,(TE)^2
+Bag-JJ,Jaffe-Johnson 1976 via review arXiv:0810.4453,text of 0810.4453,0-+,0,1.3,GeV,(TE)(TM)
+Bag-JJ,Jaffe-Johnson 1976 via review arXiv:0810.4453,text of 0810.4453,2-+,0,1.3,GeV,(TE)(TM)
+Bag-JJ,Jaffe-Johnson 1976 via review arXiv:0810.4453,text of 0810.4453,1+-,0,1.45,GeV,(TE)^3
+HardWall-Dirichlet,Boschi-Filho/Braga via review arXiv:0810.4453,Table 8 of 0810.4453,0++,0,1.63,GeV,0++ is input
+HardWall-Dirichlet,Boschi-Filho/Braga via review arXiv:0810.4453,Table 8 of 0810.4453,2++,0,2.41,GeV,
+HardWall-Dirichlet,Boschi-Filho/Braga via review arXiv:0810.4453,Table 8 of 0810.4453,0++,1,2.67,GeV,
+HardWall-Neumann,Boschi-Filho/Braga via review arXiv:0810.4453,Table 8 of 0810.4453,0++,0,1.63,GeV,0++ is input
+HardWall-Neumann,Boschi-Filho/Braga via review arXiv:0810.4453,Table 8 of 0810.4453,2++,0,2.54,GeV,
+HardWall-Neumann,Boschi-Filho/Braga via review arXiv:0810.4453,Table 8 of 0810.4453,0++,1,2.98,GeV,
