@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+artifacts/
+*.npz
+*.h5
+.ipynb_checkpoints/
+.claude/settings.local.json
+lean/.lake/
+lean/build/
