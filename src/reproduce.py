@@ -2,6 +2,8 @@
 
 Current contents:
   work/20261120-003-su2-ks-ed: SU(2) Kogut-Susskind exact diagonalization (validation + gap scan).
+  work/20261120-006-certified-gap-bounds: certified two-sided bounds on E0, E1, gap of the
+    untruncated KS Hamiltonian (full mode includes the 2x2 torus, ~10+ min).
 """
 import runpy
 import sys
@@ -12,6 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 TASKS = [
     "work/20261120-003-su2-ks-ed/validate.py",
     "work/20261120-003-su2-ks-ed/run_ed.py",
+    "work/20261120-006-certified-gap-bounds/certify_gaps.py",
 ]
 
 

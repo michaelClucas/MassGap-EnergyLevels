@@ -1,0 +1,15 @@
+pointwise identity (TrP1+TrP2) f = sum W f, max error: 1.12e-14
+Monte Carlo orthonormality (4000 Haar pts, expect ~2e-2): 3.97e-02
+|W-W^T| = 5.6e-16, |[P,W]| = 0.0e+00
+vs results.csv: 200 (sector, g2, j_max) points, dims identical, max |E - E_ref| = 4.95e-11
+
+convergence beyond the original j_max=8 (gaps measured from E0 in P+):
+  j_max= 8.0 dim=1341: g2=0.2: P+ 3.40053519 P- 3.84704484 | g2=0.3: P+ 3.36677059 P- 3.78369296 | g2=0.5: P+ 3.29366348 P- 3.65030945
+  j_max= 9.0 dim=1855: g2=0.2: P+ 3.40053417 P- 3.84701684 | g2=0.3: P+ 3.36677059 P- 3.78369295 | g2=0.5: P+ 3.29366348 P- 3.65030945
+  j_max=10.0 dim=2486: g2=0.2: P+ 3.40053412 P- 3.84701614 | g2=0.3: P+ 3.36677059 P- 3.78369295 | g2=0.5: P+ 3.29366348 P- 3.65030945
+
+weak coupling, j_max=10; harmonic 2sqrt3=3.464102, sqrt3+sqrt5=3.968119
+  g2=0.03: P+ 3.933606 (2sqrt3-D)/g2=-15.6502;  P- 5.273816 (sqrt3+sqrt5-D)/g2=-43.5232
+  g2=0.05: P+ 3.475714 (2sqrt3-D)/g2=-0.2322;  P- 4.174516 (sqrt3+sqrt5-D)/g2=-4.1280
+  g2=0.1: P+ 3.432871 (2sqrt3-D)/g2=0.3123;  P- 3.910111 (sqrt3+sqrt5-D)/g2=0.5801
+  g2=0.2: P+ 3.400534 (2sqrt3-D)/g2=0.3178;  P- 3.847016 (sqrt3+sqrt5-D)/g2=0.6055

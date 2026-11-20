@@ -1,0 +1,25 @@
+lattice,sector,g2,j_max,dim,E0_lo,E0_hi,E1_lo,E1_hi,Delta_lo,Delta_hi,d_floor,d_source,c_Q,method
+periodic2x2,gauge-invariant zero Z2-flux; all momenta,0.2,0.5,23,-inf,-25.483035077623057,-inf,-13.243885496817164,-inf,inf,-79.6,crude,4.0,schur-exact-shell
+periodic2x2,gauge-invariant zero Z2-flux; all momenta,0.5,0.5,23,-inf,-9.674940265975337,-inf,-4.365047813998519,-inf,inf,-31.0,crude,4.0,schur-exact-shell
+periodic2x2,gauge-invariant zero Z2-flux; all momenta,1.0,0.5,23,-inf,-4.034948207316055,-inf,-0.5894541728996197,-inf,inf,-14.0,crude,4.0,schur-exact-shell
+periodic2x2,gauge-invariant zero Z2-flux; all momenta,1.5,0.5,23,-inf,-2.0332242742950153,-inf,1.2304817945907793,-inf,inf,-7.666666666666666,crude,4.0,schur-exact-shell
+periodic2x2,gauge-invariant zero Z2-flux; all momenta,2.0,0.5,23,-inf,-1.0903812947371796,-inf,2.468990398841394,-inf,inf,-4.0,crude,4.0,schur-exact-shell
+periodic2x2,gauge-invariant zero Z2-flux; all momenta,3.0,0.5,23,-0.6147163341974053,-0.3758850689566087,-inf,4.132133120567035,-inf,4.74684945476444,0.666666666666667,crude,4.0,schur-exact-shell
+periodic2x2,gauge-invariant zero Z2-flux; all momenta,5.0,0.5,23,-0.0859960805126551,-0.08474954741512875,-inf,7.2385835421051965,-inf,7.3245796226178514,6.8,crude,4.0,schur-exact-shell
+periodic2x2,gauge-invariant zero Z2-flux; all momenta,10.0,0.5,23,-0.010669381912966978,-0.01066204833821401,14.812891014452267,14.86113101506521,14.82355306279048,14.871800396978177,18.4,crude,4.0,schur-exact-shell
+periodic2x2,gauge-invariant zero Z2-flux; all momenta,0.2,1.0,622,-inf,-43.22486403551889,-inf,-34.87355333886323,-inf,inf,-79.25,crude,7.5,schur-exact-shell
+periodic2x2,gauge-invariant zero Z2-flux; all momenta,0.5,1.0,622,-inf,-16.051788131818014,-inf,-12.56780854247518,-inf,inf,-30.125,crude,7.5,schur-exact-shell
+periodic2x2,gauge-invariant zero Z2-flux; all momenta,1.0,1.0,622,-inf,-6.164163971387134,-inf,-4.021679974272499,-inf,inf,-12.25,crude,7.5,schur-exact-shell
+periodic2x2,gauge-invariant zero Z2-flux; all momenta,1.5,1.0,622,-inf,-2.7187423542556033,-inf,-0.4898664404938882,-inf,inf,-5.041666666666666,crude,7.5,schur-exact-shell
+periodic2x2,gauge-invariant zero Z2-flux; all momenta,2.0,1.0,622,-1.8632032874678612,-1.281939254796222,-inf,1.4801855568576394,-inf,3.3433888443255007,-0.5,crude,7.5,schur-exact-shell
+periodic2x2,gauge-invariant zero Z2-flux; all momenta,3.0,1.0,622,-0.3934186096954832,-0.3929755931810074,3.690475385780714,3.7446171330761207,4.0834509789617215,4.138035742771604,5.916666666666667,crude,7.5,schur-exact-shell
+periodic2x2,gauge-invariant zero Z2-flux; all momenta,5.0,1.0,622,-0.08528491781252627,-0.0852837810672971,7.1495189324687916,7.1501403371526315,7.234802713536089,7.235425254965158,15.55,crude,7.5,schur-exact-shell
+periodic2x2,gauge-invariant zero Z2-flux; all momenta,10.0,1.0,622,-0.010666290681785394,-0.010666289970949965,14.849883014984464,14.849887001617013,14.860549304955413,14.860553292298798,35.9,crude,7.5,schur-exact-shell
+periodic2x2,gauge-invariant zero Z2-flux; all momenta,0.2,1.5,9418,-inf,-53.654646683749476,-inf,-50.12390043030172,-inf,inf,-78.9,crude,11.0,rayleigh-ritz-upper-only
+periodic2x2,gauge-invariant zero Z2-flux; all momenta,0.5,1.5,9418,-inf,-19.37957149537202,-inf,-17.89101485551217,-inf,inf,-29.25,crude,11.0,rayleigh-ritz-upper-only
+periodic2x2,gauge-invariant zero Z2-flux; all momenta,1.0,1.5,9418,-inf,-6.8598618958965645,-inf,-5.731297977408435,-inf,inf,-10.5,crude,11.0,rayleigh-ritz-upper-only
+periodic2x2,gauge-invariant zero Z2-flux; all momenta,1.5,1.5,9418,-inf,-2.8154903192094802,-inf,-1.1047730437819916,-inf,inf,-2.416666666666666,crude,11.0,rayleigh-ritz-upper-only
+periodic2x2,gauge-invariant zero Z2-flux; all momenta,2.0,1.5,9418,-inf,-1.2917260998806865,-inf,1.339160735339695,-inf,inf,3.0,crude,11.0,rayleigh-ritz-upper-only
+periodic2x2,gauge-invariant zero Z2-flux; all momenta,3.0,1.5,9418,-inf,-0.3931386595018516,-inf,3.7349346866397104,-inf,inf,11.166666666666668,crude,11.0,rayleigh-ritz-upper-only
+periodic2x2,gauge-invariant zero Z2-flux; all momenta,5.0,1.5,9418,-inf,-0.0852844155920862,-inf,7.149856784750051,-inf,inf,24.3,crude,11.0,rayleigh-ritz-upper-only
+periodic2x2,gauge-invariant zero Z2-flux; all momenta,10.0,1.5,9418,-inf,-0.010666287207329334,-inf,14.84988471485987,-inf,inf,53.4,crude,11.0,rayleigh-ritz-upper-only

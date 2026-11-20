@@ -22,7 +22,7 @@ Error notation: `v(e)` means e in units of the last printed digit of v; `v(x.y)`
 
 ## Chen2006 -> `glueball_su3_4d_chen_2006.csv`
 
-- arXiv: hep-lat/0510074. Y. Chen, A. Alexandru, S. J. Dong, T. Draper, I. Horvath, F. X. Lee, K. F. Liu, N. Mathur, C. Morningstar, M. Peardon, S. Tamhankar, B. L. Young, J. B. Zhang, "Glueball spectrum and matrix elements on anisotropic lattices", 2006 (arXiv version; journal reference not verified here).
+- arXiv: hep-lat/0510074. Y. Chen, A. Alexandru, S. J. Dong, T. Draper, I. Horvath, F. X. Lee, K. F. Liu, N. Mathur, C. Morningstar, M. Peardon, S. Tamhankar, B. L. Young, J. B. Zhang, "Glueball spectrum and matrix elements on anisotropic lattices", arXiv Oct 2005, journal Phys. Rev. D 73 (2006) 014516 (per independent verification; source id kept as Chen2006; journal reference not verified here).
 - Setting: 3+1D SU(3), improved anisotropic action, 5 lattice spacings, continuum.
 - Table XXI (`summary1`, final spectrum): r0*M_G (stat)(1% anisotropy) and M_G in MeV (combined r0*M)(r0^-1 = 410(20) MeV), 12 J^PC. Source typo `10.25(4))(10)` for 3-- read as 10.25(4)(10).
 - Table VIII (`comparison`), column "this work" only: r0*M_G per cubic irrep R^PC (row_label) before combining into J. The column quoting MP1999 was not extracted (see discrepancies).
@@ -64,10 +64,12 @@ Error notation: `v(e)` means e in units of the last printed digit of v; `v(x.y)`
 
 - arXiv: 1609.03873. A. Athenodorou, M. Teper, "SU(N) gauge theories in 2+1 dimensions: glueball spectra and k-string tensions", 2016 (arXiv version; journal reference not verified here).
 - Setting: 2+1D SU(N), N=2,3,4,6,8,12,16, continuum. sigma = sigma_f, the fundamental string tension. Parity doubling M(J^{+C}) = M(J^{-C}) for J != 0 holds in the continuum (stated in the paper, eqn following "parity doubling for states with J != 0"); both partners are listed separately.
-- Table 18 (`table_sigf_cont`): sqrt(sigma_f)/(g^2 N) and the mass gap m_G/(g^2 N) (stored as JPC 0++, level 0), N=inf included; superscripts a,b = medium/large volume.
-- Tables 20-26 (`table_mksu{2,3,4,6,8,12,16}_cont`): M/sqrt(sigma) for all levels; level = row order within the J^PC block, chi2/ndf in `note`; for SU(8) the c1 coefficient column is not stored.
-- Tables 27-29 (`table_mksuN_J0/J2/J1`): N=inf, fits with c1/N^2 (+ c2/N^4 where given). Values in square brackets are averages of N=12,16, not extrapolations (flagged in `note`).
-- Not extracted: Table 19 (k-string tension ratios).
+- Table B1 (`table_sigf_cont`): sqrt(sigma_f)/(g^2 N) and the mass gap m_G/(g^2 N) (stored as JPC 0++, level 0), N=inf included; superscripts a,b = medium/large volume.
+- Tables B3-B9 (`table_mksu{2,3,4,6,8,12,16}_cont`): M/sqrt(sigma) for all levels; level = row order within the J^PC block, chi2/ndf in `note`; for SU(8) the c1 coefficient column is not stored.
+- Tables B10-B12 (`table_mksuN_J0/J2/J1`): N=inf, fits with c1/N^2 (+ c2/N^4 where given). Values in square brackets are averages of N=12,16, not extrapolations (flagged in `note`).
+- Not extracted: Table B2 (k-string tension ratios).
+
+- Table numbers are the printed arXiv appendix labels (B1-B12). Corrected 2026-11-20 after independent verification (work/20261120-004-data-verify); values unchanged.
 
 ---
 
@@ -75,6 +77,6 @@ Error notation: `v(e)` means e in units of the last printed digit of v; `v(x.y)`
 
 - No table could not be fetched; all seven papers were read from source.
 - Chen2006 Table VIII quotes MP1999 values in its last column; for 1-- it prints 9.50(4), while MP1999 Table VII gives 1-- = 9.40(6) (9.50(4) is MP1999's 2*-+). Not extracted; noted only.
-- AT2016 Table 21 (SU(3)) prints the 2-- level-3 row `12.09(12)` twice; both rows stored, the second flagged.
+- AT2016 Table B4 (SU(3)) prints the 2-- level-3 row `12.09(12)` twice; both rows stored, the second flagged.
 - AT2020 Table 17 vs AT2021 Table 34 for SU(3): identical except 2+- gs, 8.74(12)* vs 8.91(15); AT2021 also omits 1-+ ex1, ex2 and 4+- gs.
 - Physical units: MP1999/Chen2006 use r0^-1 = 410(20) MeV; AT2020/2021 use r0 = 0.472(5) fm = 1/418(5) MeV. Do not mix MeV columns across sources without rescaling.

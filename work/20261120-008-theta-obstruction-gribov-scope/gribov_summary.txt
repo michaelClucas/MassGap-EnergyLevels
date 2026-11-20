@@ -1,0 +1,30 @@
+d L V dim(transverse) D_lower median_width min_width D_lower^2/V lowmode_width
+2 3 9 30 31.7806 20.9113 17.2879 112.2230 22.9500
+2 4 16 51 32.8175 20.8996 18.5522 67.3118 19.5959
+2 5 25 78 35.7946 23.4403 21.8396 51.2501 18.8758
+2 6 36 111 40.9714 26.7554 24.0992 46.6293 18.3770
+2 8 64 195 51.3751 31.4258 28.8275 41.2406 17.7374
+3 2 8 51 4935802.3104 34.8614 28.3603 3045268055972.9150 66362252437399920.0000
+3 3 27 165 72.3807 43.5721 39.8285 194.0359 39.7506
+3 4 64 387 91.8628 61.8672 57.9553 131.8558 39.1918
+log det(M) along 10 random chords in Omega (d=3, L=3): max second difference = -7.000e-02 (<= 0: concave)
+Vmag Hessian min eigenvalue (d=3, L=2) at A = 0.00 t_+ Ahat (|A| = 0.000): -0.0000
+Vmag Hessian min eigenvalue (d=3, L=2) at A = 0.25 t_+ Ahat (|A| = 2.827): 0.0396
+Vmag Hessian min eigenvalue (d=3, L=2) at A = 0.50 t_+ Ahat (|A| = 13.224): -7.0244
+Vmag Hessian min eigenvalue (d=3, L=2) at A = 0.75 t_+ Ahat (|A| = 9.589): -3.2892
+Vmag Hessian min eigenvalue (d=3, L=2) at A = 0.95 t_+ Ahat (|A| = 16.362): -11.2721
+SU(2) 4D m0++/sqrt(sigma) = 3.781 (data/, AT2021). d=3: D_lower^2 ~ 162.946 V.
+Kinetic-only PW bound a*Delta_PW <= (g^2/2) pi^2 / D^2 with D^2 = c V = c N_s^3;
+a*m0++ = (m/sqrt sigma)(L sqrt sigma)/N_s.  Ratio Delta_PW/m0++ at L sqrt(sigma) = 3:
+  g^2=1.0 N_s=4: Delta_PW/m0++ <= 1.669e-04
+  g^2=1.0 N_s=8: Delta_PW/m0++ <= 4.172e-05
+  g^2=1.0 N_s=16: Delta_PW/m0++ <= 1.043e-05
+  g^2=1.0 N_s=32: Delta_PW/m0++ <= 2.607e-06
+  g^2=2.0 N_s=4: Delta_PW/m0++ <= 3.337e-04
+  g^2=2.0 N_s=8: Delta_PW/m0++ <= 8.344e-05
+  g^2=2.0 N_s=16: Delta_PW/m0++ <= 2.086e-05
+  g^2=2.0 N_s=32: Delta_PW/m0++ <= 5.215e-06
+  g^2=4.0 N_s=4: Delta_PW/m0++ <= 6.675e-04
+  g^2=4.0 N_s=8: Delta_PW/m0++ <= 1.669e-04
+  g^2=4.0 N_s=16: Delta_PW/m0++ <= 4.172e-05
+  g^2=4.0 N_s=32: Delta_PW/m0++ <= 1.043e-05

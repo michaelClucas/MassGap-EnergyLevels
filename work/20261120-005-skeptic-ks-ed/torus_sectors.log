@@ -1,0 +1,28 @@
+j_max=0.5: zero-flux dim 23
+  flux(1,0): dim 14, states shared with zero-flux basis 0
+    E_flux - E0:  g2=1.0: 1.77191 (zero-flux gap 3.44549); g2=2.0: 1.64891 (zero-flux gap 3.55937); g2=3.0: 2.26923 (zero-flux gap 4.50802); g2=5.0: 3.75071 (zero-flux gap 7.32333); g2=10.0: 7.50001 (zero-flux gap 14.87179)
+  flux(0,1): dim 14, states shared with zero-flux basis 0
+    E_flux - E0:  g2=1.0: 1.77191 (zero-flux gap 3.44549); g2=2.0: 1.64891 (zero-flux gap 3.55937); g2=3.0: 2.26923 (zero-flux gap 4.50802); g2=5.0: 3.75071 (zero-flux gap 7.32333); g2=10.0: 7.50001 (zero-flux gap 14.87179)
+  flux(1,1): dim 12, states shared with zero-flux basis 0
+    E_flux - E0:  g2=1.0: 2.07085 (zero-flux gap 3.44549); g2=2.0: 2.35833 (zero-flux gap 3.55937); g2=3.0: 3.72118 (zero-flux gap 4.50802); g2=5.0: 6.89193 (zero-flux gap 7.32333); g2=10.0: 14.66425 (zero-flux gap 14.87179)
+  [0s]
+j_max=1.0: zero-flux dim 622
+  j=1 winding loop along x in the vacuum-connected basis: True
+  flux(1,0): dim 488, states shared with zero-flux basis 0
+    E_flux - E0:  g2=1.0: 0.61051 (zero-flux gap 2.14248); g2=2.0: 1.07293 (zero-flux gap 2.76212); g2=3.0: 2.03781 (zero-flux gap 4.13759); g2=5.0: 3.69653 (zero-flux gap 7.23542); g2=10.0: 7.49315 (zero-flux gap 14.86055)
+  flux(0,1): dim 488, states shared with zero-flux basis 0
+    E_flux - E0:  g2=1.0: 0.61051 (zero-flux gap 2.14248); g2=2.0: 1.07293 (zero-flux gap 2.76212); g2=3.0: 2.03781 (zero-flux gap 4.13759); g2=5.0: 3.69653 (zero-flux gap 7.23542); g2=10.0: 7.49315 (zero-flux gap 14.86055)
+  flux(1,1): dim 420, states shared with zero-flux basis 0
+    E_flux - E0:  g2=1.0: 1.07202 (zero-flux gap 2.14248); g2=2.0: 1.78101 (zero-flux gap 2.76212); g2=3.0: 3.47597 (zero-flux gap 4.13759); g2=5.0: 6.83223 (zero-flux gap 7.23542); g2=10.0: 14.65656 (zero-flux gap 14.86055)
+  [12s]
+j_max=1.5: zero-flux dim 9418
+  j=1 winding loop along x in the vacuum-connected basis: True
+  flux(1,0): dim 8240, states shared with zero-flux basis 0
+    E_flux - E0:  g2=1.0: 0.29613 (zero-flux gap 1.12856); g2=2.0: 1.03305 (zero-flux gap 2.63089); g2=3.0: 2.03423 (zero-flux gap 4.12807); g2=5.0: 3.69642 (zero-flux gap 7.23514); g2=10.0: 7.49315 (zero-flux gap 14.86055)
+  flux(0,1): dim 8240, states shared with zero-flux basis 0
+    E_flux - E0:  g2=1.0: 0.29613 (zero-flux gap 1.12856); g2=2.0: 1.03305 (zero-flux gap 2.63089); g2=3.0: 2.03423 (zero-flux gap 4.12807); g2=5.0: 3.69642 (zero-flux gap 7.23514); g2=10.0: 7.49315 (zero-flux gap 14.86055)
+  flux(1,1): dim 7444, states shared with zero-flux basis 0
+    E_flux - E0:  g2=1.0: 0.65547 (zero-flux gap 1.12856); g2=2.0: 1.72868 (zero-flux gap 2.63089); g2=3.0: 3.47088 (zero-flux gap 4.12807); g2=5.0: 6.83206 (zero-flux gap 7.23514); g2=10.0: 14.65656 (zero-flux gap 14.86055)
+  [334s]
+strong-coupling expectation: one fundamental winding loop of 2 links costs (g^2/2)*2*(3/4) = 3g^2/4,
+half the zero-flux one-plaquette cost 3g^2/2.

@@ -1,0 +1,18 @@
+[plaq1] sector basis up to j=4.5: dim 10 (0.0s)
+[plaq1] j_max=1.0: dim P 3, vacuum-connected 3, c_Q=15 (enumerated)
+  g2=  1.0: E0 in [-1.668425693, -1.643158681]  E1 in [1.566951142, 1.834099617]  Delta in [3.2101098, 3.5025253]  d=6.689 (nested)  0.0s
+  g2=  3.0: E0 in [-0.09745192464, -0.09745067128]  E1 in [4.538173691, 4.538366526]  Delta in [4.6356244, 4.6358185]  d=22.47 (nested)  0.0s
+[plaq1] j_max=2.0: dim P 5, vacuum-connected 5, c_Q=35 (enumerated)
+  g2=  1.0: E0 in [-1.666764029, -1.666750538]  E1 in [1.602323539, 1.602770924]  Delta in [3.2690741, 3.269535]  d=16.91 (nested)  0.0s
+  g2=  3.0: E0 in [-0.09745192349, -0.09745192349]  E1 in [4.538173895, 4.538173895]  Delta in [4.6356258, 4.6356258]  d=52.48 (nested)  0.0s
+[plaq1] j_max=4.0: dim P 9, vacuum-connected 9, c_Q=99 (enumerated)
+  g2=  1.0: E0 in [-1.666763718, -1.666763718]  E1 in [1.602335468, 1.602335468]  Delta in [3.2690992, 3.2690992]  d=47.04 (nested)  0.0s
+  g2=  3.0: E0 in [-0.0974519235, -0.09745192349]  E1 in [4.538173895, 4.538173895]  Delta in [4.6356258, 4.6356258]  d=148.4 (nested)  0.0s
+[plaq1 validation] reference (j_max=40 ED) inside every certified interval: yes
+[ladder2] sector basis up to j=2.5: dim 69 (0.1s)
+[ladder2] j_max=1.0: dim P 11, vacuum-connected 11, c_Q=12 (enumerated)
+  g2=  1.0: E0 in [-3.806134986, -3.144596189]  E1 in [-27.78007542, 0.1403395154]  Delta in [-24.635479, 3.9464745]  d=0.3516 (nested)  0.0s
+  g2=  3.0: E0 in [-0.1950056429, -0.1949783367]  E1 in [4.414149478, 4.416715582]  Delta in [4.6091278, 4.6117212]  d=17.88 (nested)  0.0s
+[ladder2] j_max=2.0: dim P 42, vacuum-connected 42, c_Q=26 (enumerated)
+  g2=  1.0: E0 in [-3.349845259, -3.346310392]  E1 in [-0.3056535283, -0.2768859491]  Delta in [3.0406569, 3.0729593]  d=5 (crude)  0.0s
+  g2=  3.0: E0 in [-0.1950049303, -0.1950049302]  E1 in [4.414223558, 4.414223575]  Delta in [4.6092285, 4.6092285]  d=38.29 (nested)  0.0s

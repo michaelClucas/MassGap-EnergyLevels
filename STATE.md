@@ -1,44 +1,40 @@
 # State
 
-Iteration: 1 (2026-11-20)
+Iteration: 2 (2026-11-20)
 
 ## Status
-Iteration 1 done: literature survey, lattice glueball data, Python env, first SU(2) Kogut-Susskind exact diagonalization. No proofs yet. Lean toolchain not installed (needs user OK to install `elan`).
+Iteration 2 done: data verified, iteration-1 ED claims audited, certified two-sided gap bounds, line 2 (frustration-free) assessed, lines 3 and 4 written up as obstructions. No result meets a stop condition. Lean toolchain still not installed (needs user OK to install `elan`).
 
-Compute rule changed during iteration 1: this program owns logical CPUs 9-11 only; all compute runs via `python tools/pin.py <cmd>`, and `tools/repin.ps1` runs at the start of each iteration and after subagents return. Repin found nothing to fix in iteration 1.
+Compute: CPUs 9-11 via `tools/pin.py`. Repin this iteration fixed 4 stray bash processes from subagent shells (python jobs were already pinned). A skeptic job (torus j_max = 2, ~4 GB RAM) and a certified-bounds job (~3.6 GB) ran concurrently; watch memory when two large torus jobs overlap.
 
 ## Settled
-- Data: `data/` holds continuum-extrapolated glueball spectra from 7 papers (4D SU(3), 4D SU(N) N=2..12 and N->inf, 2+1D SU(N)), extracted by script from arXiv LaTeX sources (`work/20261120-002-glueball-data/`). Not yet independently verified.
+- Data (`data/`): all 808 rows verified against the papers' PDFs by an independent agent (`work/20261120-004-data-verify/`); 0 value errors. Two metadata errors fixed this iteration (logged in `data/SOURCES.md` and the 002 README erratum): AT2016 table numbers relabelled to printed B1-B12; Chen2006 arXiv date Oct 2005, journal PRD 73 (2006) 014516. Inter-source discrepancies are real (also printed by AT2021 Tabs 39-40): SU(3) m(0++)/sqrt(sigma) MP1999 +2.1 sigma vs AT2020; LTW2004 vs AT2021 SU(inf) 4.3 sigma.
   - Headline (Athenodorou-Teper): 4D SU(3) m(2++)/m(0++) = 1.437(11), m(0-+)/m(0++) = 1.549(16), m(0++)/sqrt(sigma) = 3.405(21); 4D SU(inf) 1.497(8), 1.534(11), 3.072(14); 2+1D SU(3) 1.658(5), 2.114(10), 4.368(7).
-  - Known discrepancies between sources (SU(3) m(0++)/sqrt(sigma) AT2020 vs MP1999/Chen ~2 sigma; LTW2004 vs AT2020 on 2++/0++ and SU(8)). See work README.
-- Prior art (`literature/`, `work/20261120-001-literature-survey/`), so we don't claim novelty for:
-  - KS glueballs by coupled cluster, variational, ED of SU(2)/SU(3) plaquette chains, qubit plaquette chain with continuum limit (2512.11068).
-  - Martingale gap proof for frustration-free deformed 3+1D Z2 gauge theory (2409.10612). No non-Abelian version found.
-  - Bakry-Emery lattice gap at strong coupling (Shen-Zhu-Zhu 2204.12737); fails for U(N) flat directions (2510.22788). Continuum orbit-space version only formal.
-  - theta as Bloch momentum (Jackiw-Rebbi, Callan-Dashen-Gross 1976); Koller-van Baal finite-volume spectra.
-  - Gluon BCS vacuum models; Cornwall dynamical mass; <A^2> gap equation.
-  - Rigorous lattice gap known only at strong coupling (Osterwalder-Seiler, Shen-Zhu-Zhu, Cao-Nissim-Sheffield 2505.16585, 2509.04688).
-- SU(2) KS ED (`work/20261120-003-su2-ks-ed/`, `src/ks_su2.py`): gauge-invariant spin-network basis validated to 1e-12..1e-15 (pointwise plaquette action, gauge invariance, group-manifold cross-check 1.2e-8). Single plaquette matches strong-coupling PT Delta = 3g^2/2 + 56/(15 g^6). Weak-coupling gap on tiny open lattices tends to a g-independent harmonic value (4 for one plaquette), set by geometry, not continuum physics.
+- Prior art (`literature/`, plus `work/20261120-007-*/literature-notes.md`): see iteration 1 list. New: Yarotsky (math-ph/0412040) Theorem 1 allows infinite-dimensional local spaces and covers strong-coupling KS with Gauss law. RK parent Hamiltonians for any real action are known (Castelnovo et al., Henley, Fendley-Fradkin). No paper citing 2409.10612 or 2204.12737 builds a non-Abelian FF gauge model. 2607.13228 (Gribov-horizon spectral geometry) relevant to line 3.
+- SU(2) KS ED (C1-C3) audited by skeptic 005: normalization correct; C2 series extended and independently derived; C3 slope derived; ladder reproduced by independent code. Torus basis is zero-flux only; torelons lie lower.
+- Certified bounds (C5, `src/certify.py`, `work/20261120-006-*/`): min-max upper + Feshbach lower bounds on the untruncated finite-lattice gap. Plaquette width 1e-11, ladder 1e-8 for g^2 >= 0.5, torus only g^2 >= 3.
 
 ## Live lines of attack (ranked)
-1. Line 2, spectral-gap methods: frustration-free non-Abelian gauge model (SU(2)_k string-net or q-deformed KS), gap via Knabe / Lemm-Mozgunov finite-size criterion with certified ED, then stability toward KS. No prior non-Abelian work found (web only; needs INSPIRE citation check of 2409.10612).
-2. Line 1, certified two-sided gap bounds (Temple/Weinstein + truncation error) for small SU(2) KS lattices. Feeds line 2.
-3. Line 3, Payne-Weinberger lower bound on the finite-lattice Gribov region (convex; log det FP concave). Expected to vanish in infinite volume: candidate finite-volume result or Result-C obstruction.
-4. Line 6, O(3) quantum rotor chain as test bed for every method.
-5. Line 5, interaction-driven: low priority, mostly published.
+1. Line 1 + 2 combined, stepping-stone theorem: 2+1D, free boundary, gap(H_FF) >= c min(1, 1/beta) for all beta (ground state is a plaquette product there). Needs certified single-link gap gamma_* and two-link correlation c(beta). Honest scope: H_FF has z = 2 RK dynamics and does not approach continuum YM, so at best a lattice stepping-stone; check against Result A novelty bar.
+2. Line 1: certified bounds deeper into weak coupling (torus momentum blocking, j_max = 2, g^2 ~ 1; include flux sectors so the true lowest gap is bounded). Purpose: data for finite-size criteria and honest picture of truncation limits.
+3. Line 6: O(3) quantum rotor chain as test bed: does any method here reproduce its known gap behavior?
+4. Line 5 (interaction-driven): low priority, mostly published.
 
-## Dead / Result-C candidates
-- Line 4 (theta/Bloch): likely obstruction. theta-band structure describes vacuum energy across theta sectors, not the glueball gap within one sector. Needs an explicit write-up to count.
+## Dead / Result-C candidates (pending skeptic)
+- Line 4 (theta/Bloch), C4: blocked. Bloch decomposition gives no in-sector gap bound; band width grows with volume; band data and mass gap independent (exact 2D examples). Only gives theta- and flux-dependence on small T^3 (Koller-van Baal), not the 0++ gap.
+- Line 3 (Payne-Weinberger on Gribov region), C7: blocked at including the potential (needs open log-concavity hypothesis; magnetic potential non-convex inside Omega); kinetic bound -> 0 in both limits.
+- Line 2 as a route to the KS/continuum gap beyond strong coupling: KS frustration-free only with quasi-local terms (proved identity; no finite-range decomposition is conjectured); transferring H_FF gap to KS works only at strong coupling (Yarotsky already). String-net/quantum-double FF points are in the deconfined phase.
 
 ## Open questions
-- Does Yarotsky (math-ph/0412040) already give the strong-coupling KS gap including Gauss law?
-- 2x2 torus ED needs j_max >= 2 (~1e5 states) and momentum blocking to reach g^2 ~ 1. Toron behaviour (Delta ~ g^2 at weak coupling on the torus) untested.
-- Lüscher 1983 / Koller-van Baal references in the ED README were cited from memory; verify.
-- Unvetted claimed full proofs (2506.00284, 2611.11534, a Zenodo record) listed in literature; not relied on.
+- Is the H_FF bound gap >= 1/2 - 2(d-1) beta correct, and is the "KS = H_FF + correction" identity right? (skeptic needed)
+- Interval-arithmetic version of C5 bounds (currently floating-point).
+- Gribov diameter scaling in d = 3 rests on L = 3, 4 only; diameters are lower estimates.
+- AT2021 quotes error 0.15 on its Chen2006 conversion; our quadrature gives 0.10.
+- Unvetted claimed full proofs (2506.00284, 2611.11534, Zenodo) remain unrelied on.
 
-## Next planned tasks (iteration 2)
-- Data verifier: independent second agent re-extracts a sample of `data/` rows from the papers and checks SOURCES.md.
-- Mathematical physicist + literature: design a frustration-free non-Abelian lattice gauge Hamiltonian and state the Knabe/Lemm-Mozgunov finite-size condition it needs; INSPIRE citation check of 2409.10612, 2204.12737, Dell'Antonio-Zwanziger 1991; check Yarotsky vs Gauss law.
-- Computational physicist: certified Temple/Weinstein two-sided gap bounds with truncation-error control for plaquette, ladder, 2x2 torus; momentum blocking to push the torus to j_max = 2.
-- Mathematical physicist: write the line-4 obstruction precisely; scope the Payne-Weinberger/Gribov bound.
+## Next planned tasks (iteration 3)
+- Skeptic: audit C4 and C7 (agent 008) together.
+- Skeptic: audit C5 (certified bounds lemma and code) and C6 (H_FF construction and Bakry-Emery bound).
+- Mathematical physicist: attempt the 2+1D H_FF theorem gap >= c min(1, 1/beta); first check novelty against RK / Glauber-dynamics literature (gap of Langevin/heat-bath dynamics for 2D lattice gauge = product measure in 2D, likely known).
+- Computational physicist: torus momentum blocking + flux sectors, certified bounds at g^2 ~ 1-2.
 - Lean: blocked on user approval to install `elan`.
