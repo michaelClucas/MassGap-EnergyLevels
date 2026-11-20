@@ -1,0 +1,14 @@
+flux (0, 0) tjmax 4: building
+  2000/23089 reps
+  4000/23089 reps
+  6000/23089 reps
+  8000/23089 reps
+  10000/23089 reps
+  12000/23089 reps
+  14000/23089 reps
+  16000/23089 reps
+  18000/23089 reps
+  20000/23089 reps
+  22000/23089 reps
+flux (0, 0) tjmax 4: dim 90899, blocks [23089, 22612, 22612, 22586], 847s
+flux (1, 0) tjmax 4: building

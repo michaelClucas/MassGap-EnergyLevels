@@ -1,0 +1,20 @@
+# A: single plaquette (gauge-invariant), gap(H_FF) = lambda_1(class fns); compare 2*beta
+beta=   0.00  ritz=3.00000000  fd=3.000000  2beta=0.0
+beta=   0.50  ritz=3.04997912  fd=3.049979  2beta=1.0
+beta=   1.00  ritz=3.19966379  fd=3.199664  2beta=2.0
+beta=   2.00  ritz=3.79447950  fd=3.794479  2beta=4.0
+beta=   5.00  ritz=7.74165856  fd=7.741660  2beta=10.0
+beta=  10.00  ritz=17.80083987  fd=17.800843  2beta=20.0
+beta=  20.00  ritz=37.92553052  fd=37.925534  2beta=40.0
+beta=  50.00  ritz=97.97336342  fd=97.973367  2beta=100.0
+beta= 100.00  ritz=197.98710970  fd=197.987113  2beta=200.0
+beta= 200.00  ritz=397.99365460  fd=397.993658  2beta=400.0
+# C: U(1), L x L box: upper bounds on gap(H_FF); compare 1/beta
+beta=  1  lifted L=4,16,64,1e4: 8.150e-01 7.384e-01 7.314e-01 7.309e-01  L=inf 7.309e-01  sin(L=1e4) 7.938e-01  1/beta 1.000e+00
+beta=  2  lifted L=4,16,64,1e4: 5.813e-01 3.457e-01 3.242e-01 3.227e-01  L=inf 3.227e-01  sin(L=1e4) 4.707e-01  1/beta 5.000e-01
+beta=  4  lifted L=4,16,64,1e4: 6.726e-01 8.427e-02 3.064e-02 2.669e-02  L=inf 2.669e-02  sin(L=1e4) 1.781e-01  1/beta 2.500e-01
+beta=  6  lifted L=4,16,64,1e4: 1.038e+00 9.365e-02 7.542e-03 1.202e-03  L=inf 1.201e-03  sin(L=1e4) 1.022e-01  1/beta 1.667e-01
+beta=  8  lifted L=4,16,64,1e4: 1.423e+00 1.269e-01 8.744e-03 4.114e-05  L=inf 4.077e-05  sin(L=1e4) 7.211e-02  1/beta 1.250e-01
+beta= 10  lifted L=4,16,64,1e4: 1.808e+00 1.612e-01 1.105e-02 1.661e-06  L=inf 1.194e-06  sin(L=1e4) 5.586e-02  1/beta 1.000e-01
+beta= 15  lifted L=4,16,64,1e4: 2.765e+00 2.465e-01 1.691e-02 7.145e-07  L=inf 1.255e-10  sin(L=1e4) 3.579e-02  1/beta 6.667e-02
+beta= 20  lifted L=4,16,64,1e4: 3.721e+00 3.318e-01 2.275e-02 9.613e-07  L=inf 1.027e-14  sin(L=1e4) 2.635e-02  1/beta 5.000e-02

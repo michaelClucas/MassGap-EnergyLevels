@@ -1,0 +1,199 @@
+kind,sector,momentum,irrep,g2,j_max,dim,E0,E1,E0_lo,E0_hi,E1_lo,E1_hi,d_floor,method
+ed,"(0,0)","(0,0)",A1/B1,1,2,23089,-6.999978456,-6.116782916,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed-level2,"(0,0)","(0,0)",A1,1,2,23089,-5.908704958,,,,,,,level 2 in block
+ed-level3,"(0,0)","(0,0)",B2,1,2,23089,-5.182971961,,,,,,,level 3 in block
+ed-level4,"(0,0)","(0,0)",A1,1,2,23089,-5.067960981,,,,,,,level 4 in block
+ed-level5,"(0,0)","(0,0)",A1,1,2,23089,-4.057570753,,,,,,,level 5 in block
+ed,"(0,0)","(pi,0)",,1,2,22612,-4.338040279,-4.074888181,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(0,0)","(0,pi)",,1,2,22612,-4.338040279,-4.074888181,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(0,0)","(pi,pi)","B2/deg2(sx=-0.00,sd=-0.00)",1,2,22586,-3.573569609,-3.391649856,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed-level2,"(0,0)","(pi,pi)","deg2(sx=-0.00,sd=-0.00)",1,2,22586,-3.391649856,,,,,,,level 2 in block
+ed-level3,"(0,0)","(pi,pi)",B2,1,2,22586,-2.909020061,,,,,,,level 3 in block
+ed-level4,"(0,0)","(pi,pi)",?,1,2,22586,-2.848138309,,,,,,,level 4 in block
+ed-level5,"(0,0)","(pi,pi)",A1,1,2,22586,-2.699082715,,,,,,,level 5 in block
+ed,"(1,0)=(0,1)","(0,0)",,1,1.5,2098,-6.563731648,-5.431569221,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,0)=(0,1)","(pi,0)",,1,1.5,2022,-4.403816546,-3.226549193,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,0)=(0,1)","(0,pi)",,1,1.5,2098,-4.579178545,-3.451184914,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,0)=(0,1)","(pi,pi)",,1,1.5,2022,-3.663087985,-2.859849139,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,1)","(0,0)",,1,1.5,1892,-6.20439391,-6.1673989,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,1)","(pi,0)",,1,1.5,1830,-4.340635714,-3.984838053,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,1)","(0,pi)",,1,1.5,1830,-4.340635714,-3.984838053,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,1)","(pi,pi)",,1,1.5,1892,-3.417567455,-3.417567455,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(0,0)","(0,0)",A1/B1,1.5,2,23089,-2.820870739,-1.162961384,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed-level2,"(0,0)","(0,0)",A1,1.5,2,23089,-0.9797259927,,,,,,,level 2 in block
+ed-level3,"(0,0)","(0,0)",A1,1.5,2,23089,0.05652331879,,,,,,,level 3 in block
+ed-level4,"(0,0)","(0,0)",B2,1.5,2,23089,0.4046543968,,,,,,,level 4 in block
+ed-level5,"(0,0)","(0,0)",A1,1.5,2,23089,0.5329762943,,,,,,,level 5 in block
+ed,"(0,0)","(pi,0)",,1.5,2,22612,0.1707185502,0.3160478809,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(0,0)","(0,pi)",,1.5,2,22612,0.1707185502,0.3160478809,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(0,0)","(pi,pi)","B2/deg2(sx=-0.00,sd=-0.00)",1.5,2,22586,0.4207505075,1.278039962,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed-level2,"(0,0)","(pi,pi)","deg2(sx=-0.00,sd=-0.00)",1.5,2,22586,1.278039962,,,,,,,level 2 in block
+ed-level3,"(0,0)","(pi,pi)",B2,1.5,2,22586,1.632214149,,,,,,,level 3 in block
+ed-level4,"(0,0)","(pi,pi)","deg2(sx=-0.00,sd=-0.00)",1.5,2,22586,1.748570213,,,,,,,level 4 in block
+ed-level5,"(0,0)","(pi,pi)","deg2(sx=-0.00,sd=-0.00)",1.5,2,22586,1.748570213,,,,,,,level 5 in block
+ed,"(1,0)=(0,1)","(0,0)",,1.5,1.5,2098,-2.260522852,-0.6570307344,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,0)=(0,1)","(pi,0)",,1.5,1.5,2022,-0.1941507639,0.8258869614,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,0)=(0,1)","(0,pi)",,1.5,1.5,2098,-0.8757155743,0.6213725169,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,0)=(0,1)","(pi,pi)",,1.5,1.5,2022,0.2787497899,1.303277801,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,1)","(0,0)",,1.5,1.5,1892,-1.809450238,-1.608763659,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,1)","(pi,0)",,1.5,1.5,1830,-0.2617887319,0.1058689324,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,1)","(0,pi)",,1.5,1.5,1830,-0.2617887319,0.1058689324,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,1)","(pi,pi)",,1.5,1.5,1892,0.4504599356,0.4504599356,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(0,0)","(0,0)",A1/A1,2,2,23089,-1.291894479,1.33356014,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed-level2,"(0,0)","(0,0)",B1,2,2,23089,1.390134261,,,,,,,level 2 in block
+ed-level3,"(0,0)","(0,0)",A1,2,2,23089,2.13648163,,,,,,,level 3 in block
+ed-level4,"(0,0)","(0,0)",B1,2,2,23089,2.823616958,,,,,,,level 4 in block
+ed-level5,"(0,0)","(0,0)",A1,2,2,23089,3.059474903,,,,,,,level 5 in block
+ed,"(0,0)","(pi,0)",,2,2,22612,2.151536361,2.514902287,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(0,0)","(0,pi)",,2,2,22612,2.151536361,2.514902287,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(0,0)","(pi,pi)",B2/E,2,2,22586,2.191485192,3.721607341,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed-level2,"(0,0)","(pi,pi)",E,2,2,22586,3.721607341,,,,,,,level 2 in block
+ed-level3,"(0,0)","(pi,pi)",B2,2,2,22586,3.993434948,,,,,,,level 3 in block
+ed-level4,"(0,0)","(pi,pi)",E,2,2,22586,4.224405949,,,,,,,level 4 in block
+ed-level5,"(0,0)","(pi,pi)",E,2,2,22586,4.224405949,,,,,,,level 5 in block
+ed,"(1,0)=(0,1)","(0,0)",,2,1.5,2098,-0.2586786354,2.113430802,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,0)=(0,1)","(pi,0)",,2,1.5,2022,1.874187295,3.160169545,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,0)=(0,1)","(0,pi)",,2,1.5,2098,0.6364251376,2.330808683,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,0)=(0,1)","(pi,pi)",,2,1.5,2022,2.13535749,3.536795045,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,1)","(0,0)",,2,1.5,1892,0.4369588528,0.7543817993,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,1)","(pi,0)",,2,1.5,1830,1.79505129,2.06121143,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,1)","(0,pi)",,2,1.5,1830,1.79505129,2.06121143,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,1)","(pi,pi)",,2,1.5,1892,2.237153829,2.237153829,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(0,0)","(0,0)",A1/A1,3,2,23089,-0.3931391911,3.734872278,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed-level2,"(0,0)","(0,0)",B1,3,2,23089,4.074438967,,,,,,,level 2 in block
+ed-level3,"(0,0)","(0,0)",A1,3,2,23089,4.576406063,,,,,,,level 3 in block
+ed-level4,"(0,0)","(0,0)",B1,3,2,23089,5.470961995,,,,,,,level 4 in block
+ed-level5,"(0,0)","(0,0)",A1,3,2,23089,5.52269251,,,,,,,level 5 in block
+ed,"(0,0)","(pi,0)",,3,2,22612,4.246492855,5.463414319,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(0,0)","(0,pi)",,3,2,22612,4.246492855,5.463414319,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(0,0)","(pi,pi)",B2/E,3,2,22586,4.256450156,6.970414493,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed-level2,"(0,0)","(pi,pi)",E,3,2,22586,6.970414493,,,,,,,level 2 in block
+ed-level3,"(0,0)","(pi,pi)",B2,3,2,22586,7.174137822,,,,,,,level 3 in block
+ed-level4,"(0,0)","(pi,pi)",A2,3,2,22586,7.309699435,,,,,,,level 4 in block
+ed-level5,"(0,0)","(pi,pi)",?(cut),3,2,22586,7.406418433,,,,,,,level 5 in block
+ed,"(1,0)=(0,1)","(0,0)",,3,1.5,2098,1.641095022,4.364062459,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,0)=(0,1)","(pi,0)",,3,1.5,2022,4.158590984,6.26590297,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,0)=(0,1)","(0,pi)",,3,1.5,2098,1.995296398,4.305050162,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,0)=(0,1)","(pi,pi)",,3,1.5,2022,4.242474123,6.450983322,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,1)","(0,0)",,3,1.5,1892,3.077738642,3.429860305,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,1)","(pi,0)",,3,1.5,1830,4.118534338,4.221735436,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,1)","(0,pi)",,3,1.5,1830,4.118534338,4.221735436,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,1)","(pi,pi)",,3,1.5,1892,4.276743506,4.276743506,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(0,0)","(0,0)",A1/A1,5,2,23089,-0.08528441753,7.149856568,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed-level2,"(0,0)","(0,0)",B1,5,2,23089,7.414921816,,,,,,,level 2 in block
+ed-level3,"(0,0)","(0,0)",A1,5,2,23089,7.708418213,,,,,,,level 3 in block
+ed-level4,"(0,0)","(0,0)",B1,5,2,23089,9.873285413,,,,,,,level 4 in block
+ed-level5,"(0,0)","(0,0)",A1,5,2,23089,9.875753662,,,,,,,level 5 in block
+ed,"(0,0)","(pi,0)",,5,2,22612,7.445203465,9.874014796,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(0,0)","(0,pi)",,5,2,22612,7.445203465,9.874014796,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(0,0)","(pi,pi)",B2/E,5,2,22586,7.447224371,12.29261493,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed-level2,"(0,0)","(pi,pi)",E,5,2,22586,12.29261493,,,,,,,level 2 in block
+ed-level3,"(0,0)","(pi,pi)",B2,5,2,22586,12.4274804,,,,,,,level 3 in block
+ed-level4,"(0,0)","(pi,pi)",A2,5,2,22586,12.45908239,,,,,,,level 4 in block
+ed-level5,"(0,0)","(pi,pi)",?(cut),5,2,22586,12.57255246,,,,,,,level 5 in block
+ed,"(1,0)=(0,1)","(0,0)",,5,1.5,2098,3.611134247,7.47546177,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,0)=(0,1)","(pi,0)",,5,1.5,2022,7.426107063,11.13552709,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,0)=(0,1)","(0,pi)",,5,1.5,2098,3.695119884,7.458068106,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,0)=(0,1)","(pi,pi)",,5,1.5,2022,7.444378091,11.18468874,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,1)","(0,0)",,5,1.5,1892,6.746778585,7.010559815,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,1)","(pi,0)",,5,1.5,1830,7.416217031,7.439983663,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,1)","(0,pi)",,5,1.5,1830,7.416217031,7.439983663,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,1)","(pi,pi)",,5,1.5,1892,7.451969297,7.451969297,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(0,0)","(0,0)",A1/A1,10,2,23089,-0.0106662904,14.84988471,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed-level2,"(0,0)","(0,0)",B1,10,2,23089,14.98949157,,,,,,,level 2 in block
+ed-level3,"(0,0)","(0,0)",A1,10,2,23089,15.13250822,,,,,,,level 3 in block
+ed-level4,"(0,0)","(0,0)",B1,10,2,23089,19.98400899,,,,,,,level 4 in block
+ed-level5,"(0,0)","(0,0)",A1,10,2,23089,19.98403018,,,,,,,level 5 in block
+ed,"(0,0)","(pi,0)",,10,2,22612,14.99315002,19.98401645,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(0,0)","(0,pi)",,10,2,22612,14.99315002,19.98401645,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(0,0)","(pi,pi)",B2/E,10,2,22586,14.99340019,24.9209073,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed-level2,"(0,0)","(pi,pi)",E,10,2,22586,24.9209073,,,,,,,level 2 in block
+ed-level3,"(0,0)","(pi,pi)",B2,10,2,22586,24.99089183,,,,,,,level 3 in block
+ed-level4,"(0,0)","(pi,pi)",A2,10,2,22586,24.99488866,,,,,,,level 4 in block
+ed-level5,"(0,0)","(pi,pi)",?(cut),10,2,22586,25.06223722,,,,,,,level 5 in block
+ed,"(1,0)=(0,1)","(0,0)",,10,1.5,2098,7.482486824,14.99704018,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,0)=(0,1)","(pi,0)",,10,1.5,2022,14.99076199,22.48544009,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,0)=(0,1)","(0,pi)",,10,1.5,2098,7.493142675,14.99476169,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,0)=(0,1)","(pi,pi)",,10,1.5,2022,14.99304759,22.49182309,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,1)","(0,0)",,10,1.5,1892,14.6458912,14.78876083,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,1)","(pi,0)",,10,1.5,1830,14.98950171,14.99249987,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,1)","(0,pi)",,10,1.5,1830,14.98950171,14.99249987,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+ed,"(1,1)","(pi,pi)",,10,1.5,1892,14.99399976,14.99399976,,,,,,"translation-blocked ED; E0,E1 = two lowest in block"
+gap-ed,all,"(0,0)","flux (1, 0)",1,2,,-6.999978456,-6.563731648,,,,,,Delta_all = 0.43624681
+gap-ed,"(0,0)","(0,0)",B1,1,2,,-6.999978456,-6.116782916,,,,,,Delta_00 = 0.88319554
+gap-ed,"(0,0)","(0,0)",B1,1,2,,-6.999978456,-6.116782916,,,,,,Delta_00(k=0) = 0.88319554
+gap-ed,all,"(0,0)","flux (1, 0)",1.5,2,,-2.820870739,-2.260522852,,,,,,Delta_all = 0.56034789
+gap-ed,"(0,0)","(0,0)",B1,1.5,2,,-2.820870739,-1.162961384,,,,,,Delta_00 = 1.6579094
+gap-ed,"(0,0)","(0,0)",B1,1.5,2,,-2.820870739,-1.162961384,,,,,,Delta_00(k=0) = 1.6579094
+gap-ed,all,"(0,0)","flux (1, 0)",2,2,,-1.291894479,-0.2586786354,,,,,,Delta_all = 1.0332158
+gap-ed,"(0,0)","(0,0)",A1,2,2,,-1.291894479,1.33356014,,,,,,Delta_00 = 2.6254546
+gap-ed,"(0,0)","(0,0)",A1,2,2,,-1.291894479,1.33356014,,,,,,Delta_00(k=0) = 2.6254546
+gap-ed,all,"(0,0)","flux (1, 0)",3,2,,-0.3931391911,1.641095022,,,,,,Delta_all = 2.0342342
+gap-ed,"(0,0)","(0,0)",A1,3,2,,-0.3931391911,3.734872278,,,,,,Delta_00 = 4.1280115
+gap-ed,"(0,0)","(0,0)",A1,3,2,,-0.3931391911,3.734872278,,,,,,Delta_00(k=0) = 4.1280115
+gap-ed,all,"(0,0)","flux (1, 0)",5,2,,-0.08528441753,3.611134247,,,,,,Delta_all = 3.6964187
+gap-ed,"(0,0)","(0,0)",A1,5,2,,-0.08528441753,7.149856568,,,,,,Delta_00 = 7.235141
+gap-ed,"(0,0)","(0,0)",A1,5,2,,-0.08528441753,7.149856568,,,,,,Delta_00(k=0) = 7.235141
+gap-ed,all,"(0,0)","flux (1, 0)",10,2,,-0.0106662904,7.482486824,,,,,,Delta_all = 7.4931531
+gap-ed,"(0,0)","(0,0)",A1,10,2,,-0.0106662904,14.84988471,,,,,,Delta_00 = 14.860551
+gap-ed,"(0,0)","(0,0)",A1,10,2,,-0.0106662904,14.84988471,,,,,,Delta_00(k=0) = 14.860551
+certified,"(0,0)","(0,0)",,1,1.5,2472,,,-9.936224429,-6.999978449,-9.936224429,-6.116782909,-7.861029116,"schur-exact-shell[bisect,bisect]; floor split(t=0.385); upper from j_max 2.0"
+certified,"(0,0)","(pi,0)",,1,1.5,2318,,,-inf,-4.338040272,,,-7.861029116,schur-exact-shell[none(d<=E0_hi)]; floor split(t=0.385); upper from j_max 2.0
+certified,"(0,0)","(0,pi)",,1,1.5,2318,,,-inf,-4.338040272,,,-7.861029116,schur-exact-shell[none(d<=E0_hi)]; floor split(t=0.385); upper from j_max 2.0
+certified,"(0,0)","(pi,pi)",,1,1.5,2310,,,-inf,-3.573569602,,,-7.861029116,schur-exact-shell[none(d<=E0_hi)]; floor split(t=0.385); upper from j_max 2.0
+certified,"(1,0)=(0,1)","(0,0)",,1,1,131,,,-inf,-6.563731647,,,-8.702509926,schur-exact-shell[none(d<=E0_hi)]; floor split(t=0.695); upper from j_max 1.5
+certified,"(1,0)=(0,1)","(pi,0)",,1,1,113,,,-inf,-4.403816545,,,-8.702509926,schur-exact-shell[none(d<=E0_hi)]; floor split(t=0.695); upper from j_max 1.5
+certified,"(1,0)=(0,1)","(0,pi)",,1,1,131,,,-inf,-4.579178545,,,-8.702509926,schur-exact-shell[none(d<=E0_hi)]; floor split(t=0.695); upper from j_max 1.5
+certified,"(1,0)=(0,1)","(pi,pi)",,1,1,113,,,-inf,-3.663087985,,,-8.702509926,schur-exact-shell[none(d<=E0_hi)]; floor split(t=0.695); upper from j_max 1.5
+certified,"(1,1)","(0,0)",,1,1,112,,,-inf,-6.20439391,,,-8.702509926,schur-exact-shell[none(d<=E0_hi)]; floor split(t=0.695); upper from j_max 1.5
+certified,"(1,1)","(pi,0)",,1,1,98,,,-inf,-4.340635714,,,-8.702509926,schur-exact-shell[none(d<=E0_hi)]; floor split(t=0.695); upper from j_max 1.5
+certified,"(1,1)","(0,pi)",,1,1,98,,,-inf,-4.340635714,,,-8.702509926,schur-exact-shell[none(d<=E0_hi)]; floor split(t=0.695); upper from j_max 1.5
+certified,"(1,1)","(pi,pi)",,1,1,112,,,-inf,-3.417567455,,,-8.702509926,schur-exact-shell[none(d<=E0_hi)]; floor split(t=0.695); upper from j_max 1.5
+gap-certified,all,,,1,1.5,,,,-9.936224429,-6.999978449,-inf,-6.563731647,,"Delta in [-inf, 3.3724928] ; no certified positive lower bound"
+gap-certified,"(0,0)",,,1,1.5,,,,-9.936224429,-6.999978449,-inf,-6.116782909,,"Delta in [-inf, 3.8194415] ; no certified positive lower bound"
+gap-certified,"(0,0) k=0",,,1,1.5,,,,-9.936224429,-6.999978449,-9.936224429,-6.116782909,,"Delta in [-2.936246, 3.8194415] ; no certified positive lower bound"
+certified,"(0,0)","(0,0)",,1.5,1.5,2472,,,-2.866331423,-2.820870733,-20.60927377,-1.162961379,-0.657391941,"schur-exact-shell[std,std]; floor split(t=0.170); upper from j_max 2.0"
+certified,"(0,0)","(pi,0)",,1.5,1.5,2318,,,-1.878095067,0.1707185555,,,-0.657391941,schur-exact-shell[bisect]; floor split(t=0.170); upper from j_max 2.0
+certified,"(0,0)","(0,pi)",,1.5,1.5,2318,,,-1.878095067,0.1707185555,,,-0.657391941,schur-exact-shell[bisect]; floor split(t=0.170); upper from j_max 2.0
+certified,"(0,0)","(pi,pi)",,1.5,1.5,2310,,,-1.572919286,0.4207505128,,,-0.657391941,schur-exact-shell[bisect]; floor split(t=0.170); upper from j_max 2.0
+certified,"(1,0)=(0,1)","(0,0)",,1.5,1,131,,,-4.202545176,-2.260522852,,,-2.676666269,schur-exact-shell[bisect]; floor split(t=0.310); upper from j_max 1.5
+certified,"(1,0)=(0,1)","(pi,0)",,1.5,1,113,,,-3.775299083,-0.1941507637,,,-2.676666269,schur-exact-shell[bisect]; floor split(t=0.310); upper from j_max 1.5
+certified,"(1,0)=(0,1)","(0,pi)",,1.5,1,131,,,-3.897369395,-0.8757155741,,,-2.676666269,schur-exact-shell[bisect]; floor split(t=0.310); upper from j_max 1.5
+certified,"(1,0)=(0,1)","(pi,pi)",,1.5,1,113,,,-3.65322877,0.2787497901,,,-2.676666269,schur-exact-shell[bisect]; floor split(t=0.310); upper from j_max 1.5
+certified,"(1,1)","(0,0)",,1.5,1,112,,,-4.202545176,-1.809450238,,,-2.676666269,schur-exact-shell[bisect]; floor split(t=0.310); upper from j_max 1.5
+certified,"(1,1)","(pi,0)",,1.5,1,98,,,-3.836334239,-0.2617887318,,,-2.676666269,schur-exact-shell[bisect]; floor split(t=0.310); upper from j_max 1.5
+certified,"(1,1)","(0,pi)",,1.5,1,98,,,-3.836334239,-0.2617887318,,,-2.676666269,schur-exact-shell[bisect]; floor split(t=0.310); upper from j_max 1.5
+certified,"(1,1)","(pi,pi)",,1.5,1,112,,,-3.65322877,0.4504599357,,,-2.676666269,schur-exact-shell[bisect]; floor split(t=0.310); upper from j_max 1.5
+gap-certified,all,,,1.5,1.5,,,,-2.866331423,-2.820870733,-20.60927377,-2.260522852,,"Delta in [-17.788403, 0.60580857] ; no certified positive lower bound"
+gap-certified,"(0,0)",,,1.5,1.5,,,,-2.866331423,-2.820870733,-20.60927377,-1.162961379,,"Delta in [-17.788403, 1.70337] ; no certified positive lower bound"
+gap-certified,"(0,0) k=0",,,1.5,1.5,,,,-2.866331423,-2.820870733,-20.60927377,-1.162961379,,"Delta in [-17.788403, 1.70337] ; no certified positive lower bound"
+certified,"(0,0)","(0,0)",,2,1.5,2472,,,-1.292266905,-1.291894475,1.313620862,1.333560144,4.319398566,"schur-exact-shell[std,std]; floor split(t=0.095); upper from j_max 2.0"
+certified,"(0,0)","(pi,0)",,2,1.5,2318,,,2.136015408,2.151536366,,,4.319398566,schur-exact-shell[std]; floor split(t=0.095); upper from j_max 2.0
+certified,"(0,0)","(0,pi)",,2,1.5,2318,,,2.136015408,2.151536366,,,4.319398566,schur-exact-shell[std]; floor split(t=0.095); upper from j_max 2.0
+certified,"(0,0)","(pi,pi)",,2,1.5,2310,,,2.189113657,2.191485196,,,4.319398566,schur-exact-shell[std]; floor split(t=0.095); upper from j_max 2.0
+certified,"(1,0)=(0,1)","(0,0)",,2,1,131,,,-0.6530519777,-0.2586786352,,,1.273744133,schur-exact-shell[std]; floor split(t=0.175); upper from j_max 1.5
+certified,"(1,0)=(0,1)","(pi,0)",,2,1,113,,,0.3570506411,1.874187295,,,1.273744133,schur-exact-shell[bisect]; floor split(t=0.175); upper from j_max 1.5
+certified,"(1,0)=(0,1)","(0,pi)",,2,1,131,,,-2.092439015,0.6364251378,,,1.273744133,schur-exact-shell[std]; floor split(t=0.175); upper from j_max 1.5
+certified,"(1,0)=(0,1)","(pi,pi)",,2,1,113,,,0.4792764399,2.13535749,,,1.273744133,schur-exact-shell[bisect]; floor split(t=0.175); upper from j_max 1.5
+certified,"(1,1)","(0,0)",,2,1,112,,,-1.636396395,0.4369588529,,,1.273744133,schur-exact-shell[std]; floor split(t=0.175); upper from j_max 1.5
+certified,"(1,1)","(pi,0)",,2,1,98,,,0.2959377417,1.79505129,,,1.273744133,schur-exact-shell[bisect]; floor split(t=0.175); upper from j_max 1.5
+certified,"(1,1)","(0,pi)",,2,1,98,,,0.2959377417,1.79505129,,,1.273744133,schur-exact-shell[bisect]; floor split(t=0.175); upper from j_max 1.5
+certified,"(1,1)","(pi,pi)",,2,1,112,,,0.4792764399,2.237153829,,,1.273744133,schur-exact-shell[bisect]; floor split(t=0.175); upper from j_max 1.5
+gap-certified,all,,,2,1.5,,,,-1.292266905,-1.291894475,-2.092439015,-0.2586786352,,"Delta in [-0.80054454, 1.0335883] ; no certified positive lower bound"
+gap-certified,"(0,0)",,,2,1.5,,,,-1.292266905,-1.291894475,1.313620862,1.333560144,,"Delta in [2.6055153, 2.625827]"
+gap-certified,"(0,0) k=0",,,2,1.5,,,,-1.292266905,-1.291894475,1.313620862,1.333560144,,"Delta in [2.6055153, 2.625827]"
+certified,"(0,0)","(0,0)",,3,1.5,2472,,,-0.393139756,-0.3931391867,3.734794588,3.734872282,12.0458277,"schur-exact-shell[std,std]; floor split(t=0.045); upper from j_max 2.0"
+certified,"(0,0)","(pi,0)",,3,1.5,2318,,,4.246441952,4.246492859,,,12.0458277,schur-exact-shell[std]; floor split(t=0.045); upper from j_max 2.0
+certified,"(0,0)","(0,pi)",,3,1.5,2318,,,4.246441952,4.246492859,,,12.0458277,schur-exact-shell[std]; floor split(t=0.045); upper from j_max 2.0
+certified,"(0,0)","(pi,pi)",,3,1.5,2310,,,4.256444639,4.25645016,,,12.0458277,schur-exact-shell[std]; floor split(t=0.045); upper from j_max 2.0
+certified,"(1,0)=(0,1)","(0,0)",,3,1,131,,,1.636133603,1.641095022,,,7.098860449,schur-exact-shell[std]; floor split(t=0.080); upper from j_max 1.5
+certified,"(1,0)=(0,1)","(pi,0)",,3,1,113,,,4.147015304,4.158590984,,,7.098860449,schur-exact-shell[std]; floor split(t=0.080); upper from j_max 1.5
+certified,"(1,0)=(0,1)","(0,pi)",,3,1,131,,,1.989830636,1.995296398,,,7.098860449,schur-exact-shell[std]; floor split(t=0.080); upper from j_max 1.5
+certified,"(1,0)=(0,1)","(pi,pi)",,3,1,113,,,4.2262655,4.242474123,,,7.098860449,schur-exact-shell[std]; floor split(t=0.080); upper from j_max 1.5
+certified,"(1,1)","(0,0)",,3,1,112,,,3.065496498,3.077738643,,,7.098860449,schur-exact-shell[std]; floor split(t=0.080); upper from j_max 1.5
+certified,"(1,1)","(pi,0)",,3,1,98,,,4.091574108,4.118534339,,,7.098860449,schur-exact-shell[std]; floor split(t=0.080); upper from j_max 1.5
+certified,"(1,1)","(0,pi)",,3,1,98,,,4.091574108,4.118534339,,,7.098860449,schur-exact-shell[std]; floor split(t=0.080); upper from j_max 1.5
+certified,"(1,1)","(pi,pi)",,3,1,112,,,4.259415432,4.276743507,,,7.098860449,schur-exact-shell[std]; floor split(t=0.080); upper from j_max 1.5
+gap-certified,all,,,3,1.5,,,,-0.393139756,-0.3931391867,1.636133603,1.641095022,,"Delta in [2.0292728, 2.0342348]"
+gap-certified,"(0,0)",,,3,1.5,,,,-0.393139756,-0.3931391867,3.734794588,3.734872282,,"Delta in [4.1279338, 4.128012]"
+gap-certified,"(0,0) k=0",,,3,1.5,,,,-0.393139756,-0.3931391867,3.734794588,3.734872282,,"Delta in [4.1279338, 4.128012]"

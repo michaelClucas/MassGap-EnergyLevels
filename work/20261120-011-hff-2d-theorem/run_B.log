@@ -1,0 +1,7 @@
+# B: strip reduced-form check, max rel. deviation / conj-invariance residual: 5.55e-10
+# B: 1x2 strip Ritz upper bound on gap(H_FF)=(1/4)lambda; linearized large-beta value 1.5*beta
+beta=  0.00  D4=3.000000  D6=3.000000  1.5beta=0.00  [5s]
+beta=  1.00  D4=3.149760  D6=3.149760  1.5beta=1.50  [21s]
+beta=  5.00  D4=6.876554  D6=6.872773  1.5beta=7.50  [23s]
+beta= 20.00  D4=29.577657  D6=29.658875  1.5beta=30.00  [25s]
+beta= 50.00  D4=74.608490  D6=74.882327  1.5beta=75.00  [27s]

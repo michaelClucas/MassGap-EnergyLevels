@@ -1,0 +1,77 @@
+top tj = 4 (j_max = 2.0)
+flux (0, 0): dim 90899, blocks [23089, 22612, 22612, 22586], j_max 2.0, c_Q(P) = 11.0
+flux (1, 0): dim 8240, blocks [2098, 2022, 2098, 2022], j_max 1.5, c_Q(P) = 7.5
+flux (1, 1): dim 7444, blocks [1892, 1830, 1830, 1892], j_max 1.5, c_Q(P) = 7.5
+g2=1.0: ED done 60s
+g2=1.5: ED done 69s
+g2=2.0: ED done 89s
+g2=3.0: ED done 62s
+g2=5.0: ED done 44s
+g2=10.0: ED done 28s
+g2=1.0: E0=-6.999978  Delta_all 0.436247 (flux (1, 0), k=(0,0)); Delta_00 0.883196 (k=(0,0) B1); k=0 levels [np.float64(0.8832), np.float64(1.09127), np.float64(1.81701), np.float64(1.93202), np.float64(2.94241)] ['B1', 'A1', 'B2', 'A1', 'A1']
+g2=1.5: E0=-2.820871  Delta_all 0.560348 (flux (1, 0), k=(0,0)); Delta_00 1.657909 (k=(0,0) B1); k=0 levels [np.float64(1.65791), np.float64(1.84114), np.float64(2.87739), np.float64(3.22553), np.float64(3.35385)] ['B1', 'A1', 'A1', 'B2', 'A1']
+g2=2.0: E0=-1.291894  Delta_all 1.033216 (flux (1, 0), k=(0,0)); Delta_00 2.625455 (k=(0,0) A1); k=0 levels [np.float64(2.62545), np.float64(2.68203), np.float64(3.42838), np.float64(4.11551), np.float64(4.35137)] ['A1', 'B1', 'A1', 'B1', 'A1']
+g2=3.0: E0=-0.393139  Delta_all 2.034234 (flux (1, 0), k=(0,0)); Delta_00 4.128011 (k=(0,0) A1); k=0 levels [np.float64(4.12801), np.float64(4.46758), np.float64(4.96955), np.float64(5.8641), np.float64(5.91583)] ['A1', 'B1', 'A1', 'B1', 'A1']
+g2=5.0: E0=-0.085284  Delta_all 3.696419 (flux (1, 0), k=(0,0)); Delta_00 7.235141 (k=(0,0) A1); k=0 levels [np.float64(7.23514), np.float64(7.50021), np.float64(7.7937), np.float64(9.95857), np.float64(9.96104)] ['A1', 'B1', 'A1', 'B1', 'A1']
+g2=10.0: E0=-0.010666  Delta_all 7.493153 (flux (1, 0), k=(0,0)); Delta_00 14.860551 (k=(0,0) A1); k=0 levels [np.float64(14.86055), np.float64(15.00016), np.float64(15.14317), np.float64(19.99468), np.float64(19.9947)] ['A1', 'B1', 'A1', 'B1', 'A1']
+g2=1.0 flux (0, 0) k=(0,0): E0 in [-9.936224, -6.999978] E1 in [-9.936224, -6.116783] d=-7.8610 (split(t=0.385)) ['bisect', 'bisect'] 86s
+g2=1.0 flux (0, 0) k=(pi,0): E0 in [-inf, -4.338040] d=-7.8610 (split(t=0.385)) ['none(d<=E0_hi)'] 7s
+g2=1.0 flux (0, 0) k=(0,pi): E0 in [-inf, -4.338040] d=-7.8610 (split(t=0.385)) ['none(d<=E0_hi)'] 7s
+g2=1.0 flux (0, 0) k=(pi,pi): E0 in [-inf, -3.573570] d=-7.8610 (split(t=0.385)) ['none(d<=E0_hi)'] 11s
+g2=1.0 flux (1, 0) k=(0,0): E0 in [-inf, -6.563732] d=-8.7025 (split(t=0.695)) ['none(d<=E0_hi)'] 7s
+g2=1.0 flux (1, 0) k=(pi,0): E0 in [-inf, -4.403817] d=-8.7025 (split(t=0.695)) ['none(d<=E0_hi)'] 2s
+g2=1.0 flux (1, 0) k=(0,pi): E0 in [-inf, -4.579179] d=-8.7025 (split(t=0.695)) ['none(d<=E0_hi)'] 2s
+g2=1.0 flux (1, 0) k=(pi,pi): E0 in [-inf, -3.663088] d=-8.7025 (split(t=0.695)) ['none(d<=E0_hi)'] 1s
+g2=1.0 flux (1, 1) k=(0,0): E0 in [-inf, -6.204394] d=-8.7025 (split(t=0.695)) ['none(d<=E0_hi)'] 1s
+g2=1.0 flux (1, 1) k=(pi,0): E0 in [-inf, -4.340636] d=-8.7025 (split(t=0.695)) ['none(d<=E0_hi)'] 1s
+g2=1.0 flux (1, 1) k=(0,pi): E0 in [-inf, -4.340636] d=-8.7025 (split(t=0.695)) ['none(d<=E0_hi)'] 1s
+g2=1.0 flux (1, 1) k=(pi,pi): E0 in [-inf, -3.417567] d=-8.7025 (split(t=0.695)) ['none(d<=E0_hi)'] 1s
+g2=1.0 certified Delta_all in [-inf, 3.37249]
+g2=1.0 certified Delta_(0,0) in [-inf, 3.81944]
+g2=1.0 certified Delta_(0,0) k=0 in [-2.93625, 3.81944]
+g2=1.5 flux (0, 0) k=(0,0): E0 in [-2.866331, -2.820871] E1 in [-20.609274, -1.162961] d=-0.6574 (split(t=0.170)) ['std', 'std'] 18s
+g2=1.5 flux (0, 0) k=(pi,0): E0 in [-1.878095, 0.170719] d=-0.6574 (split(t=0.170)) ['bisect'] 35s
+g2=1.5 flux (0, 0) k=(0,pi): E0 in [-1.878095, 0.170719] d=-0.6574 (split(t=0.170)) ['bisect'] 35s
+g2=1.5 flux (0, 0) k=(pi,pi): E0 in [-1.572919, 0.420751] d=-0.6574 (split(t=0.170)) ['bisect'] 37s
+g2=1.5 flux (1, 0) k=(0,0): E0 in [-4.202545, -2.260523] d=-2.6767 (split(t=0.310)) ['bisect'] 5s
+g2=1.5 flux (1, 0) k=(pi,0): E0 in [-3.775299, -0.194151] d=-2.6767 (split(t=0.310)) ['bisect'] 1s
+g2=1.5 flux (1, 0) k=(0,pi): E0 in [-3.897369, -0.875716] d=-2.6767 (split(t=0.310)) ['bisect'] 1s
+g2=1.5 flux (1, 0) k=(pi,pi): E0 in [-3.653229, 0.278750] d=-2.6767 (split(t=0.310)) ['bisect'] 1s
+g2=1.5 flux (1, 1) k=(0,0): E0 in [-4.202545, -1.809450] d=-2.6767 (split(t=0.310)) ['bisect'] 1s
+g2=1.5 flux (1, 1) k=(pi,0): E0 in [-3.836334, -0.261789] d=-2.6767 (split(t=0.310)) ['bisect'] 1s
+g2=1.5 flux (1, 1) k=(0,pi): E0 in [-3.836334, -0.261789] d=-2.6767 (split(t=0.310)) ['bisect'] 1s
+g2=1.5 flux (1, 1) k=(pi,pi): E0 in [-3.653229, 0.450460] d=-2.6767 (split(t=0.310)) ['bisect'] 1s
+g2=1.5 certified Delta_all in [-17.7884, 0.605809]
+g2=1.5 certified Delta_(0,0) in [-17.7884, 1.70337]
+g2=1.5 certified Delta_(0,0) k=0 in [-17.7884, 1.70337]
+g2=2.0 flux (0, 0) k=(0,0): E0 in [-1.292267, -1.291894] E1 in [1.313621, 1.333560] d=4.3194 (split(t=0.095)) ['std', 'std'] 16s
+g2=2.0 flux (0, 0) k=(pi,0): E0 in [2.136015, 2.151536] d=4.3194 (split(t=0.095)) ['std'] 11s
+g2=2.0 flux (0, 0) k=(0,pi): E0 in [2.136015, 2.151536] d=4.3194 (split(t=0.095)) ['std'] 11s
+g2=2.0 flux (0, 0) k=(pi,pi): E0 in [2.189114, 2.191485] d=4.3194 (split(t=0.095)) ['std'] 12s
+g2=2.0 flux (1, 0) k=(0,0): E0 in [-0.653052, -0.258679] d=1.2737 (split(t=0.175)) ['std'] 6s
+g2=2.0 flux (1, 0) k=(pi,0): E0 in [0.357051, 1.874187] d=1.2737 (split(t=0.175)) ['bisect'] 1s
+g2=2.0 flux (1, 0) k=(0,pi): E0 in [-2.092439, 0.636425] d=1.2737 (split(t=0.175)) ['std'] 1s
+g2=2.0 flux (1, 0) k=(pi,pi): E0 in [0.479276, 2.135357] d=1.2737 (split(t=0.175)) ['bisect'] 1s
+g2=2.0 flux (1, 1) k=(0,0): E0 in [-1.636396, 0.436959] d=1.2737 (split(t=0.175)) ['std'] 1s
+g2=2.0 flux (1, 1) k=(pi,0): E0 in [0.295938, 1.795051] d=1.2737 (split(t=0.175)) ['bisect'] 1s
+g2=2.0 flux (1, 1) k=(0,pi): E0 in [0.295938, 1.795051] d=1.2737 (split(t=0.175)) ['bisect'] 1s
+g2=2.0 flux (1, 1) k=(pi,pi): E0 in [0.479276, 2.237154] d=1.2737 (split(t=0.175)) ['bisect'] 1s
+g2=2.0 certified Delta_all in [-0.800545, 1.03359]
+g2=2.0 certified Delta_(0,0) in [2.60552, 2.62583]
+g2=2.0 certified Delta_(0,0) k=0 in [2.60552, 2.62583]
+g2=3.0 flux (0, 0) k=(0,0): E0 in [-0.393140, -0.393139] E1 in [3.734795, 3.734872] d=12.0458 (split(t=0.045)) ['std', 'std'] 16s
+g2=3.0 flux (0, 0) k=(pi,0): E0 in [4.246442, 4.246493] d=12.0458 (split(t=0.045)) ['std'] 11s
+g2=3.0 flux (0, 0) k=(0,pi): E0 in [4.246442, 4.246493] d=12.0458 (split(t=0.045)) ['std'] 12s
+g2=3.0 flux (0, 0) k=(pi,pi): E0 in [4.256445, 4.256450] d=12.0458 (split(t=0.045)) ['std'] 14s
+g2=3.0 flux (1, 0) k=(0,0): E0 in [1.636134, 1.641095] d=7.0989 (split(t=0.080)) ['std'] 6s
+g2=3.0 flux (1, 0) k=(pi,0): E0 in [4.147015, 4.158591] d=7.0989 (split(t=0.080)) ['std'] 1s
+g2=3.0 flux (1, 0) k=(0,pi): E0 in [1.989831, 1.995296] d=7.0989 (split(t=0.080)) ['std'] 1s
+g2=3.0 flux (1, 0) k=(pi,pi): E0 in [4.226266, 4.242474] d=7.0989 (split(t=0.080)) ['std'] 1s
+g2=3.0 flux (1, 1) k=(0,0): E0 in [3.065496, 3.077739] d=7.0989 (split(t=0.080)) ['std'] 1s
+g2=3.0 flux (1, 1) k=(pi,0): E0 in [4.091574, 4.118534] d=7.0989 (split(t=0.080)) ['std'] 1s
+g2=3.0 flux (1, 1) k=(0,pi): E0 in [4.091574, 4.118534] d=7.0989 (split(t=0.080)) ['std'] 1s
+g2=3.0 flux (1, 1) k=(pi,pi): E0 in [4.259415, 4.276744] d=7.0989 (split(t=0.080)) ['std'] 1s
+g2=3.0 certified Delta_all in [2.02927, 2.03423]
+g2=3.0 certified Delta_(0,0) in [4.12793, 4.12801]
+g2=3.0 certified Delta_(0,0) k=0 in [4.12793, 4.12801]
+wrote results.csv

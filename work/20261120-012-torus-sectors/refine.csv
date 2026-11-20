@@ -1,0 +1,3 @@
+sector,momentum,g2,j_max,level,lo,hi_P,d_floor,method
+"(0,0)","(0,0)",1.5,1.5,0,-2.864551798,-2.815490321,-0.657391941,schur-exact-shell bisect; split floor t=0.170
+"(0,0)","(0,0)",1.5,1.5,1,-2.05148656,-1.104773045,-0.657391941,schur-exact-shell bisect; split floor t=0.170

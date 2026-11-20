@@ -1,0 +1,35 @@
+== 1. rerun vs 006 results.csv
+  plaq1        g2=  0.5 j_max= 2.0: Delta in [3.552015157, 3.887488096] d=5.431 (nested) max |diff| vs 006 = 1.03e-12
+  plaq1        g2=  1.0 j_max= 2.0: Delta in [3.269074076, 3.269534952] d=16.91 (nested) max |diff| vs 006 = 1.78e-15
+  plaq1        g2=  3.0 j_max= 2.0: Delta in [4.635625818, 4.635625818] d=52.48 (nested) max |diff| vs 006 = 1.78e-15
+  plaq1        g2= 10.0 j_max= 2.0: Delta in [15.00373274, 15.00373274] d=175 (nested) max |diff| vs 006 = 2.13e-14
+  plaq1        g2=  0.5 j_max= 4.0: Delta in [3.663549714, 3.663553671] d=22.27 (nested) max |diff| vs 006 = 0.00e+00
+  plaq1        g2=  1.0 j_max= 4.0: Delta in [3.269099186, 3.269099186] d=49.13 (nested) max |diff| vs 006 = 8.88e-16
+  plaq1        g2=  3.0 j_max= 4.0: Delta in [4.635625818, 4.635625818] d=148.5 (nested) max |diff| vs 006 = 0.00e+00
+  plaq1        g2= 10.0 j_max= 4.0: Delta in [15.00373274, 15.00373274] d=495 (nested) max |diff| vs 006 = 0.00e+00
+  plaq1        g2=  0.5 j_max= 8.0: Delta in [3.663550052, 3.663550052] d=72.75 (crude) max |diff| vs 006 = 5.11e-15
+  plaq1        g2=  1.0 j_max= 8.0: Delta in [3.269099186, 3.269099186] d=160.4 (nested) max |diff| vs 006 = 7.55e-15
+  plaq1        g2=  3.0 j_max= 8.0: Delta in [4.635625818, 4.635625818] d=484.5 (nested) max |diff| vs 006 = 4.80e-14
+  plaq1        g2= 10.0 j_max= 8.0: Delta in [15.00373274, 15.00373274] d=1615 (nested) max |diff| vs 006 = 1.07e-13
+  ladder2      g2=  1.0 j_max= 1.0: Delta in [-24.63547923, 3.946474502] d=0.3516 (nested) max |diff| vs 006 = 2.72e+01
+  ladder2      g2=  3.0 j_max= 1.0: Delta in [4.609127815, 4.611721225] d=17.88 (nested) max |diff| vs 006 = 1.25e-09
+  ladder2      g2= 10.0 j_max= 1.0: Delta in [15.00297125, 15.00297187] d=60 (nested) max |diff| vs 006 = 3.55e-15
+  ladder2      g2=  1.0 j_max= 2.0: Delta in [3.040656863, 3.07295931] d=5 (crude) max |diff| vs 006 = 1.79e-02
+  ladder2      g2=  3.0 j_max= 2.0: Delta in [4.609228488, 4.609228505] d=38.29 (nested) max |diff| vs 006 = 3.03e-10
+  ladder2      g2= 10.0 j_max= 2.0: Delta in [15.00297126, 15.00297126] d=130 (nested) max |diff| vs 006 = 2.49e-14
+  ladder2      g2=  1.0 j_max= 4.0: Delta in [3.062013277, 3.062013288] d=19 (crude) max |diff| vs 006 = 4.39e-09
+  periodic2x2  g2=  3.0 j_max= 0.5: Delta in [-inf, 4.746849455] d=0.6667 (crude) max |diff| vs 006 = 0.00e+00
+  periodic2x2  g2=  5.0 j_max= 0.5: Delta in [6.534097791, 7.324376636] d=8.12 (nested) max |diff| vs 006 = 2.03e-04
+  periodic2x2  g2= 10.0 j_max= 0.5: Delta in [14.83745187, 14.87179987] d=19.83 (nested) max |diff| vs 006 = 1.39e-02
+  periodic2x2  g2=  3.0 j_max= 1.0: Delta in [-6.778605846, 4.144044215] d=5.917 (crude) max |diff| vs 006 = 1.09e+01
+  periodic2x2  g2=  5.0 j_max= 1.0: Delta in [7.226372308, 7.235436613] d=15.55 (crude) max |diff| vs 006 = 8.43e-03
+  periodic2x2  g2= 10.0 j_max= 1.0: Delta in [14.86050086, 14.8605533] d=35.9 (crude) max |diff| vs 006 = 4.84e-05
+== 2. cross-j_max consistency of all 006 rows (intervals must pairwise intersect)
+  inconsistencies: 0
+== 3. plaquette float bounds vs exact rational bounds (positive slack = sound)
+  smallest slack 2.45e-13 at g2=10.0 j_max=1.0 E0_lo
+  smallest slack 3.76e-13 at g2=3.0 j_max=2.0 E0_lo
+  smallest slack 4.16e-13 at g2=3.0 j_max=2.0 E1_lo
+  smallest slack 5.29e-13 at g2=3.0 j_max=2.0 E0_hi
+  smallest slack 6.13e-13 at g2=10.0 j_max=1.0 E1_lo
+done in 3.0s

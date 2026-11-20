@@ -1,0 +1,63 @@
+== C4-a: N=2 pendula, Bloch fiber of T_total = T1 T2 only (theta on total winding) ==
+Fiber T_total = e^{i theta} decomposes further over T1 = e^{i phi}, phi continuous;
+its spectrum is the union over phi of e_a(phi) + e_b(theta - phi).
+ V0=1.0 theta=0.000: lowest band of fiber = [0.92987030, 0.93520427] (width 5.334e-03, continuous => no isolated ground state, in-sector gap 0); next band starts 1.757353
+ V0=1.0 theta=3.142: lowest band of fiber = [0.93252256, 0.93253729] (width 1.473e-05, continuous => no isolated ground state, in-sector gap 0); next band starts 1.754686
+ V0=4.0 theta=0.000: lowest band of fiber = [1.93533013, 1.93533555] (width 5.420e-06, continuous => no isolated ground state, in-sector gap 0); next band starts 3.800759
+ V0=4.0 theta=3.142: lowest band of fiber = [1.93533284, 1.93533284] (width 9.204e-12, continuous => no isolated ground state, in-sector gap 0); next band starts 3.800757
+ Per-copy fiber (T1 = T2 = e^{i theta}, the model used in 008 A4) instead has gap = single-well gap.
+
+== C4-b: theta-curvature sum rule gives only an UPPER bound on the fiber gap ==
+ E0'' = <H''> - 2 sum_n |<n|H'|0>|^2/(E_n-E_0) >= <H''> - 2 Var0(H')/Delta  =>  Delta <= 2 Var0(H')/(<H''> - E0'')
+ V0= 0.05 theta=0.000: Delta=0.50207  sum-rule upper bound=0.50210  holds=True
+ V0= 0.05 theta=1.571: Delta=0.25527  sum-rule upper bound=0.27355  holds=True
+ V0= 1.00 theta=0.000: Delta=0.87842  sum-rule upper bound=0.88228  holds=True
+ V0= 1.00 theta=1.571: Delta=0.84798  sum-rule upper bound=0.85873  holds=True
+ V0= 4.00 theta=0.000: Delta=1.86557  sum-rule upper bound=1.86830  holds=True
+ V0= 4.00 theta=1.571: Delta=1.86550  sum-rule upper bound=1.86825  holds=True
+ V0= 8.00 theta=0.000: Delta=2.69713  sum-rule upper bound=2.69887  holds=True
+ V0= 8.00 theta=1.571: Delta=2.69713  sum-rule upper bound=2.69886  holds=True
+
+== C7-a: adding V >= 0 can lower or raise the gap (Neumann -d^2/dx^2 on [-1,1], D = 2) ==
+ V=0                          gap = 2.46740   (PW pi^2/D^2 = 2.46740)
+ barrier 2000*1{|x|<0.05}     gap = 0.00550   (PW pi^2/D^2 = 2.46740)
+ harmonic 50 x^2              gap = 13.68860   (PW pi^2/D^2 = 2.46740)
+
+== C7-b: Vmag non-convex at arbitrarily small |A| inside Omega, any L (constant fields) ==
+ L=3: chord through 0 along (A1=e1, A2=e2 const) is [-25.456, 25.456]; point |A|=1.273 (inside Omega); analytic restricted-Hessian min = -x^2 = -3.000e-02; full numeric Hessian min = -3.014e-02
+ L=3: chord through 0 along (A1=e1, A2=e2 const) is [-25.456, 25.456]; point |A|=5.091 (inside Omega); analytic restricted-Hessian min = -x^2 = -4.800e-01; full numeric Hessian min = -4.805e-01
+ L=4: chord through 0 along (A1=e1, A2=e2 const) is [-22.627, 22.627]; point |A|=1.131 (inside Omega); analytic restricted-Hessian min = -x^2 = -1.000e-02; full numeric Hessian min = nan
+ L=4: chord through 0 along (A1=e1, A2=e2 const) is [-22.627, 22.627]; point |A|=4.525 (inside Omega); analytic restricted-Hessian min = -x^2 = -1.600e-01; full numeric Hessian min = nan
+ Analytic: on constant fields Vmag = (V/2)|A1 x A2|^2; with A1 = x e1, A2 = y e2 in unit-norm coords the 2x2 Hessian at x=y has eigenvalues 3x^2, -x^2. A negative eigenvalue of a principal restriction implies one of the full Hessian.
+
+== C7-c: d=3 diameter lower bounds, more restarts, L = 3..6 ==
+ L=3 V=27 restarts=12 D_lower=72.816 D^2/V=196.38 D/L=24.272 [5s]
+ L=4 V=64 restarts=8 D_lower=91.059 D^2/V=129.56 D/L=22.765 [17s]
+ L=5 V=125 restarts=4 D_lower=120.411 D^2/V=115.99 D/L=24.082 [54s]
+ L=6 V=216 restarts=3 D_lower=150.411 D^2/V=104.74 D/L=25.068 [319s]
+ fit D_lower ~ L^1.055  (D^2 ~ L^2.11; 008 claimed D^2 between L^2 and L^3)
+  local exponent L=3->4: 0.777
+  local exponent L=4->5: 1.252
+  local exponent L=5->6: 1.220
+
+== C7-d: kinetic PW quantity / m0++ (SU(2) 4D m/sqrt(sigma) = 3.781 from data/, AT2021), L sqrt(sigma) = 3 ==
+ Measured lattices only (Omega diameters, noncompact discretisation):
+  N_s=3 g^2=1.0: <= 2.462e-04
+  N_s=3 g^2=2.0: <= 4.923e-04
+  N_s=3 g^2=4.0: <= 9.846e-04
+  N_s=4 g^2=1.0: <= 2.099e-04
+  N_s=4 g^2=2.0: <= 4.197e-04
+  N_s=4 g^2=4.0: <= 8.395e-04
+  N_s=5 g^2=1.0: <= 1.500e-04
+  N_s=5 g^2=2.0: <= 3.001e-04
+  N_s=5 g^2=4.0: <= 6.001e-04
+  N_s=6 g^2=1.0: <= 1.154e-04
+  N_s=6 g^2=2.0: <= 2.308e-04
+  N_s=6 g^2=4.0: <= 4.615e-04
+ Extrapolation with fitted D ~ L^1.05 anchored at the largest L (not a bound):
+  N_s=8 g^2=2: ~ 1.677e-04
+  N_s=16 g^2=2: ~ 7.769e-05
+  N_s=32 g^2=2: ~ 3.600e-05
+ Continuum T^3, Lambda (constant-abelian chord, 008 (i)): Delta_PW <= g^2/(24 L) => ratio <= g^2/(24*3*3.781) = 3.673e-03 g^2
+
+total time 399s
