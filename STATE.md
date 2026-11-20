@@ -1,42 +1,26 @@
 # State
 
-Iteration: 6 (2026-11-20)
+Iteration: 7 (2026-11-20). **Loop stopped: Result C reached. See `RESULT.md`.**
 
 ## Status
-Iteration 6 done. All technique families on the prompt's list are assessed and every claim C1-C13 has passed a skeptic. No published electron-level glueball model meets Result B (pre- and post-2008, 12 models checked). A candidate Result C draft exists: `work/20261120-025-resultC-draft/claim.md` with `number_map.csv`. Not yet RESULT.md: the stop conditions still need (1) a fresh skeptic that attacks the consolidated claim file for one full iteration and fails, and (2) the full `python -m src.reproduce` run end to end.
+`RESULT.md` written: Result C, partial obstruction. Every electron-level technique examined proves a gap only where Yang-Mills already has one; each failure is shown by explicit calculation or counterexample for the route as instantiated; the Gribov/Payne-Weinberger route is open on the Moncrief/Mondal log-concavity hypothesis; SDP/bootstrap lower-bound hierarchies were not examined. Nothing claims the Millennium problem solved or a continuum gap proved.
 
-Reproduce: `python -m src.reproduce --quick` passes (38 s, 29/29 quick numbers matched, rechecked by the overseer). Full mode untested end to end; estimated 2-2.5 h at 1 thread (019 `fit.py` alone ~75 min). 7 numbers are "recorded" (checked against committed files, not regenerated: torus j_max = 2 builds ~5 GB, rotor certification > 30 min).
+Stop conditions:
+- Literature check: no published result contradicts any row (work 029, searches 2020-2026); no published electron-level glueball model meets Result B (12 models, works 013, 019, 022).
+- Skeptic: consolidated claim attacked by a fresh technical skeptic (028) and literature skeptic (029) for one iteration; both "survives with required changes", all applied (030). Every claim C1-C13 passed its own skeptic.
+- Reproducible: full `python -m src.reproduce` 69/69 numbers (work 027); `cd lean && lake build` passes with no sorry (5500 jobs).
 
-Lean: `lake build` passes (5500 jobs), no sorry, axioms propext/Classical.choice/Quot.sound only. Proved: C2 strong-coupling arithmetic; C4 abstract Bloch steps; C5 Schur lemma, E0 version and k-eigenvalue count (via the easy half of Courant-Fischer, `lean/MassGap/MinMax.lean`). Not formalized: physics inputs (matrix elements, floors), full Courant-Fischer.
-
-Compute: CPUs 9-11 via `tools/pin.py`; repin found nothing to fix.
+Compute: CPUs 9-11 via `tools/pin.py`. Incident this iteration: a skeptic's `--quick` run overlapped the full run and deleted five artifact folders; repaired by rerun (027), and `src/reproduce.py` now takes a lock.
 
 ## Settled
 - Data verified (iteration 2). Headline (Athenodorou-Teper): 4D SU(3) m(2++)/m(0++) = 1.437(11), m(0-+)/m(0++) = 1.549(16), m(0++)/sqrt(sigma) = 3.405(21); 4D SU(inf) 1.497(8), 1.534(11), 3.072(14); 2+1D SU(3) 1.658(5), 2.114(10), 4.368(7).
-- Claims C1-C13 skeptic-passed (see CLAIMS.md). Certified lower bounds in C5, C9 rechecked by inertia counts (work 024); C11 partly.
-- Correction logged: C5 ladder gap at g^2 = 1 is 3.0620133 (006 README had a transcription error 3.0620125; results.csv is correct).
-- Result B: none of the 12 models checked (7 pre-2008, 5 post-2008 incl. functional Bethe-Salpeter) fits within lattice errors. Best post-2008: functional BSE (Huber-Fischer-Sanchis-Alepuz), 0 fitted parameters, 1/9 within 1 lattice sigma, chi^2/n 104 (work 022).
+- Claims C1-C13 (CLAIMS.md), consolidated in `work/20261120-025-resultC-draft/claim.md`.
 
-## Lines of attack: all assessed (see claim draft table)
-1. Bound-state ED + certified bounds (C1-C3, C5, C9): finite-volume numerics; fails at weak coupling (truncation floor).
-2. Spectral-gap methods AKLT/Knabe/martingale/RK + Bakry-Emery (C6, C8, C11): strong coupling only or not new.
-3. Configuration space / Gribov / Payne-Weinberger (C7): obstruction.
-4. theta/Bloch (C4): obstruction.
-5. Interaction-driven (C10): obstruction.
-6. Stepping stones (C11): toolkit fails on the O(3) chain for the same reasons.
-7. Quantum chemistry (C13): no lower-bound machinery beyond certified ED + Schur.
-8. Result B (C12 + work 022): not met.
-
-## Open (listed in the draft as open, not blocking)
-- Explicit beta-dependence of the 2D Langevin gap (C8 conjecture Theta(1)).
-- Rigorous 1/N mass generation for 2D CP^{N-1}.
-- FBSE N-dependence and C = - glueballs (not computed in the literature).
-- A weak-coupling comparison operator for Temple/Schur (none known, none ruled out).
-- Goepfert-Mack full text (photon mass vs confinement only).
-- Unvetted claimed full proofs (2506.00284, 2611.11534, Zenodo) remain unrelied on.
-
-## Next planned tasks (iteration 7)
-- Result-C skeptic A (technical): fresh agent given only claim.md and the repo; tries to break every row (hidden assumptions, overstated scope, finite-size effects, bounds that depend on lattice spacing, misread data) for one full iteration.
-- Result-C skeptic B (literature/novelty): checks the literature-check section and that every "blocked" statement is not contradicted by a published result.
-- Full reproduce run in the background (`python -m src.reproduce`, pinned, logged), ~2.5 h.
-- If both skeptics fail to break it and full reproduce passes: write RESULT.md, commit, push, notify, stop the loop.
+## Open directions (if the program is restarted)
+1. SDP/bootstrap lower bounds for a gauge-theory gap (variational 2-RDM, lattice-YM positivity bootstrap, gap bootstraps; references in `literature/09-resultC-additions.md`). The leading open route: needs neither frustration-freeness nor a truncation floor.
+2. Moncrief/Mondal log-concavity of J psi_0^2 on the fundamental modular region (would reopen row 3).
+3. Explicit beta-dependence of the 2D Langevin / RK gap (C8).
+4. Rigorous 1/N mass generation for 2D CP^{N-1}.
+5. Comparison with arXiv:2611.11534 (certified KS bounds, unrefereed).
+6. Interval-arithmetic certification; Lanczos-free rotor L >= 4 and AKLT n = 12 inputs.
+7. Not examined: Weinstein bounds, Hardy inequalities, Lieb-Schultz-Mattis/anomaly arguments, Feynman / Karabali-Kim-Nair 2+1D analysis, any 3+1D or SU(3) Hamiltonian computation.

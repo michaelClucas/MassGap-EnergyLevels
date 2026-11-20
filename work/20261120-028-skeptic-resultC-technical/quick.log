@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "<repo>\src\reproduce.py", line 194, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "<repo>\src\reproduce.py", line 187, in main
+    prepare(tasks, o.quick)
+    ~~~~~~~^^^^^^^^^^^^^^^^
+  File "<repo>\src\reproduce.py", line 113, in prepare
+    shutil.rmtree(dst)
+    ~~~~~~~~~~~~~^^^^^
+  File "<python>\Lib\shutil.py", line 852, in rmtree
+    _rmtree_impl(path, dir_fd, onexc)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "<python>\Lib\shutil.py", line 705, in _rmtree_unsafe
+    onexc(os.unlink, fullname, err)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>\Lib\shutil.py", line 701, in _rmtree_unsafe
+    os.unlink(fullname)
+    ~~~~~~~~~^^^^^^^^^^
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: '<repo>\\artifacts\\20261120-010-skeptic-certify-hff\\hff_checks.log'

@@ -1,0 +1,61 @@
+=== 20261120-002-glueball-data/ratios.py 
+    exit 0, 0 s, log artifacts/20261120-002-glueball-data/ratios.log
+=== 20261120-004-data-verify/verify_ratios.py 
+    exit 0, 0 s, log artifacts/20261120-004-data-verify/verify_ratios.log
+=== 20261120-005-skeptic-ks-ed/plaq_independent.py 
+    exit 0, 3 s, log artifacts/20261120-005-skeptic-ks-ed/plaq_independent.log
+=== 20261120-007-frustration-free-gauge/checks.py 
+    exit 0, 5 s, log artifacts/20261120-007-frustration-free-gauge/checks.log
+=== 20261120-008-theta-obstruction-gribov-scope/theta_bands.py 
+    exit 0, 2 s, log artifacts/20261120-008-theta-obstruction-gribov-scope/theta_bands.log
+=== 20261120-010-skeptic-certify-hff/hff_checks.py 
+    exit 0, 42 s, log artifacts/20261120-010-skeptic-certify-hff/hff_checks.log
+=== 20261120-014-line5-interaction-gaps/interaction_gaps.py 
+    exit 0, 3 s, log artifacts/20261120-014-line5-interaction-gaps/interaction_gaps.log
+=== 20261120-016-skeptic-c8-c9/check_c9.py 
+    exit 0, 14 s, log artifacts/20261120-016-skeptic-c8-c9/check_c9.log
+=== 20261120-019-skeptic-c12/fit.py 
+    exit 0, 470 s, log artifacts/20261120-019-skeptic-c12/fit.log
+=== 20261120-019-skeptic-c12/compare.py 
+    exit 0, 3 s, log artifacts/20261120-019-skeptic-c12/compare.log
+=== 20261120-019-skeptic-c12/rank.py 
+    exit 0, 0 s, log artifacts/20261120-019-skeptic-c12/rank.log
+=== 20261120-022-post2008-boundstate-glueballs/score.py 
+    exit 0, 3 s, log artifacts/20261120-022-post2008-boundstate-glueballs/score.log
+=== 20261120-003-su2-ks-ed/validate.py 
+    exit 0, 25 s, log artifacts/20261120-003-su2-ks-ed/validate.log
+=== 20261120-003-su2-ks-ed/run_ed.py 
+    exit 0, 83 s, log artifacts/20261120-003-su2-ks-ed/run_ed.log
+=== 20261120-006-certified-gap-bounds/certify_gaps.py 
+    exit 0, 67 s, log artifacts/20261120-006-certified-gap-bounds/certify_gaps.log
+=== 20261120-010-skeptic-certify-hff/plaq_exact.py 
+    exit 0, 2 s, log artifacts/20261120-010-skeptic-certify-hff/plaq_exact.log
+=== 20261120-016-skeptic-c8-c9/check_c8.py ABC
+    exit 0, 11 s, log artifacts/20261120-016-skeptic-c8-c9/check_c8_ABC.log
+=== 20261120-019-skeptic-c12/limits.py 
+    exit 0, 27 s, log artifacts/20261120-019-skeptic-c12/limits.log
+=== 20261120-015-line6-rotor-chain/sc_series.py 
+    exit 0, 117 s, log artifacts/20261120-015-line6-rotor-chain/sc_series.log
+=== 20261120-015-line6-rotor-chain/bakry_emery.py 
+    exit 0, 21 s, log artifacts/20261120-015-line6-rotor-chain/bakry_emery.log
+=== 20261120-015-line6-rotor-chain/spin1.py 
+    exit 0, 66 s, log artifacts/20261120-015-line6-rotor-chain/spin1.log
+=== 20261120-020-quantum-chemistry-methods/qc_methods.py 
+    exit 0, 17 s, log artifacts/20261120-020-quantum-chemistry-methods/qc_methods.log
+=== 20261120-023-skeptic-c13/skeptic_c13.py 
+    exit 0, 327 s, log artifacts/20261120-023-skeptic-c13/skeptic_c13.log
+=== 20261120-009-skeptic-theta-gribov/skeptic_checks.py 
+    exit 0, 322 s, log artifacts/20261120-009-skeptic-theta-gribov/skeptic_checks.log
+=== 20261120-018-skeptic-c10-c11/skeptic_checks.py 
+    exit 0, 469 s, log artifacts/20261120-018-skeptic-c10-c11/skeptic_checks.log
+=== runs done in 2100 s; failed: none
+=== number check (full): 61 ok, 8 failed, 0 not in this mode
+    FAIL N1 4D SU(3) m(2++)/m(0++): '1.437(0.011)' not in artifacts/20261120-002-glueball-data/ratios.log (file missing)
+    FAIL N2 4D SU(3) m(0-+)/m(0++): '1.549(0.016)' not in artifacts/20261120-002-glueball-data/ratios.log (file missing)
+    FAIL N3 4D SU(3) m(0++)/sqrt(sigma): '3.405(0.021)' not in artifacts/20261120-002-glueball-data/ratios.log (file missing)
+    FAIL N4 4D SU(inf) m(0++)/sqrt(sigma): '3.072(0.014)' not in artifacts/20261120-002-glueball-data/ratios.log (file missing)
+    FAIL N5 2+1D SU(3) m(0++)/sqrt(sigma): '4.368(0.007)' not in artifacts/20261120-002-glueball-data/ratios.log (file missing)
+    FAIL N8 ladder certified Delta g2=1: '3.062013281417123' not in artifacts/20261120-006-certified-gap-bounds/results.csv
+    FAIL N9 plaquette strong-coupling series: 'Gap = 3/2 g^2 + 56/15/g^6 + -20144/3375/g^14' not in artifacts/20261120-005-skeptic-ks-ed/plaq_independent.log (file missing)
+    FAIL N31 extensivity N=1e6 wells: 'N=1000000 bandwidth=2.7102e+00 fiber_gap_min=1.86542 indirect=<0 (bands overlap)' not in artifacts/20261120-008-theta-obstruction-gribov-scope/theta_summary.txt (file missing)
+exit=1

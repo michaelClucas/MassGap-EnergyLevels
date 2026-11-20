@@ -1,0 +1,12 @@
+=== 20261120-002-glueball-data/ratios.py 
+    exit 0, 0 s, log artifacts/20261120-002-glueball-data/ratios.log
+=== 20261120-004-data-verify/verify_ratios.py 
+    exit 0, 0 s, log artifacts/20261120-004-data-verify/verify_ratios.log
+=== 20261120-005-skeptic-ks-ed/plaq_independent.py 
+    exit 0, 3 s, log artifacts/20261120-005-skeptic-ks-ed/plaq_independent.log
+=== 20261120-007-frustration-free-gauge/checks.py 
+    exit 0, 6 s, log artifacts/20261120-007-frustration-free-gauge/checks.log
+=== 20261120-008-theta-obstruction-gribov-scope/theta_bands.py 
+    exit 0, 2 s, log artifacts/20261120-008-theta-obstruction-gribov-scope/theta_bands.log
+=== runs done in 12 s; failed: none
+=== number check (full): 7 ok, 0 failed, 62 not in this mode

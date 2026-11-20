@@ -20,6 +20,9 @@ How it works
   artifacts/<folder>/ (modes quick/both/full), or in the committed file (mode "recorded": the
   producing run is too large to repeat here, see the row's note). The run ends with a
   pass/fail count and exits nonzero on any failure.
+- Only one run at a time: main() creates artifacts/.reproduce.lock exclusively (PID inside) and
+  removes it at exit; a second run exits with code 2. A stale lock from a killed run must be
+  deleted by hand after checking that the PID is gone.
 - Full mode runs everything in TASKS; quick mode runs the tasks marked "quick". Full-mode
   runtime is stated in work/20261120-025-resultC-draft/README.md.
 
@@ -170,6 +173,41 @@ def check(quick, only):
     return bad
 
 
+LOCK = SANDBOX / ".reproduce.lock"
+
+
+def acquire_lock():
+    """Create artifacts/.reproduce.lock exclusively; return False if another run holds it.
+
+    Quick and full mode share artifacts/ and prepare() deletes task folders there, so two
+    overlapping runs corrupt each other. A lock left by a killed run is not removed
+    automatically: the message names the PID so the user can check and delete it.
+    """
+    SANDBOX.mkdir(exist_ok=True)
+    try:
+        fd = os.open(LOCK, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+    except FileExistsError:
+        try:
+            info = LOCK.read_text(encoding="utf-8").strip()
+        except OSError:
+            info = "(unreadable)"
+        print(f"=== another reproduce run holds {LOCK.relative_to(ROOT).as_posix()}: {info}\n"
+              f"    Wait for it to finish. If no process with that PID is running (stale lock\n"
+              f"    from a killed run), delete {LOCK.relative_to(ROOT).as_posix()} and rerun.",
+              file=sys.stderr, flush=True)
+        return False
+    with os.fdopen(fd, "w", encoding="utf-8") as fh:
+        fh.write(f"pid {os.getpid()} started {time.strftime('%Y-%m-%d %H:%M:%S')} args {' '.join(sys.argv[1:])}\n")
+    return True
+
+
+def release_lock():
+    try:
+        LOCK.unlink()
+    except FileNotFoundError:
+        pass
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--quick", action="store_true")
@@ -182,11 +220,17 @@ def main():
         for folder, script, args, mode, inputs in TASKS:
             print(f"{mode:5s} {folder}/{script} {args} inputs={inputs}")
         return 0
-    failed = []
-    if not o.check_only:
-        prepare(tasks, o.quick)
-        failed = run(tasks, o.quick)
-    bad = check(o.quick, o.only)
+    # --check-only also locks: it would read half-written outputs of a running run
+    if not acquire_lock():
+        return 2
+    try:
+        failed = []
+        if not o.check_only:
+            prepare(tasks, o.quick)
+            failed = run(tasks, o.quick)
+        bad = check(o.quick, o.only)
+    finally:
+        release_lock()
     return 1 if (failed or bad) else 0
 
 

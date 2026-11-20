@@ -35,3 +35,4 @@ Summaries are from abstracts (fetched for most recent papers) and from standard 
 - BCS vacuum for gluons and glueballs from it: Szczepaniak-Swanson-Ji-Cotanch hep-ph/9511422. Gap equation for a gluon mass: Cornwall 1982, Verschelde et al. hep-th/0105018.
 - Glueballs as 1D Schrödinger bound states: holographic models (Csáki et al. hep-th/9806021, Brower-Mathur-Tan hep-th/0003115).
 - Landau-level + Zeeman instability of gluons in a background field: Nielsen-Olesen 1978.
+- [09-resultC-additions.md](09-resultC-additions.md): RDM/SDP/bootstrap lower bounds, AKLT certified bound, partial and claimed proofs (from the Result-C literature skeptic).
