@@ -1,0 +1,136 @@
+  0.4s
+ladder2 j=1.0 g2=0.5 floor d (nested, Q1): lo=-6.992379789 dim=752 count in [0,1] allowed 0 -> verified at claimed - 8.6e-09 (r=4.6e-10)
+ladder2 j=1.0 g2=0.5 E0: lo=-27.35875962 dim=11 count in [0,0] allowed 0 -> verified (r=4.8e-13)
+  3.0s
+ladder2 j=1.0 g2=1.0 floor d (nested, Q1): lo=3.379020335 dim=752 count in [0,1] allowed 0 -> verified at claimed - 1.4e-08 (r=7.5e-10)
+ladder2 j=1.0 g2=1.0 E0: lo=-3.420196962 dim=11 count in [0,0] allowed 0 -> verified (r=1.5e-13)
+ladder2 j=1.0 g2=1.0 E1: lo=-0.6049472937 dim=11 count in [1,1] allowed 1 -> verified (r=1.3e-13)
+  5.1s
+ladder2 j=1.0 g2=1.5 floor d (nested, Q1): lo=8.090749642 dim=752 count in [0,1] allowed 0 -> verified at claimed - 2.1e-08 (r=1.1e-09)
+ladder2 j=1.0 g2=1.5 E0: lo=-1.348834863 dim=11 count in [0,0] allowed 0 -> verified (r=1.4e-13)
+ladder2 j=1.0 g2=1.5 E1: lo=1.633399053 dim=11 count in [1,1] allowed 1 -> verified (r=9.6e-14)
+  2.8s
+ladder2 j=1.0 g2=2.0 floor d (nested, Q1): lo=11.60249784 dim=752 count in [0,1] allowed 0 -> verified at claimed - 2.8e-08 (r=1.4e-09)
+ladder2 j=1.0 g2=2.0 E0: lo=-0.6278626645 dim=11 count in [0,0] allowed 0 -> verified (r=1.4e-13)
+ladder2 j=1.0 g2=2.0 E1: lo=2.725047622 dim=11 count in [1,1] allowed 1 -> verified (r=1.1e-13)
+  7.2s
+ladder2 j=1.0 g2=3.0 floor d (nested, Q1): lo=17.88051039 dim=752 count in [0,1] allowed 0 -> verified at claimed - 4.2e-08 (r=2.1e-09)
+ladder2 j=1.0 g2=3.0 E0: lo=-0.1950056428 dim=11 count in [0,0] allowed 0 -> verified (r=2.0e-13)
+ladder2 j=1.0 g2=3.0 E1: lo=4.414149479 dim=11 count in [1,1] allowed 1 -> verified (r=1.5e-13)
+  4.3s
+ladder2 j=1.0 g2=5.0 floor d (nested, Q1): lo=29.97410765 dim=752 count in [0,1] allowed 0 -> verified at claimed - 7.0e-08 (r=3.5e-09)
+ladder2 j=1.0 g2=5.0 E0: lo=-0.04259420016 dim=11 count in [0,0] allowed 0 -> verified (r=3.3e-13)
+ladder2 j=1.0 g2=5.0 E1: lo=7.481154077 dim=11 count in [1,1] allowed 1 -> verified (r=2.3e-13)
+  4.7s
+ladder2 j=1.0 g2=10.0 floor d (nested, Q1): lo=59.996762 dim=752 count in [0,1] allowed 0 -> verified at claimed - 1.4e-07 (r=7.0e-09)
+ladder2 j=1.0 g2=10.0 E0: lo=-0.005332765188 dim=11 count in [0,0] allowed 0 -> verified (r=6.7e-13)
+ladder2 j=1.0 g2=10.0 E1: lo=14.99763848 dim=11 count in [1,1] allowed 1 -> verified (r=4.6e-13)
+  6.7s
+  1.0s
+ladder2 j=2.0 g2=0.5 floor d (nested, Q1): lo=-2.454332817 dim=721 count in [0,1] allowed 0 -> verified at claimed - 7.4e-09 (r=5.9e-10)
+ladder2 j=2.0 g2=0.5 E0: lo=-10.98764025 dim=42 count in [0,0] allowed 0 -> verified (r=2.2e-12)
+ladder2 j=2.0 g2=0.5 E1: lo=-8.70145901 dim=42 count in [1,1] allowed 1 -> verified (r=3.4e-12)
+  5.6s
+ladder2 j=2.0 g2=1.0 floor d (nested, Q1): lo=10.89427989 dim=721 count in [0,1] allowed 0 -> verified at claimed - 1.3e-08 (r=6.3e-10)
+ladder2 j=2.0 g2=1.0 E0: lo=-3.348256132 dim=42 count in [0,0] allowed 0 -> verified (r=2.1e-12)
+ladder2 j=2.0 g2=1.0 E1: lo=-0.287798039 dim=42 count in [1,1] allowed 1 -> verified (r=1.8e-12)
+  6.1s
+ladder2 j=2.0 g2=1.5 floor d (nested, Q1): lo=18.80898159 dim=721 count in [0,1] allowed 0 -> verified at claimed - 1.9e-08 (r=9.3e-10)
+ladder2 j=2.0 g2=1.5 E0: lo=-1.347233378 dim=42 count in [0,0] allowed 0 -> verified (r=2.5e-12)
+ladder2 j=2.0 g2=1.5 E1: lo=1.650843541 dim=42 count in [1,1] allowed 1 -> verified (r=2.1e-12)
+  9.1s
+ladder2 j=2.0 g2=2.0 floor d (nested, Q1): lo=25.70317304 dim=721 count in [0,1] allowed 0 -> verified at claimed - 2.5e-08 (r=1.2e-09)
+ladder2 j=2.0 g2=2.0 E0: lo=-0.6277935328 dim=42 count in [0,1] allowed 0 -> verified at claimed - 5.5e-11 (r=2.8e-12)
+ladder2 j=2.0 g2=2.0 E1: lo=2.726790841 dim=42 count in [1,1] allowed 1 -> verified (r=2.4e-12)
+  8.5s
+ladder2 j=2.0 g2=3.0 floor d (nested, Q1): lo=38.91148144 dim=721 count in [0,1] allowed 0 -> verified at claimed - 3.7e-08 (r=1.8e-09)
+ladder2 j=2.0 g2=3.0 E0: lo=-0.1950049303 dim=42 count in [0,1] allowed 0 -> verified at claimed - 8.1e-11 (r=4.0e-12)
+ladder2 j=2.0 g2=3.0 E1: lo=4.414223558 dim=42 count in [1,2] allowed 1 -> verified at claimed - 7.1e-11 (r=3.6e-12)
+  10.5s
+ladder2 j=2.0 g2=5.0 floor d (nested, Q1): lo=64.98085404 dim=721 count in [0,1] allowed 0 -> verified at claimed - 6.2e-08 (r=3.1e-09)
+ladder2 j=2.0 g2=5.0 E0: lo=-0.04259419772 dim=42 count in [0,1] allowed 0 -> verified at claimed - 1.3e-10 (r=6.7e-12)
+ladder2 j=2.0 g2=5.0 E1: lo=7.481155932 dim=42 count in [1,2] allowed 1 -> verified at claimed - 1.2e-10 (r=5.9e-12)
+  9.6s
+ladder2 j=2.0 g2=10.0 floor d (nested, Q1): lo=129.9976063 dim=721 count in [0,1] allowed 0 -> verified at claimed - 1.2e-07 (r=6.2e-09)
+ladder2 j=2.0 g2=10.0 E0: lo=-0.005332765205 dim=42 count in [0,1] allowed 0 -> verified at claimed - 2.7e-10 (r=1.3e-11)
+ladder2 j=2.0 g2=10.0 E1: lo=14.9976385 dim=42 count in [1,2] allowed 1 -> verified at claimed - 2.4e-10 (r=1.2e-11)
+  9.4s
+  0.1s
+ladder2 j=4.0 g2=0.5 E0: lo=-10.69088079 dim=215 count in [0,0] allowed 0 -> verified (r=4.3e-11)
+ladder2 j=4.0 g2=0.5 E1: lo=-7.400123749 dim=215 count in [1,1] allowed 1 -> verified (r=3.8e-11)
+  0.6s
+ladder2 j=4.0 g2=1.0 floor d (nested, Q1): lo=32.96656718 dim=548 count in [0,1] allowed 0 -> verified at claimed - 7.0e-09 (r=3.5e-10)
+ladder2 j=4.0 g2=1.0 E0: lo=-3.348020165 dim=215 count in [0,1] allowed 0 -> verified at claimed - 1.1e-09 (r=5.7e-11)
+ladder2 j=4.0 g2=1.0 E1: lo=-0.2860068835 dim=215 count in [1,2] allowed 1 -> verified at claimed - 1.0e-09 (r=9.3e-11)
+  1.8s
+ladder2 j=4.0 g2=1.5 floor d (nested, Q1): lo=51.28064714 dim=548 count in [0,1] allowed 0 -> verified at claimed - 1.0e-08 (r=5.2e-10)
+ladder2 j=4.0 g2=1.5 E0: lo=-1.34723286 dim=215 count in [0,1] allowed 0 -> verified at claimed - 1.5e-09 (r=7.6e-11)
+ladder2 j=4.0 g2=1.5 E1: lo=1.650853335 dim=215 count in [1,2] allowed 1 -> verified at claimed - 1.4e-09 (r=7.2e-11)
+  1.3s
+ladder2 j=4.0 g2=2.0 floor d (nested, Q1): lo=68.80147441 dim=548 count in [0,1] allowed 0 -> verified at claimed - 1.4e-08 (r=7.0e-10)
+ladder2 j=4.0 g2=2.0 E0: lo=-0.6277935296 dim=215 count in [0,1] allowed 0 -> verified at claimed - 1.9e-09 (r=9.7e-11)
+ladder2 j=4.0 g2=2.0 E1: lo=2.72679099 dim=215 count in [1,2] allowed 1 -> verified at claimed - 1.9e-09 (r=9.3e-11)
+  2.4s
+ladder2 j=4.0 g2=3.0 floor d (nested, Q1): lo=103.441144 dim=548 count in [0,1] allowed 0 -> verified at claimed - 2.1e-08 (r=1.0e-09)
+ladder2 j=4.0 g2=3.0 E0: lo=-0.1950049304 dim=215 count in [0,1] allowed 0 -> verified at claimed - 2.9e-09 (r=1.4e-10)
+ladder2 j=4.0 g2=3.0 E1: lo=4.414223559 dim=215 count in [1,2] allowed 1 -> verified at claimed - 2.8e-09 (r=1.4e-10)
+  2.3s
+ladder2 j=4.0 g2=5.0 floor d (nested, Q1): lo=172.4872859 dim=548 count in [0,1] allowed 0 -> verified at claimed - 3.5e-08 (r=1.7e-09)
+ladder2 j=4.0 g2=5.0 E0: lo=-0.04259419788 dim=215 count in [0,1] allowed 0 -> verified at claimed - 4.8e-09 (r=2.4e-10)
+ladder2 j=4.0 g2=5.0 E1: lo=7.481155931 dim=215 count in [1,2] allowed 1 -> verified at claimed - 4.6e-09 (r=2.3e-10)
+  2.4s
+ladder2 j=4.0 g2=10.0 floor d (nested, Q1): lo=344.9984107 dim=548 count in [0,1] allowed 0 -> verified at claimed - 7.0e-08 (r=3.5e-09)
+ladder2 j=4.0 g2=10.0 E0: lo=-0.005332765519 dim=215 count in [0,1] allowed 0 -> verified at claimed - 9.6e-09 (r=4.8e-10)
+ladder2 j=4.0 g2=10.0 E1: lo=14.9976385 dim=215 count in [1,2] allowed 1 -> verified at claimed - 9.3e-09 (r=4.6e-10)
+  3.8s
+ladder2 j=6.0 g2=0.2 E0: lo=-73.92558047 dim=616 count in [0,0] allowed 0 -> verified (r=6.0e-10)
+ladder2 j=6.0 g2=0.2 E1: lo=-269.2811767 dim=616 count in [0,0] allowed 1 -> verified (r=1.9e-09)
+  4.2s
+ladder2 j=6.0 g2=0.5 E0: lo=-10.69055293 dim=616 count in [0,1] allowed 0 -> verified at claimed - 6.4e-09 (r=3.8e-10)
+ladder2 j=6.0 g2=0.5 E1: lo=-7.396889456 dim=616 count in [1,2] allowed 1 -> verified at claimed - 6.0e-09 (r=3.2e-10)
+  4.6s
+ladder2 j=6.0 g2=1.0 E0: lo=-3.348020165 dim=616 count in [0,1] allowed 0 -> verified at claimed - 1.0e-08 (r=5.2e-10)
+ladder2 j=6.0 g2=1.0 E1: lo=-0.2860068833 dim=616 count in [1,2] allowed 1 -> verified at claimed - 9.6e-09 (r=4.8e-10)
+  4.5s
+ladder2 j=6.0 g2=1.5 E0: lo=-1.34723286 dim=616 count in [0,1] allowed 0 -> verified at claimed - 1.4e-08 (r=7.2e-10)
+ladder2 j=6.0 g2=1.5 E1: lo=1.650853335 dim=616 count in [1,2] allowed 1 -> verified at claimed - 1.4e-08 (r=7.1e-10)
+  4.4s
+ladder2 j=6.0 g2=2.0 E0: lo=-0.6277935299 dim=616 count in [0,1] allowed 0 -> verified at claimed - 1.9e-08 (r=9.6e-10)
+ladder2 j=6.0 g2=2.0 E1: lo=2.726790989 dim=616 count in [1,2] allowed 1 -> verified at claimed - 1.9e-08 (r=9.4e-10)
+  5.3s
+ladder2 j=6.0 g2=3.0 E0: lo=-0.1950049309 dim=616 count in [0,1] allowed 0 -> verified at claimed - 2.9e-08 (r=1.4e-09)
+ladder2 j=6.0 g2=3.0 E1: lo=4.414223558 dim=616 count in [1,2] allowed 1 -> verified at claimed - 2.8e-08 (r=1.4e-09)
+  4.8s
+ladder2 j=6.0 g2=5.0 E0: lo=-0.04259419872 dim=616 count in [0,1] allowed 0 -> verified at claimed - 4.8e-08 (r=2.4e-09)
+ladder2 j=6.0 g2=5.0 E1: lo=7.481155931 dim=616 count in [1,2] allowed 1 -> verified at claimed - 4.7e-08 (r=2.3e-09)
+  5.4s
+ladder2 j=6.0 g2=10.0 E0: lo=-0.005332767196 dim=616 count in [0,1] allowed 0 -> verified at claimed - 9.5e-08 (r=4.8e-09)
+ladder2 j=6.0 g2=10.0 E1: lo=14.9976385 dim=616 count in [1,2] allowed 1 -> verified at claimed - 9.4e-08 (r=4.7e-09)
+  8.4s
+  0.5s
+  0.5s
+  0.3s
+  0.3s
+  0.4s
+periodic2x2 j=0.5 g2=3.0 E0: lo=-0.6147163342 dim=23 count in [0,0] allowed 0 -> verified (r=3.7e-13)
+  0.3s
+periodic2x2 j=0.5 g2=5.0 E0: lo=-0.08599608051 dim=23 count in [0,0] allowed 0 -> verified (r=6.5e-13)
+  0.4s
+periodic2x2 j=0.5 g2=10.0 E0: lo=-0.01066938191 dim=23 count in [0,0] allowed 0 -> verified (r=1.3e-12)
+periodic2x2 j=0.5 g2=10.0 E1: lo=14.81289101 dim=23 count in [1,1] allowed 1 -> verified (r=6.5e-13)
+  0.2s
+  1.0s
+  1.1s
+  2.1s
+  1.5s
+periodic2x2 j=1.0 g2=2.0 E0: lo=-1.863203287 dim=622 count in [0,0] allowed 0 -> verified (r=7.6e-11)
+  2.2s
+periodic2x2 j=1.0 g2=3.0 E0: lo=-0.3934186097 dim=622 count in [0,0] allowed 0 -> verified (r=1.2e-10)
+periodic2x2 j=1.0 g2=3.0 E1: lo=3.690475386 dim=622 count in [1,1] allowed 1 -> verified (r=8.9e-11)
+  3.7s
+periodic2x2 j=1.0 g2=5.0 E0: lo=-0.08528491781 dim=622 count in [0,1] allowed 0 -> verified at claimed - 3.9e-09 (r=1.9e-10)
+periodic2x2 j=1.0 g2=5.0 E1: lo=7.149518932 dim=622 count in [1,1] allowed 1 -> verified (r=1.5e-10)
+  4.5s
+periodic2x2 j=1.0 g2=10.0 E0: lo=-0.01066629068 dim=622 count in [0,1] allowed 0 -> verified at claimed - 7.7e-09 (r=3.9e-10)
+periodic2x2 j=1.0 g2=10.0 E1: lo=14.84988301 dim=622 count in [1,2] allowed 1 -> verified at claimed - 5.8e-09 (r=2.9e-10)
+  4.9s

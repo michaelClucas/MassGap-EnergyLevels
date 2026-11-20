@@ -1,0 +1,30 @@
+=== 20261120-002-glueball-data/ratios.py 
+    exit 0, 0 s, log artifacts/20261120-002-glueball-data/ratios.log
+=== 20261120-004-data-verify/verify_ratios.py 
+    exit 0, 0 s, log artifacts/20261120-004-data-verify/verify_ratios.log
+=== 20261120-005-skeptic-ks-ed/plaq_independent.py 
+    exit 0, 2 s, log artifacts/20261120-005-skeptic-ks-ed/plaq_independent.log
+=== 20261120-007-frustration-free-gauge/checks.py 
+    exit 0, 2 s, log artifacts/20261120-007-frustration-free-gauge/checks.log
+=== 20261120-008-theta-obstruction-gribov-scope/theta_bands.py 
+    exit 0, 2 s, log artifacts/20261120-008-theta-obstruction-gribov-scope/theta_bands.log
+=== 20261120-010-skeptic-certify-hff/hff_checks.py 
+    exit 0, 21 s, log artifacts/20261120-010-skeptic-certify-hff/hff_checks.log
+=== 20261120-014-line5-interaction-gaps/interaction_gaps.py 
+    exit 0, 2 s, log artifacts/20261120-014-line5-interaction-gaps/interaction_gaps.log
+=== 20261120-016-skeptic-c8-c9/check_c9.py 
+    exit 0, 10 s, log artifacts/20261120-016-skeptic-c8-c9/check_c9.log
+=== 20261120-019-skeptic-c12/compare.py 
+    exit 0, 1 s, log artifacts/20261120-019-skeptic-c12/compare.log
+=== 20261120-019-skeptic-c12/rank.py 
+    exit 0, 0 s, log artifacts/20261120-019-skeptic-c12/rank.log
+=== 20261120-022-post2008-boundstate-glueballs/score.py 
+    exit 0, 2 s, log artifacts/20261120-022-post2008-boundstate-glueballs/score.log
+=== 20261120-003-su2-ks-ed/validate.py --quick
+    exit 0, 20 s, log artifacts/20261120-003-su2-ks-ed/validate_quick.log
+=== 20261120-003-su2-ks-ed/run_ed.py --quick
+    exit 0, 6 s, log artifacts/20261120-003-su2-ks-ed/run_ed_quick.log
+=== 20261120-006-certified-gap-bounds/certify_gaps.py --quick
+    exit 0, 2 s, log artifacts/20261120-006-certified-gap-bounds/certify_gaps_quick.log
+=== runs done in 72 s; failed: none
+=== number check (quick): 29 ok, 0 failed, 40 not in this mode

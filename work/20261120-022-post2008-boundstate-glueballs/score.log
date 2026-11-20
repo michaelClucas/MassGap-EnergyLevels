@@ -1,0 +1,168 @@
+
+== FBSE-HFS2025  vs AT2020 SU(3) 4D
+    0++*   model   1.389  lattice   1.720(0.016)  pull   -20.6  pull5%  -3.78
+    0-+    model   1.394  lattice   1.549(0.016)  pull    -9.5  pull5%  -1.96
+    0-+*   model   2.083  lattice   2.141(0.040)  pull    -1.4  pull5%  -0.50
+    2++    model   1.406  lattice   1.437(0.011)  pull    -2.9  pull5%  -0.44
+    2++*   model   1.961  lattice   1.994(0.017)  pull    -1.9  pull5%  -0.32
+    2-+    model   1.478  lattice   1.856(0.029)  pull   -13.1  pull5%  -3.89
+    2-+*   model   2.317  lattice   2.402(0.028)  pull    -3.1  pull5%  -0.69
+    3++    model   1.817  lattice   2.264(0.030)  pull   -15.0  pull5%  -3.82
+    4++    model   2.233  lattice   2.232(0.038)  pull    +0.0  pull5%  +0.01
+  ratio      n= 9 within1sig= 1 chi2/n lat=    103.9 chi2/n 5%=   5.44
+  m(0++)/sqrt(sigma) from r0: 3.712
+    0++    model   3.712  lattice   3.405(0.021)  pull   +14.6  pull5%  +1.79
+  m0/sqrtsig n= 1 within1sig= 0 chi2/n lat=    213.3 chi2/n 5%=   3.20
+
+== FBSE-HFS2021  vs AT2020 SU(3) 4D
+
+== FBSE-HFS2020  vs AT2020 SU(3) 4D
+    0++*   model   1.389  lattice   1.720(0.016)  pull   -20.6  pull5%  -3.78
+    0-+    model   1.395  lattice   1.549(0.016)  pull    -9.5  pull5%  -1.96
+    0-+*   model   2.092  lattice   2.141(0.040)  pull    -1.2  pull5%  -0.43
+  ratio      n= 3 within1sig= 0 chi2/n lat=    171.8 chi2/n 5%=   6.09
+  m(0++)/sqrt(sigma) from r0: 3.815
+    0++    model   3.815  lattice   3.405(0.021)  pull   +19.5  pull5%  +2.39
+  m0/sqrtsig n= 1 within1sig= 0 chi2/n lat=    380.8 chi2/n 5%=   5.71
+
+== FBSE-SFKvS2015  vs AT2020 SU(3) 4D
+    0-+    model   2.762  lattice   1.549(0.016)  pull   +74.4  pull5% +15.32
+  ratio      n= 1 within1sig= 0 chi2/n lat=   5529.2 chi2/n 5%= 234.62
+
+== Helicity-CM2025-DGA  vs AT2020 SU(3) 4D
+    0++*   model   1.683  lattice   1.720(0.016)  pull    -2.2  pull5%  -0.41
+    0-+    model   1.320  lattice   1.549(0.016)  pull   -14.1  pull5%  -2.90
+    0-+*   model   1.840  lattice   2.141(0.040)  pull    -7.5  pull5%  -2.63
+    2++    model   1.344  lattice   1.437(0.011)  pull    -8.5  pull5%  -1.29
+    2++*   model   1.824  lattice   1.994(0.017)  pull   -10.0  pull5%  -1.68
+    2-+    model   1.824  lattice   1.856(0.029)  pull    -1.1  pull5%  -0.33
+    2-+*   model   2.305  lattice   2.402(0.028)  pull    -3.5  pull5%  -0.79
+    3++    model   1.975  lattice   2.264(0.030)  pull    -9.7  pull5%  -2.47
+  ratio      n= 8 within1sig= 0 chi2/n lat=     67.3 chi2/n 5%=   3.35
+
+== Constituent-BCMS2025  vs AT2021 SU(inf) 4D
+    0-+    model   1.385  lattice   1.534(0.011)  pull   -13.6  pull5%  -1.92
+    1+-    model   1.859  lattice   1.875(0.012)  pull    -1.4  pull5%  -0.17
+    1-+    model   2.520  lattice   2.739(0.028)  pull    -7.9  pull5%  -1.57
+    1--    model   1.859  lattice   2.363(0.037)  pull   -13.5  pull5%  -4.07
+    2++    model   1.413  lattice   1.497(0.008)  pull   -10.3  pull5%  -1.12
+    2+-    model   2.702  lattice   2.788(0.028)  pull    -3.1  pull5%  -0.61
+    2-+    model   1.990  lattice   1.963(0.015)  pull    +1.7  pull5%  +0.27
+    2--    model   2.702  lattice   2.575(0.022)  pull    +5.9  pull5%  +0.97
+    3++    model   2.172  lattice   2.364(0.021)  pull    -9.1  pull5%  -1.60
+    3+-    model   2.469  lattice   2.275(0.017)  pull   +11.5  pull5%  +1.69
+  ratio      n=10 within1sig= 0 chi2/n lat=     79.8 chi2/n 5%=   3.08
+    0++    model   3.228  lattice   3.072(0.014)  pull   +11.1  pull5%  +1.01
+    0-+    model   4.470  lattice   4.711(0.026)  pull    -9.3  pull5%  -1.02
+    1+-    model   6.000  lattice   5.760(0.025)  pull    +9.6  pull5%  +0.83
+    1-+    model   8.133  lattice   8.415(0.076)  pull    -3.7  pull5%  -0.66
+    1--    model   6.000  lattice   7.260(0.110)  pull   -11.5  pull5%  -3.32
+    2++    model   4.560  lattice   4.599(0.014)  pull    -2.8  pull5%  -0.17
+    2+-    model   8.722  lattice   8.566(0.076)  pull    +2.1  pull5%  +0.36
+    2-+    model   6.423  lattice   6.031(0.038)  pull   +10.3  pull5%  +1.29
+    2--    model   8.722  lattice   7.910(0.056)  pull   +14.5  pull5%  +2.03
+    3++    model   7.011  lattice   7.263(0.056)  pull    -4.5  pull5%  -0.69
+    3+-    model   7.970  lattice   6.988(0.041)  pull   +24.0  pull5%  +2.79
+  absolute   n=11 within1sig= 0 chi2/n lat=    124.5 chi2/n 5%=   2.58
+
+== Holography-KS-DM2022  vs AT2021 SU(inf) 4D
+    0-+    model   1.734  lattice   1.534(0.011)  pull   +18.3  pull5%  +2.59
+    1+-    model   2.031  lattice   1.875(0.012)  pull   +13.2  pull5%  +1.65
+    1--    model   2.562  lattice   2.363(0.037)  pull    +5.3  pull5%  +1.61
+    2++    model   1.562  lattice   1.497(0.008)  pull    +8.0  pull5%  +0.87
+    2++*   model   2.359  lattice   2.143(0.015)  pull   +14.2  pull5%  +2.00
+  ratio      n= 5 within1sig= 0 chi2/n lat=    160.8 chi2/n 5%=   3.36
+
+== Constituent-BMS2013-2+1D  vs AT2016 SU(inf) 2+1D
+    0++*   model   1.608  lattice   1.533(0.003)  pull   +23.0  pull5%  +0.99
+    0++**  model   2.037  lattice   1.906(0.004)  pull   +29.9  pull5%  +1.38
+    0-+    model   2.938  lattice   2.186(0.008)  pull  +100.1  pull5%  +6.87
+    0--    model   1.599  lattice   1.472(0.003)  pull   +41.2  pull5%  +1.71
+    0--*   model   2.101  lattice   1.885(0.005)  pull   +47.3  pull5%  +2.29
+    1++    model   2.399  lattice   2.408(0.007)  pull    -1.3  pull5%  -0.08
+    1+-    model   2.399  lattice   2.279(0.008)  pull   +14.6  pull5%  +1.05
+    1-+    model   2.399  lattice   2.402(0.007)  pull    -0.4  pull5%  -0.02
+    1--    model   2.399  lattice   2.284(0.008)  pull   +14.8  pull5%  +1.00
+    2++    model   1.702  lattice   1.680(0.004)  pull    +5.6  pull5%  +0.26
+    2++*   model   2.094  lattice   2.046(0.005)  pull   +10.0  pull5%  +0.46
+    2+-    model   2.222  lattice   1.998(0.006)  pull   +39.5  pull5%  +2.23
+    2-+    model   1.702  lattice   1.684(0.004)  pull    +4.6  pull5%  +0.22
+    2-+*   model   2.094  lattice   2.062(0.006)  pull    +5.3  pull5%  +0.30
+    2--    model   2.222  lattice   1.998(0.005)  pull   +42.6  pull5%  +2.24
+  ratio      n=15 within1sig= 1 chi2/n lat=   1291.4 chi2/n 5%=   4.72
+    0++    model   4.060  lattice   4.116(0.006)  pull    -9.3  pull5%  -0.27
+    0++*   model   6.530  lattice   6.308(0.010)  pull   +22.2  pull5%  +0.70
+    0++**  model   8.270  lattice   7.844(0.014)  pull   +30.4  pull5%  +1.09
+    0-+    model  11.930  lattice   8.998(0.028)  pull  +104.7  pull5%  +6.50
+    0--    model   6.490  lattice   6.060(0.009)  pull   +47.8  pull5%  +1.42
+    0--*   model   8.530  lattice   7.759(0.015)  pull   +51.4  pull5%  +1.99
+    1++    model   9.740  lattice   9.912(0.026)  pull    -6.6  pull5%  -0.35
+    1+-    model   9.740  lattice   9.380(0.031)  pull   +11.6  pull5%  +0.77
+    1-+    model   9.740  lattice   9.886(0.027)  pull    -5.4  pull5%  -0.29
+    1--    model   9.740  lattice   9.401(0.029)  pull   +11.7  pull5%  +0.72
+    2++    model   6.910  lattice   6.914(0.013)  pull    -0.3  pull5%  -0.01
+    2++*   model   8.500  lattice   8.423(0.015)  pull    +5.1  pull5%  +0.18
+    2+-    model   9.020  lattice   8.224(0.020)  pull   +39.8  pull5%  +1.93
+    2-+    model   6.910  lattice   6.930(0.013)  pull    -1.5  pull5%  -0.06
+    2-+*   model   8.500  lattice   8.488(0.021)  pull    +0.6  pull5%  +0.03
+    2--    model   9.020  lattice   8.223(0.018)  pull   +44.3  pull5%  +1.94
+  absolute   n=16 within1sig= 2 chi2/n lat=   1332.1 chi2/n 5%=   3.68
+
+== Holography-EMD-CCZ2025  vs AT2020 SU(3) 4D
+    0++*   model   1.536  lattice   1.720(0.016)  pull   -11.4  pull5%  -2.10
+  ratio      n= 1 within1sig= 0 chi2/n lat=    130.8 chi2/n 5%=   4.40
+
+== Constituent-BCMS2025 extended to SU(3) via Casimir scaling (parameter-free given the SU(inf) fit)
+    0++    model   3.424  lattice   3.405(0.021)  pull    +0.9  pull5%  +0.11
+    0-+    model   4.741  lattice   5.276(0.045)  pull   -11.9  pull5%  -2.00
+    1+-    model   6.364  lattice   6.065(0.040)  pull    +7.5  pull5%  +0.98
+    1-+    model   8.626  lattice   8.480(0.120)  pull    +1.2  pull5%  +0.33
+    1--    model   6.364  lattice   8.310(0.100)  pull   -19.5  pull5%  -4.55
+    2++    model   4.837  lattice   4.894(0.022)  pull    -2.6  pull5%  -0.23
+    2+-    model   9.251  lattice   8.740(0.120)  pull    +4.3  pull5%  +1.13
+    2-+    model   6.813  lattice   6.320(0.090)  pull    +5.5  pull5%  +1.50
+    2--    model   9.251  lattice   8.080(0.150)  pull    +7.8  pull5%  +2.72
+    3++    model   7.436  lattice   7.710(0.090)  pull    -3.0  pull5%  -0.69
+    3+-    model   8.453  lattice   7.270(0.120)  pull    +9.9  pull5%  +3.09
+  absolute   n=11 within1sig= 1 chi2/n lat=     72.8 chi2/n 5%=   4.25
+    0-+    model   1.385  lattice   1.549(0.016)  pull   -10.1  pull5%  -2.08
+    1+-    model   1.859  lattice   1.781(0.016)  pull    +4.8  pull5%  +0.86
+    1-+    model   2.520  lattice   2.490(0.038)  pull    +0.8  pull5%  +0.22
+    1--    model   1.859  lattice   2.441(0.033)  pull   -17.6  pull5%  -4.60
+    2++    model   1.413  lattice   1.437(0.011)  pull    -2.2  pull5%  -0.34
+    2+-    model   2.702  lattice   2.567(0.039)  pull    +3.5  pull5%  +1.01
+    2-+    model   1.990  lattice   1.856(0.029)  pull    +4.6  pull5%  +1.38
+    2--    model   2.702  lattice   2.373(0.046)  pull    +7.1  pull5%  +2.58
+    3++    model   2.172  lattice   2.264(0.030)  pull    -3.1  pull5%  -0.79
+    3+-    model   2.469  lattice   2.135(0.038)  pull    +8.9  pull5%  +2.95
+  ratio      n=10 within1sig= 1 chi2/n lat=     61.4 chi2/n 5%=   4.53
+
+== Casimir-scaling law M(3)/M(inf) = 3/sqrt(8) vs AT2021 (ground states with both values)
+    0++    model   1.061  lattice   1.108(0.008)  pull    -5.6  pull5%  -0.85
+    0-+    model   1.061  lattice   1.120(0.011)  pull    -5.2  pull5%  -1.04
+    1+-    model   1.061  lattice   1.053(0.008)  pull    +0.9  pull5%  +0.14
+    1-+    model   1.061  lattice   1.008(0.017)  pull    +3.1  pull5%  +1.00
+    1--    model   1.061  lattice   1.145(0.022)  pull    -3.8  pull5%  -1.37
+    2++    model   1.061  lattice   1.064(0.006)  pull    -0.6  pull5%  -0.07
+    2+-    model   1.061  lattice   1.040(0.020)  pull    +1.0  pull5%  +0.37
+    2-+    model   1.061  lattice   1.048(0.016)  pull    +0.8  pull5%  +0.23
+    2--    model   1.061  lattice   1.021(0.020)  pull    +1.9  pull5%  +0.71
+    3++    model   1.061  lattice   1.062(0.015)  pull    -0.1  pull5%  -0.02
+    3+-    model   1.061  lattice   1.040(0.018)  pull    +1.1  pull5%  +0.37
+    4++    model   1.061  lattice   1.058(0.020)  pull    +0.1  pull5%  +0.04
+  N-ratio    n=12 within1sig= 5 chi2/n lat=      7.6 chi2/n 5%=   0.46
+  (ratio-of-ratios: the law predicts m(2++)/m(0++) independent of N)
+    AT2021 N=3: m(2++)/m(0++) = 1.4373(0.0110)
+    AT2021 N=inf: m(2++)/m(0++) = 1.4971(0.0082)
+
+== FBSE-HFS2025 ratios with model errors (extrapolation only, uncorrelated quadrature) + lattice errors
+    0++*   1.389(0.149) vs 1.720  pull -2.21
+    0-+    1.394(0.133) vs 1.549  pull -1.16
+    0-+*   2.083(0.152) vs 2.141  pull -0.37
+    2++    1.406(0.137) vs 1.437  pull -0.23
+    2++*   1.961(0.183) vs 1.994  pull -0.18
+    2-+    1.478(0.122) vs 1.856  pull -3.01
+    2-+*   2.317(0.184) vs 2.402  pull -0.46
+    3++    1.817(0.124) vs 2.264  pull -3.50
+    4++    2.233(0.149) vs 2.232  pull +0.01
+  n=9 within1sig=5 within2sig=6 chi2/n=3.11

@@ -1,0 +1,70 @@
+label,value,script,output,match,mode,note
+N1 4D SU(3) m(2++)/m(0++),1.437(11),work/20261120-002-glueball-data/ratios.py,20261120-002-glueball-data/ratios.log,1.437(0.011),quick,data/ (AT2020 Tab 17)
+N2 4D SU(3) m(0-+)/m(0++),1.549(16),work/20261120-002-glueball-data/ratios.py,20261120-002-glueball-data/ratios.log,1.549(0.016),quick,data/
+N3 4D SU(3) m(0++)/sqrt(sigma),3.405(21),work/20261120-002-glueball-data/ratios.py,20261120-002-glueball-data/ratios.log,3.405(0.021),quick,data/
+N4 4D SU(inf) m(0++)/sqrt(sigma),3.072(14),work/20261120-002-glueball-data/ratios.py,20261120-002-glueball-data/ratios.log,3.072(0.014),quick,data/ (AT2021 Tab 38)
+N5 2+1D SU(3) m(0++)/sqrt(sigma),4.368(7),work/20261120-002-glueball-data/ratios.py,20261120-002-glueball-data/ratios.log,4.368(0.007),quick,data/ (AT2016 Tab B4)
+N6 plaquette certified Delta g2=1,3.2690992,work/20261120-006-certified-gap-bounds/certify_gaps.py,20261120-006-certified-gap-bounds/results_plaq1.csv,3.26909918551923,full,Delta_lo at j_max 4
+N7 plaquette exact rational Delta g2=1,3.26909918552,work/20261120-010-skeptic-certify-hff/plaq_exact.py,20261120-010-skeptic-certify-hff/plaq_exact.csv,3.26909918552083,full,"exact arithmetic, 2 j_max = 40"
+N8 ladder certified Delta g2=1,3.0620133,work/20261120-006-certified-gap-bounds/certify_gaps.py,20261120-006-certified-gap-bounds/results.csv,3.062013281417123,full,Delta_lo at j_max 6; CLAIMS.md C5 and 006 README say 3.0620125 (typo)
+N9 plaquette strong-coupling series,3g^2/2 + 56/(15g^6) - 20144/(3375g^14),work/20261120-005-skeptic-ks-ed/plaq_independent.py,20261120-005-skeptic-ks-ed/plaq_independent.log,Gap = 3/2 g^2 + 56/15/g^6 + -20144/3375/g^14,quick,exact rational PT
+N10 plaquette ED Delta g2=0.2,3.8715812,work/20261120-003-su2-ks-ed/run_ed.py,20261120-003-su2-ks-ed/results.csv,3.8715812223,full,j_max 40
+N11 ladder P+ ED Delta g2=0.2,3.4005352,work/20261120-003-su2-ks-ed/run_ed.py,20261120-003-su2-ks-ed/results.csv,3.40053519208,full,j_max 8
+N12 torus all-sector Delta g2=3,"[2.02927, 2.03423]",work/20261120-016-skeptic-c8-c9/check_c9.py,20261120-016-skeptic-c8-c9/check_c9.log,"Delta_all in [2.0292728, 2.0342348]",quick,recomputed from recorded 012 block bounds (builds not rerun)
+N13 torus zero-flux Delta g2=3,"[4.12793, 4.12801]",work/20261120-016-skeptic-c8-c9/check_c9.py,20261120-016-skeptic-c8-c9/check_c9.log,"Delta_00 in [4.1279338, 4.1280120]",quick,as N12
+N14 torus zero-flux lower bound g2=1.5,0.7694,work/20261120-016-skeptic-c8-c9/check_c9.py,20261120-016-skeptic-c8-c9/check_c9.log,gap_00 >= 0.769384,quick,as N12
+N15 torus g2=1 floor d,-7.861,work/20261120-012-torus-sectors/analyze.py,work/20261120-012-torus-sectors/results.csv,"-7.861029116,schur-exact-shell[none(d<=E0_hi)]",recorded,j_max 2 build ~14 min and ~5 GB: not rerun
+N15b torus g2=1 E0 upper bound,-6.99998,work/20261120-012-torus-sectors/analyze.py,work/20261120-012-torus-sectors/results.csv,"1,2,23089,-6.999978456",recorded,as N15
+N17 Hess S min at pi-flux d=2,-8.0000,work/20261120-010-skeptic-certify-hff/hff_checks.py,20261120-010-skeptic-certify-hff/hff_checks.log,pi-flux (1/2 tr U_p = -1) min -8.0000,quick,
+N19 U(1) H_FF gap bound beta=6,1.2014e-3,work/20261120-016-skeptic-c8-c9/check_c8.py,20261120-016-skeptic-c8-c9/check_c8_ABC.log,beta=  6  bound=1.2014e-03,full,L -> inf limit of the box bound
+N20 SU(2) volume-uniform H_FF bound beta=1000,16.4752,work/20261120-016-skeptic-c8-c9/check_c8.py,20261120-016-skeptic-c8-c9/check_c8_ABC.log,"nested RQ (explicit vector, Decimal)=16.4752",full,
+N21 single-plaquette H_FF gap beta=200,397.99366,work/20261120-016-skeptic-c8-c9/check_c8.py,20261120-016-skeptic-c8-c9/check_c8_ABC.log,gap=397.99366,full,
+N22 AKLT eps_10 and GM ring bound,0.36984447; 0.3011,work/20261120-015-line6-rotor-chain/spin1.py,20261120-015-line6-rotor-chain/spin1_aklt_knabe.csv,"0.36984447,0.291075,0.301067",full,"dense ED, no Lanczos"
+"N22b AKLT eps_10 and GM, independent code",0.36984447; 0.30107,work/20261120-018-skeptic-c10-c11/skeptic_checks.py,20261120-018-skeptic-c10-c11/skeptic_checks.log,"eps_n 0.36984447, Knabe 0.29108, GM 0.30107",full,
+N23 AKLT eps_12 and GM ring bound,0.36435607; 0.3026,work/20261120-015-line6-rotor-chain/spin1.py,20261120-015-line6-rotor-chain/spin1_aklt_knabe.csv,"0.36435607,0.300792,0.302616",full,Lanczos
+N24 Heisenberg frustration per bond N=12,0.594,work/20261120-015-line6-rotor-chain/spin1.py,20261120-015-line6-rotor-chain/spin1_path.csv,0.594204,full,
+N25 AKLT ring gap n=12,0.35012,work/20261120-015-line6-rotor-chain/spin1.py,20261120-015-line6-rotor-chain/spin1_aklt_knabe.csv,0.35012044,full,
+N26a Omega diameter lower bound L=3,72.816,work/20261120-009-skeptic-theta-gribov/skeptic_checks.py,20261120-009-skeptic-theta-gribov/skeptic_summary.txt,D_lower=72.816,full,seeded RNG (default_rng(2026))
+N26b Omega diameter lower bound L=6,150.411,work/20261120-009-skeptic-theta-gribov/skeptic_checks.py,20261120-009-skeptic-theta-gribov/skeptic_summary.txt,D_lower=150.411,full,as N26a
+N26c diameter fit exponent,1.055,work/20261120-009-skeptic-theta-gribov/skeptic_checks.py,20261120-009-skeptic-theta-gribov/skeptic_summary.txt,fit D_lower ~ L^1.055,full,as N26a
+N27 Vmag Hessian at |A|=1.27,-3.014e-2,work/20261120-009-skeptic-theta-gribov/skeptic_checks.py,20261120-009-skeptic-theta-gribov/skeptic_summary.txt,full numeric Hessian min = -3.014e-02,full,
+N28a Neumann gap with barrier,0.00550,work/20261120-009-skeptic-theta-gribov/skeptic_checks.py,20261120-009-skeptic-theta-gribov/skeptic_summary.txt,gap = 0.00550,full,
+N28b Neumann gap with 50x^2,13.68860,work/20261120-009-skeptic-theta-gribov/skeptic_checks.py,20261120-009-skeptic-theta-gribov/skeptic_summary.txt,gap = 13.68860,full,
+N28c Neumann free gap,2.46740,work/20261120-009-skeptic-theta-gribov/skeptic_checks.py,20261120-009-skeptic-theta-gribov/skeptic_summary.txt,gap = 2.46740,full,
+N29 continuum T^3 PW ratio,3.673e-3 g^2,work/20261120-009-skeptic-theta-gribov/skeptic_checks.py,20261120-009-skeptic-theta-gribov/skeptic_summary.txt,= 3.673e-03 g^2,full,m(0++) from data/ (AT2021 SU(2))
+N30 kinetic PW / m0++ at N_s=3 g2=4,9.846e-4,work/20261120-009-skeptic-theta-gribov/skeptic_checks.py,20261120-009-skeptic-theta-gribov/skeptic_summary.txt,N_s=3 g^2=4.0: <= 9.846e-04,full,
+N31 extensivity N=1e6 wells,2.7102; 1.86542,work/20261120-008-theta-obstruction-gribov-scope/theta_bands.py,20261120-008-theta-obstruction-gribov-scope/theta_summary.txt,N=1000000 bandwidth=2.7102e+00 fiber_gap_min=1.86542 indirect=<0 (bands overlap),quick,
+N32 N=2 total-winding fiber band width,5.334e-3,work/20261120-009-skeptic-theta-gribov/skeptic_checks.py,20261120-009-skeptic-theta-gribov/skeptic_summary.txt,"(width 5.334e-03, continuous => no isolated ground state, in-sector gap 0)",full,
+N33 theta sum-rule upper bound V0=1,0.87842 <= 0.88228,work/20261120-009-skeptic-theta-gribov/skeptic_checks.py,20261120-009-skeptic-theta-gribov/skeptic_summary.txt,Delta=0.87842  sum-rule upper bound=0.88228,full,
+N34a W_3(0),0.252731,work/20261120-014-line5-interaction-gaps/interaction_gaps.py,20261120-014-line5-interaction-gaps/interaction_gaps.log,W_d(0) = 0.252731,quick,
+N34b W_4(0),0.154933,work/20261120-014-line5-interaction-gaps/interaction_gaps.py,20261120-014-line5-interaction-gaps/interaction_gaps.log,W_d(0) = 0.154933,quick,
+N35 XY gap-equation m at beta_XY=2,1.0563e-2,work/20261120-014-line5-interaction-gaps/interaction_gaps.py,20261120-014-line5-interaction-gaps/interaction_gaps.log,2.00   1.0563e-02,quick,
+N36 BCS vs bosonic Hartree at lambda=0.1,9.08e-5; 0.1241,work/20261120-014-line5-interaction-gaps/interaction_gaps.py,20261120-014-line5-interaction-gaps/interaction_gaps.log,0.10     9.0800e-05     1.2412e-01,quick,
+N37 one-loop a(m) at kappa=4,0.0984,work/20261120-014-line5-interaction-gaps/interaction_gaps.py,20261120-014-line5-interaction-gaps/interaction_gaps.log,4     0.0984,quick,
+"N38a Gaussian/exact gap ratio, smallest",1.009,work/20261120-014-line5-interaction-gaps/interaction_gaps.py,20261120-014-line5-interaction-gaps/interaction_gaps.log,1.01        1.009,quick,
+"N38b Gaussian/exact gap ratio, largest (014)",7.175e5,work/20261120-014-line5-interaction-gaps/interaction_gaps.py,20261120-014-line5-interaction-gaps/interaction_gaps.log,7.175e+05,quick,FD accuracy ~1e-4 absolute
+"N38c Gaussian/exact gap ratio, largest (018)",7.18e5,work/20261120-018-skeptic-c10-c11/skeptic_checks.py,20261120-018-skeptic-c10-c11/skeptic_checks.log,ratio 7.182e+05,full,"sinc-DVR, converged"
+N39 Hartree tadpole xi dependence,(d-1+xi)(d-1)/d,work/20261120-014-line5-interaction-gaps/interaction_gaps.py,20261120-014-line5-interaction-gaps/interaction_gaps.log,1.0                 3.0000             3.0000,quick,xi = 1 row
+N40 Gribov Schwinger function at gamma t=1.5,-4.705e-2,work/20261120-014-line5-interaction-gaps/interaction_gaps.py,20261120-014-line5-interaction-gaps/interaction_gaps.log,1.50  -4.705211e-02,quick,
+"N41 E1-only selected CI gap error, ladder g2=1, n=12 (straw man)",-3.02,work/20261120-020-quantum-chemistry-methods/qc_methods.py,20261120-020-quantum-chemistry-methods/summary.txt,ladder2  sel_E1 g2=1.0  exact gap 3.062013; gap_ci - gap by k=1..: -0.812 -1.75 -2.38 -2.58 -2.71 -3.02,full,
+N41b two-root CIPSI gap error ladder g2=1,"+0.076 ... +3.8e-5, all > 0",work/20261120-023-skeptic-c13/skeptic_c13.py,20261120-023-skeptic-c13/summary.txt,"g2=1.0  cipsi2         gap err by dim 4,6,8,12,16,24,32,48,64: +7.60e-02 +1.91e-01 +2.98e-01 +2.12e-01 +2.17e-01 +9.13e-02 +1.21e-02 +8.39e-04 +3.79e-05",full,
+N41c self-consistent DMRG-style MPS gap error ladder g2=1 E1 target,"-0.81 ... -1.12, both signs",work/20261120-023-skeptic-c13/skeptic_c13.py,20261120-023-skeptic-c13/summary.txt,"g2=1.0  scf_E1    gap err D=2,3,4,6,8,12,16,24: -8.12e-01 -8.12e-01 +7.84e-01 +7.84e-01 +1.75e-01 -5.58e-01 -1.12e+00 -3.18e-01",full,no exact-state input
+N42 Temple false bounds,3/88,work/20261120-020-quantum-chemistry-methods/qc_methods.py,20261120-020-quantum-chemistry-methods/summary.txt,3/88 'bounds' false,full,
+N43 E_HF - E0 ladder g2=1,0.01449,work/20261120-020-quantum-chemistry-methods/qc_methods.py,20261120-020-quantum-chemistry-methods/summary.txt,E_HF-E0=0.01449,full,
+"N44 open ferro chain with boundary field, gap*(2L+1)^2 at L=14",5.29,work/20261120-023-skeptic-c13/skeptic_c13.py,20261120-023-skeptic-c13/chain_nondegenerate.csv,"0.006287790107,5.28803148",full,unique D=1 ground state; replaces 020 ring example
+N46 rotor L=2 g=0.25 certified gap,"[0.1318, 0.1318]",work/20261120-015-line6-rotor-chain/run_rotor.py + summary.py,work/20261120-015-line6-rotor-chain/summary.txt,"g=0.25: [0.1318, 0.1318]",recorded,run_rotor.py > 30 min: not rerun
+N46b rotor L=2 g=0.25 independent ED,0.131797,work/20261120-018-skeptic-c10-c11/skeptic_checks.py,20261120-018-skeptic-c10-c11/skeptic_checks.log,"gap 0.131797  015 interval (0.1318, 0.1318)",full,"independent code, l_max 12"
+N47 rotor L=8 smallest certified g,g = 2,work/20261120-015-line6-rotor-chain/run_rotor.py + summary.py,work/20261120-015-line6-rotor-chain/summary.txt,"8 per 1 large 12870 | g=2.0: [1.5797, 1.6992]",recorded,as N46
+N48 rotor g=0.35: e^{-2pi/g}/g,4.57e-8,work/20261120-015-line6-rotor-chain/run_rotor.py + summary.py,work/20261120-015-line6-rotor-chain/summary.txt,"| 0.117, 4.57e-08",recorded,as N46
+N49 rotor strong-coupling x^4 coefficient,0.0026194,work/20261120-018-skeptic-c10-c11/skeptic_checks.py,20261120-018-skeptic-c10-c11/skeptic_checks.log,0.00261937,full,independent RSPT
+N50 rotor H_FF Bakry-Emery bound 0 at beta=1/4,1 - 4 beta,work/20261120-015-line6-rotor-chain/bakry_emery.py,20261120-015-line6-rotor-chain/bakry_emery.csv,"0.25,2.0000,0.0000",full,
+N51 Result-B fit parameters,"3.1323, 0.7187, -3.3044",work/20261120-019-skeptic-c12/fit.py,20261120-019-skeptic-c12/fit.log,"m/sqrt(sigma) = 3.1323, kappa = N alpha_s = 0.7187 (alpha_s = 0.2396), C0/sqrt(sigma) = -3.3044",full,
+N52a chi2/pred 4D SU(3),"94.0, 0/11",work/20261120-019-skeptic-c12/fit.py,20261120-019-skeptic-c12/fit.log,(11 with a model counterpart); within 1 sigma(lat): 0; chi2/pred lattice-only = 94.0,full,
+N52b chi2/pred 4D SU(inf),"196.4, 0/12",work/20261120-019-skeptic-c12/fit.py,20261120-019-skeptic-c12/fit.log,(12 with a model counterpart); within 1 sigma(lat): 0; chi2/pred lattice-only = 196.4,full,
+N52c chi2/pred 2+1D SU(3),"764.5, 0/13",work/20261120-019-skeptic-c12/fit.py,20261120-019-skeptic-c12/fit.log,(13 with a model counterpart); within 1 sigma(lat): 0; chi2/pred lattice-only = 764.5,full,
+N52d chi2/pred 2+1D SU(inf),"1305.3, 0/15",work/20261120-019-skeptic-c12/fit.py,20261120-019-skeptic-c12/fit.log,(15 with a model counterpart); within 1 sigma(lat): 0; chi2/pred lattice-only = 1305.3,full,
+N53 Kaidalov-Simonov vs AT2020,"3/10, chi2/n 98",work/20261120-019-skeptic-c12/compare.py,20261120-019-skeptic-c12/compare.log,n=10 in1sig=3 chi2/n lat=98 5%=3.34,quick,quick mode uses committed fits.csv; competitor numbers verified in 019
+N54 MSB helicity B vs AT2020,"0/9, chi2/n 75",work/20261120-019-skeptic-c12/compare.py,20261120-019-skeptic-c12/compare.log,n=9 in1sig=0 chi2/n lat=75 5%=3.26,quick,as N53
+N55 solver limit tests,34 pass,work/20261120-019-skeptic-c12/limits.py,20261120-019-skeptic-c12/limits.log,ALL PASS,full,34 checks
+N56a FBSE (HFS 2025) ratios vs AT2020,"1/9, chi2/n 104 (5.44 at 5%)",work/20261120-022-post2008-boundstate-glueballs/score.py,20261120-022-post2008-boundstate-glueballs/score.log,ratio      n= 9 within1sig= 1 chi2/n lat=    103.9 chi2/n 5%=   5.44,quick,first such line in score.log is FBSE-HFS2025
+N56b FBSE m(0++)/sqrt(sigma),3.712 vs 3.405,work/20261120-022-post2008-boundstate-glueballs/score.py,20261120-022-post2008-boundstate-glueballs/score.log,m(0++)/sqrt(sigma) from r0: 3.712,quick,

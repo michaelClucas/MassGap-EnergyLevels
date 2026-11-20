@@ -1,0 +1,9 @@
+L=3 open lmax=5 g=2.0 E0>=-0.04155108445 dim 4332: count in [None,0] allowed 0 -> verified (r=7.1e-11, sparse-superlu-nopivot(nnzL=1079738)) d=35.3997 csv 35.3997 |  | 27.4s
+L=3 open lmax=5 g=2.0 E1>=1.737133921 dim 4332: count in [None,1] allowed 1 -> verified (r=2.3e-11, sparse-superlu-nopivot(nnzL=1079739)) d=35.3997 csv 35.3997 |  | 44.3s
+L=3 open lmax=5 g=0.35 E0>=-3.308356434 dim 4332: count in [None,0] allowed 0 -> verified (r=5.8e-11, sparse-superlu-nopivot(nnzL=1079740)) d=1.44209 csv 1.44209 |  | 13.1s
+L=3 open lmax=5 g=0.35 E1>=-3.176933511 dim 4332: count in [None,1] allowed 1 -> verified (r=1.1e-09, sparse-superlu-nopivot(nnzL=1079740)) d=1.44209 csv 1.44209 |  | 18.6s
+L=3 per lmax=5 g=2.0 E0>=-0.06746582081 dim 4332: count in [0,1] allowed 0 -> verified at claimed - 3.5e-09 (r=9.5e-10, sparse-superlu-nopivot(nnzL=2919586)) d=35.1195 csv 35.1195 |  | 361.7s
+L=3 per lmax=5 g=2.0 E1>=1.613916187 dim 4332: count in [None,1] allowed 1 -> verified (r=3.6e-10, sparse-superlu-nopivot(nnzL=2919586)) d=35.1195 csv 35.1195 |  | 407.7s
+L=3 per lmax=5 g=0.35 E0>=-5.439163733 dim 4332: count in [None,0] allowed 0 -> verified (r=1.1e-10, sparse-superlu-nopivot(nnzL=2919586)) d=-1.20177 csv -1.20177 |  | 34.5s
+L=3 per lmax=5 g=0.35 E1>=-5.313322139 dim 4332: count in [None,1] allowed 1 -> verified (r=2.6e-10, sparse-superlu-nopivot(nnzL=2919586)) d=-1.20177 csv -1.20177 |  | 64.0s
+[stopped for time during L=4 open l_max=3 (dim 8092) floor sub-certificates]

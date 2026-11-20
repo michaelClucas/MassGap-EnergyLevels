@@ -1,0 +1,25 @@
+n=50 s=-9.0977 path=dense true=1 bracket=[1,1] r=1.1e-11 ok
+n=50 s=-9.0977 path=sparse true=1 bracket=[1,1] r=1.1e-11 ok
+n=50 s=-3.3183 path=dense true=15 bracket=[15,15] r=2.2e-11 ok
+n=50 s=-3.3183 path=sparse true=15 bracket=[15,15] r=5.5e-10 ok
+n=50 s=+0.1745 path=dense true=25 bracket=[25,25] r=3.5e-11 ok
+n=50 s=+0.1745 path=sparse true=25 bracket=[25,25] r=5.5e-10 ok
+n=50 s=+6.7509 path=dense true=45 bracket=[45,45] r=1.4e-11 ok
+n=50 s=+6.7509 path=sparse true=45 bracket=[45,45] r=4.5e-11 ok
+n=400 s=-26.4577 path=dense true=4 bracket=[4,4] r=2.1e-09 ok
+n=400 s=-26.4577 path=sparse true=4 bracket=[4,4] r=4.8e-09 ok
+n=400 s=-9.1606 path=dense true=120 bracket=[120,120] r=2.5e-08 ok
+n=400 s=-9.1606 path=sparse true=120 bracket=[120,120] r=1.0e-06 ok
+n=400 s=+0.0508 path=dense true=200 bracket=[200,200] r=2.6e-08 ok
+n=400 s=+0.0508 path=sparse true=200 bracket=[200,200] r=2.3e-06 ok
+n=400 s=+19.4091 path=dense true=360 bracket=[360,360] r=1.2e-08 ok
+n=400 s=+19.4091 path=sparse true=360 bracket=[360,360] r=1.1e-07 ok
+n=1500 s=-50.9270 path=dense true=15 bracket=[15,15] r=7.7e-08 ok
+n=1500 s=-17.5389 path=dense true=450 bracket=[450,450] r=2.1e-06 ok
+n=1500 s=+0.0693 path=dense true=750 bracket=[750,750] r=2.2e-06 ok
+n=1500 s=+37.5416 path=dense true=1350 bracket=[1350,1350] r=7.6e-07 ok
+shift at eigenvalue 10: 10 11 (true count below is 10 or 11)
+laplacian s=0.00540 true=1 bracket=[1,1] r=2.3e-08 sparse-superlu-nopivot(nnzL=54215) ok
+laplacian s=0.03045 true=6 bracket=[6,6] r=2.4e-08 sparse-superlu-nopivot(nnzL=54215) ok
+laplacian s=1.00000 true=298 bracket=[298,298] r=2.5e-07 sparse-superlu-nopivot(nnzL=54215) ok
+SELFTEST PASS

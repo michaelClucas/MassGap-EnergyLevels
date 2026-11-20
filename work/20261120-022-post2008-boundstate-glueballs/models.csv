@@ -1,0 +1,80 @@
+model,arXiv,N,dim,state,level,value,err,units,table,note
+FBSE-HFS2025,2503.03821,3,4,0++,0,1800,120,MeV,Table 1 (col. [Huber:2021yfy] with scale update),"3PI DSE input + BSE, scale from lattice gluon-dressing peak (Boucaud 2018), r0=0.472 fm; errors = extrapolation only"
+FBSE-HFS2025,2503.03821,3,4,0++,1,2500,210,MeV,Table 1,
+FBSE-HFS2025,2503.03821,3,4,0++,2,3610,150,MeV,Table 1,no AT2020 level-2 0++ in data/
+FBSE-HFS2025,2503.03821,3,4,0-+,0,2510,170,MeV,Table 1,
+FBSE-HFS2025,2503.03821,3,4,0-+,1,3750,110,MeV,Table 1,
+FBSE-HFS2025,2503.03821,3,4,0-+,2,4210,200,MeV,Table 1,no AT2020 level-2 0-+ in data/
+FBSE-HFS2025,2503.03821,3,4,2++,0,2530,180,MeV,Table 1,
+FBSE-HFS2025,2503.03821,3,4,2++,1,3530,230,MeV,Table 1,
+FBSE-HFS2025,2503.03821,3,4,2-+,0,2660,130,MeV,Table 1,
+FBSE-HFS2025,2503.03821,3,4,2-+,1,4170,180,MeV,Table 1,
+FBSE-HFS2025,2503.03821,3,4,3++,0,3270,50,MeV,Table 1,authors' * (extrapolation trustworthiness uncertain); AT2020 3++ also *
+FBSE-HFS2025,2503.03821,3,4,3++,1,3410,170,MeV,Table 1,*
+FBSE-HFS2025,2503.03821,3,4,3++,2,3850,220,MeV,Table 1,*
+FBSE-HFS2025,2503.03821,3,4,3-+,0,3930,280,MeV,Table 1,*
+FBSE-HFS2025,2503.03821,3,4,4++,0,4020,20,MeV,Table 1,*
+FBSE-HFS2025,2503.03821,3,4,4-+,0,5300,600,MeV,Table 1,*
+FBSE-HFS2021,2110.09180,3,4,2++,0,2610,180,MeV,Table 1 (This work),= 2025 values / 0.970; ratios identical
+FBSE-HFS2021,2110.09180,3,4,2-+,0,2740,140,MeV,Table 1,
+FBSE-HFS2021,2110.09180,3,4,3++,0,3370,50,MeV,Table 1,*
+FBSE-HFS2021,2110.09180,3,4,4++,0,4140,30,MeV,Table 1,*
+FBSE-HFS2021,2110.09180,3,4,4-+,0,3240,300,MeV,Table 1,"* ; changed to 5300(600) in 2503.03821, so not a pure rescale"
+FBSE-HFS2020,2004.00415,3,4,0++,0,1850,130,MeV,Table 1 (v2),J=0 only; ratios identical to 2025
+FBSE-HFS2020,2004.00415,3,4,0++,1,2570,210,MeV,Table 1,
+FBSE-HFS2020,2004.00415,3,4,0++,2,3720,160,MeV,Table 1,
+FBSE-HFS2020,2004.00415,3,4,0-+,0,2580,180,MeV,Table 1,
+FBSE-HFS2020,2004.00415,3,4,0-+,1,3870,120,MeV,Table 1,
+FBSE-HFS2020,2004.00415,3,4,0-+,2,4340,200,MeV,Table 1,
+FBSE-SFKvS2015,1503.06051,3,4,0++,0,1.64,,GeV,Table 1 (this work),"BSE with ghosts, DSE propagators from complex-plane solution; no error quoted"
+FBSE-SFKvS2015,1503.06051,3,4,0-+,0,4.53,,GeV,Table 1,
+Helicity-CM2025-DGA,2503.15146,3,4,0++,0,1.668,,GeV,Table III (tab::2GB_doubleGaussApp) E_DGA,"H = 2|p| + (9/4)sigma r - 3 alpha_s/r, sigma = 0.185 GeV^2, alpha_s = 0.45 (MSB 0802.0088 values), no instanton term"
+Helicity-CM2025-DGA,2503.15146,3,4,0++,1,2.808,,GeV,Table III,
+Helicity-CM2025-DGA,2503.15146,3,4,0-+,0,2.202,,GeV,Table III,
+Helicity-CM2025-DGA,2503.15146,3,4,0-+,1,3.069,,GeV,Table III,
+Helicity-CM2025-DGA,2503.15146,3,4,2++,0,2.241,,GeV,Table III,D+ Psi_1
+Helicity-CM2025-DGA,2503.15146,3,4,2++,1,3.042,,GeV,Table III,S+ Psi_1 (second-lowest 2++)
+Helicity-CM2025-DGA,2503.15146,3,4,2++,2,3.249,,GeV,Table III,D+ Psi_2
+Helicity-CM2025-DGA,2503.15146,3,4,2-+,0,3.042,,GeV,Table III,
+Helicity-CM2025-DGA,2503.15146,3,4,2-+,1,3.845,,GeV,Table III,
+Helicity-CM2025-DGA,2503.15146,3,4,3++,0,3.295,,GeV,Table III,
+Constituent-BCMS2025,2509.09454,inf,4,0++,0,3.228,,m/sqrt_sigma,Table III (tab2),"2-body/3-body spinless Salpeter, helicity-1 gluons, adjoint string; eta(adj)=sqrt2, alpha_bar=1.35, C_gg=-0.62, C_ggg=-4.02 fitted by least squares to SU(inf)/Sp(inf) lattice"
+Constituent-BCMS2025,2509.09454,inf,4,0-+,0,4.470,,m/sqrt_sigma,Table III,
+Constituent-BCMS2025,2509.09454,inf,4,1++,0,8.133,,m/sqrt_sigma,Table III,3 gluons
+Constituent-BCMS2025,2509.09454,inf,4,1-+,0,8.133,,m/sqrt_sigma,Table III,3 gluons
+Constituent-BCMS2025,2509.09454,inf,4,1+-,0,6.000,,m/sqrt_sigma,Table III,3 gluons
+Constituent-BCMS2025,2509.09454,inf,4,1--,0,6.000,,m/sqrt_sigma,Table III,3 gluons
+Constituent-BCMS2025,2509.09454,inf,4,2++,0,4.560,,m/sqrt_sigma,Table III,
+Constituent-BCMS2025,2509.09454,inf,4,2-+,0,6.423,,m/sqrt_sigma,Table III,
+Constituent-BCMS2025,2509.09454,inf,4,2+-,0,8.722,,m/sqrt_sigma,Table III,3 gluons
+Constituent-BCMS2025,2509.09454,inf,4,2--,0,8.722,,m/sqrt_sigma,Table III,3 gluons
+Constituent-BCMS2025,2509.09454,inf,4,3++,0,7.011,,m/sqrt_sigma,Table III,
+Constituent-BCMS2025,2509.09454,inf,4,3-+,0,9.522,,m/sqrt_sigma,Table III,3 gluons
+Constituent-BCMS2025,2509.09454,inf,4,3+-,0,7.970,,m/sqrt_sigma,Table III,3 gluons
+Constituent-BCMS2025,2509.09454,inf,4,3--,0,7.970,,m/sqrt_sigma,Table III,3 gluons
+Holography-KS-DM2022,2206.14826,inf,4,2++,0,1,,m/m(2++),Tables 4-5 (tab:KSsinglets row 1; tab:KSratios),Klebanov-Strassler (SUSY cascading theory) supergravity multiplets; authors' J^PC assignment; parameter-free ratios
+Holography-KS-DM2022,2206.14826,inf,4,2++,1,1.51,,m/m(2++),Table 4 row 1,
+Holography-KS-DM2022,2206.14826,inf,4,0++,0,0.640,,m/m(2++),Table 4 row 8 (= 0.959 x lattice per Table 5),"multiplet 8 also contains a degenerate 0-+ at 0.640, not seen on the lattice"
+Holography-KS-DM2022,2206.14826,inf,4,0-+,0,1.11,,m/m(2++),Table 4 row 9,
+Holography-KS-DM2022,2206.14826,inf,4,1+-,0,1.30,,m/m(2++),Table 4 row 2,
+Holography-KS-DM2022,2206.14826,inf,4,1--,0,1.64,,m/m(2++),Table 4 row 3,
+Constituent-BMS2013-2+1D,1301.3247,inf,3,0++,0,4.06,,m/sqrt_sigma,Table I (LMM),"2+1D, 2 massive transverse gluons, adjoint string; mu = m_g/sqrt(sigma) = 0.7 set by hand (1 parameter)"
+Constituent-BMS2013-2+1D,1301.3247,inf,3,0++,1,6.53,,m/sqrt_sigma,Table I (LMM),
+Constituent-BMS2013-2+1D,1301.3247,inf,3,0++,2,8.27,,m/sqrt_sigma,Table I (LMM),
+Constituent-BMS2013-2+1D,1301.3247,inf,3,2++,0,6.91,,m/sqrt_sigma,Table I (LMM),
+Constituent-BMS2013-2+1D,1301.3247,inf,3,2-+,0,6.91,,m/sqrt_sigma,Table I (LMM),
+Constituent-BMS2013-2+1D,1301.3247,inf,3,2++,1,8.50,,m/sqrt_sigma,Table I (LMM),
+Constituent-BMS2013-2+1D,1301.3247,inf,3,2-+,1,8.50,,m/sqrt_sigma,Table I (LMM),
+Constituent-BMS2013-2+1D,1301.3247,inf,3,0--,0,6.49,,m/sqrt_sigma,Table II (Gaussian),3 gluons
+Constituent-BMS2013-2+1D,1301.3247,inf,3,0--,1,8.53,,m/sqrt_sigma,Table II (Gaussian),3 gluons
+Constituent-BMS2013-2+1D,1301.3247,inf,3,2--,0,9.02,,m/sqrt_sigma,Table II (DOS),3 gluons
+Constituent-BMS2013-2+1D,1301.3247,inf,3,2+-,0,9.02,,m/sqrt_sigma,Table II (DOS),3 gluons
+Constituent-BMS2013-2+1D,1301.3247,inf,3,1--,0,9.74,,m/sqrt_sigma,Table II (DOS),3 gluons
+Constituent-BMS2013-2+1D,1301.3247,inf,3,1+-,0,9.74,,m/sqrt_sigma,Table II (DOS),3 gluons
+Constituent-BMS2013-2+1D,1301.3247,inf,3,1++,0,9.74,,m/sqrt_sigma,Table II (DOS),3 gluons
+Constituent-BMS2013-2+1D,1301.3247,inf,3,1-+,0,9.74,,m/sqrt_sigma,Table II (DOS),3 gluons
+Constituent-BMS2013-2+1D,1301.3247,inf,3,0-+,0,11.93,,m/sqrt_sigma,Table II (DOS),3 gluons
+Holography-EMD-CCZ2025,2507.06729,3,4,0++,0,1791,,MeV,Table 1,"neural-net Einstein-dilaton; 0++ and 0++* are fit inputs, so no AT2020-testable prediction"
+Holography-EMD-CCZ2025,2507.06729,3,4,0++,1,2751,,MeV,Table 1,input
+Holography-EMD-CCZ2025,2507.06729,3,4,0++,2,3500,,MeV,Table 1,prediction (no AT2020 level-2 in data/)
+Holography-EMD-CCZ2025,2507.06729,3,4,0++,3,4122,,MeV,Table 1,prediction (no AT2020 level-3 in data/)
