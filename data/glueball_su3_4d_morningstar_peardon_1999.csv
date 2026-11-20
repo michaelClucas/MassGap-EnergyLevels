@@ -1,0 +1,40 @@
+source_id,N,dim,JPC,quantity,value,err_stat,err_sys,units,table,level,row_label,note
+MP1999,3,4,0++,r0*m,4.21,0.11,0.04,dimensionless,Table VII (label tab:finalmasses),0,0^++,err_stat=continuum-extrapolation stat; err_sys=anisotropy
+MP1999,3,4,0++,m,1730,50,80,MeV,Table VII (label tab:finalmasses),0,0^++,err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV
+MP1999,3,4,2++,r0*m,5.85,0.02,0.06,dimensionless,Table VII (label tab:finalmasses),0,2^++,err_stat=continuum-extrapolation stat; err_sys=anisotropy
+MP1999,3,4,2++,m,2400,25,120,MeV,Table VII (label tab:finalmasses),0,2^++,err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV
+MP1999,3,4,0-+,r0*m,6.33,0.07,0.06,dimensionless,Table VII (label tab:finalmasses),0,0^-+,err_stat=continuum-extrapolation stat; err_sys=anisotropy
+MP1999,3,4,0-+,m,2590,40,130,MeV,Table VII (label tab:finalmasses),0,0^-+,err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV
+MP1999,3,4,0++,r0*m,6.50,0.44,0.07,dimensionless,Table VII (label tab:finalmasses),1,0^*++,err_stat=continuum-extrapolation stat; err_sys=anisotropy; dagger: interpretation requires further study (per source)
+MP1999,3,4,0++,m,2670,180,130,MeV,Table VII (label tab:finalmasses),1,0^*++,err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV; dagger: interpretation requires further study (per source)
+MP1999,3,4,1+-,r0*m,7.18,0.04,0.07,dimensionless,Table VII (label tab:finalmasses),0,1^+-,err_stat=continuum-extrapolation stat; err_sys=anisotropy
+MP1999,3,4,1+-,m,2940,30,140,MeV,Table VII (label tab:finalmasses),0,1^+-,err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV
+MP1999,3,4,2-+,r0*m,7.55,0.03,0.08,dimensionless,Table VII (label tab:finalmasses),0,2^-+,err_stat=continuum-extrapolation stat; err_sys=anisotropy
+MP1999,3,4,2-+,m,3100,30,150,MeV,Table VII (label tab:finalmasses),0,2^-+,err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV
+MP1999,3,4,3+-,r0*m,8.66,0.04,0.09,dimensionless,Table VII (label tab:finalmasses),0,3^+-,err_stat=continuum-extrapolation stat; err_sys=anisotropy
+MP1999,3,4,3+-,m,3550,40,170,MeV,Table VII (label tab:finalmasses),0,3^+-,err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV
+MP1999,3,4,0-+,r0*m,8.88,0.11,0.09,dimensionless,Table VII (label tab:finalmasses),1,0^*-+,err_stat=continuum-extrapolation stat; err_sys=anisotropy
+MP1999,3,4,0-+,m,3640,60,180,MeV,Table VII (label tab:finalmasses),1,0^*-+,err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV
+MP1999,3,4,3++,r0*m,8.99,0.04,0.09,dimensionless,Table VII (label tab:finalmasses),0,3^++,"err_stat=continuum-extrapolation stat; err_sys=anisotropy; other J possible: 6,7,9,..."
+MP1999,3,4,3++,m,3690,40,180,MeV,Table VII (label tab:finalmasses),0,3^++,"err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV; other J possible: 6,7,9,..."
+MP1999,3,4,1--,r0*m,9.40,0.06,0.09,dimensionless,Table VII (label tab:finalmasses),0,1^--,"err_stat=continuum-extrapolation stat; err_sys=anisotropy; other J possible: 3,5,7,..."
+MP1999,3,4,1--,m,3850,50,190,MeV,Table VII (label tab:finalmasses),0,1^--,"err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV; other J possible: 3,5,7,..."
+MP1999,3,4,2-+,r0*m,9.50,0.04,0.09,dimensionless,Table VII (label tab:finalmasses),1,2^*-+,"err_stat=continuum-extrapolation stat; err_sys=anisotropy; other J possible: 4,5,8,...; dagger: interpretation requires further study (per source)"
+MP1999,3,4,2-+,m,3890,40,190,MeV,Table VII (label tab:finalmasses),1,2^*-+,"err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV; other J possible: 4,5,8,...; dagger: interpretation requires further study (per source)"
+MP1999,3,4,2--,r0*m,9.59,0.04,0.10,dimensionless,Table VII (label tab:finalmasses),0,2^--,"err_stat=continuum-extrapolation stat; err_sys=anisotropy; other J possible: 3,5,7,..."
+MP1999,3,4,2--,m,3930,40,190,MeV,Table VII (label tab:finalmasses),0,2^--,"err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV; other J possible: 3,5,7,..."
+MP1999,3,4,3--,r0*m,10.06,0.21,0.10,dimensionless,Table VII (label tab:finalmasses),0,3^--,"err_stat=continuum-extrapolation stat; err_sys=anisotropy; other J possible: 6,7,9,..."
+MP1999,3,4,3--,m,4130,90,200,MeV,Table VII (label tab:finalmasses),0,3^--,"err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV; other J possible: 6,7,9,..."
+MP1999,3,4,2+-,r0*m,10.10,0.07,0.10,dimensionless,Table VII (label tab:finalmasses),0,2^+-,"err_stat=continuum-extrapolation stat; err_sys=anisotropy; other J possible: 5,7,11,..."
+MP1999,3,4,2+-,m,4140,50,200,MeV,Table VII (label tab:finalmasses),0,2^+-,"err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV; other J possible: 5,7,11,..."
+MP1999,3,4,0+-,r0*m,11.57,0.12,0.12,dimensionless,Table VII (label tab:finalmasses),0,0^+-,"err_stat=continuum-extrapolation stat; err_sys=anisotropy; other J possible: 4,6,8,..."
+MP1999,3,4,0+-,m,4740,70,230,MeV,Table VII (label tab:finalmasses),0,0^+-,"err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV; other J possible: 4,6,8,..."
+MP1999,3,4,2++,m/m(0++),1.39,0.04,,dimensionless,Table VIII (label tab:massratios),0,m(2^++)/m(0^++),
+MP1999,3,4,0-+,m/m(0++),1.50,0.04,,dimensionless,Table VIII (label tab:massratios),0,m(0^-+)/m(0^++),
+MP1999,3,4,0++,m/m(0++),1.54,0.11,,dimensionless,Table VIII (label tab:massratios),1,m(0^*++)/m(0^++),
+MP1999,3,4,1+-,m/m(0++),1.70,0.05,,dimensionless,Table VIII (label tab:massratios),0,m(1^+-)/m(0^++),
+MP1999,3,4,2-+,m/m(0++),1.79,0.05,,dimensionless,Table VIII (label tab:massratios),0,m(2^-+)/m(0^++),
+MP1999,3,4,3+-,m/m(0++),2.06,0.06,,dimensionless,Table VIII (label tab:massratios),0,m(3^+-)/m(0^++),
+MP1999,3,4,0-+,m/m(0++),2.11,0.06,,dimensionless,Table VIII (label tab:massratios),1,m(0^*-+)/m(0^++),
+MP1999,3,4,0-+,m/m(2++),1.081,0.012,,dimensionless,Table VIII (label tab:massratios),0,m(0^-+)/m(2^++),
+MP1999,3,4,,1/r0,410,20,,MeV,Table VII caption (label tab:finalmasses),,,scale convention used by the authors to convert r0*m to MeV

@@ -1,0 +1,136 @@
+plaq1 done 2s
+ladder2 j_max=0.5 dim=4 0s
+ladder2 j_max=1.0 dim=11 0s
+ladder2 j_max=1.5 dim=23 0s
+ladder2 j_max=2.0 dim=42 0s
+ladder2 j_max=3.0 dim=106 1s
+ladder2 j_max=4.0 dim=215 1s
+ladder2 j_max=5.0 dim=381 3s
+ladder2 j_max=6.0 dim=616 9s
+ladder2 j_max=7.0 dim=932 25s
+ladder2 j_max=8.0 dim=1341 63s
+periodic2x2 j_max=0.5 dim=23 0s
+periodic2x2 j_max=1.0 dim=622 4s
+periodic2x2 j_max=1.5 dim=9418 134s
+plaq1 g2=0.2: spin basis j_max=40 E0=-17.1316130607 E1=-13.2600318384; group-manifold FD E0=-17.1316130606 E1=-13.2600318389; max dev 4.6e-10; SC-PT Delta=466.966667 vs ED 3.871581
+plaq1 g2=0.3: spin basis j_max=40 E0=-10.5310390970 E1=-6.7265094322; group-manifold FD E0=-10.5310390976 E1=-6.7265094327; max dev 6.3e-10; SC-PT Delta=138.721605 vs ED 3.804530
+plaq1 g2=0.5: spin basis j_max=40 E0=-5.3305158609 E1=-1.6669658084; group-manifold FD E0=-5.3305158612 E1=-1.6669658099; max dev 1.5e-09; SC-PT Delta=30.616667 vs ED 3.663550
+plaq1 g2=0.7: spin basis j_max=40 E0=-3.1785285412 E1=0.3325975899; group-manifold FD E0=-3.1785285417 E1=0.3325975899; max dev 4.7e-10; SC-PT Delta=11.934354 vs ED 3.511126
+plaq1 g2=1.0: spin basis j_max=40 E0=-1.6667637179 E1=1.6023354676; group-manifold FD E0=-1.6667637159 E1=1.6023354670; max dev 2.0e-09; SC-PT Delta=5.233333 vs ED 3.269099
+plaq1 g2=1.5: spin basis j_max=40 E0=-0.6712170059 E1=2.4460244088; group-manifold FD E0=-0.6712170003 E1=2.4460244122; max dev 5.7e-09; SC-PT Delta=3.356173 vs ED 3.117241
+plaq1 g2=2.0: spin basis j_max=40 E0=-0.3132797432 E1=3.1130088225; group-manifold FD E0=-0.3132797420 E1=3.1130088229; max dev 1.2e-09; SC-PT Delta=3.466667 vs ED 3.426289
+plaq1 g2=3.0: spin basis j_max=40 E0=-0.0974519235 E1=4.5381738947; group-manifold FD E0=-0.0974519187 E1=4.5381738995; max dev 4.8e-09; SC-PT Delta=4.638272 vs ED 4.635626
+plaq1 g2=5.0: spin basis j_max=40 E0=-0.0212955625 E1=7.5084950190; group-manifold FD E0=-0.0212955508 E1=7.5084950219; max dev 1.2e-08; SC-PT Delta=7.529867 vs ED 7.529791
+plaq1 g2=10.0: spin basis j_max=40 E0=-0.0026663704 E1=15.0010663662; group-manifold FD E0=-0.0026663651 E1=15.0010663723; max dev 6.1e-09; SC-PT Delta=15.003733 vs ED 15.003733
+ladder2 j_max=0.5: dim 4, |W-W^T|=4.4e-16, reflection consistency err 0.0e+00
+  ladder2 j_max=0.5: dims P+ 3, P- 1; spec(P+) u spec(P-) vs full spectrum at g2=1: max dev 6.7e-16
+ladder2 j_max=1.0: dim 11, |W-W^T|=8.9e-16, reflection consistency err 6.7e-16
+  ladder2 j_max=1.0: dims P+ 8, P- 3; spec(P+) u spec(P-) vs full spectrum at g2=1: max dev 3.6e-15
+ladder2 j_max=1.5: dim 23, |W-W^T|=8.9e-16, reflection consistency err 7.8e-16
+  ladder2 j_max=1.5: dims P+ 15, P- 8; spec(P+) u spec(P-) vs full spectrum at g2=1: max dev 1.1e-14
+ladder2 j_max=2.0: dim 42, |W-W^T|=8.9e-16, reflection consistency err 8.9e-16
+  ladder2 j_max=2.0: dims P+ 27, P- 15; spec(P+) u spec(P-) vs full spectrum at g2=1: max dev 2.5e-14
+ladder2 j_max=3.0: dim 106, |W-W^T|=8.9e-16, reflection consistency err 1.4e-15
+  ladder2 j_max=3.0: dims P+ 64, P- 42; spec(P+) u spec(P-) vs full spectrum at g2=1: max dev 7.8e-14
+ladder2 j_max=4.0: dim 215, |W-W^T|=1.1e-15, reflection consistency err 2.2e-15
+  ladder2 j_max=4.0: dims P+ 125, P- 90; spec(P+) u spec(P-) vs full spectrum at g2=1: max dev 9.9e-14
+ladder2 j_max=5.0: dim 381, |W-W^T|=1.1e-15, reflection consistency err 2.7e-15
+  ladder2 j_max=5.0: dims P+ 216, P- 165; spec(P+) u spec(P-) vs full spectrum at g2=1: max dev 2.4e-13
+ladder2 j_max=6.0: dim 616, |W-W^T|=1.1e-15, reflection consistency err 2.7e-15
+  ladder2 j_max=6.0: dims P+ 343, P- 273; spec(P+) u spec(P-) vs full spectrum at g2=1: max dev 6.0e-13
+ladder2 j_max=7.0: dim 932, |W-W^T|=1.1e-15, reflection consistency err 2.7e-15
+  ladder2 j_max=7.0: dims P+ 512, P- 420; spec(P+) u spec(P-) vs full spectrum at g2=1: max dev 6.8e-13
+ladder2 j_max=8.0: dim 1341, |W-W^T|=1.1e-15, reflection consistency err 3.1e-15
+  ladder2 j_max=8.0: dims P+ 729, P- 612; spec(P+) u spec(P-) vs full spectrum at g2=1: max dev 1.0e-12
+periodic2x2 j_max=0.5: dim 23, |W-W^dag|=5.6e-16, max |Im W| 0.0e+00
+  periodic2x2 j_max=0.5 g2=0.2: lowest 5 levels [-25.483035, -13.243885, 0.249747, 0.3, 0.3]
+  periodic2x2 j_max=0.5 g2=0.3: lowest 5 levels [-16.77813, -8.456482, 0.374632, 0.45, 0.45]
+  periodic2x2 j_max=0.5 g2=0.5: lowest 5 levels [-9.67494, -4.365048, 0.624538, 0.75, 0.75]
+  periodic2x2 j_max=0.5 g2=0.7: lowest 5 levels [-6.515047, -2.372372, 0.875045, 1.05, 1.05]
+  periodic2x2 j_max=0.5 g2=1.0: lowest 5 levels [-4.034948, -0.589454, 1.254145, 1.5, 1.5]
+  periodic2x2 j_max=0.5 g2=1.5: lowest 5 levels [-2.033224, 1.230482, 1.909116, 2.25, 2.25]
+  periodic2x2 j_max=0.5 g2=2.0: lowest 5 levels [-1.090381, 2.46899, 2.61269, 3.0, 3.0]
+  periodic2x2 j_max=0.5 g2=3.0: lowest 5 levels [-0.375885, 4.132133, 4.321866, 4.5, 4.5]
+  periodic2x2 j_max=0.5 g2=5.0: lowest 5 levels [-0.08475, 7.238584, 7.460211, 7.5, 7.5]
+  periodic2x2 j_max=0.5 g2=10.0: lowest 5 levels [-0.010662, 14.861131, 14.995002, 15.0, 15.0]
+periodic2x2 j_max=1.0: dim 622, |W-W^dag|=6.7e-16, max |Im W| 0.0e+00
+  periodic2x2 j_max=1.0 g2=0.2: lowest 5 levels [-43.224864, -34.873553, -33.636294, -29.778034, -29.767163]
+  periodic2x2 j_max=1.0 g2=0.3: lowest 5 levels [-28.311313, -22.691566, -21.852604, -19.19372, -19.188553]
+  periodic2x2 j_max=1.0 g2=0.5: lowest 5 levels [-16.051788, -12.567809, -12.035748, -10.268882, -10.265827]
+  periodic2x2 j_max=1.0 g2=0.7: lowest 5 levels [-10.532686, -7.897807, -7.485708, -6.031277, -6.018505]
+  periodic2x2 j_max=1.0 g2=1.0: lowest 5 levels [-6.164164, -4.02168, -3.694444, -2.497493, -2.385548]
+  periodic2x2 j_max=1.0 g2=1.5: lowest 5 levels [-2.718742, -0.489866, -0.331858, 0.551293, 0.648483]
+  periodic2x2 j_max=1.0 g2=2.0: lowest 5 levels [-1.281939, 1.480186, 1.607504, 2.208461, 2.232107]
+  periodic2x2 j_max=1.0 g2=3.0: lowest 5 levels [-0.392976, 3.744617, 4.089221, 4.252223, 4.252223]
+  periodic2x2 j_max=1.0 g2=5.0: lowest 5 levels [-0.085284, 7.15014, 7.415223, 7.445371, 7.445371]
+  periodic2x2 j_max=1.0 g2=10.0: lowest 5 levels [-0.010666, 14.849887, 14.989494, 14.993151, 14.993151]
+periodic2x2 j_max=1.5: dim 9418, |W-W^dag|=7.8e-16, max |Im W| 0.0e+00
+  periodic2x2 j_max=1.5 g2=0.2: lowest 5 levels [-53.654647, -50.1239, -49.392671, -47.400811, -47.022259]
+  periodic2x2 j_max=1.5 g2=0.3: lowest 5 levels [-34.905157, -32.529184, -32.036898, -30.664007, -30.396589]
+  periodic2x2 j_max=1.5 g2=0.5: lowest 5 levels [-19.379571, -17.891015, -17.578376, -16.649593, -16.463048]
+  periodic2x2 j_max=1.5 g2=0.7: lowest 5 levels [-12.349755, -11.173545, -10.919207, -10.105826, -9.950734]
+  periodic2x2 j_max=1.5 g2=1.0: lowest 5 levels [-6.859862, -5.731298, -5.493105, -4.603911, -4.484169]
+  periodic2x2 j_max=1.5 g2=1.5: lowest 5 levels [-2.81549, -1.104773, -0.919714, 0.109714, 0.303709]
+  periodic2x2 j_max=1.5 g2=2.0: lowest 5 levels [-1.291726, 1.339161, 1.398533, 2.145741, 2.153905]
+  periodic2x2 j_max=1.5 g2=3.0: lowest 5 levels [-0.393139, 3.734935, 4.074552, 4.246524, 4.256453]
+  periodic2x2 j_max=1.5 g2=5.0: lowest 5 levels [-0.085284, 7.149857, 7.414922, 7.445204, 7.447224]
+  periodic2x2 j_max=1.5 g2=10.0: lowest 5 levels [-0.010666, 14.849885, 14.989492, 14.99315, 14.9934]
+
+lattice  sector  g2  j_max  Delta  |Delta(j_max)-Delta(prev)|
+ladder2      P+    0.20   8.0 3.40053519 7.8e-06
+ladder2      P+    0.30   8.0 3.36677059 2.3e-07
+ladder2      P+    0.50   8.0 3.29366348 3.9e-12
+ladder2      P+    0.70   8.0 3.20980131 1.3e-13
+ladder2      P+    1.00   8.0 3.06201328 0.0e+00
+ladder2      P+    1.50   8.0 2.99808620 0.0e+00
+ladder2      P+    2.00   8.0 3.35458452 0.0e+00
+ladder2      P+    3.00   8.0 4.60922849 0.0e+00
+ladder2      P+    5.00   8.0 7.52375013 0.0e+00
+ladder2      P+   10.00   8.0 15.00297126 0.0e+00
+ladder2      P-    0.20   8.0 3.84704484 6.8e-04
+ladder2      P-    0.30   8.0 3.78369296 1.2e-06
+ladder2      P-    0.50   8.0 3.65030945 2.4e-12
+ladder2      P-    0.70   8.0 3.50562884 1.3e-13
+ladder2      P-    1.00   8.0 3.27291640 0.0e+00
+ladder2      P-    1.50   8.0 3.12085320 0.0e+00
+ladder2      P-    2.00   8.0 3.42734605 0.0e+00
+ladder2      P-    3.00   8.0 4.63571616 0.0e+00
+ladder2      P-    5.00   8.0 7.52979335 0.0e+00
+ladder2      P-   10.00   8.0 15.00373276 0.0e+00
+ladder2      all   0.20   8.0 3.40053519 7.8e-06
+ladder2      all   0.30   8.0 3.36677059 2.3e-07
+ladder2      all   0.50   8.0 3.29366348 4.1e-12
+ladder2      all   0.70   8.0 3.20980131 1.2e-14
+ladder2      all   1.00   8.0 3.06201328 0.0e+00
+ladder2      all   1.50   8.0 2.99808620 0.0e+00
+ladder2      all   2.00   8.0 3.35458452 0.0e+00
+ladder2      all   3.00   8.0 4.60922849 0.0e+00
+ladder2      all   5.00   8.0 7.52375013 0.0e+00
+ladder2      all  10.00   8.0 15.00297126 0.0e+00
+periodic2x2  all   0.20   1.5 3.53074625 4.8e+00
+periodic2x2  all   0.30   1.5 2.37597349 3.2e+00
+periodic2x2  all   0.50   1.5 1.48855664 2.0e+00
+periodic2x2  all   0.70   1.5 1.17620985 1.5e+00
+periodic2x2  all   1.00   1.5 1.12856392 1.0e+00
+periodic2x2  all   1.50   1.5 1.71071728 5.2e-01
+periodic2x2  all   2.00   1.5 2.63088684 1.3e-01
+periodic2x2  all   3.00   1.5 4.12807335 9.5e-03
+periodic2x2  all   5.00   1.5 7.23514120 2.8e-04
+periodic2x2  all  10.00   1.5 14.86055100 2.3e-06
+plaq1        all   0.20  40.0 3.87158122 0.0e+00
+plaq1        all   0.30  40.0 3.80452966 0.0e+00
+plaq1        all   0.50  40.0 3.66355005 0.0e+00
+plaq1        all   0.70  40.0 3.51112613 0.0e+00
+plaq1        all   1.00  40.0 3.26909919 0.0e+00
+plaq1        all   1.50  40.0 3.11724141 0.0e+00
+plaq1        all   2.00  40.0 3.42628857 0.0e+00
+plaq1        all   3.00  40.0 4.63562582 0.0e+00
+plaq1        all   5.00  40.0 7.52979058 0.0e+00
+plaq1        all  10.00  40.0 15.00373274 0.0e+00
+total 247s
+=== validate.py
+CG series max error 7.95e-16; conj(D) identity max error 2.29e-16
+single plaquette: |W| vs analytic tridiagonal max dev 2.22e-15; Casimir dev 0.00e+00
+plaq1: dim(j_max=2.0) = 5, |W-W^dag| = 6.66e-16, gauge-invariance err = 1.62e-15, pointwise plaquette err = 1.84e-15
+ladder2: dim(j_max=1.5) = 23, |W-W^dag| = 8.88e-16, gauge-invariance err = 2.89e-15, pointwise plaquette err = 3.20e-15
+periodic2x2: dim(j_max=1.0) = 622, |W-W^dag| = 6.66e-16, gauge-invariance err = 4.57e-15, pointwise plaquette err = 4.62e-15

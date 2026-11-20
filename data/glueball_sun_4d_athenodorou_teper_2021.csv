@@ -1,0 +1,154 @@
+source_id,N,dim,JPC,quantity,value,err_stat,err_sys,units,table,level,row_label,note
+AT2021,2,4,0++,m/sqrt_sigma,3.781,0.023,,dimensionless,Table 34 (label table_MKJ_N2-5),0,0^++gs / SU(2),
+AT2021,3,4,0++,m/sqrt_sigma,3.405,0.021,,dimensionless,Table 34 (label table_MKJ_N2-5),0,0^++gs / SU(3),
+AT2021,4,4,0++,m/sqrt_sigma,3.271,0.027,,dimensionless,Table 34 (label table_MKJ_N2-5),0,0^++gs / SU(4),
+AT2021,5,4,0++,m/sqrt_sigma,3.156,0.031,,dimensionless,Table 34 (label table_MKJ_N2-5),0,0^++gs / SU(5),
+AT2021,2,4,0++,m/sqrt_sigma,6.126,0.038,,dimensionless,Table 34 (label table_MKJ_N2-5),1,0^++ex1 / SU(2),
+AT2021,3,4,0++,m/sqrt_sigma,5.855,0.041,,dimensionless,Table 34 (label table_MKJ_N2-5),1,0^++ex1 / SU(3),
+AT2021,4,4,0++,m/sqrt_sigma,5.827,0.062,,dimensionless,Table 34 (label table_MKJ_N2-5),1,0^++ex1 / SU(4),
+AT2021,5,4,0++,m/sqrt_sigma,5.689,0.053,,dimensionless,Table 34 (label table_MKJ_N2-5),1,0^++ex1 / SU(5),
+AT2021,2,4,2++,m/sqrt_sigma,5.349,0.020,,dimensionless,Table 34 (label table_MKJ_N2-5),0,2^++gs / SU(2),
+AT2021,3,4,2++,m/sqrt_sigma,4.894,0.022,,dimensionless,Table 34 (label table_MKJ_N2-5),0,2^++gs / SU(3),
+AT2021,4,4,2++,m/sqrt_sigma,4.742,0.015,,dimensionless,Table 34 (label table_MKJ_N2-5),0,2^++gs / SU(4),
+AT2021,5,4,2++,m/sqrt_sigma,4.690,0.020,,dimensionless,Table 34 (label table_MKJ_N2-5),0,2^++gs / SU(5),
+AT2021,2,4,2++,m/sqrt_sigma,7.22,0.06,,dimensionless,Table 34 (label table_MKJ_N2-5),1,2^++ex1 / SU(2),author mark + (see source text)
+AT2021,3,4,2++,m/sqrt_sigma,6.788,0.040,,dimensionless,Table 34 (label table_MKJ_N2-5),1,2^++ex1 / SU(3),
+AT2021,4,4,2++,m/sqrt_sigma,6.694,0.040,,dimensionless,Table 34 (label table_MKJ_N2-5),1,2^++ex1 / SU(4),
+AT2021,5,4,2++,m/sqrt_sigma,6.607,0.045,,dimensionless,Table 34 (label table_MKJ_N2-5),1,2^++ex1 / SU(5),
+AT2021,2,4,3++,m/sqrt_sigma,8.13,0.08,,dimensionless,Table 34 (label table_MKJ_N2-5),0,3^++gs / SU(2),author mark * (see source caption/text)
+AT2021,3,4,3++,m/sqrt_sigma,7.71,0.09,,dimensionless,Table 34 (label table_MKJ_N2-5),0,3^++gs / SU(3),author mark * (see source caption/text)
+AT2021,5,4,3++,m/sqrt_sigma,7.29,0.09,,dimensionless,Table 34 (label table_MKJ_N2-5),0,3^++gs / SU(5),
+AT2021,3,4,4++,m/sqrt_sigma,7.60,0.12,,dimensionless,Table 34 (label table_MKJ_N2-5),0,4^++gs / SU(3),author mark * (see source caption/text)
+AT2021,4,4,4++,m/sqrt_sigma,7.36,0.09,,dimensionless,Table 34 (label table_MKJ_N2-5),0,4^++gs / SU(4),author mark * (see source caption/text)
+AT2021,5,4,4++,m/sqrt_sigma,7.41,0.10,,dimensionless,Table 34 (label table_MKJ_N2-5),0,4^++gs / SU(5),
+AT2021,2,4,0-+,m/sqrt_sigma,6.017,0.061,,dimensionless,Table 34 (label table_MKJ_N2-5),0,0^-+gs / SU(2),
+AT2021,3,4,0-+,m/sqrt_sigma,5.276,0.045,,dimensionless,Table 34 (label table_MKJ_N2-5),0,0^-+gs / SU(3),
+AT2021,4,4,0-+,m/sqrt_sigma,5.020,0.046,,dimensionless,Table 34 (label table_MKJ_N2-5),0,0^-+gs / SU(4),
+AT2021,5,4,0-+,m/sqrt_sigma,4.832,0.040,,dimensionless,Table 34 (label table_MKJ_N2-5),0,0^-+gs / SU(5),
+AT2021,2,4,0-+,m/sqrt_sigma,8.00,0.15,,dimensionless,Table 34 (label table_MKJ_N2-5),1,0^-+ex1 / SU(2),
+AT2021,3,4,0-+,m/sqrt_sigma,7.29,0.13,,dimensionless,Table 34 (label table_MKJ_N2-5),1,0^-+ex1 / SU(3),
+AT2021,4,4,0-+,m/sqrt_sigma,7.33,0.11,,dimensionless,Table 34 (label table_MKJ_N2-5),1,0^-+ex1 / SU(4),
+AT2021,5,4,0-+,m/sqrt_sigma,7.38,0.11,,dimensionless,Table 34 (label table_MKJ_N2-5),1,0^-+ex1 / SU(5),
+AT2021,2,4,2-+,m/sqrt_sigma,7.017,0.050,,dimensionless,Table 34 (label table_MKJ_N2-5),0,2^-+gs / SU(2),
+AT2021,3,4,2-+,m/sqrt_sigma,6.32,0.09,,dimensionless,Table 34 (label table_MKJ_N2-5),0,2^-+gs / SU(3),
+AT2021,4,4,2-+,m/sqrt_sigma,6.182,0.033,,dimensionless,Table 34 (label table_MKJ_N2-5),0,2^-+gs / SU(4),
+AT2021,5,4,2-+,m/sqrt_sigma,6.187,0.050,,dimensionless,Table 34 (label table_MKJ_N2-5),0,2^-+gs / SU(5),
+AT2021,2,4,2-+,m/sqrt_sigma,8.521,0.065,,dimensionless,Table 34 (label table_MKJ_N2-5),1,2^-+ex1 / SU(2),
+AT2021,3,4,2-+,m/sqrt_sigma,8.18,0.08,,dimensionless,Table 34 (label table_MKJ_N2-5),1,2^-+ex1 / SU(3),
+AT2021,4,4,2-+,m/sqrt_sigma,7.91,0.13,,dimensionless,Table 34 (label table_MKJ_N2-5),1,2^-+ex1 / SU(4),author mark * (see source caption/text)
+AT2021,5,4,2-+,m/sqrt_sigma,8.02,0.11,,dimensionless,Table 34 (label table_MKJ_N2-5),1,2^-+ex1 / SU(5),
+AT2021,2,4,1-+,m/sqrt_sigma,9.06,0.13,,dimensionless,Table 34 (label table_MKJ_N2-5),0,1^-+gs / SU(2),
+AT2021,3,4,1-+,m/sqrt_sigma,8.48,0.12,,dimensionless,Table 34 (label table_MKJ_N2-5),0,1^-+gs / SU(3),
+AT2021,4,4,1-+,m/sqrt_sigma,8.47,0.11,,dimensionless,Table 34 (label table_MKJ_N2-5),0,1^-+gs / SU(4),
+AT2021,5,4,1-+,m/sqrt_sigma,8.29,0.13,,dimensionless,Table 34 (label table_MKJ_N2-5),0,1^-+gs / SU(5),
+AT2021,3,4,2+-,m/sqrt_sigma,8.91,0.15,,dimensionless,Table 34 (label table_MKJ_N2-5),0,2^+-gs / SU(3),
+AT2021,4,4,2+-,m/sqrt_sigma,8.84,0.11,,dimensionless,Table 34 (label table_MKJ_N2-5),0,2^+-gs / SU(4),
+AT2021,5,4,2+-,m/sqrt_sigma,8.49,0.15,,dimensionless,Table 34 (label table_MKJ_N2-5),0,2^+-gs / SU(5),
+AT2021,3,4,1+-,m/sqrt_sigma,6.065,0.040,,dimensionless,Table 34 (label table_MKJ_N2-5),0,1^+-gs / SU(3),
+AT2021,4,4,1+-,m/sqrt_sigma,5.956,0.042,,dimensionless,Table 34 (label table_MKJ_N2-5),0,1^+-gs / SU(4),
+AT2021,5,4,1+-,m/sqrt_sigma,5.915,0.045,,dimensionless,Table 34 (label table_MKJ_N2-5),0,1^+-gs / SU(5),
+AT2021,3,4,1+-,m/sqrt_sigma,7.82,0.06,,dimensionless,Table 34 (label table_MKJ_N2-5),1,1^+-ex1 / SU(3),
+AT2021,4,4,1+-,m/sqrt_sigma,7.51,0.08,,dimensionless,Table 34 (label table_MKJ_N2-5),1,1^+-ex1 / SU(4),
+AT2021,5,4,1+-,m/sqrt_sigma,7.62,0.08,,dimensionless,Table 34 (label table_MKJ_N2-5),1,1^+-ex1 / SU(5),
+AT2021,3,4,3+-,m/sqrt_sigma,7.27,0.12,,dimensionless,Table 34 (label table_MKJ_N2-5),0,3^+-gs / SU(3),
+AT2021,4,4,3+-,m/sqrt_sigma,7.03,0.07,,dimensionless,Table 34 (label table_MKJ_N2-5),0,3^+-gs / SU(4),
+AT2021,5,4,3+-,m/sqrt_sigma,7.13,0.07,,dimensionless,Table 34 (label table_MKJ_N2-5),0,3^+-gs / SU(5),
+AT2021,3,4,2--,m/sqrt_sigma,8.08,0.15,,dimensionless,Table 34 (label table_MKJ_N2-5),0,2^--gs / SU(3),
+AT2021,4,4,2--,m/sqrt_sigma,7.79,0.09,,dimensionless,Table 34 (label table_MKJ_N2-5),0,2^--gs / SU(4),
+AT2021,5,4,2--,m/sqrt_sigma,7.97,0.06,,dimensionless,Table 34 (label table_MKJ_N2-5),0,2^--gs / SU(5),
+AT2021,3,4,1--,m/sqrt_sigma,8.31,0.10,,dimensionless,Table 34 (label table_MKJ_N2-5),0,1^--gs / SU(3),
+AT2021,4,4,1--,m/sqrt_sigma,7.60,0.09,,dimensionless,Table 34 (label table_MKJ_N2-5),0,1^--gs / SU(4),
+AT2021,5,4,1--,m/sqrt_sigma,7.62,0.15,,dimensionless,Table 34 (label table_MKJ_N2-5),0,1^--gs / SU(5),
+AT2021,6,4,0++,m/sqrt_sigma,3.102,0.032,,dimensionless,Table 35 (label table_MKJ_N6-12),0,0^++gs / SU(6),
+AT2021,8,4,0++,m/sqrt_sigma,3.099,0.026,,dimensionless,Table 35 (label table_MKJ_N6-12),0,0^++gs / SU(8),
+AT2021,10,4,0++,m/sqrt_sigma,3.102,0.037,,dimensionless,Table 35 (label table_MKJ_N6-12),0,0^++gs / SU(10),
+AT2021,12,4,0++,m/sqrt_sigma,3.151,0.033,,dimensionless,Table 35 (label table_MKJ_N6-12),0,0^++gs / SU(12),
+AT2021,6,4,0++,m/sqrt_sigma,6.020,0.057,,dimensionless,Table 35 (label table_MKJ_N6-12),1,0^++ex1 / SU(6),
+AT2021,8,4,0++,m/sqrt_sigma,5.87,0.07,,dimensionless,Table 35 (label table_MKJ_N6-12),1,0^++ex1 / SU(8),
+AT2021,10,4,0++,m/sqrt_sigma,5.99,0.13,,dimensionless,Table 35 (label table_MKJ_N6-12),1,0^++ex1 / SU(10),
+AT2021,12,4,0++,m/sqrt_sigma,5.914,0.082,,dimensionless,Table 35 (label table_MKJ_N6-12),1,0^++ex1 / SU(12),
+AT2021,6,4,2++,m/sqrt_sigma,4.678,0.030,,dimensionless,Table 35 (label table_MKJ_N6-12),0,2^++gs / SU(6),
+AT2021,8,4,2++,m/sqrt_sigma,4.660,0.020,,dimensionless,Table 35 (label table_MKJ_N6-12),0,2^++gs / SU(8),
+AT2021,10,4,2++,m/sqrt_sigma,4.594,0.025,,dimensionless,Table 35 (label table_MKJ_N6-12),0,2^++gs / SU(10),
+AT2021,12,4,2++,m/sqrt_sigma,4.646,0.030,,dimensionless,Table 35 (label table_MKJ_N6-12),0,2^++gs / SU(12),
+AT2021,6,4,2++,m/sqrt_sigma,6.54,0.07,,dimensionless,Table 35 (label table_MKJ_N6-12),1,2^++ex1 / SU(6),
+AT2021,8,4,2++,m/sqrt_sigma,6.60,0.09,,dimensionless,Table 35 (label table_MKJ_N6-12),1,2^++ex1 / SU(8),author mark * (see source caption/text)
+AT2021,10,4,2++,m/sqrt_sigma,6.57,0.09,,dimensionless,Table 35 (label table_MKJ_N6-12),1,2^++ex1 / SU(10),
+AT2021,12,4,2++,m/sqrt_sigma,6.71,0.06,,dimensionless,Table 35 (label table_MKJ_N6-12),1,2^++ex1 / SU(12),
+AT2021,6,4,3++,m/sqrt_sigma,7.44,0.08,,dimensionless,Table 35 (label table_MKJ_N6-12),0,3^++gs / SU(6),author mark * (see source caption/text)
+AT2021,8,4,3++,m/sqrt_sigma,7.34,0.11,,dimensionless,Table 35 (label table_MKJ_N6-12),0,3^++gs / SU(8),author mark * (see source caption/text)
+AT2021,10,4,3++,m/sqrt_sigma,7.14,0.18,,dimensionless,Table 35 (label table_MKJ_N6-12),0,3^++gs / SU(10),
+AT2021,8,4,4++,m/sqrt_sigma,7.20,0.07,,dimensionless,Table 35 (label table_MKJ_N6-12),0,4^++gs / SU(8),author mark * (see source caption/text)
+AT2021,10,4,4++,m/sqrt_sigma,7.32,0.15,,dimensionless,Table 35 (label table_MKJ_N6-12),0,4^++gs / SU(10),
+AT2021,6,4,0-+,m/sqrt_sigma,4.967,0.043,,dimensionless,Table 35 (label table_MKJ_N6-12),0,0^-+gs / SU(6),
+AT2021,8,4,0-+,m/sqrt_sigma,4.755,0.058,,dimensionless,Table 35 (label table_MKJ_N6-12),0,0^-+gs / SU(8),
+AT2021,10,4,0-+,m/sqrt_sigma,4.835,0.060,,dimensionless,Table 35 (label table_MKJ_N6-12),0,0^-+gs / SU(10),
+AT2021,12,4,0-+,m/sqrt_sigma,4.696,0.065,,dimensionless,Table 35 (label table_MKJ_N6-12),0,0^-+gs / SU(12),
+AT2021,6,4,0-+,m/sqrt_sigma,7.14,0.13,,dimensionless,Table 35 (label table_MKJ_N6-12),1,0^-+ex1 / SU(6),
+AT2021,8,4,0-+,m/sqrt_sigma,6.90,0.24,,dimensionless,Table 35 (label table_MKJ_N6-12),1,0^-+ex1 / SU(8),
+AT2021,10,4,0-+,m/sqrt_sigma,7.03,0.14,,dimensionless,Table 35 (label table_MKJ_N6-12),1,0^-+ex1 / SU(10),
+AT2021,12,4,0-+,m/sqrt_sigma,6.94,0.19,,dimensionless,Table 35 (label table_MKJ_N6-12),1,0^-+ex1 / SU(12),
+AT2021,6,4,2-+,m/sqrt_sigma,6.148,0.050,,dimensionless,Table 35 (label table_MKJ_N6-12),0,2^-+gs / SU(6),
+AT2021,8,4,2-+,m/sqrt_sigma,6.043,0.055,,dimensionless,Table 35 (label table_MKJ_N6-12),0,2^-+gs / SU(8),
+AT2021,10,4,2-+,m/sqrt_sigma,6.01,0.08,,dimensionless,Table 35 (label table_MKJ_N6-12),0,2^-+gs / SU(10),
+AT2021,12,4,2-+,m/sqrt_sigma,6.05,0.07,,dimensionless,Table 35 (label table_MKJ_N6-12),0,2^-+gs / SU(12),
+AT2021,6,4,2-+,m/sqrt_sigma,7.92,0.14,,dimensionless,Table 35 (label table_MKJ_N6-12),1,2^-+ex1 / SU(6),
+AT2021,8,4,2-+,m/sqrt_sigma,8.10,0.11,,dimensionless,Table 35 (label table_MKJ_N6-12),1,2^-+ex1 / SU(8),
+AT2021,10,4,2-+,m/sqrt_sigma,7.86,0.12,,dimensionless,Table 35 (label table_MKJ_N6-12),1,2^-+ex1 / SU(10),author mark * (see source caption/text)
+AT2021,12,4,2-+,m/sqrt_sigma,8.16,0.15,,dimensionless,Table 35 (label table_MKJ_N6-12),1,2^-+ex1 / SU(12),
+AT2021,6,4,1-+,m/sqrt_sigma,8.41,0.09,,dimensionless,Table 35 (label table_MKJ_N6-12),0,1^-+gs / SU(6),
+AT2021,8,4,1-+,m/sqrt_sigma,8.24,0.15,,dimensionless,Table 35 (label table_MKJ_N6-12),0,1^-+gs / SU(8),
+AT2021,10,4,1-+,m/sqrt_sigma,8.49,0.28,,dimensionless,Table 35 (label table_MKJ_N6-12),0,1^-+gs / SU(10),
+AT2021,12,4,1-+,m/sqrt_sigma,8.59,0.12,,dimensionless,Table 35 (label table_MKJ_N6-12),0,1^-+gs / SU(12),
+AT2021,6,4,2+-,m/sqrt_sigma,8.83,0.09,,dimensionless,Table 35 (label table_MKJ_N6-12),0,2^+-gs / SU(6),
+AT2021,8,4,2+-,m/sqrt_sigma,8.52,0.12,,dimensionless,Table 35 (label table_MKJ_N6-12),0,2^+-gs / SU(8),
+AT2021,10,4,2+-,m/sqrt_sigma,8.62,0.12,,dimensionless,Table 35 (label table_MKJ_N6-12),0,2^+-gs / SU(10),
+AT2021,12,4,2+-,m/sqrt_sigma,8.50,0.17,,dimensionless,Table 35 (label table_MKJ_N6-12),0,2^+-gs / SU(12),
+AT2021,6,4,1+-,m/sqrt_sigma,5.847,0.043,,dimensionless,Table 35 (label table_MKJ_N6-12),0,1^+-gs / SU(6),
+AT2021,8,4,1+-,m/sqrt_sigma,5.801,0.038,,dimensionless,Table 35 (label table_MKJ_N6-12),0,1^+-gs / SU(8),
+AT2021,10,4,1+-,m/sqrt_sigma,5.776,0.041,,dimensionless,Table 35 (label table_MKJ_N6-12),0,1^+-gs / SU(10),
+AT2021,12,4,1+-,m/sqrt_sigma,5.741,0.060,,dimensionless,Table 35 (label table_MKJ_N6-12),0,1^+-gs / SU(12),
+AT2021,6,4,1+-,m/sqrt_sigma,7.55,0.09,,dimensionless,Table 35 (label table_MKJ_N6-12),1,1^+-ex1 / SU(6),
+AT2021,8,4,1+-,m/sqrt_sigma,7.43,0.09,,dimensionless,Table 35 (label table_MKJ_N6-12),1,1^+-ex1 / SU(8),author mark * (see source caption/text)
+AT2021,10,4,1+-,m/sqrt_sigma,7.79,0.13,,dimensionless,Table 35 (label table_MKJ_N6-12),1,1^+-ex1 / SU(10),
+AT2021,12,4,1+-,m/sqrt_sigma,7.48,0.14,,dimensionless,Table 35 (label table_MKJ_N6-12),1,1^+-ex1 / SU(12),
+AT2021,6,4,3+-,m/sqrt_sigma,7.067,0.070,,dimensionless,Table 35 (label table_MKJ_N6-12),0,3^+-gs / SU(6),
+AT2021,8,4,3+-,m/sqrt_sigma,6.999,0.070,,dimensionless,Table 35 (label table_MKJ_N6-12),0,3^+-gs / SU(8),
+AT2021,10,4,3+-,m/sqrt_sigma,7.035,0.050,,dimensionless,Table 35 (label table_MKJ_N6-12),0,3^+-gs / SU(10),
+AT2021,12,4,3+-,m/sqrt_sigma,6.89,0.10,,dimensionless,Table 35 (label table_MKJ_N6-12),0,3^+-gs / SU(12),
+AT2021,6,4,2--,m/sqrt_sigma,8.05,0.05,,dimensionless,Table 35 (label table_MKJ_N6-12),0,2^--gs / SU(6),author mark * (see source caption/text)
+AT2021,8,4,2--,m/sqrt_sigma,7.78,0.07,,dimensionless,Table 35 (label table_MKJ_N6-12),0,2^--gs / SU(8),
+AT2021,10,4,2--,m/sqrt_sigma,7.74,0.15,,dimensionless,Table 35 (label table_MKJ_N6-12),0,2^--gs / SU(10),
+AT2021,12,4,2--,m/sqrt_sigma,8.00,0.15,,dimensionless,Table 35 (label table_MKJ_N6-12),0,2^--gs / SU(12),
+AT2021,6,4,1--,m/sqrt_sigma,7.41,0.13,,dimensionless,Table 35 (label table_MKJ_N6-12),0,1^--gs / SU(6),
+AT2021,8,4,1--,m/sqrt_sigma,7.09,0.17,,dimensionless,Table 35 (label table_MKJ_N6-12),0,1^--gs / SU(8),
+AT2021,10,4,1--,m/sqrt_sigma,7.27,0.17,,dimensionless,Table 35 (label table_MKJ_N6-12),0,1^--gs / SU(10),
+AT2021,12,4,1--,m/sqrt_sigma,7.50,0.17,,dimensionless,Table 35 (label table_MKJ_N6-12),0,1^--gs / SU(12),
+AT2021,inf,4,0++,m/sqrt_sigma,3.072,0.014,,dimensionless,Table 38 (label table_MK_J_SUN),0,"0gs / P,C=++","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,0-+,m/sqrt_sigma,4.711,0.026,,dimensionless,Table 38 (label table_MK_J_SUN),0,"0gs / P,C=-+","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,0+-,m/sqrt_sigma_lower_bound,9.26,0.16,,dimensionless,Table 38 (label table_MK_J_SUN),0,"0gs / P,C=+-","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,0--,m/sqrt_sigma_lower_bound,10.10,0.18,,dimensionless,Table 38 (label table_MK_J_SUN),0,"0gs / P,C=--","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,0++,m/sqrt_sigma,5.845,0.050,,dimensionless,Table 38 (label table_MK_J_SUN),1,"0ex / P,C=++","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,0-+,m/sqrt_sigma,7.050,0.068,,dimensionless,Table 38 (label table_MK_J_SUN),1,"0ex / P,C=-+","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,2++,m/sqrt_sigma,4.599,0.014,,dimensionless,Table 38 (label table_MK_J_SUN),0,"2gs / P,C=++","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,2-+,m/sqrt_sigma,6.031,0.038,,dimensionless,Table 38 (label table_MK_J_SUN),0,"2gs / P,C=-+","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,2+-,m/sqrt_sigma,8.566,0.076,,dimensionless,Table 38 (label table_MK_J_SUN),0,"2gs / P,C=+-","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,2--,m/sqrt_sigma,7.910,0.056,,dimensionless,Table 38 (label table_MK_J_SUN),0,"2gs / P,C=--","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,2++,m/sqrt_sigma,6.582,0.036,,dimensionless,Table 38 (label table_MK_J_SUN),1,"2ex / P,C=++","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,2-+,m/sqrt_sigma,7.936,0.054,,dimensionless,Table 38 (label table_MK_J_SUN),1,"2ex / P,C=-+","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,2+-,m/sqrt_sigma_lower_bound,9.14,0.15,,dimensionless,Table 38 (label table_MK_J_SUN),1,"2ex / P,C=+-","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,2--,m/sqrt_sigma_lower_bound,9.55,0.13,,dimensionless,Table 38 (label table_MK_J_SUN),1,"2ex / P,C=--","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,1++,m/sqrt_sigma_lower_bound,9.14,0.09,,dimensionless,Table 38 (label table_MK_J_SUN),0,"1gs / P,C=++","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,1-+,m/sqrt_sigma,8.415,0.076,,dimensionless,Table 38 (label table_MK_J_SUN),0,"1gs / P,C=-+","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,1+-,m/sqrt_sigma,5.760,0.025,,dimensionless,Table 38 (label table_MK_J_SUN),0,"1gs / P,C=+-","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,1--,m/sqrt_sigma,7.26,0.11,,dimensionless,Table 38 (label table_MK_J_SUN),0,"1gs / P,C=--","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,1+-,m/sqrt_sigma,7.473,0.057,,dimensionless,Table 38 (label table_MK_J_SUN),1,"1ex / P,C=+-","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,1--,m/sqrt_sigma_lower_bound,8.65,0.09,,dimensionless,Table 38 (label table_MK_J_SUN),1,"1ex / P,C=--","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,3++,m/sqrt_sigma,7.263,0.056,,dimensionless,Table 38 (label table_MK_J_SUN),0,"3gs / P,C=++","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,3-+,m/sqrt_sigma_lower_bound,9.73,0.12,,dimensionless,Table 38 (label table_MK_J_SUN),0,"3gs / P,C=-+","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,3+-,m/sqrt_sigma,6.988,0.041,,dimensionless,Table 38 (label table_MK_J_SUN),0,"3gs / P,C=+-","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,3--,m/sqrt_sigma_lower_bound,8.61,0.13,,dimensionless,Table 38 (label table_MK_J_SUN),0,"3gs / P,C=--","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,4++,m/sqrt_sigma,7.182,0.071,,dimensionless,Table 38 (label table_MK_J_SUN),0,"4gs / P,C=++","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,4-+,m/sqrt_sigma_lower_bound,8.79,0.10,,dimensionless,Table 38 (label table_MK_J_SUN),0,"4gs / P,C=-+","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,4+-,m/sqrt_sigma_lower_bound,9.26,0.16,,dimensionless,Table 38 (label table_MK_J_SUN),0,"4gs / P,C=+-","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"
+AT2021,inf,4,4--,m/sqrt_sigma_lower_bound,10.10,0.18,,dimensionless,Table 38 (label table_MK_J_SUN),0,"4gs / P,C=--","large-N extrapolation with O(1/N^2) correction; 2++,1-+,1-- gs exclude smallest N (per text)"

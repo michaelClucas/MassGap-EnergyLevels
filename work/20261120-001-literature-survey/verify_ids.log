@@ -1,0 +1,98 @@
+0802.0088 | Gluons in glueballs: Spin or helicity? | V. Mathieu, F. Buisseret, C. Semay
+0804.3015 | Gauge-invariant ground state for canonically quantized Yang-Mills theory | Rachel Lash Maitra
+0810.4453 | The Physics of Glueballs | Vincent Mathieu, Nikolai Kochelev, Vicente Vento
+0912.5465 | Expansion of the Yang-Mills Hamiltonian in spatial derivatives and glueball spectrum | Hans-Peter Pavel
+1001.0344 | Topological quantum order: stability under local perturbations | Sergey Bravyi, Matthew Hastings, Spyridon Michalakis
+1001.0784 | Faddeev-Popov spectra at the Gribov horizon | J. Greensite
+1109.1588 | Stability of Frustration-Free Hamiltonians | Spyridon Michalakis, Justyna Pytel
+1202.1491 | The Gribov problem and QCD dynamics | N. Vandersickel, Daniel Zwanziger
+1308.1283 | Ghost sector and geometry in minimal Landau gauge: further constraining the infinite-volume limit | Attilio Cucchieri, Tereza Mendes
+1405.4811 | Tensor Networks for Lattice Gauge Theories with continuous groups | Luca Tagliacozzo, Alessio Celi, Maciej Lewenstein
+1409.3085 | A Formulation of Lattice Gauge Theories for Quantum Simulations | Erez Zohar, Michele Burrello
+1502.07719 | Rigorous solution of strongly coupled $SO(N)$ lattice gauge theory in the large $N$ limit | Sourav Chatterjee
+1511.08361 | The gluon mass generation mechanism: a concise primer | A. C. Aguilar, D. Binosi, J. Papavassiliou
+1512.00088 | Local gap threshold for frustration-free spin systems | David Gosset, Evgeny Mozgunov
+1602.03776 | Lattice gauge theories simulations in the quantum information era | M. Dalmonte, S. Montangero
+1604.01979 | Quantum Yang-Mills theory: an overview of a programme | Ashley Milsted, Tobias J. Osborne
+1609.03873 | SU(N) gauge theories in 2+1 dimensions: glueball spectra and k-string tensions | Andreas Athenodorou, Michael Teper
+1703.00501 | Theta, Time Reversal, and Temperature | Davide Gaiotto, Anton Kapustin, Zohar Komargodski
+1705.03892 | Anomaly Manifestation of Lieb-Schultz-Mattis Theorem and Topological Phases | Gil Young Cho, Chang-Tse Hsieh, Shinsei Ryu
+1705.09491 | Divide and conquer method for proving gaps of frustration free Hamiltonians | Michael J. Kastoryano, Angelo Lucia
+1801.08915 | Spectral gaps of frustration-free spin systems with boundary | Marius Lemm, Evgeny Mozgunov
+1803.01950 | Yang-Mills for probabilists | Sourav Chatterjee
+1809.06318 | Orbit Space Curvature as a Source of Mass in Quantum Gauge Theory | Vincent Moncrief, Antonella Marini, Rachel Maitra
+1901.02380 | A Euclidean Signature Semi-Classical Program | Antonella Marini, Rachel Maitra, Vincent Moncrief
+1908.06935 | SU(2) non-Abelian gauge field theory in one dimension on digital quantum computers | Natalie Klco, Jesse R. Stryker, Martin J. Savage
+1910.11810 | Existence of a Spectral Gap in the Affleck-Kennedy-Lieb-Tasaki Model on the Hexagonal Lattice | Marius Lemm, Anders W. Sandvik, Ling Wang
+1911.00003 | Simulating Lattice Gauge Theories within Quantum Technologies | M. C. Bañuls, R. Blatt, J. Catani
+1911.01410 | Demonstrating the AKLT spectral gap on 2D degree-3 lattices | Nicholas Pomata, Tzu-Chieh Wei
+1912.06133 | Loop, String, and Hadron Dynamics in SU(2) Hamiltonian Lattice Gauge Theories | Indrakshi Raychowdhury, Jesse R. Stryker
+2006.04987 | Langevin dynamic for the 2D Yang-Mills measure | Ajay Chandra, Ilya Chevyrev, Martin Hairer
+2006.16229 | A probabilistic mechanism for quark confinement | Sourav Chatterjee
+2007.06422 | The glueball spectrum of SU(3) gauge theory in 3+1 dimension | Andreas Athenodorou, Michael Teper
+2009.11802 | Search for Efficient Formulations for Hamiltonian Simulation of non-Abelian Lattice Gauge Theories | Zohreh Davoudi, Indrakshi Raychowdhury, Andrew Shaw
+2101.10227 | A Trailhead for Quantum Simulation of SU(3) Yang-Mills Lattice Gauge Theory in the Local Multiplet Basis | Anthony Ciavarella, Natalie Klco, Martin J. Savage
+2102.08920 | SU(2) hadrons on a quantum computer | Yasar Atas, Jinglei Zhang, Randy Lewis
+2201.03487 | Stochastic quantisation of Yang-Mills-Higgs in 3D | Ajay Chandra, Ilya Chevyrev, Martin Hairer
+2202.10375 | Correlation decay for finite lattice gauge theories at weak coupling | Arka Adhikari, Sky Cao
+2204.12737 | A stochastic analysis approach to lattice Yang--Mills at strong coupling | Hao Shen, Rongchan Zhu, Xiangchan Zhu
+2301.06996 | A Geometric Approach to the Yang-Mills Mass Gap | Puskar Mondal
+2303.14264 | SU(2) Gauge Theory in $2+1$ Dimensions on a Plaquette Chain Obeys the Eigenstate Thermalization Hypothesis | Xiaojun Yao
+2304.02527 | Quantum and classical spin network algorithms for $q$-deformed Kogut-Susskind gauge theories | Torsten V. Zache, Daniel González-Cuadra, Peter Zoller
+2305.05950 | String-net formulation of Hamiltonian lattice Yang-Mills theories and quantum many-body scars in a nonabelian gauge theory | Tomoya Hayata, Yoshimasa Hidaka
+2307.06790 | Random surfaces and lattice Yang-Mills | Sky Cao, Minjae Park, Scott Sheffield
+2308.01405 | On a bulk gap strategy for quantum lattice models | Amanda Young
+2308.09304 | Mass and infinite dimensional geometry | Puskar Mondal
+2308.16202 | Eigenstate Thermalization in 2+1 dimensional SU(2) Lattice Gauge Theory | Lukas Ebner, Berndt Müller, Andreas Schäfer
+2401.10507 | A scaling limit of $\mathrm{SU}(2)$ lattice Yang-Mills-Higgs theory | Sourav Chatterjee
+2401.13299 | Langevin dynamics of lattice Yang-Mills-Higgs and applications | Hao Shen, Rongchan Zhu, Xiangchan Zhu
+2409.10612 | Duality-preserving deformation of 3+1d lattice $\mathbb Z_2$ gauge theory with exact gapped ground states | Pranay Gorantla, Tzu-Chen Huang
+2411.03680 | A Hierarchy of Spectral Gap Certificates for Frustration-Free Spin Systems | Kshiti Sneh Rai, Ilya Kull, Patrick Emonts
+2503.08866 | Quantum Circuits for SU(3) Lattice Gauge Theory | Praveen Balaji, Cianán Conefrey-Shinozaki, Patrick Draper
+2503.11888 | Efficient Truncations of SU($N_c$) Lattice Gauge Theory for Quantum Simulation | Anthony N. Ciavarella, I. M. Burbano, Christian W. Bauer
+2503.15539 | Pinched Multi Affine Geometry and Confinement: Describing the Yang-Mills Mass Gap | Shoshauna Gauvin
+2505.16585 | Expanded regimes of area law for lattice Yang-Mills theories | Sky Cao, Ron Nissim, Scott Sheffield
+2506.00284 | A Constructive Proof of Existence and Mass Gap for Pure SU(3) Yang-Mills in Four-Dimensional Space-Time | D. C. Jacobsen
+2509.04688 | Dynamical approach to area law for lattice Yang-Mills | Sky Cao, Ron Nissim, Scott Sheffield
+2510.22788 | $\mathrm{U}(N)$ lattice Yang-Mills in the 't Hooft regime | Ron Nissim
+2512.11068 | Asymptotic-freedom and massive glueballs in a qubit-regularized SU(2) gauge theory | Rui Xian Siew, Shailesh Chandrasekharan, Tanmoy Bhattacharya
+2610.35286 | Log-Sobolev inequality for 2D $\mathrm{SU}(N)$ lattice gauge theory at all couplings | Jack Piazza, Hao Shen
+2611.11534 | SU(2) Yang-Mills: Spectral Bounds, Vacuum Concentration, and Criteria for the Continuum Limit | Aleksandar Mihajlovic
+cond-mat/0305505 | Lieb-Schultz-Mattis in Higher Dimensions | M. B. Hastings
+hep-lat/0103027 | SU(N) gauge theories in four dimensions: exploring the approach to N = infinity | B. Lucini, M. Teper
+hep-lat/0112015 | The Coupled Cluster Method in Hamiltonian Lattice Field Theory: SU(2) Glueballs | A. Wichmann, D. Schuette, B. C. Metsch
+hep-lat/0202014 | Density Matrix Renormalisation Group Approach to the Massive Schwinger Model | T. Byrnes, P. Sriganesh, R. J. Bursill
+hep-lat/0212026 | High Spin Glueballs from the Lattice | Harvey B. Meyer, Michael J. Teper
+hep-lat/0303016 | SU(N) Glueball Masses in 2+1 Dimensions | Jesse Carlsson, Bruce H. J. McKellar
+hep-lat/0303022 | SU(N) Lattice Gauge Theory on a Single Cube | Jesse Carlsson, Bruce H. J. McKellar
+hep-lat/0309138 | Improvement and Analytic Techniques in Hamiltonian Lattice Gauge Theory | Jesse Carlsson
+hep-lat/0404008 | Glueballs and k-strings in SU(N) gauge theories : calculations with improved operators | Biagio Lucini, Michael Teper, Urs Wenger
+hep-lat/0407032 | Center Vortices and the Gribov Horizon | Jeff Greensite, Stefan Olejnik, Daniel Zwanziger
+hep-lat/0503038 | Monte Carlo study of glueball masses in the Hamiltonian limit of SU(3) lattice gauge theory | Mushtaq Loan, Xiang-Qian Luo, Zhi-Huan Luo
+hep-lat/9411046 | Dynamics on the SU(2) fundamental domain | Bas van den Heuvel, Pierre van Baal
+hep-lat/9509019 | Glueball Spectroscopy on S^3 | Bas van den Heuvel
+hep-lat/9608101 | Glueballs on the three-sphere | Bas van den Heuvel
+hep-lat/9804008 | SU(N) gauge theories in 2+1 dimensions | M. Teper
+hep-lat/9805011 | Application of the Coupled Cluster Method to a Hamiltonian Lattice Field Theory | D. Schuette, A. Wichmann, C. Weichmann
+hep-lat/9901004 | The glueball spectrum from an anisotropic lattice study | Colin J. Morningstar, Mike Peardon
+hep-ph/0008206 | QCD in a Finite Volume | Pierre van Baal
+hep-ph/0008212 | QCD Glueball Regge Trajectories and the Pomeron | Felipe J. Llanes-Estrada, Stephen R. Cotanch, Pedro J. de A. Bicudo
+hep-ph/0010057 | On the Significance of the Quantity "A Squared" | F. V. Gubarev, L. Stodolsky, V. I. Zakharov
+hep-ph/0107078 | Coulomb Gauge QCD, Confinement, and the Constituent Representation | Adam P. Szczepaniak, Eric S. Swanson
+hep-ph/9511422 | Glueball Spectroscopy in a Relativistic Many-Body Approach to Hadron Structure | Adam Szczepaniak, Eric S. Swanson, Chueng-Ryong Ji
+hep-th/0003115 | Glueball Spectrum for QCD from AdS Supergravity Duality | Richard C. Brower, Samir D. Mathur, Chung-I Tan
+hep-th/0105018 | The non-perturbative groundstate of Q.C.D and the local composite operator A_mu^2 | H. Verschelde, K. Knecht, K. Van Acoleyen
+hep-th/0604060 | On the Glueball Spectrum of Pure Yang-Mills Theory in 2+1 Dimensions | Robert G. Leigh, Djordje Minic, Alexandr Yelnikov
+hep-th/0607013 | Integrable Models and Confinement in (2+1)-Dimensional Weakly-Coupled Yang-Mills Theory | Peter Orland
+hep-th/9407087 | Monopole Condensation, And Confinement In N=2 Supersymmetric Yang-Mills Theory | N. Seiberg, E. Witten
+hep-th/9510157 | A gauge-invariant Hamiltonian analysis for non-Abelian gauge theories in (2+1) dimensions | Dimitra Karabali, V. P. Nair
+hep-th/9705087 | Planar Yang-Mills theory: Hamiltonian, regulators and mass gap | Dimitra Karabali, Chanju Kim, V. P. Nair
+hep-th/9705112 | Intermediate Volumes and the Role of Instantons | Pierre van Baal
+hep-th/9803131 | Anti-de Sitter Space, Thermal Phase Transition, And Confinement In Gauge Theories | Edward Witten
+hep-th/9804132 | On the vacuum wavefunction and string tension of Yang-Mills theories in (2+1) dimensions | D. Karabali, C. Kim, V. P. Nair
+hep-th/9806021 | Glueball Mass Spectrum From Supergravity | Csaba Csaki, Hirosi Ooguri, Yaron Oz
+hep-th/9807109 | Theta Dependence In The Large N Limit Of Four-Dimensional Gauge Theories | Edward Witten
+math-ph/0412040 | Ground states in relatively bounded quantum perturbations of classical lattice systems | D. A. Yarotsky
+quant-ph/0510027 | Simulating lattice gauge theories on a quantum computer | Tim Byrnes, Yoshihisa Yamamoto
+
+96 IDs cited, 96 returned by the API

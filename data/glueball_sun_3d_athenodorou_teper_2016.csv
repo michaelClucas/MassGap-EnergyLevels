@@ -1,0 +1,405 @@
+source_id,N,dim,JPC,quantity,value,err_stat,err_sys,units,table,level,row_label,note
+AT2016,2,3,,sqrt_sigma/g2N,0.16745,0.00011,,dimensionless,Table 18 (label table_sigf_cont),,SU(2)^a,medium volume
+AT2016,2,3,0++,m/g2N,0.7930,0.0011,,dimensionless,Table 18 (label table_sigf_cont),0,SU(2)^a,medium volume
+AT2016,2,3,,sqrt_sigma/g2N,0.16780,0.00015,,dimensionless,Table 18 (label table_sigf_cont),,SU(2)^b,large volume
+AT2016,2,3,0++,m/g2N,0.7930,0.0011,,dimensionless,Table 18 (label table_sigf_cont),0,SU(2)^b,large volume
+AT2016,3,3,,sqrt_sigma/g2N,0.18389,0.00017,,dimensionless,Table 18 (label table_sigf_cont),,SU(3),
+AT2016,3,3,0++,m/g2N,0.8066,0.0020,,dimensionless,Table 18 (label table_sigf_cont),0,SU(3),
+AT2016,4,3,,sqrt_sigma/g2N,0.18957,0.00016,,dimensionless,Table 18 (label table_sigf_cont),,SU(4)^a,medium volume
+AT2016,4,3,0++,m/g2N,0.8057,0.0022,,dimensionless,Table 18 (label table_sigf_cont),0,SU(4)^a,medium volume
+AT2016,4,3,,sqrt_sigma/g2N,0.18968,0.00021,,dimensionless,Table 18 (label table_sigf_cont),,SU(4)^b,large volume
+AT2016,4,3,0++,m/g2N,0.8048,0.0027,,dimensionless,Table 18 (label table_sigf_cont),0,SU(4)^b,large volume
+AT2016,6,3,,sqrt_sigma/g2N,0.19329,0.00011,,dimensionless,Table 18 (label table_sigf_cont),,SU(6),
+AT2016,6,3,0++,m/g2N,0.8060,0.0022,,dimensionless,Table 18 (label table_sigf_cont),0,SU(6),
+AT2016,8,3,,sqrt_sigma/g2N,0.19486,0.00016,,dimensionless,Table 18 (label table_sigf_cont),,SU(8),
+AT2016,8,3,0++,m/g2N,0.8072,0.0028,,dimensionless,Table 18 (label table_sigf_cont),0,SU(8),
+AT2016,12,3,,sqrt_sigma/g2N,0.19557,0.00024,,dimensionless,Table 18 (label table_sigf_cont),,SU(12),
+AT2016,12,3,0++,m/g2N,0.8120,0.0026,,dimensionless,Table 18 (label table_sigf_cont),0,SU(12),
+AT2016,16,3,,sqrt_sigma/g2N,0.19549,0.00027,,dimensionless,Table 18 (label table_sigf_cont),,SU(16),
+AT2016,16,3,0++,m/g2N,0.8093,0.0035,,dimensionless,Table 18 (label table_sigf_cont),0,SU(16),
+AT2016,inf,3,,sqrt_sigma/g2N,0.19636,0.00012,,dimensionless,Table 18 (label table_sigf_cont),,SU(\infty),
+AT2016,inf,3,0++,m/g2N,0.8102,0.0012,,dimensionless,Table 18 (label table_sigf_cont),0,SU(\infty),
+AT2016,2,3,0++,m/sqrt_sigma,4.7367,0.0055,,dimensionless,Table 20 (label table_mksu2_cont),0,0++ level 0 (side L),chi2/ndf 6.6/9
+AT2016,2,3,0-+,m/sqrt_sigma,9.884,0.025,,dimensionless,Table 20 (label table_mksu2_cont),0,0-+ level 0 (side R),chi2/ndf 12.5/9
+AT2016,2,3,0++,m/sqrt_sigma,6.861,0.014,,dimensionless,Table 20 (label table_mksu2_cont),1,0++ level 1 (side L),chi2/ndf 8.3/5
+AT2016,2,3,0-+,m/sqrt_sigma,11.079,0.030,,dimensionless,Table 20 (label table_mksu2_cont),1,0-+ level 1 (side R),chi2/ndf 16.4/9
+AT2016,2,3,0++,m/sqrt_sigma,8.382,0.014,,dimensionless,Table 20 (label table_mksu2_cont),2,0++ level 2 (side L),chi2/ndf 8.1/9
+AT2016,2,3,0-+,m/sqrt_sigma,11.50,0.05,,dimensionless,Table 20 (label table_mksu2_cont),2,0-+ level 2 (side R),chi2/ndf 19.8/7
+AT2016,2,3,0++,m/sqrt_sigma,9.278,0.016,,dimensionless,Table 20 (label table_mksu2_cont),3,0++ level 3 (side L),chi2/ndf 7.7/9
+AT2016,2,3,0-+,m/sqrt_sigma,12.39,0.07,,dimensionless,Table 20 (label table_mksu2_cont),3,0-+ level 3 (side R),chi2/ndf 12.4/7
+AT2016,2,3,0++,m/sqrt_sigma,9.708,0.021,,dimensionless,Table 20 (label table_mksu2_cont),4,0++ level 4 (side L),chi2/ndf 7.2/8
+AT2016,2,3,0++,m/sqrt_sigma,9.910,0.032,,dimensionless,Table 20 (label table_mksu2_cont),5,0++ level 5 (side L),chi2/ndf 7.0/5
+AT2016,2,3,0++,m/sqrt_sigma,10.05,0.07,,dimensionless,Table 20 (label table_mksu2_cont),6,0++ level 6 (side L),chi2/ndf 1.1/4
+AT2016,2,3,2++,m/sqrt_sigma,7.762,0.010,,dimensionless,Table 20 (label table_mksu2_cont),0,2++ level 0 (side L),chi2/ndf 12.6/9
+AT2016,2,3,2-+,m/sqrt_sigma,7.795,0.012,,dimensionless,Table 20 (label table_mksu2_cont),0,2-+ level 0 (side R),chi2/ndf 11.5/9
+AT2016,2,3,2++,m/sqrt_sigma,9.107,0.020,,dimensionless,Table 20 (label table_mksu2_cont),1,2++ level 1 (side L),chi2/ndf 11.1/9
+AT2016,2,3,2-+,m/sqrt_sigma,9.123,0.024,,dimensionless,Table 20 (label table_mksu2_cont),1,2-+ level 1 (side R),chi2/ndf 18.7/9
+AT2016,2,3,2++,m/sqrt_sigma,10.138,0.035,,dimensionless,Table 20 (label table_mksu2_cont),2,2++ level 2 (side L),chi2/ndf 5.7/9
+AT2016,2,3,2-+,m/sqrt_sigma,10.220,0.033,,dimensionless,Table 20 (label table_mksu2_cont),2,2-+ level 2 (side R),chi2/ndf 7.0/8
+AT2016,2,3,2++,m/sqrt_sigma,10.624,0.023,,dimensionless,Table 20 (label table_mksu2_cont),3,2++ level 3 (side L),chi2/ndf 18.3/7
+AT2016,2,3,2-+,m/sqrt_sigma,10.617,0.030,,dimensionless,Table 20 (label table_mksu2_cont),3,2-+ level 3 (side R),chi2/ndf 8.4/6
+AT2016,2,3,2++,m/sqrt_sigma,10.823,0.040,,dimensionless,Table 20 (label table_mksu2_cont),4,2++ level 4 (side L),chi2/ndf 6.2/5
+AT2016,2,3,2-+,m/sqrt_sigma,10.978,0.032,,dimensionless,Table 20 (label table_mksu2_cont),4,2-+ level 4 (side R),chi2/ndf 10.6/7
+AT2016,2,3,1++,m/sqrt_sigma,10.553,0.031,,dimensionless,Table 20 (label table_mksu2_cont),0,1++ level 0 (side L),chi2/ndf 18.9/9
+AT2016,2,3,1-+,m/sqrt_sigma,10.538,0.028,,dimensionless,Table 20 (label table_mksu2_cont),0,1-+ level 0 (side R),chi2/ndf 22.7/9
+AT2016,2,3,1++,m/sqrt_sigma,11.049,0.037,,dimensionless,Table 20 (label table_mksu2_cont),1,1++ level 1 (side L),chi2/ndf 11.9/9
+AT2016,2,3,1-+,m/sqrt_sigma,11.020,0.032,,dimensionless,Table 20 (label table_mksu2_cont),1,1-+ level 1 (side R),chi2/ndf 19.4/9
+AT2016,2,3,1++,m/sqrt_sigma,11.994,0.045,,dimensionless,Table 20 (label table_mksu2_cont),2,1++ level 2 (side L),chi2/ndf 28.5/7
+AT2016,2,3,1-+,m/sqrt_sigma,11.840,0.051,,dimensionless,Table 20 (label table_mksu2_cont),2,1-+ level 2 (side R),chi2/ndf 17.9/7
+AT2016,2,3,1++,m/sqrt_sigma,12.273,0.050,,dimensionless,Table 20 (label table_mksu2_cont),3,1++ level 3 (side L),chi2/ndf 19.7/7
+AT2016,2,3,1-+,m/sqrt_sigma,12.037,0.065,,dimensionless,Table 20 (label table_mksu2_cont),3,1-+ level 3 (side R),chi2/ndf 2.2/7
+AT2016,3,3,0++,m/sqrt_sigma,4.3683,0.0073,,dimensionless,Table 21 (label table_mksu3_cont),0,0++ level 0 (side L),chi2/ndf 2.0/4
+AT2016,3,3,0--,m/sqrt_sigma,6.391,0.014,,dimensionless,Table 21 (label table_mksu3_cont),0,0-- level 0 (side R),chi2/ndf 2.1/4
+AT2016,3,3,0++,m/sqrt_sigma,6.486,0.013,,dimensionless,Table 21 (label table_mksu3_cont),1,0++ level 1 (side L),chi2/ndf 5.7/4
+AT2016,3,3,0--,m/sqrt_sigma,7.983,0.026,,dimensionless,Table 21 (label table_mksu3_cont),1,0-- level 1 (side R),chi2/ndf 3.8/3
+AT2016,3,3,0++,m/sqrt_sigma,8.012,0.027,,dimensionless,Table 21 (label table_mksu3_cont),2,0++ level 2 (side L),chi2/ndf 5.3/4
+AT2016,3,3,0--,m/sqrt_sigma,9.338,0.038,,dimensionless,Table 21 (label table_mksu3_cont),2,0-- level 2 (side R),chi2/ndf 0.2/3
+AT2016,3,3,0++,m/sqrt_sigma,8.632,0.029,,dimensionless,Table 21 (label table_mksu3_cont),3,0++ level 3 (side L),chi2/ndf 3.6/4
+AT2016,3,3,0--,m/sqrt_sigma,10.145,0.052,,dimensionless,Table 21 (label table_mksu3_cont),3,0-- level 3 (side R),chi2/ndf 2.4/3
+AT2016,3,3,0++,m/sqrt_sigma,9.353,0.034,,dimensionless,Table 21 (label table_mksu3_cont),4,0++ level 4 (side L),chi2/ndf 1.3/3
+AT2016,3,3,0++,m/sqrt_sigma,9.414,0.037,,dimensionless,Table 21 (label table_mksu3_cont),5,0++ level 5 (side L),chi2/ndf 3.2/3
+AT2016,3,3,0-+,m/sqrt_sigma,9.234,0.043,,dimensionless,Table 21 (label table_mksu3_cont),0,0-+ level 0 (side L),chi2/ndf 2.0/4
+AT2016,3,3,0+-,m/sqrt_sigma,10.55,0.06,,dimensionless,Table 21 (label table_mksu3_cont),0,0+- level 0 (side R),chi2/ndf 1.1/4
+AT2016,3,3,0-+,m/sqrt_sigma,10.47,0.08,,dimensionless,Table 21 (label table_mksu3_cont),1,0-+ level 1 (side L),chi2/ndf 1.1/2
+AT2016,3,3,0+-,m/sqrt_sigma,11.55,0.12,,dimensionless,Table 21 (label table_mksu3_cont),1,0+- level 1 (side R),chi2/ndf 1.4/3
+AT2016,3,3,0-+,m/sqrt_sigma,11.44,0.10,,dimensionless,Table 21 (label table_mksu3_cont),2,0-+ level 2 (side L),chi2/ndf 15.5/2
+AT2016,3,3,2++,m/sqrt_sigma,7.241,0.017,,dimensionless,Table 21 (label table_mksu3_cont),0,2++ level 0 (side L),chi2/ndf 1.5/4
+AT2016,3,3,2-+,m/sqrt_sigma,7.261,0.016,,dimensionless,Table 21 (label table_mksu3_cont),0,2-+ level 0 (side R),chi2/ndf 6.8/4
+AT2016,3,3,2++,m/sqrt_sigma,8.730,0.022,,dimensionless,Table 21 (label table_mksu3_cont),1,2++ level 1 (side L),chi2/ndf 2.5/4
+AT2016,3,3,2-+,m/sqrt_sigma,8.760,0.023,,dimensionless,Table 21 (label table_mksu3_cont),1,2-+ level 1 (side R),chi2/ndf 16.6/4
+AT2016,3,3,2++,m/sqrt_sigma,9.589,0.046,,dimensionless,Table 21 (label table_mksu3_cont),2,2++ level 2 (side L),chi2/ndf 0.9/3
+AT2016,3,3,2-+,m/sqrt_sigma,9.992,0.033,,dimensionless,Table 21 (label table_mksu3_cont),2,2-+ level 2 (side R),chi2/ndf 1.6/3
+AT2016,3,3,2++,m/sqrt_sigma,10.082,0.054,,dimensionless,Table 21 (label table_mksu3_cont),3,2++ level 3 (side L),chi2/ndf 4.6/3
+AT2016,3,3,2-+,m/sqrt_sigma,10.05,0.09,,dimensionless,Table 21 (label table_mksu3_cont),3,2-+ level 3 (side R),chi2/ndf 7.6/3
+AT2016,3,3,2++,m/sqrt_sigma,9.99,0.19,,dimensionless,Table 21 (label table_mksu3_cont),4,2++ level 4 (side L),chi2/ndf 9.6/3
+AT2016,3,3,2-+,m/sqrt_sigma,10.86,0.09,,dimensionless,Table 21 (label table_mksu3_cont),4,2-+ level 4 (side R),chi2/ndf 6.9/3
+AT2016,3,3,2--,m/sqrt_sigma,8.599,0.030,,dimensionless,Table 21 (label table_mksu3_cont),0,2-- level 0 (side L),chi2/ndf 2.8/4
+AT2016,3,3,2+-,m/sqrt_sigma,8.665,0.024,,dimensionless,Table 21 (label table_mksu3_cont),0,2+- level 0 (side R),chi2/ndf 8.3/4
+AT2016,3,3,2--,m/sqrt_sigma,9.940,0.044,,dimensionless,Table 21 (label table_mksu3_cont),1,2-- level 1 (side L),chi2/ndf 3.5/3
+AT2016,3,3,2+-,m/sqrt_sigma,9.871,0.063,,dimensionless,Table 21 (label table_mksu3_cont),1,2+- level 1 (side R),chi2/ndf 1.1/3
+AT2016,3,3,2--,m/sqrt_sigma,11.285,0.054,,dimensionless,Table 21 (label table_mksu3_cont),2,2-- level 2 (side L),chi2/ndf 7.2/3
+AT2016,3,3,2+-,m/sqrt_sigma,11.17,0.09,,dimensionless,Table 21 (label table_mksu3_cont),2,2+- level 2 (side R),chi2/ndf 2.5/2
+AT2016,3,3,2--,m/sqrt_sigma,12.09,0.12,,dimensionless,Table 21 (label table_mksu3_cont),3,2-- level 3 (side L),chi2/ndf 5.7/3
+AT2016,3,3,2--,m/sqrt_sigma,12.09,0.12,,dimensionless,Table 21 (label table_mksu3_cont),4,2-- level 4 (side L),chi2/ndf 5.7/3; identical to previous level in source (likely duplicated row)
+AT2016,3,3,1++,m/sqrt_sigma,10.221,0.050,,dimensionless,Table 21 (label table_mksu3_cont),0,1++ level 0 (side L),chi2/ndf 11.0/4
+AT2016,3,3,1-+,m/sqrt_sigma,10.316,0.046,,dimensionless,Table 21 (label table_mksu3_cont),0,1-+ level 0 (side R),chi2/ndf 2.8/4
+AT2016,3,3,1++,m/sqrt_sigma,10.443,0.044,,dimensionless,Table 21 (label table_mksu3_cont),1,1++ level 1 (side L),chi2/ndf 2.3/4
+AT2016,3,3,1-+,m/sqrt_sigma,10.294,0.055,,dimensionless,Table 21 (label table_mksu3_cont),1,1-+ level 1 (side R),chi2/ndf 15.3/4
+AT2016,3,3,1++,m/sqrt_sigma,11.415,0.087,,dimensionless,Table 21 (label table_mksu3_cont),2,1++ level 2 (side L),chi2/ndf 2.6/3
+AT2016,3,3,1-+,m/sqrt_sigma,11.50,0.05,,dimensionless,Table 21 (label table_mksu3_cont),2,1-+ level 2 (side R),chi2/ndf 5.1/3
+AT2016,3,3,1--,m/sqrt_sigma,10.039,0.044,,dimensionless,Table 21 (label table_mksu3_cont),0,1-- level 0 (side L),chi2/ndf 7.0/4
+AT2016,3,3,1+-,m/sqrt_sigma,9.964,0.058,,dimensionless,Table 21 (label table_mksu3_cont),0,1+- level 0 (side R),chi2/ndf 4.8/4
+AT2016,3,3,1--,m/sqrt_sigma,10.341,0.060,,dimensionless,Table 21 (label table_mksu3_cont),1,1-- level 1 (side L),chi2/ndf 2.1/4
+AT2016,3,3,1+-,m/sqrt_sigma,10.260,0.086,,dimensionless,Table 21 (label table_mksu3_cont),1,1+- level 1 (side R),chi2/ndf 3.7/3
+AT2016,3,3,1--,m/sqrt_sigma,11.25,0.08,,dimensionless,Table 21 (label table_mksu3_cont),2,1-- level 2 (side L),chi2/ndf 3.7/2
+AT2016,3,3,1+-,m/sqrt_sigma,11.27,0.08,,dimensionless,Table 21 (label table_mksu3_cont),2,1+- level 2 (side R),chi2/ndf 5.0/2
+AT2016,4,3,0++,m/sqrt_sigma,4.242,0.009,,dimensionless,Table 22 (label table_mksu4_cont),0,0++ level 0 (side L),chi2/ndf 3.3/4
+AT2016,4,3,0--,m/sqrt_sigma,6.216,0.015,,dimensionless,Table 22 (label table_mksu4_cont),0,0-- level 0 (side R),chi2/ndf 6.3/4
+AT2016,4,3,0++,m/sqrt_sigma,6.440,0.013,,dimensionless,Table 22 (label table_mksu4_cont),1,0++ level 1 (side L),chi2/ndf 8.6/4
+AT2016,4,3,0--,m/sqrt_sigma,7.867,0.022,,dimensionless,Table 22 (label table_mksu4_cont),1,0-- level 1 (side R),chi2/ndf 9.0/4
+AT2016,4,3,0++,m/sqrt_sigma,7.930,0.024,,dimensionless,Table 22 (label table_mksu4_cont),2,0++ level 2 (side L),chi2/ndf 3.1/3
+AT2016,4,3,0--,m/sqrt_sigma,9.248,0.030,,dimensionless,Table 22 (label table_mksu4_cont),2,0-- level 2 (side R),chi2/ndf 5.8/4
+AT2016,4,3,0++,m/sqrt_sigma,8.319,0.032,,dimensionless,Table 22 (label table_mksu4_cont),3,0++ level 3 (side L),chi2/ndf 2.6/3
+AT2016,4,3,0--,m/sqrt_sigma,9.795,0.052,,dimensionless,Table 22 (label table_mksu4_cont),3,0-- level 3 (side R),chi2/ndf 0.3/3
+AT2016,4,3,0++,m/sqrt_sigma,9.040,0.051,,dimensionless,Table 22 (label table_mksu4_cont),4,0++ level 4 (side L),chi2/ndf 4.3/3
+AT2016,4,3,0--,m/sqrt_sigma,10.44,0.05,,dimensionless,Table 22 (label table_mksu4_cont),4,0-- level 4 (side R),chi2/ndf 20.5/3
+AT2016,4,3,0++,m/sqrt_sigma,9.297,0.031,,dimensionless,Table 22 (label table_mksu4_cont),5,0++ level 5 (side L),chi2/ndf 4.8/3
+AT2016,4,3,0--,m/sqrt_sigma,10.36,0.08,,dimensionless,Table 22 (label table_mksu4_cont),5,0-- level 5 (side R),chi2/ndf 10.5/3
+AT2016,4,3,0++,m/sqrt_sigma,9.560,0.074,,dimensionless,Table 22 (label table_mksu4_cont),6,0++ level 6 (side L),chi2/ndf 5.3/3
+AT2016,4,3,0++,m/sqrt_sigma,9.988,0.088,,dimensionless,Table 22 (label table_mksu4_cont),7,0++ level 7 (side L),chi2/ndf 0.5/2
+AT2016,4,3,0-+,m/sqrt_sigma,9.204,0.030,,dimensionless,Table 22 (label table_mksu4_cont),0,0-+ level 0 (side L),chi2/ndf 4.6/4
+AT2016,4,3,0+-,m/sqrt_sigma,10.29,0.07,,dimensionless,Table 22 (label table_mksu4_cont),0,0+- level 0 (side R),chi2/ndf 5.4/4
+AT2016,4,3,0-+,m/sqrt_sigma,10.327,0.060,,dimensionless,Table 22 (label table_mksu4_cont),1,0-+ level 1 (side L),chi2/ndf 5.8/4
+AT2016,4,3,0+-,m/sqrt_sigma,11.39,0.10,,dimensionless,Table 22 (label table_mksu4_cont),1,0+- level 1 (side R),chi2/ndf 7.6/2
+AT2016,4,3,0-+,m/sqrt_sigma,11.47,0.10,,dimensionless,Table 22 (label table_mksu4_cont),2,0-+ level 2 (side L),chi2/ndf 0.2/3
+AT2016,4,3,0+-,m/sqrt_sigma,12.45,0.11,,dimensionless,Table 22 (label table_mksu4_cont),2,0+- level 2 (side R),chi2/ndf 12.3/3
+AT2016,4,3,2++,m/sqrt_sigma,7.091,0.017,,dimensionless,Table 22 (label table_mksu4_cont),0,2++ level 0 (side L),chi2/ndf 2.7/4
+AT2016,4,3,2-+,m/sqrt_sigma,7.096,0.020,,dimensionless,Table 22 (label table_mksu4_cont),0,2-+ level 0 (side R),chi2/ndf 2.9/4
+AT2016,4,3,2++,m/sqrt_sigma,8.597,0.027,,dimensionless,Table 22 (label table_mksu4_cont),1,2++ level 1 (side L),chi2/ndf 7.3/4
+AT2016,4,3,2-+,m/sqrt_sigma,8.531,0.032,,dimensionless,Table 22 (label table_mksu4_cont),1,2-+ level 1 (side R),chi2/ndf 13.7/4
+AT2016,4,3,2++,m/sqrt_sigma,9.785,0.032,,dimensionless,Table 22 (label table_mksu4_cont),2,2++ level 2 (side L),chi2/ndf 3.5/4
+AT2016,4,3,2-+,m/sqrt_sigma,9.736,0.045,,dimensionless,Table 22 (label table_mksu4_cont),2,2-+ level 2 (side R),chi2/ndf 3.6/4
+AT2016,4,3,2++,m/sqrt_sigma,9.981,0.055,,dimensionless,Table 22 (label table_mksu4_cont),3,2++ level 3 (side L),chi2/ndf 5.4/3
+AT2016,4,3,2-+,m/sqrt_sigma,10.117,0.065,,dimensionless,Table 22 (label table_mksu4_cont),3,2-+ level 3 (side R),chi2/ndf 6.7/3
+AT2016,4,3,2++,m/sqrt_sigma,10.85,0.07,,dimensionless,Table 22 (label table_mksu4_cont),4,2++ level 4 (side L),chi2/ndf 8.9/3
+AT2016,4,3,2-+,m/sqrt_sigma,11.01,0.06,,dimensionless,Table 22 (label table_mksu4_cont),4,2-+ level 4 (side R),chi2/ndf 1.6/3
+AT2016,4,3,2--,m/sqrt_sigma,8.368,0.040,,dimensionless,Table 22 (label table_mksu4_cont),0,2-- level 0 (side L),chi2/ndf 2.1/4
+AT2016,4,3,2+-,m/sqrt_sigma,8.475,0.030,,dimensionless,Table 22 (label table_mksu4_cont),0,2+- level 0 (side R),chi2/ndf 5.7/4
+AT2016,4,3,2--,m/sqrt_sigma,9.737,0.024,,dimensionless,Table 22 (label table_mksu4_cont),1,2-- level 1 (side L),chi2/ndf 3.8/4
+AT2016,4,3,2+-,m/sqrt_sigma,9.823,0.027,,dimensionless,Table 22 (label table_mksu4_cont),1,2+- level 1 (side R),chi2/ndf 4.1/4
+AT2016,4,3,2--,m/sqrt_sigma,10.889,0.047,,dimensionless,Table 22 (label table_mksu4_cont),2,2-- level 2 (side L),chi2/ndf 6.3/4
+AT2016,4,3,2+-,m/sqrt_sigma,10.923,0.045,,dimensionless,Table 22 (label table_mksu4_cont),2,2+- level 2 (side R),chi2/ndf 10.7/4
+AT2016,4,3,2--,m/sqrt_sigma,11.62,0.09,,dimensionless,Table 22 (label table_mksu4_cont),3,2-- level 3 (side L),chi2/ndf 12.9/3
+AT2016,4,3,2+-,m/sqrt_sigma,11.39,0.08,,dimensionless,Table 22 (label table_mksu4_cont),3,2+- level 3 (side R),chi2/ndf 9.0/3
+AT2016,4,3,2--,m/sqrt_sigma,12.06,0.05,,dimensionless,Table 22 (label table_mksu4_cont),4,2-- level 4 (side L),chi2/ndf 2.6/3
+AT2016,4,3,2+-,m/sqrt_sigma,12.01,0.11,,dimensionless,Table 22 (label table_mksu4_cont),4,2+- level 4 (side R),chi2/ndf 0.8/2
+AT2016,4,3,1++,m/sqrt_sigma,9.952,0.062,,dimensionless,Table 22 (label table_mksu4_cont),0,1++ level 0 (side L),chi2/ndf 5.0/3
+AT2016,4,3,1-+,m/sqrt_sigma,9.997,0.051,,dimensionless,Table 22 (label table_mksu4_cont),0,1-+ level 0 (side R),chi2/ndf 6.4/4
+AT2016,4,3,1++,m/sqrt_sigma,10.09,0.06,,dimensionless,Table 22 (label table_mksu4_cont),1,1++ level 1 (side L),chi2/ndf 0.7/3
+AT2016,4,3,1-+,m/sqrt_sigma,10.14,0.06,,dimensionless,Table 22 (label table_mksu4_cont),1,1-+ level 1 (side R),chi2/ndf 8.0/4
+AT2016,4,3,1++,m/sqrt_sigma,11.20,0.07,,dimensionless,Table 22 (label table_mksu4_cont),2,1++ level 2 (side L),chi2/ndf 18.5/3
+AT2016,4,3,1-+,m/sqrt_sigma,11.12,0.10,,dimensionless,Table 22 (label table_mksu4_cont),2,1-+ level 2 (side R),chi2/ndf 9.2/4
+AT2016,4,3,1++,m/sqrt_sigma,11.27,0.08,,dimensionless,Table 22 (label table_mksu4_cont),3,1++ level 3 (side L),chi2/ndf 0.2/3
+AT2016,4,3,1-+,m/sqrt_sigma,11.58,0.06,,dimensionless,Table 22 (label table_mksu4_cont),3,1-+ level 3 (side R),chi2/ndf 15.7/3
+AT2016,4,3,1++,m/sqrt_sigma,11.59,0.08,,dimensionless,Table 22 (label table_mksu4_cont),4,1++ level 4 (side L),chi2/ndf 2.3/3
+AT2016,4,3,1-+,m/sqrt_sigma,11.49,0.09,,dimensionless,Table 22 (label table_mksu4_cont),4,1-+ level 4 (side R),chi2/ndf 3.9/3
+AT2016,4,3,1--,m/sqrt_sigma,9.797,0.039,,dimensionless,Table 22 (label table_mksu4_cont),0,1-- level 0 (side L),chi2/ndf 2.4/4
+AT2016,4,3,1+-,m/sqrt_sigma,9.668,0.041,,dimensionless,Table 22 (label table_mksu4_cont),0,1+- level 0 (side R),chi2/ndf 3.3/4
+AT2016,4,3,1--,m/sqrt_sigma,10.071,0.037,,dimensionless,Table 22 (label table_mksu4_cont),1,1-- level 1 (side L),chi2/ndf 9.1/3
+AT2016,4,3,1+-,m/sqrt_sigma,10.043,0.042,,dimensionless,Table 22 (label table_mksu4_cont),1,1+- level 1 (side R),chi2/ndf 9.1/4
+AT2016,4,3,1--,m/sqrt_sigma,10.88,0.10,,dimensionless,Table 22 (label table_mksu4_cont),2,1-- level 2 (side L),chi2/ndf 2.5/4
+AT2016,4,3,1+-,m/sqrt_sigma,10.81,0.12,,dimensionless,Table 22 (label table_mksu4_cont),2,1+- level 2 (side R),chi2/ndf 4.4/3
+AT2016,4,3,1--,m/sqrt_sigma,11.26,0.05,,dimensionless,Table 22 (label table_mksu4_cont),3,1-- level 3 (side L),chi2/ndf 11.5/3
+AT2016,4,3,1+-,m/sqrt_sigma,11.21,0.07,,dimensionless,Table 22 (label table_mksu4_cont),3,1+- level 3 (side R),chi2/ndf 17.0/3
+AT2016,4,3,1--,m/sqrt_sigma,11.41,0.07,,dimensionless,Table 22 (label table_mksu4_cont),4,1-- level 4 (side L),chi2/ndf 2.5/3
+AT2016,4,3,1+-,m/sqrt_sigma,11.43,0.06,,dimensionless,Table 22 (label table_mksu4_cont),4,1+- level 4 (side R),chi2/ndf 3.6/3
+AT2016,6,3,0++,m/sqrt_sigma,4.164,0.008,,dimensionless,Table 23 (label table_mksu6_cont),0,0++ level 0 (side L),chi2/ndf 2.3/4
+AT2016,6,3,0--,m/sqrt_sigma,6.148,0.013,,dimensionless,Table 23 (label table_mksu6_cont),0,0-- level 0 (side R),chi2/ndf 2.7/4
+AT2016,6,3,0++,m/sqrt_sigma,6.357,0.013,,dimensionless,Table 23 (label table_mksu6_cont),1,0++ level 1 (side L),chi2/ndf 1.2/4
+AT2016,6,3,0--,m/sqrt_sigma,7.804,0.021,,dimensionless,Table 23 (label table_mksu6_cont),1,0-- level 1 (side R),chi2/ndf 1.0/4
+AT2016,6,3,0++,m/sqrt_sigma,7.927,0.018,,dimensionless,Table 23 (label table_mksu6_cont),2,0++ level 2 (side L),chi2/ndf 1.5/4
+AT2016,6,3,0--,m/sqrt_sigma,9.155,0.039,,dimensionless,Table 23 (label table_mksu6_cont),2,0-- level 2 (side R),chi2/ndf 5.0/3
+AT2016,6,3,0++,m/sqrt_sigma,8.232,0.032,,dimensionless,Table 23 (label table_mksu6_cont),3,0++ level 3 (side L),chi2/ndf 3.3/3
+AT2016,6,3,0--,m/sqrt_sigma,9.777,0.074,,dimensionless,Table 23 (label table_mksu6_cont),3,0-- level 3 (side R),chi2/ndf 4.6/2
+AT2016,6,3,0++,m/sqrt_sigma,9.003,0.056,,dimensionless,Table 23 (label table_mksu6_cont),4,0++ level 4 (side L),chi2/ndf 2.4/3
+AT2016,6,3,0++,m/sqrt_sigma,9.106,0.054,,dimensionless,Table 23 (label table_mksu6_cont),5,0++ level 5 (side L),chi2/ndf 2.2/2
+AT2016,6,3,0++,m/sqrt_sigma,9.24,0.13,,dimensionless,Table 23 (label table_mksu6_cont),6,0++ level 6 (side L),chi2/ndf 7.2/2
+AT2016,6,3,0-+,m/sqrt_sigma,9.030,0.044,,dimensionless,Table 23 (label table_mksu6_cont),0,0-+ level 0 (side L),chi2/ndf 3.6/4
+AT2016,6,3,0+-,m/sqrt_sigma,10.089,0.053,,dimensionless,Table 23 (label table_mksu6_cont),0,0+- level 0 (side R),chi2/ndf 3.0/4
+AT2016,6,3,0-+,m/sqrt_sigma,10.175,0.056,,dimensionless,Table 23 (label table_mksu6_cont),1,0-+ level 1 (side L),chi2/ndf 5.3/4
+AT2016,6,3,0+-,m/sqrt_sigma,11.48,0.07,,dimensionless,Table 23 (label table_mksu6_cont),1,0+- level 1 (side R),chi2/ndf 17.6/3
+AT2016,6,3,2++,m/sqrt_sigma,6.983,0.019,,dimensionless,Table 23 (label table_mksu6_cont),0,2++ level 0 (side L),chi2/ndf 2.9/4
+AT2016,6,3,2-+,m/sqrt_sigma,6.996,0.016,,dimensionless,Table 23 (label table_mksu6_cont),0,2-+ level 0 (side R),chi2/ndf 6.7/4
+AT2016,6,3,2++,m/sqrt_sigma,8.513,0.021,,dimensionless,Table 23 (label table_mksu6_cont),1,2++ level 1 (side L),chi2/ndf 4.5/4
+AT2016,6,3,2-+,m/sqrt_sigma,8.472,0.026,,dimensionless,Table 23 (label table_mksu6_cont),1,2-+ level 1 (side R),chi2/ndf 4.7/4
+AT2016,6,3,2++,m/sqrt_sigma,9.728,0.031,,dimensionless,Table 23 (label table_mksu6_cont),2,2++ level 2 (side L),chi2/ndf 1.6/4
+AT2016,6,3,2-+,m/sqrt_sigma,9.744,0.036,,dimensionless,Table 23 (label table_mksu6_cont),2,2-+ level 2 (side R),chi2/ndf 11.5/4
+AT2016,6,3,2++,m/sqrt_sigma,10.02,0.10,,dimensionless,Table 23 (label table_mksu6_cont),3,2++ level 3 (side L),chi2/ndf 4.2/2
+AT2016,6,3,2-+,m/sqrt_sigma,10.024,0.056,,dimensionless,Table 23 (label table_mksu6_cont),3,2-+ level 3 (side R),chi2/ndf 9.6/2
+AT2016,6,3,2++,m/sqrt_sigma,11.30,0.14,,dimensionless,Table 23 (label table_mksu6_cont),4,2++ level 4 (side L),chi2/ndf 0.5/2
+AT2016,6,3,2-+,m/sqrt_sigma,10.97,0.09,,dimensionless,Table 23 (label table_mksu6_cont),4,2-+ level 4 (side R),chi2/ndf 27.6/2
+AT2016,6,3,2--,m/sqrt_sigma,8.318,0.034,,dimensionless,Table 23 (label table_mksu6_cont),0,2-- level 0 (side L),chi2/ndf 7.8/4
+AT2016,6,3,2+-,m/sqrt_sigma,8.275,0.034,,dimensionless,Table 23 (label table_mksu6_cont),0,2+- level 0 (side R),chi2/ndf 2.3/4
+AT2016,6,3,2--,m/sqrt_sigma,9.626,0.046,,dimensionless,Table 23 (label table_mksu6_cont),1,2-- level 1 (side L),chi2/ndf 10.3/4
+AT2016,6,3,2+-,m/sqrt_sigma,9.700,0.057,,dimensionless,Table 23 (label table_mksu6_cont),1,2+- level 1 (side R),chi2/ndf 6.2/4
+AT2016,6,3,2--,m/sqrt_sigma,10.911,0.057,,dimensionless,Table 23 (label table_mksu6_cont),2,2-- level 2 (side L),chi2/ndf 1.6/3
+AT2016,6,3,2+-,m/sqrt_sigma,10.94,0.09,,dimensionless,Table 23 (label table_mksu6_cont),2,2+- level 2 (side R),chi2/ndf 11.3/2
+AT2016,6,3,2--,m/sqrt_sigma,11.811,0.067,,dimensionless,Table 23 (label table_mksu6_cont),3,2-- level 3 (side L),chi2/ndf 2.3/2
+AT2016,6,3,2+-,m/sqrt_sigma,11.20,0.10,,dimensionless,Table 23 (label table_mksu6_cont),3,2+- level 3 (side R),chi2/ndf 2.5/2
+AT2016,6,3,1++,m/sqrt_sigma,10.163,0.045,,dimensionless,Table 23 (label table_mksu6_cont),0,1++ level 0 (side L),chi2/ndf 9.0/4
+AT2016,6,3,1-+,m/sqrt_sigma,9.863,0.057,,dimensionless,Table 23 (label table_mksu6_cont),0,1-+ level 0 (side R),chi2/ndf 3.0/4
+AT2016,6,3,1++,m/sqrt_sigma,10.084,0.044,,dimensionless,Table 23 (label table_mksu6_cont),1,1++ level 1 (side L),chi2/ndf 9.0/4
+AT2016,6,3,1-+,m/sqrt_sigma,10.154,0.046,,dimensionless,Table 23 (label table_mksu6_cont),1,1-+ level 1 (side R),chi2/ndf 3.1/4
+AT2016,6,3,1++,m/sqrt_sigma,11.194,0.089,,dimensionless,Table 23 (label table_mksu6_cont),2,1++ level 2 (side L),chi2/ndf 3.4/4
+AT2016,6,3,1-+,m/sqrt_sigma,11.15,0.10,,dimensionless,Table 23 (label table_mksu6_cont),2,1-+ level 2 (side R),chi2/ndf 6.2/4
+AT2016,6,3,1++,m/sqrt_sigma,11.21,0.11,,dimensionless,Table 23 (label table_mksu6_cont),3,1++ level 3 (side L),chi2/ndf 9.1/2
+AT2016,6,3,1--,m/sqrt_sigma,9.568,0.043,,dimensionless,Table 23 (label table_mksu6_cont),0,1-- level 0 (side L),chi2/ndf 1.8/4
+AT2016,6,3,1+-,m/sqrt_sigma,9.469,0.043,,dimensionless,Table 23 (label table_mksu6_cont),0,1+- level 0 (side R),chi2/ndf 1.8/4
+AT2016,6,3,1--,m/sqrt_sigma,9.872,0.057,,dimensionless,Table 23 (label table_mksu6_cont),1,1-- level 1 (side L),chi2/ndf 6.6/4
+AT2016,6,3,1+-,m/sqrt_sigma,10.040,0.050,,dimensionless,Table 23 (label table_mksu6_cont),1,1+- level 1 (side R),chi2/ndf 6.9/4
+AT2016,6,3,1--,m/sqrt_sigma,10.874,0.057,,dimensionless,Table 23 (label table_mksu6_cont),2,1-- level 2 (side L),chi2/ndf 1.4/3
+AT2016,6,3,1+-,m/sqrt_sigma,10.838,0.061,,dimensionless,Table 23 (label table_mksu6_cont),2,1+- level 2 (side R),chi2/ndf 8.3/3
+AT2016,6,3,1--,m/sqrt_sigma,11.11,0.09,,dimensionless,Table 23 (label table_mksu6_cont),3,1-- level 3 (side L),chi2/ndf 1.5/2
+AT2016,6,3,1+-,m/sqrt_sigma,11.10,0.09,,dimensionless,Table 23 (label table_mksu6_cont),3,1+- level 3 (side R),chi2/ndf 1.1/2
+AT2016,8,3,0++,m/sqrt_sigma,4.144,0.010,,dimensionless,Table 24 (label table_mksu8_cont),0,0++ level 0 (side L),chi2/ndf 1.5/4
+AT2016,8,3,0--,m/sqrt_sigma,6.102,0.014,,dimensionless,Table 24 (label table_mksu8_cont),0,0-- level 0 (side R),chi2/ndf 5.3/4
+AT2016,8,3,0++,m/sqrt_sigma,6.332,0.015,,dimensionless,Table 24 (label table_mksu8_cont),1,0++ level 1 (side L),chi2/ndf 3.7/4
+AT2016,8,3,0--,m/sqrt_sigma,7.803,0.026,,dimensionless,Table 24 (label table_mksu8_cont),1,0-- level 1 (side R),chi2/ndf 6.0/4
+AT2016,8,3,0++,m/sqrt_sigma,7.855,0.022,,dimensionless,Table 24 (label table_mksu8_cont),2,0++ level 2 (side L),chi2/ndf 3.2/4
+AT2016,8,3,0--,m/sqrt_sigma,9.177,0.038,,dimensionless,Table 24 (label table_mksu8_cont),2,0-- level 2 (side R),chi2/ndf 2.2/3
+AT2016,8,3,0++,m/sqrt_sigma,8.090,0.036,,dimensionless,Table 24 (label table_mksu8_cont),3,0++ level 3 (side L),chi2/ndf 3.3/3
+AT2016,8,3,0--,m/sqrt_sigma,9.803,0.038,,dimensionless,Table 24 (label table_mksu8_cont),3,0-- level 3 (side R),chi2/ndf 1.3/2
+AT2016,8,3,0++,m/sqrt_sigma,8.969,0.078,,dimensionless,Table 24 (label table_mksu8_cont),4,0++ level 4 (side L),chi2/ndf 0.5/2
+AT2016,8,3,0--,m/sqrt_sigma,10.00,0.11,,dimensionless,Table 24 (label table_mksu8_cont),4,0-- level 4 (side R),chi2/ndf 1.9/2
+AT2016,8,3,0++,m/sqrt_sigma,9.152,0.040,,dimensionless,Table 24 (label table_mksu8_cont),5,0++ level 5 (side L),chi2/ndf 0.2/2
+AT2016,8,3,0++,m/sqrt_sigma,9.58,0.06,,dimensionless,Table 24 (label table_mksu8_cont),6,0++ level 6 (side L),chi2/ndf 6.4/2
+AT2016,8,3,0-+,m/sqrt_sigma,9.035,0.047,,dimensionless,Table 24 (label table_mksu8_cont),0,0-+ level 0 (side L),chi2/ndf 3.0/4
+AT2016,8,3,0+-,m/sqrt_sigma,10.35,0.06,,dimensionless,Table 24 (label table_mksu8_cont),0,0+- level 0 (side R),chi2/ndf 11.2/4
+AT2016,8,3,0-+,m/sqrt_sigma,10.14,0.07,,dimensionless,Table 24 (label table_mksu8_cont),1,0-+ level 1 (side L),chi2/ndf 4.7/2
+AT2016,8,3,0+-,m/sqrt_sigma,11.31,0.10,,dimensionless,Table 24 (label table_mksu8_cont),1,0+- level 1 (side R),chi2/ndf 8.1/2
+AT2016,8,3,2++,m/sqrt_sigma,6.952,0.018,,dimensionless,Table 24 (label table_mksu8_cont),0,2++ level 0 (side L),chi2/ndf 6.7/4
+AT2016,8,3,2-+,m/sqrt_sigma,6.942,0.021,,dimensionless,Table 24 (label table_mksu8_cont),0,2-+ level 0 (side R),chi2/ndf 4.8/4
+AT2016,8,3,2++,m/sqrt_sigma,8.412,0.043,,dimensionless,Table 24 (label table_mksu8_cont),1,2++ level 1 (side L),chi2/ndf 4.2/4
+AT2016,8,3,2-+,m/sqrt_sigma,8.486,0.038,,dimensionless,Table 24 (label table_mksu8_cont),1,2-+ level 1 (side R),chi2/ndf 4.8/4
+AT2016,8,3,2++,m/sqrt_sigma,9.392,0.073,,dimensionless,Table 24 (label table_mksu8_cont),2,2++ level 2 (side L),chi2/ndf 1.5/3
+AT2016,8,3,2-+,m/sqrt_sigma,9.760,0.037,,dimensionless,Table 24 (label table_mksu8_cont),2,2-+ level 2 (side R),chi2/ndf 0.3/3
+AT2016,8,3,2++,m/sqrt_sigma,9.811,0.060,,dimensionless,Table 24 (label table_mksu8_cont),3,2++ level 3 (side L),chi2/ndf 7.9/3
+AT2016,8,3,2-+,m/sqrt_sigma,9.982,0.066,,dimensionless,Table 24 (label table_mksu8_cont),3,2-+ level 3 (side R),chi2/ndf 3.9/3
+AT2016,8,3,2++,m/sqrt_sigma,10.724,0.070,,dimensionless,Table 24 (label table_mksu8_cont),4,2++ level 4 (side L),chi2/ndf 4.0/3
+AT2016,8,3,2-+,m/sqrt_sigma,10.98,0.09,,dimensionless,Table 24 (label table_mksu8_cont),4,2-+ level 4 (side R),chi2/ndf 5.0/3
+AT2016,8,3,2--,m/sqrt_sigma,8.273,0.022,,dimensionless,Table 24 (label table_mksu8_cont),0,2-- level 0 (side L),chi2/ndf 5.3/4
+AT2016,8,3,2+-,m/sqrt_sigma,8.273,0.034,,dimensionless,Table 24 (label table_mksu8_cont),0,2+- level 0 (side R),chi2/ndf 2.1/4
+AT2016,8,3,2--,m/sqrt_sigma,9.667,0.035,,dimensionless,Table 24 (label table_mksu8_cont),1,2-- level 1 (side L),chi2/ndf 0.5/3
+AT2016,8,3,2+-,m/sqrt_sigma,9.637,0.042,,dimensionless,Table 24 (label table_mksu8_cont),1,2+- level 1 (side R),chi2/ndf 1.7/3
+AT2016,8,3,2--,m/sqrt_sigma,10.758,0.062,,dimensionless,Table 24 (label table_mksu8_cont),2,2-- level 2 (side L),chi2/ndf 4.1/3
+AT2016,8,3,2+-,m/sqrt_sigma,10.940,0.054,,dimensionless,Table 24 (label table_mksu8_cont),2,2+- level 2 (side R),chi2/ndf 4.3/3
+AT2016,8,3,2--,m/sqrt_sigma,11.29,0.11,,dimensionless,Table 24 (label table_mksu8_cont),3,2-- level 3 (side L),chi2/ndf 1.0/2
+AT2016,8,3,2+-,m/sqrt_sigma,11.06,0.14,,dimensionless,Table 24 (label table_mksu8_cont),3,2+- level 3 (side R),chi2/ndf 2.3/2
+AT2016,8,3,1++,m/sqrt_sigma,9.941,0.060,,dimensionless,Table 24 (label table_mksu8_cont),0,1++ level 0 (side L),chi2/ndf 2.2/4
+AT2016,8,3,1-+,m/sqrt_sigma,9.959,0.050,,dimensionless,Table 24 (label table_mksu8_cont),0,1-+ level 0 (side R),chi2/ndf 7.8/4
+AT2016,8,3,1++,m/sqrt_sigma,10.074,0.070,,dimensionless,Table 24 (label table_mksu8_cont),1,1++ level 1 (side L),chi2/ndf 5.8/4
+AT2016,8,3,1-+,m/sqrt_sigma,10.054,0.061,,dimensionless,Table 24 (label table_mksu8_cont),1,1-+ level 1 (side R),chi2/ndf 3.0/4
+AT2016,8,3,1++,m/sqrt_sigma,11.12,0.09,,dimensionless,Table 24 (label table_mksu8_cont),2,1++ level 2 (side L),chi2/ndf 11.3/3
+AT2016,8,3,1-+,m/sqrt_sigma,11.05,0.12,,dimensionless,Table 24 (label table_mksu8_cont),2,1-+ level 2 (side R),chi2/ndf 1.5/3
+AT2016,8,3,1++,m/sqrt_sigma,10.94,0.16,,dimensionless,Table 24 (label table_mksu8_cont),3,1++ level 3 (side L),chi2/ndf 11.6/3
+AT2016,8,3,1--,m/sqrt_sigma,9.449,0.050,,dimensionless,Table 24 (label table_mksu8_cont),0,1-- level 0 (side L),chi2/ndf 2.8/4
+AT2016,8,3,1+-,m/sqrt_sigma,9.505,0.047,,dimensionless,Table 24 (label table_mksu8_cont),0,1+- level 0 (side R),chi2/ndf 4.0/4
+AT2016,8,3,1--,m/sqrt_sigma,9.822,0.052,,dimensionless,Table 24 (label table_mksu8_cont),1,1-- level 1 (side L),chi2/ndf 1.3/4
+AT2016,8,3,1+-,m/sqrt_sigma,9.859,0.043,,dimensionless,Table 24 (label table_mksu8_cont),1,1+- level 1 (side R),chi2/ndf 5.1/4
+AT2016,8,3,1--,m/sqrt_sigma,10.71,0.07,,dimensionless,Table 24 (label table_mksu8_cont),2,1-- level 2 (side L),chi2/ndf 9.1/3
+AT2016,8,3,1+-,m/sqrt_sigma,10.76,0.08,,dimensionless,Table 24 (label table_mksu8_cont),2,1+- level 2 (side R),chi2/ndf 3.8/3
+AT2016,8,3,1--,m/sqrt_sigma,11.06,0.07,,dimensionless,Table 24 (label table_mksu8_cont),3,1-- level 3 (side L),chi2/ndf 3.4/2
+AT2016,8,3,1+-,m/sqrt_sigma,11.07,0.06,,dimensionless,Table 24 (label table_mksu8_cont),3,1+- level 3 (side R),chi2/ndf 6.1/2
+AT2016,12,3,0++,m/sqrt_sigma,4.140,0.009,,dimensionless,Table 25 (label table_mksu12_cont),0,0++ level 0 (side L),chi2/ndf 2.5/4
+AT2016,12,3,0--,m/sqrt_sigma,6.070,0.015,,dimensionless,Table 25 (label table_mksu12_cont),0,0-- level 0 (side R),chi2/ndf 3.3/4
+AT2016,12,3,0++,m/sqrt_sigma,6.320,0.014,,dimensionless,Table 25 (label table_mksu12_cont),1,0++ level 1 (side L),chi2/ndf 7.7/4
+AT2016,12,3,0--,m/sqrt_sigma,7.787,0.025,,dimensionless,Table 25 (label table_mksu12_cont),1,0-- level 1 (side R),chi2/ndf 1.6/4
+AT2016,12,3,0++,m/sqrt_sigma,7.852,0.020,,dimensionless,Table 25 (label table_mksu12_cont),2,0++ level 2 (side L),chi2/ndf 5.9/4
+AT2016,12,3,0--,m/sqrt_sigma,9.132,0.040,,dimensionless,Table 25 (label table_mksu12_cont),2,0-- level 2 (side R),chi2/ndf 7.5/3
+AT2016,12,3,0++,m/sqrt_sigma,8.188,0.020,,dimensionless,Table 25 (label table_mksu12_cont),3,0++ level 3 (side L),chi2/ndf 4.2/4
+AT2016,12,3,0--,m/sqrt_sigma,9.656,0.040,,dimensionless,Table 25 (label table_mksu12_cont),3,0-- level 3 (side R),chi2/ndf 0.4/3
+AT2016,12,3,0++,m/sqrt_sigma,8.955,0.044,,dimensionless,Table 25 (label table_mksu12_cont),4,0++ level 4 (side L),chi2/ndf 4.9/3
+AT2016,12,3,0--,m/sqrt_sigma,9.987,0.071,,dimensionless,Table 25 (label table_mksu12_cont),4,0-- level 4 (side R),chi2/ndf 0.7/2
+AT2016,12,3,0++,m/sqrt_sigma,9.173,0.040,,dimensionless,Table 25 (label table_mksu12_cont),5,0++ level 5 (side L),chi2/ndf 2.5/2
+AT2016,12,3,0--,m/sqrt_sigma,10.263,0.061,,dimensionless,Table 25 (label table_mksu12_cont),5,0-- level 5 (side R),chi2/ndf 2.3/2
+AT2016,12,3,0-+,m/sqrt_sigma,8.991,0.050,,dimensionless,Table 25 (label table_mksu12_cont),0,0-+ level 0 (side L),chi2/ndf 3.9/4
+AT2016,12,3,0+-,m/sqrt_sigma,10.21,0.06,,dimensionless,Table 25 (label table_mksu12_cont),0,0+- level 0 (side R),chi2/ndf 7.2/4
+AT2016,12,3,0-+,m/sqrt_sigma,10.16,0.07,,dimensionless,Table 25 (label table_mksu12_cont),1,0-+ level 1 (side L),chi2/ndf 4.3/4
+AT2016,12,3,0+-,m/sqrt_sigma,11.29,0.09,,dimensionless,Table 25 (label table_mksu12_cont),1,0+- level 1 (side R),chi2/ndf 4.5/4
+AT2016,12,3,0-+,m/sqrt_sigma,11.23,0.08,,dimensionless,Table 25 (label table_mksu12_cont),2,0-+ level 2 (side L),chi2/ndf 0.55/3
+AT2016,12,3,0+-,m/sqrt_sigma,12.10,0.11,,dimensionless,Table 25 (label table_mksu12_cont),2,0+- level 2 (side R),chi2/ndf 4.4/3
+AT2016,12,3,2++,m/sqrt_sigma,6.938,0.018,,dimensionless,Table 25 (label table_mksu12_cont),0,2++ level 0 (side L),chi2/ndf 3.4/4
+AT2016,12,3,2-+,m/sqrt_sigma,6.947,0.016,,dimensionless,Table 25 (label table_mksu12_cont),0,2-+ level 0 (side R),chi2/ndf 0.3/4
+AT2016,12,3,2++,m/sqrt_sigma,8.384,0.050,,dimensionless,Table 25 (label table_mksu12_cont),1,2++ level 1 (side L),chi2/ndf 0.6/4
+AT2016,12,3,2-+,m/sqrt_sigma,8.506,0.025,,dimensionless,Table 25 (label table_mksu12_cont),1,2-+ level 1 (side R),chi2/ndf 6.2/4
+AT2016,12,3,2++,m/sqrt_sigma,9.505,0.045,,dimensionless,Table 25 (label table_mksu12_cont),2,2++ level 2 (side L),chi2/ndf 1.5/4
+AT2016,12,3,2-+,m/sqrt_sigma,9.611,0.054,,dimensionless,Table 25 (label table_mksu12_cont),2,2-+ level 2 (side R),chi2/ndf 6.5/4
+AT2016,12,3,2++,m/sqrt_sigma,9.862,0.060,,dimensionless,Table 25 (label table_mksu12_cont),3,2++ level 3 (side L),chi2/ndf 2.2/3
+AT2016,12,3,2-+,m/sqrt_sigma,9.802,0.060,,dimensionless,Table 25 (label table_mksu12_cont),3,2-+ level 3 (side R),chi2/ndf 2.8/3
+AT2016,12,3,2++,m/sqrt_sigma,10.727,0.076,,dimensionless,Table 25 (label table_mksu12_cont),4,2++ level 4 (side L),chi2/ndf 2.4/2
+AT2016,12,3,2-+,m/sqrt_sigma,10.826,0.070,,dimensionless,Table 25 (label table_mksu12_cont),4,2-+ level 4 (side R),chi2/ndf 5.8/2
+AT2016,12,3,2--,m/sqrt_sigma,8.285,0.031,,dimensionless,Table 25 (label table_mksu12_cont),0,2-- level 0 (side L),chi2/ndf 5.4/4
+AT2016,12,3,2+-,m/sqrt_sigma,8.247,0.035,,dimensionless,Table 25 (label table_mksu12_cont),0,2+- level 0 (side R),chi2/ndf 2.7/4
+AT2016,12,3,2--,m/sqrt_sigma,9.619,0.044,,dimensionless,Table 25 (label table_mksu12_cont),1,2-- level 1 (side L),chi2/ndf 4.0/4
+AT2016,12,3,2+-,m/sqrt_sigma,9.656,0.030,,dimensionless,Table 25 (label table_mksu12_cont),1,2+- level 1 (side R),chi2/ndf 1.3/4
+AT2016,12,3,2--,m/sqrt_sigma,10.692,0.053,,dimensionless,Table 25 (label table_mksu12_cont),2,2-- level 2 (side L),chi2/ndf 3.9/4
+AT2016,12,3,2+-,m/sqrt_sigma,10.86,0.06,,dimensionless,Table 25 (label table_mksu12_cont),2,2+- level 2 (side R),chi2/ndf 5.8/4
+AT2016,12,3,2--,m/sqrt_sigma,11.16,0.11,,dimensionless,Table 25 (label table_mksu12_cont),3,2-- level 3 (side L),chi2/ndf 0.6/2
+AT2016,12,3,2+-,m/sqrt_sigma,11.21,0.07,,dimensionless,Table 25 (label table_mksu12_cont),3,2+- level 3 (side R),chi2/ndf 2.1/2
+AT2016,12,3,2--,m/sqrt_sigma,12.04,0.08,,dimensionless,Table 25 (label table_mksu12_cont),4,2-- level 4 (side L),chi2/ndf 9.6/2
+AT2016,12,3,2+-,m/sqrt_sigma,12.02,0.10,,dimensionless,Table 25 (label table_mksu12_cont),4,2+- level 4 (side R),chi2/ndf 3.5/2
+AT2016,12,3,1++,m/sqrt_sigma,9.876,0.050,,dimensionless,Table 25 (label table_mksu12_cont),0,1++ level 0 (side L),chi2/ndf 5.4/4
+AT2016,12,3,1-+,m/sqrt_sigma,9.924,0.052,,dimensionless,Table 25 (label table_mksu12_cont),0,1-+ level 0 (side R),chi2/ndf 1.0/4
+AT2016,12,3,1++,m/sqrt_sigma,10.08,0.08,,dimensionless,Table 25 (label table_mksu12_cont),1,1++ level 1 (side L),chi2/ndf 17.1/4
+AT2016,12,3,1-+,m/sqrt_sigma,10.07,0.07,,dimensionless,Table 25 (label table_mksu12_cont),1,1-+ level 1 (side R),chi2/ndf 3.0/4
+AT2016,12,3,1++,m/sqrt_sigma,11.08,0.08,,dimensionless,Table 25 (label table_mksu12_cont),2,1++ level 2 (side L),chi2/ndf 15.2/4
+AT2016,12,3,1-+,m/sqrt_sigma,11.24,0.06,,dimensionless,Table 25 (label table_mksu12_cont),2,1-+ level 2 (side R),chi2/ndf 19.4/4
+AT2016,12,3,1++,m/sqrt_sigma,11.21,0.10,,dimensionless,Table 25 (label table_mksu12_cont),3,1++ level 3 (side L),chi2/ndf 20.8/2
+AT2016,12,3,1-+,m/sqrt_sigma,11.16,0.11,,dimensionless,Table 25 (label table_mksu12_cont),3,1-+ level 3 (side R),chi2/ndf 0.7/2
+AT2016,12,3,1--,m/sqrt_sigma,9.388,0.047,,dimensionless,Table 25 (label table_mksu12_cont),0,1-- level 0 (side L),chi2/ndf 2.5/4
+AT2016,12,3,1+-,m/sqrt_sigma,9.448,0.050,,dimensionless,Table 25 (label table_mksu12_cont),0,1+- level 0 (side R),chi2/ndf 3.8/4
+AT2016,12,3,1--,m/sqrt_sigma,9.724,0.051,,dimensionless,Table 25 (label table_mksu12_cont),1,1-- level 1 (side L),chi2/ndf 3.5/4
+AT2016,12,3,1+-,m/sqrt_sigma,9.805,0.075,,dimensionless,Table 25 (label table_mksu12_cont),1,1+- level 1 (side R),chi2/ndf 1.6/4
+AT2016,12,3,1--,m/sqrt_sigma,10.70,0.07,,dimensionless,Table 25 (label table_mksu12_cont),2,1-- level 2 (side L),chi2/ndf 7.8/4
+AT2016,12,3,1+-,m/sqrt_sigma,10.80,0.07,,dimensionless,Table 25 (label table_mksu12_cont),2,1+- level 2 (side R),chi2/ndf 2.9/4
+AT2016,12,3,1--,m/sqrt_sigma,10.98,0.07,,dimensionless,Table 25 (label table_mksu12_cont),3,1-- level 3 (side L),chi2/ndf 3.1/2
+AT2016,12,3,1+-,m/sqrt_sigma,10.95,0.09,,dimensionless,Table 25 (label table_mksu12_cont),3,1+- level 3 (side R),chi2/ndf 3.7/2
+AT2016,16,3,0++,m/sqrt_sigma,4.129,0.011,,dimensionless,Table 26 (label table_mksu16_cont),0,0++ level 0 (side L),chi2/ndf 1.9/3
+AT2016,16,3,0--,m/sqrt_sigma,6.098,0.019,,dimensionless,Table 26 (label table_mksu16_cont),0,0-- level 0 (side R),chi2/ndf 0.4/3
+AT2016,16,3,0++,m/sqrt_sigma,6.295,0.018,,dimensionless,Table 26 (label table_mksu16_cont),1,0++ level 1 (side L),chi2/ndf 0.7/3
+AT2016,16,3,0--,m/sqrt_sigma,7.751,0.032,,dimensionless,Table 26 (label table_mksu16_cont),1,0-- level 1 (side R),chi2/ndf 6.6/3
+AT2016,16,3,0++,m/sqrt_sigma,7.746,0.045,,dimensionless,Table 26 (label table_mksu16_cont),2,0++ level 2 (side L),chi2/ndf 2.9/3
+AT2016,16,3,0--,m/sqrt_sigma,9.022,0.066,,dimensionless,Table 26 (label table_mksu16_cont),2,0-- level 2 (side R),chi2/ndf 3.8/3
+AT2016,16,3,0++,m/sqrt_sigma,8.157,0.041,,dimensionless,Table 26 (label table_mksu16_cont),3,0++ level 3 (side L),chi2/ndf 2.3/2
+AT2016,16,3,0--,m/sqrt_sigma,9.716,0.050,,dimensionless,Table 26 (label table_mksu16_cont),3,0-- level 3 (side R),chi2/ndf 5.6/2
+AT2016,16,3,0++,m/sqrt_sigma,9.037,0.061,,dimensionless,Table 26 (label table_mksu16_cont),4,0++ level 4 (side L),chi2/ndf 0.2/2
+AT2016,16,3,0--,m/sqrt_sigma,9.935,0.086,,dimensionless,Table 26 (label table_mksu16_cont),4,0-- level 4 (side R),chi2/ndf 3.9/2
+AT2016,16,3,0++,m/sqrt_sigma,9.047,0.054,,dimensionless,Table 26 (label table_mksu16_cont),5,0++ level 5 (side L),chi2/ndf 2.1/2
+AT2016,16,3,0--,m/sqrt_sigma,10.40,0.10,,dimensionless,Table 26 (label table_mksu16_cont),5,0-- level 5 (side R),chi2/ndf 1.1/2
+AT2016,16,3,0-+,m/sqrt_sigma,9.012,0.054,,dimensionless,Table 26 (label table_mksu16_cont),0,0-+ level 0 (side L),chi2/ndf 1.2/3
+AT2016,16,3,0+-,m/sqrt_sigma,10.07,0.08,,dimensionless,Table 26 (label table_mksu16_cont),0,0+- level 0 (side R),chi2/ndf 0.5/3
+AT2016,16,3,0-+,m/sqrt_sigma,10.28,0.10,,dimensionless,Table 26 (label table_mksu16_cont),1,0-+ level 1 (side L),chi2/ndf 5.6/3
+AT2016,16,3,0+-,m/sqrt_sigma,11.44,0.14,,dimensionless,Table 26 (label table_mksu16_cont),1,0+- level 1 (side R),chi2/ndf 1.0/3
+AT2016,16,3,0-+,m/sqrt_sigma,11.63,0.09,,dimensionless,Table 26 (label table_mksu16_cont),2,0-+ level 2 (side L),chi2/ndf 1.6/3
+AT2016,16,3,0+-,m/sqrt_sigma,12.63,0.17,,dimensionless,Table 26 (label table_mksu16_cont),2,0+- level 2 (side R),chi2/ndf 0.1/2
+AT2016,16,3,2++,m/sqrt_sigma,6.937,0.030,,dimensionless,Table 26 (label table_mksu16_cont),0,2++ level 0 (side L),chi2/ndf 3.4/3
+AT2016,16,3,2-+,m/sqrt_sigma,6.991,0.030,,dimensionless,Table 26 (label table_mksu16_cont),0,2-+ level 0 (side R),chi2/ndf 3.8/3
+AT2016,16,3,2++,m/sqrt_sigma,8.458,0.038,,dimensionless,Table 26 (label table_mksu16_cont),1,2++ level 1 (side L),chi2/ndf 5.1/3
+AT2016,16,3,2-+,m/sqrt_sigma,8.498,0.035,,dimensionless,Table 26 (label table_mksu16_cont),1,2-+ level 1 (side R),chi2/ndf 0.3/3
+AT2016,16,3,2++,m/sqrt_sigma,9.721,0.056,,dimensionless,Table 26 (label table_mksu16_cont),2,2++ level 2 (side L),chi2/ndf 4.5/3
+AT2016,16,3,2-+,m/sqrt_sigma,9.81,0.06,,dimensionless,Table 26 (label table_mksu16_cont),2,2-+ level 2 (side R),chi2/ndf 10.8/3
+AT2016,16,3,2++,m/sqrt_sigma,9.923,0.052,,dimensionless,Table 26 (label table_mksu16_cont),3,2++ level 3 (side L),chi2/ndf 3.6/2
+AT2016,16,3,2-+,m/sqrt_sigma,9.99,0.06,,dimensionless,Table 26 (label table_mksu16_cont),3,2-+ level 3 (side R),chi2/ndf 3.9/2
+AT2016,16,3,2++,m/sqrt_sigma,10.93,0.09,,dimensionless,Table 26 (label table_mksu16_cont),4,2++ level 4 (side L),chi2/ndf 0.5/2
+AT2016,16,3,2-+,m/sqrt_sigma,10.85,0.11,,dimensionless,Table 26 (label table_mksu16_cont),4,2-+ level 4 (side R),chi2/ndf 5.0/2
+AT2016,16,3,2--,m/sqrt_sigma,8.164,0.054,,dimensionless,Table 26 (label table_mksu16_cont),0,2-- level 0 (side L),chi2/ndf 6.6/3
+AT2016,16,3,2+-,m/sqrt_sigma,8.305,0.037,,dimensionless,Table 26 (label table_mksu16_cont),0,2+- level 0 (side R),chi2/ndf 2.4/3
+AT2016,16,3,2--,m/sqrt_sigma,9.614,0.046,,dimensionless,Table 26 (label table_mksu16_cont),1,2-- level 1 (side L),chi2/ndf 1.8/3
+AT2016,16,3,2+-,m/sqrt_sigma,9.610,0.073,,dimensionless,Table 26 (label table_mksu16_cont),1,2+- level 1 (side R),chi2/ndf 2.6/3
+AT2016,16,3,2--,m/sqrt_sigma,10.71,0.08,,dimensionless,Table 26 (label table_mksu16_cont),2,2-- level 2 (side L),chi2/ndf 0.1/2
+AT2016,16,3,2+-,m/sqrt_sigma,10.92,0.11,,dimensionless,Table 26 (label table_mksu16_cont),2,2+- level 2 (side R),chi2/ndf 6.1/2
+AT2016,16,3,2--,m/sqrt_sigma,11.19,0.13,,dimensionless,Table 26 (label table_mksu16_cont),3,2-- level 3 (side L),chi2/ndf 0.6/2
+AT2016,16,3,2+-,m/sqrt_sigma,11.53,0.10,,dimensionless,Table 26 (label table_mksu16_cont),3,2+- level 3 (side R),chi2/ndf 7.4/2
+AT2016,16,3,1++,m/sqrt_sigma,9.90,0.07,,dimensionless,Table 26 (label table_mksu16_cont),0,1++ level 0 (side L),chi2/ndf 1.0/3
+AT2016,16,3,1-+,m/sqrt_sigma,9.80,0.09,,dimensionless,Table 26 (label table_mksu16_cont),0,1-+ level 0 (side R),chi2/ndf 0.4/3
+AT2016,16,3,1++,m/sqrt_sigma,9.88,0.13,,dimensionless,Table 26 (label table_mksu16_cont),1,1++ level 1 (side L),chi2/ndf 24.5/3
+AT2016,16,3,1-+,m/sqrt_sigma,9.94,0.08,,dimensionless,Table 26 (label table_mksu16_cont),1,1-+ level 1 (side R),chi2/ndf 3.2/3
+AT2016,16,3,1++,m/sqrt_sigma,11.19,0.17,,dimensionless,Table 26 (label table_mksu16_cont),2,1++ level 2 (side L),chi2/ndf 0.5/2
+AT2016,16,3,1-+,m/sqrt_sigma,11.43,0.09,,dimensionless,Table 26 (label table_mksu16_cont),2,1-+ level 2 (side R),chi2/ndf 0.5/2
+AT2016,16,3,1++,m/sqrt_sigma,11.23,0.14,,dimensionless,Table 26 (label table_mksu16_cont),3,1++ level 3 (side L),chi2/ndf 8.1/2
+AT2016,16,3,1-+,m/sqrt_sigma,11.23,0.17,,dimensionless,Table 26 (label table_mksu16_cont),3,1-+ level 3 (side R),chi2/ndf 9.2/2
+AT2016,16,3,1--,m/sqrt_sigma,9.53,0.06,,dimensionless,Table 26 (label table_mksu16_cont),0,1-- level 0 (side L),chi2/ndf 6.1/3
+AT2016,16,3,1+-,m/sqrt_sigma,9.36,0.08,,dimensionless,Table 26 (label table_mksu16_cont),0,1+- level 0 (side R),chi2/ndf 9.4/3
+AT2016,16,3,1--,m/sqrt_sigma,9.85,0.06,,dimensionless,Table 26 (label table_mksu16_cont),1,1-- level 1 (side L),chi2/ndf 4.0/3
+AT2016,16,3,1+-,m/sqrt_sigma,9.82,0.08,,dimensionless,Table 26 (label table_mksu16_cont),1,1+- level 1 (side R),chi2/ndf 5.5/3
+AT2016,16,3,1--,m/sqrt_sigma,10.76,0.11,,dimensionless,Table 26 (label table_mksu16_cont),2,1-- level 2 (side L),chi2/ndf 2.1/2
+AT2016,16,3,1+-,m/sqrt_sigma,10.71,0.12,,dimensionless,Table 26 (label table_mksu16_cont),2,1+- level 2 (side R),chi2/ndf 1.8/3
+AT2016,16,3,1--,m/sqrt_sigma,11.20,0.19,,dimensionless,Table 26 (label table_mksu16_cont),3,1-- level 3 (side L),chi2/ndf 1.1/2
+AT2016,16,3,1+-,m/sqrt_sigma,11.07,0.16,,dimensionless,Table 26 (label table_mksu16_cont),3,1+- level 3 (side R),chi2/ndf 2.0/2
+AT2016,inf,3,0++,m/sqrt_sigma,4.116,0.006,,dimensionless,Table 27 (label table_mksuN_J0),0,0++ level 0,fit in 1/N^2 (+1/N^4 if c2 given) using N>=2
+AT2016,inf,3,0++,m/sqrt_sigma,6.308,0.010,,dimensionless,Table 27 (label table_mksuN_J0),1,0++ level 1,fit in 1/N^2 (+1/N^4 if c2 given) using N>=3
+AT2016,inf,3,0++,m/sqrt_sigma,7.844,0.014,,dimensionless,Table 27 (label table_mksuN_J0),2,0++ level 2,fit in 1/N^2 (+1/N^4 if c2 given) using N>=3
+AT2016,inf,3,0++,m/sqrt_sigma,8.147,0.019,,dimensionless,Table 27 (label table_mksuN_J0),3,0++ level 3,fit in 1/N^2 (+1/N^4 if c2 given) using N>=4
+AT2016,inf,3,0++,m/sqrt_sigma,8.950,0.025,,dimensionless,Table 27 (label table_mksuN_J0),4,0++ level 4,fit in 1/N^2 (+1/N^4 if c2 given) using N>=2
+AT2016,inf,3,0++,m/sqrt_sigma,9.087,0.020,,dimensionless,Table 27 (label table_mksuN_J0),5,0++ level 5,fit in 1/N^2 (+1/N^4 if c2 given) using N>=2
+AT2016,inf,3,0-+,m/sqrt_sigma,8.998,0.028,,dimensionless,Table 27 (label table_mksuN_J0),0,0-+ level 0,fit in 1/N^2 (+1/N^4 if c2 given) using N>=3
+AT2016,inf,3,0-+,m/sqrt_sigma,10.101,0.033,,dimensionless,Table 27 (label table_mksuN_J0),1,0-+ level 1,fit in 1/N^2 (+1/N^4 if c2 given) using N>=2
+AT2016,inf,3,0--,m/sqrt_sigma,6.060,0.009,,dimensionless,Table 27 (label table_mksuN_J0),0,0-- level 0,fit in 1/N^2 (+1/N^4 if c2 given) using N>=3
+AT2016,inf,3,0--,m/sqrt_sigma,7.759,0.015,,dimensionless,Table 27 (label table_mksuN_J0),1,0-- level 1,fit in 1/N^2 (+1/N^4 if c2 given) using N>=3
+AT2016,inf,3,0--,m/sqrt_sigma,9.110,0.035,,dimensionless,Table 27 (label table_mksuN_J0),2,0-- level 2,fit in 1/N^2 (+1/N^4 if c2 given) using N>=3
+AT2016,inf,3,0--,m/sqrt_sigma,9.709,0.030,,dimensionless,Table 27 (label table_mksuN_J0),3,0-- level 3,fit in 1/N^2 (+1/N^4 if c2 given) using N>=4
+AT2016,inf,3,0+-,m/sqrt_sigma,10.133,0.037,,dimensionless,Table 27 (label table_mksuN_J0),0,0+- level 0,fit in 1/N^2 (+1/N^4 if c2 given) using N>=3
+AT2016,inf,3,0+-,m/sqrt_sigma,11.350,0.057,,dimensionless,Table 27 (label table_mksuN_J0),1,0+- level 1,fit in 1/N^2 (+1/N^4 if c2 given) using N>=3
+AT2016,inf,3,2++,m/sqrt_sigma,6.914,0.013,,dimensionless,Table 28 (label table_mksuN_J2),0,2++ level 0,fit in 1/N^2 (+1/N^4 if c2 given) using N>=2
+AT2016,inf,3,2++,m/sqrt_sigma,8.423,0.015,,dimensionless,Table 28 (label table_mksuN_J2),1,2++ level 1,fit in 1/N^2 (+1/N^4 if c2 given) using N>=2
+AT2016,inf,3,2++,m/sqrt_sigma,9.59,0.09,,dimensionless,Table 28 (label table_mksuN_J2),2,2++ level 2,"square brackets: average of N=12,16, not an extrapolation (per source)"
+AT2016,inf,3,2++,m/sqrt_sigma,9.866,0.034,,dimensionless,Table 28 (label table_mksuN_J2),3,2++ level 3,fit in 1/N^2 (+1/N^4 if c2 given) using N>=3
+AT2016,inf,3,2++,m/sqrt_sigma,10.81,0.10,,dimensionless,Table 28 (label table_mksuN_J2),4,2++ level 4,"square brackets: average of N=12,16, not an extrapolation (per source)"
+AT2016,inf,3,2-+,m/sqrt_sigma,6.930,0.013,,dimensionless,Table 28 (label table_mksuN_J2),0,2-+ level 0,fit in 1/N^2 (+1/N^4 if c2 given) using N>=2
+AT2016,inf,3,2-+,m/sqrt_sigma,8.488,0.021,,dimensionless,Table 28 (label table_mksuN_J2),1,2-+ level 1,fit in 1/N^2 (+1/N^4 if c2 given) using N>=4
+AT2016,inf,3,2-+,m/sqrt_sigma,9.732,0.032,,dimensionless,Table 28 (label table_mksuN_J2),2,2-+ level 2,fit in 1/N^2 (+1/N^4 if c2 given) using N>=4
+AT2016,inf,3,2-+,m/sqrt_sigma,9.905,0.030,,dimensionless,Table 28 (label table_mksuN_J2),3,2-+ level 3,fit in 1/N^2 (+1/N^4 if c2 given) using N>=2
+AT2016,inf,3,2-+,m/sqrt_sigma,10.914,0.039,,dimensionless,Table 28 (label table_mksuN_J2),4,2-+ level 4,fit in 1/N^2 (+1/N^4 if c2 given) using N>=2
+AT2016,inf,3,2--,m/sqrt_sigma,8.223,0.018,,dimensionless,Table 28 (label table_mksuN_J2),0,2-- level 0,fit in 1/N^2 (+1/N^4 if c2 given) using N>=3
+AT2016,inf,3,2--,m/sqrt_sigma,9.592,0.024,,dimensionless,Table 28 (label table_mksuN_J2),1,2-- level 1,fit in 1/N^2 (+1/N^4 if c2 given) using N>=3
+AT2016,inf,3,2--,m/sqrt_sigma,10.715,0.041,,dimensionless,Table 28 (label table_mksuN_J2),2,2-- level 2,fit in 1/N^2 (+1/N^4 if c2 given) using N>=4
+AT2016,inf,3,2--,m/sqrt_sigma,11.34,0.06,,dimensionless,Table 28 (label table_mksuN_J2),3,2-- level 3,fit in 1/N^2 (+1/N^4 if c2 given) using N>=3
+AT2016,inf,3,2+-,m/sqrt_sigma,8.224,0.020,,dimensionless,Table 28 (label table_mksuN_J2),0,2+- level 0,fit in 1/N^2 (+1/N^4 if c2 given) using N>=3
+AT2016,inf,3,2+-,m/sqrt_sigma,9.629,0.025,,dimensionless,Table 28 (label table_mksuN_J2),1,2+- level 1,fit in 1/N^2 (+1/N^4 if c2 given) using N>=3
+AT2016,inf,3,2+-,m/sqrt_sigma,10.870,0.041,,dimensionless,Table 28 (label table_mksuN_J2),2,2+- level 2,fit in 1/N^2 (+1/N^4 if c2 given) using N>=3
+AT2016,inf,3,2+-,m/sqrt_sigma,11.26,0.06,,dimensionless,Table 28 (label table_mksuN_J2),3,2+- level 3,fit in 1/N^2 (+1/N^4 if c2 given) using N>=3
+AT2016,inf,3,1++,m/sqrt_sigma,9.912,0.026,,dimensionless,Table 29 (label table_mksuN_J1),0,1++ level 0,fit in 1/N^2 (+1/N^4 if c2 given) using N>=2
+AT2016,inf,3,1++,m/sqrt_sigma,9.984,0.032,,dimensionless,Table 29 (label table_mksuN_J1),1,1++ level 1,fit in 1/N^2 (+1/N^4 if c2 given) using N>=2
+AT2016,inf,3,1++,m/sqrt_sigma,11.040,0.043,,dimensionless,Table 29 (label table_mksuN_J1),2,1++ level 2,fit in 1/N^2 (+1/N^4 if c2 given) using N>=2
+AT2016,inf,3,1++,m/sqrt_sigma,11.157,0.080,,dimensionless,Table 29 (label table_mksuN_J1),3,1++ level 3,fit in 1/N^2 (+1/N^4 if c2 given) using N>=4
+AT2016,inf,3,1-+,m/sqrt_sigma,9.886,0.027,,dimensionless,Table 29 (label table_mksuN_J1),0,1-+ level 0,fit in 1/N^2 (+1/N^4 if c2 given) using N>=2
+AT2016,inf,3,1-+,m/sqrt_sigma,9.969,0.030,,dimensionless,Table 29 (label table_mksuN_J1),1,1-+ level 1,fit in 1/N^2 (+1/N^4 if c2 given) using N>=2
+AT2016,inf,3,1-+,m/sqrt_sigma,11.195,0.040,,dimensionless,Table 29 (label table_mksuN_J1),2,1-+ level 2,fit in 1/N^2 (+1/N^4 if c2 given) using N>=2
+AT2016,inf,3,1--,m/sqrt_sigma,9.401,0.029,,dimensionless,Table 29 (label table_mksuN_J1),0,1-- level 0,fit in 1/N^2 (+1/N^4 if c2 given) using N>=3
+AT2016,inf,3,1--,m/sqrt_sigma,9.740,0.032,,dimensionless,Table 29 (label table_mksuN_J1),1,1-- level 1,fit in 1/N^2 (+1/N^4 if c2 given) using N>=3
+AT2016,inf,3,1--,m/sqrt_sigma,10.684,0.044,,dimensionless,Table 29 (label table_mksuN_J1),2,1-- level 2,fit in 1/N^2 (+1/N^4 if c2 given) using N>=3
+AT2016,inf,3,1--,m/sqrt_sigma,10.98,0.06,,dimensionless,Table 29 (label table_mksuN_J1),3,1-- level 3,fit in 1/N^2 (+1/N^4 if c2 given) using N>=4
+AT2016,inf,3,1+-,m/sqrt_sigma,9.380,0.031,,dimensionless,Table 29 (label table_mksuN_J1),0,1+- level 0,fit in 1/N^2 (+1/N^4 if c2 given) using N>=3
+AT2016,inf,3,1+-,m/sqrt_sigma,9.828,0.036,,dimensionless,Table 29 (label table_mksuN_J1),1,1+- level 1,fit in 1/N^2 (+1/N^4 if c2 given) using N>=3
+AT2016,inf,3,1+-,m/sqrt_sigma,10.712,0.046,,dimensionless,Table 29 (label table_mksuN_J1),2,1+- level 2,fit in 1/N^2 (+1/N^4 if c2 given) using N>=3
+AT2016,inf,3,1+-,m/sqrt_sigma,10.99,0.06,,dimensionless,Table 29 (label table_mksuN_J1),3,1+- level 3,fit in 1/N^2 (+1/N^4 if c2 given) using N>=4

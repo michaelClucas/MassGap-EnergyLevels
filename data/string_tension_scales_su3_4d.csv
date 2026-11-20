@@ -1,0 +1,7 @@
+source_id,N,dim,JPC,quantity,value,err_stat,err_sys,units,table,level,row_label,note
+MP1999,3,4,,1/r0,410,20,,MeV,Table VII caption (label tab:finalmasses),,,scale convention used by the authors to convert r0*m to MeV
+Chen2006,3,4,,1/r0,410,20,,MeV,Table XXI caption (label summary1),,,scale convention used by the authors
+AT2020,3,4,,r0*sqrt_sigma,1.160,0.006,,dimensionless,Table 17 (label table_MK_J) last row,,,"continuum; r0 from interpolating formulae of refs HWalpha-1998, SNRS-2001 (per text)"
+AT2020,3,4,,r0,0.472,0.005,,fm,eqn label eqn_r0MeV (Sec. on physical units),,,lattice QCD (>=3 light flavours) value quoted from ref RS-2014; equals 1/(418(5) MeV)
+AT2020,3,4,,sqrt_sigma,485,6,,MeV,eqn label eqn_KMeV,,,= 1.160(6)/r0 with r0=0.472(5) fm
+AT2020,3,4,,sqrt_sigma,440,,,MeV,text before eqn_r0MeV,,,approximate traditional value from Regge slope + rotating string model ('something like 440 MeV'); no error quoted

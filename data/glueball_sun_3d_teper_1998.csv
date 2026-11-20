@@ -1,0 +1,106 @@
+source_id,N,dim,JPC,quantity,value,err_stat,err_sys,units,table,level,row_label,note
+Teper1998,2,3,0++,m/sqrt_sigma,4.718,0.043,,dimensionless,Table 28 (label table_mcont),0,0^++ / SU(2),
+Teper1998,3,3,0++,m/sqrt_sigma,4.329,0.041,,dimensionless,Table 28 (label table_mcont),0,0^++ / SU(3),
+Teper1998,4,3,0++,m/sqrt_sigma,4.236,0.050,,dimensionless,Table 28 (label table_mcont),0,0^++ / SU(4),
+Teper1998,5,3,0++,m/sqrt_sigma,4.184,0.055,,dimensionless,Table 28 (label table_mcont),0,0^++ / SU(5),
+Teper1998,2,3,0++,m/sqrt_sigma,6.83,0.10,,dimensionless,Table 28 (label table_mcont),1,0^++* / SU(2),
+Teper1998,3,3,0++,m/sqrt_sigma,6.52,0.09,,dimensionless,Table 28 (label table_mcont),1,0^++* / SU(3),
+Teper1998,4,3,0++,m/sqrt_sigma,6.38,0.13,,dimensionless,Table 28 (label table_mcont),1,0^++* / SU(4),
+Teper1998,5,3,0++,m/sqrt_sigma,6.20,0.13,,dimensionless,Table 28 (label table_mcont),1,0^++* / SU(5),
+Teper1998,2,3,0++,m/sqrt_sigma,8.15,0.15,,dimensionless,Table 28 (label table_mcont),2,0^++** / SU(2),
+Teper1998,3,3,0++,m/sqrt_sigma,8.23,0.17,,dimensionless,Table 28 (label table_mcont),2,0^++** / SU(3),
+Teper1998,4,3,0++,m/sqrt_sigma,8.05,0.22,,dimensionless,Table 28 (label table_mcont),2,0^++** / SU(4),
+Teper1998,5,3,0++,m/sqrt_sigma,7.85,0.22,,dimensionless,Table 28 (label table_mcont),2,0^++** / SU(5),
+Teper1998,3,3,0--,m/sqrt_sigma,6.48,0.09,,dimensionless,Table 28 (label table_mcont),0,0^-- / SU(3),
+Teper1998,4,3,0--,m/sqrt_sigma,6.271,0.095,,dimensionless,Table 28 (label table_mcont),0,0^-- / SU(4),
+Teper1998,5,3,0--,m/sqrt_sigma,6.03,0.18,,dimensionless,Table 28 (label table_mcont),0,0^-- / SU(5),
+Teper1998,3,3,0--,m/sqrt_sigma,8.15,0.16,,dimensionless,Table 28 (label table_mcont),1,0^--* / SU(3),
+Teper1998,4,3,0--,m/sqrt_sigma,7.86,0.20,,dimensionless,Table 28 (label table_mcont),1,0^--* / SU(4),
+Teper1998,5,3,0--,m/sqrt_sigma,7.87,0.25,,dimensionless,Table 28 (label table_mcont),1,0^--* / SU(5),
+Teper1998,3,3,0--,m/sqrt_sigma,9.81,0.26,,dimensionless,Table 28 (label table_mcont),2,0^--** / SU(3),
+Teper1998,4,3,0--,m/sqrt_sigma,9.21,0.30,,dimensionless,Table 28 (label table_mcont),2,0^--** / SU(4),
+Teper1998,5,3,0--,m/sqrt_sigma,9.51,0.41,,dimensionless,Table 28 (label table_mcont),2,0^--** / SU(5),
+Teper1998,2,3,0-+,m/sqrt_sigma,9.95,0.32,,dimensionless,Table 28 (label table_mcont),0,0^-+ / SU(2),
+Teper1998,3,3,0-+,m/sqrt_sigma,9.30,0.25,,dimensionless,Table 28 (label table_mcont),0,0^-+ / SU(3),
+Teper1998,4,3,0-+,m/sqrt_sigma,9.31,0.28,,dimensionless,Table 28 (label table_mcont),0,0^-+ / SU(4),
+Teper1998,5,3,0-+,m/sqrt_sigma,9.19,0.29,,dimensionless,Table 28 (label table_mcont),0,0^-+ / SU(5),
+Teper1998,3,3,0+-,m/sqrt_sigma,10.52,0.28,,dimensionless,Table 28 (label table_mcont),0,0^+- / SU(3),
+Teper1998,4,3,0+-,m/sqrt_sigma,10.35,0.50,,dimensionless,Table 28 (label table_mcont),0,0^+- / SU(4),
+Teper1998,5,3,0+-,m/sqrt_sigma,9.43,0.75,,dimensionless,Table 28 (label table_mcont),0,0^+- / SU(5),
+Teper1998,2,3,2++,m/sqrt_sigma,7.82,0.14,,dimensionless,Table 28 (label table_mcont),0,2^++ / SU(2),
+Teper1998,3,3,2++,m/sqrt_sigma,7.13,0.12,,dimensionless,Table 28 (label table_mcont),0,2^++ / SU(3),
+Teper1998,4,3,2++,m/sqrt_sigma,7.15,0.13,,dimensionless,Table 28 (label table_mcont),0,2^++ / SU(4),
+Teper1998,5,3,2++,m/sqrt_sigma,7.19,0.20,,dimensionless,Table 28 (label table_mcont),0,2^++ / SU(5),
+Teper1998,4,3,2++,m/sqrt_sigma,8.51,0.20,,dimensionless,Table 28 (label table_mcont),1,2^++* / SU(4),
+Teper1998,5,3,2++,m/sqrt_sigma,8.59,0.18,,dimensionless,Table 28 (label table_mcont),1,2^++* / SU(5),
+Teper1998,2,3,2-+,m/sqrt_sigma,7.86,0.14,,dimensionless,Table 28 (label table_mcont),0,2^-+ / SU(2),
+Teper1998,3,3,2-+,m/sqrt_sigma,7.36,0.11,,dimensionless,Table 28 (label table_mcont),0,2^-+ / SU(3),
+Teper1998,4,3,2-+,m/sqrt_sigma,6.86,0.18,,dimensionless,Table 28 (label table_mcont),0,2^-+ / SU(4),
+Teper1998,5,3,2-+,m/sqrt_sigma,7.18,0.16,,dimensionless,Table 28 (label table_mcont),0,2^-+ / SU(5),
+Teper1998,3,3,2-+,m/sqrt_sigma,8.80,0.20,,dimensionless,Table 28 (label table_mcont),1,2^-+* / SU(3),
+Teper1998,4,3,2-+,m/sqrt_sigma,8.75,0.28,,dimensionless,Table 28 (label table_mcont),1,2^-+* / SU(4),
+Teper1998,5,3,2-+,m/sqrt_sigma,8.67,0.24,,dimensionless,Table 28 (label table_mcont),1,2^-+* / SU(5),
+Teper1998,3,3,2--,m/sqrt_sigma,8.75,0.17,,dimensionless,Table 28 (label table_mcont),0,2^-- / SU(3),
+Teper1998,4,3,2--,m/sqrt_sigma,8.22,0.32,,dimensionless,Table 28 (label table_mcont),0,2^-- / SU(4),
+Teper1998,5,3,2--,m/sqrt_sigma,8.24,0.21,,dimensionless,Table 28 (label table_mcont),0,2^-- / SU(5),
+Teper1998,3,3,2--,m/sqrt_sigma,10.31,0.27,,dimensionless,Table 28 (label table_mcont),1,2^--* / SU(3),
+Teper1998,4,3,2--,m/sqrt_sigma,9.91,0.41,,dimensionless,Table 28 (label table_mcont),1,2^--* / SU(4),
+Teper1998,5,3,2--,m/sqrt_sigma,9.79,0.45,,dimensionless,Table 28 (label table_mcont),1,2^--* / SU(5),
+Teper1998,3,3,2+-,m/sqrt_sigma,8.38,0.21,,dimensionless,Table 28 (label table_mcont),0,2^+- / SU(3),
+Teper1998,4,3,2+-,m/sqrt_sigma,8.33,0.25,,dimensionless,Table 28 (label table_mcont),0,2^+- / SU(4),
+Teper1998,5,3,2+-,m/sqrt_sigma,8.02,0.40,,dimensionless,Table 28 (label table_mcont),0,2^+- / SU(5),
+Teper1998,3,3,2+-,m/sqrt_sigma,10.51,0.30,,dimensionless,Table 28 (label table_mcont),1,2^+-* / SU(3),
+Teper1998,4,3,2+-,m/sqrt_sigma,10.64,0.60,,dimensionless,Table 28 (label table_mcont),1,2^+-* / SU(4),
+Teper1998,5,3,2+-,m/sqrt_sigma,9.97,0.55,,dimensionless,Table 28 (label table_mcont),1,2^+-* / SU(5),
+Teper1998,2,3,1++,m/sqrt_sigma,10.42,0.34,,dimensionless,Table 28 (label table_mcont),0,1^++ / SU(2),
+Teper1998,3,3,1++,m/sqrt_sigma,10.22,0.24,,dimensionless,Table 28 (label table_mcont),0,1^++ / SU(3),
+Teper1998,4,3,1++,m/sqrt_sigma,9.91,0.36,,dimensionless,Table 28 (label table_mcont),0,1^++ / SU(4),
+Teper1998,5,3,1++,m/sqrt_sigma,10.26,0.50,,dimensionless,Table 28 (label table_mcont),0,1^++ / SU(5),
+Teper1998,2,3,1-+,m/sqrt_sigma,11.13,0.42,,dimensionless,Table 28 (label table_mcont),0,1^-+ / SU(2),
+Teper1998,3,3,1-+,m/sqrt_sigma,10.19,0.27,,dimensionless,Table 28 (label table_mcont),0,1^-+ / SU(3),
+Teper1998,4,3,1-+,m/sqrt_sigma,10.85,0.55,,dimensionless,Table 28 (label table_mcont),0,1^-+ / SU(4),
+Teper1998,5,3,1-+,m/sqrt_sigma,10.28,0.34,,dimensionless,Table 28 (label table_mcont),0,1^-+ / SU(5),
+Teper1998,3,3,1--,m/sqrt_sigma,9.86,0.23,,dimensionless,Table 28 (label table_mcont),0,1^-- / SU(3),
+Teper1998,4,3,1--,m/sqrt_sigma,9.50,0.35,,dimensionless,Table 28 (label table_mcont),0,1^-- / SU(4),
+Teper1998,5,3,1--,m/sqrt_sigma,9.65,0.40,,dimensionless,Table 28 (label table_mcont),0,1^-- / SU(5),
+Teper1998,3,3,1+-,m/sqrt_sigma,10.41,0.36,,dimensionless,Table 28 (label table_mcont),0,1^+- / SU(3),
+Teper1998,4,3,1+-,m/sqrt_sigma,9.70,0.45,,dimensionless,Table 28 (label table_mcont),0,1^+- / SU(4),
+Teper1998,5,3,1+-,m/sqrt_sigma,9.93,0.44,,dimensionless,Table 28 (label table_mcont),0,1^+- / SU(5),
+Teper1998,inf,3,0++,m/sqrt_sigma,4.065,0.055,,dimensionless,Table 34 (label table_masskN),0,0^++,linear fit in 1/N^2 using N>=2; slope 2.58(42); CL 80(25)%
+Teper1998,inf,3,0++,m/sqrt_sigma,6.18,0.13,,dimensionless,Table 34 (label table_masskN),1,0^++*,linear fit in 1/N^2 using N>=2; slope 2.68(100); CL 70(20)%
+Teper1998,inf,3,0++,m/sqrt_sigma,7.99,0.22,,dimensionless,Table 34 (label table_masskN),2,0^++**,linear fit in 1/N^2 using N>=2; slope 0.79(160); CL 50(15)%
+Teper1998,inf,3,0-+,m/sqrt_sigma,9.02,0.30,,dimensionless,Table 34 (label table_masskN),0,0^-+,linear fit in 1/N^2 using N>=2; slope 3.52(275); CL 85(25)%
+Teper1998,inf,3,2++,m/sqrt_sigma,6.88,0.16,,dimensionless,Table 34 (label table_masskN),0,2^++,linear fit in 1/N^2 using N>=2; slope 3.50(134); CL 30(10)%
+Teper1998,inf,3,2-+,m/sqrt_sigma,6.89,0.21,,dimensionless,Table 34 (label table_masskN),0,2^-+,linear fit in 1/N^2 using N>=2; slope 3.13(162); CL 20(5)%
+Teper1998,inf,3,2-+,m/sqrt_sigma,8.62,0.38,,dimensionless,Table 34 (label table_masskN),1,2^-+*,linear fit in 1/N^2 using N>=3; slope 1.69(165); CL 90(25)%
+Teper1998,inf,3,1++,m/sqrt_sigma,9.98,0.25,,dimensionless,Table 34 (label table_masskN),0,1^++,linear fit in 1/N^2 using N>=2; slope 1.78(203); CL 80(25)%
+Teper1998,inf,3,1-+,m/sqrt_sigma,10.06,0.40,,dimensionless,Table 34 (label table_masskN),0,1^-+,linear fit in 1/N^2 using N>=2; slope 3.58(365); CL 30(8)%
+Teper1998,inf,3,0--,m/sqrt_sigma,5.91,0.25,,dimensionless,Table 34 (label table_masskN),0,0^--,linear fit in 1/N^2 using N>=3; slope 5.24(300); CL 55(15)%
+Teper1998,inf,3,0--,m/sqrt_sigma,7.63,0.37,,dimensionless,Table 34 (label table_masskN),1,0^--*,linear fit in 1/N^2 using N>=3; slope 4.61(460); CL 70(20)%
+Teper1998,inf,3,0--,m/sqrt_sigma,8.96,0.65,,dimensionless,Table 34 (label table_masskN),2,0^--**,linear fit in 1/N^2 using N>=3; slope 7.2(80); CL 35(10)%
+Teper1998,inf,3,0+-,m/sqrt_sigma,9.47,1.16,,dimensionless,Table 34 (label table_masskN),0,0^+-,linear fit in 1/N^2 using N>=3; slope 9.7(12.4); CL 40(10)%
+Teper1998,inf,3,2--,m/sqrt_sigma,7.89,0.35,,dimensionless,Table 34 (label table_masskN),0,2^--,linear fit in 1/N^2 using N>=3; slope 7.6(44); CL 60(20)%
+Teper1998,inf,3,2--,m/sqrt_sigma,9.46,0.66,,dimensionless,Table 34 (label table_masskN),1,2^--*,linear fit in 1/N^2 using N>=3; slope 7.6(77); CL 95(25)%
+Teper1998,inf,3,2+-,m/sqrt_sigma,8.04,0.50,,dimensionless,Table 34 (label table_masskN),0,2^+-,linear fit in 1/N^2 using N>=3; slope 3.2(60); CL 60(20)%
+Teper1998,inf,3,2+-,m/sqrt_sigma,9.97,0.91,,dimensionless,Table 34 (label table_masskN),1,2^+-*,linear fit in 1/N^2 using N>=3; slope 5.1(10.0); CL 50(15)%
+Teper1998,inf,3,1--,m/sqrt_sigma,9.36,0.60,,dimensionless,Table 34 (label table_masskN),0,1^--,linear fit in 1/N^2 using N>=3; slope 4.4(70); CL 60(20)%
+Teper1998,inf,3,1+-,m/sqrt_sigma,9.43,0.75,,dimensionless,Table 34 (label table_masskN),0,1^+-,linear fit in 1/N^2 using N>=3; slope 8.4(98); CL 50(15)%
+Teper1998,inf,3,0++,m/g2N,0.808,0.011,,dimensionless,Table 33 (label table_massgN),0,0^++,linear fit in 1/N^2 using N>=2; slope -0.070(79); CL 90(25)%
+Teper1998,inf,3,0++,m/g2N,1.227,0.025,,dimensionless,Table 33 (label table_massgN),1,0^++*,linear fit in 1/N^2 using N>=2; slope -0.31(18); CL 65(20)%
+Teper1998,inf,3,0++,m/g2N,1.581,0.042,,dimensionless,Table 33 (label table_massgN),2,0^++**,linear fit in 1/N^2 using N>=2; slope -0.84(28); CL 50(15)%
+Teper1998,inf,3,0-+,m/g2N,1.787,0.060,,dimensionless,Table 33 (label table_massgN),0,0^-+,linear fit in 1/N^2 using N>=2; slope -0.50(51); CL 85(25)%
+Teper1998,inf,3,2++,m/g2N,1.365,0.033,,dimensionless,Table 33 (label table_massgN),0,2^++,linear fit in 1/N^2 using N>=2; slope -0.25(28); CL 35(10)%
+Teper1998,inf,3,2-+,m/g2N,1.369,0.036,,dimensionless,Table 33 (label table_massgN),0,2^-+,linear fit in 1/N^2 using N>=2; slope -0.20(27); CL 15(4)%
+Teper1998,inf,3,2-+,m/g2N,1.704,0.070,,dimensionless,Table 33 (label table_massgN),1,2^-+*,linear fit in 1/N^2 using N>=3; slope -0.74(88); CL 95(25)%
+Teper1998,inf,3,1++,m/g2N,1.98,0.08,,dimensionless,Table 33 (label table_massgN),0,1^++,linear fit in 1/N^2 using N>=2; slope -0.90(57); CL 80(25)%
+Teper1998,inf,3,1-+,m/g2N,1.99,0.08,,dimensionless,Table 33 (label table_massgN),0,1^-+,linear fit in 1/N^2 using N>=2; slope -0.61(70); CL 35(10)%
+Teper1998,inf,3,0--,m/g2N,1.167,0.042,,dimensionless,Table 33 (label table_massgN),0,0^--,linear fit in 1/N^2 using N>=3; slope 0.26(50); CL 65(20)%
+Teper1998,inf,3,0--,m/g2N,1.508,0.072,,dimensionless,Table 33 (label table_massgN),1,0^--*,linear fit in 1/N^2 using N>=3; slope -0.07(87); CL 65(20)%
+Teper1998,inf,3,0--,m/g2N,1.77,0.13,,dimensionless,Table 33 (label table_massgN),2,0^--**,linear fit in 1/N^2 using N>=3; slope 0.24(161); CL 30(8)%
+Teper1998,inf,3,0+-,m/g2N,1.87,0.23,,dimensionless,Table 33 (label table_massgN),0,0^+-,linear fit in 1/N^2 using N>=3; slope 0.63(245); CL 45(10)%
+Teper1998,inf,3,2--,m/g2N,1.57,0.08,,dimensionless,Table 33 (label table_massgN),0,2^--,linear fit in 1/N^2 using N>=3; slope 0.40(93); CL 55(15)%
+Teper1998,inf,3,2--,m/g2N,1.87,0.12,,dimensionless,Table 33 (label table_massgN),1,2^--*,linear fit in 1/N^2 using N>=3; slope 0.23(143); CL 90(25)%
+Teper1998,inf,3,2+-,m/g2N,1.59,0.10,,dimensionless,Table 33 (label table_massgN),0,2^+-,linear fit in 1/N^2 using N>=3; slope -0.37(117); CL 65(20)%
+Teper1998,inf,3,2+-,m/g2N,1.97,0.17,,dimensionless,Table 33 (label table_massgN),1,2^+-*,linear fit in 1/N^2 using N>=3; slope -0.28(188); CL 50(15)%
+Teper1998,inf,3,1--,m/g2N,1.85,0.13,,dimensionless,Table 33 (label table_massgN),0,1^--,linear fit in 1/N^2 using N>=3; slope -0.33(149); CL 55(15)%
+Teper1998,inf,3,1+-,m/g2N,1.87,0.16,,dimensionless,Table 33 (label table_massgN),0,1^+-,linear fit in 1/N^2 using N>=3; slope 0.37(200); CL 45(10)%

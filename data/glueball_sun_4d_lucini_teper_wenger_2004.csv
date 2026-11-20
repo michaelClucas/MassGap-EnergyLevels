@@ -1,0 +1,22 @@
+source_id,N,dim,JPC,quantity,value,err_stat,err_sys,units,table,level,row_label,note
+LTW2004,2,4,0++,m/sqrt_sigma,3.78,0.07,,dimensionless,Table 14 (label table_continuumG),0,SU(2) / 0++,
+LTW2004,2,4,0++,m/sqrt_sigma,6.46,0.14,,dimensionless,Table 14 (label table_continuumG),1,SU(2) / 0++*,
+LTW2004,2,4,2++,m/sqrt_sigma,5.45,0.11,,dimensionless,Table 14 (label table_continuumG),0,SU(2) / 2++,
+LTW2004,3,4,0++,m/sqrt_sigma,3.55,0.07,,dimensionless,Table 14 (label table_continuumG),0,SU(3) / 0++,
+LTW2004,3,4,0++,m/sqrt_sigma,5.69,0.10,,dimensionless,Table 14 (label table_continuumG),1,SU(3) / 0++*,
+LTW2004,3,4,2++,m/sqrt_sigma,4.78,0.09,,dimensionless,Table 14 (label table_continuumG),0,SU(3) / 2++,
+LTW2004,4,4,0++,m/sqrt_sigma,3.36,0.06,,dimensionless,Table 14 (label table_continuumG),0,SU(4) / 0++,
+LTW2004,4,4,0++,m/sqrt_sigma,5.63,0.12,,dimensionless,Table 14 (label table_continuumG),1,SU(4) / 0++*,star: poor fit (per caption)
+LTW2004,4,4,2++,m/sqrt_sigma,4.88,0.11,,dimensionless,Table 14 (label table_continuumG),0,SU(4) / 2++,
+LTW2004,4,4,0++,m/sqrt_sigma,3.56,0.11,,dimensionless,Table 14 (label table_continuumG),0,SU(4)_an / 0++,anisotropic-lattice SU(4) calculation (separate row in source)
+LTW2004,4,4,0++,m/sqrt_sigma,6.60,0.23,,dimensionless,Table 14 (label table_continuumG),1,SU(4)_an / 0++*,anisotropic-lattice SU(4) calculation (separate row in source); star: poor fit (per caption)
+LTW2004,4,4,2++,m/sqrt_sigma,4.85,0.16,,dimensionless,Table 14 (label table_continuumG),0,SU(4)_an / 2++,anisotropic-lattice SU(4) calculation (separate row in source)
+LTW2004,6,4,0++,m/sqrt_sigma,3.25,0.09,,dimensionless,Table 14 (label table_continuumG),0,SU(6) / 0++,
+LTW2004,6,4,0++,m/sqrt_sigma,5.84,0.18,,dimensionless,Table 14 (label table_continuumG),1,SU(6) / 0++*,
+LTW2004,6,4,2++,m/sqrt_sigma,4.73,0.15,,dimensionless,Table 14 (label table_continuumG),0,SU(6) / 2++,
+LTW2004,8,4,0++,m/sqrt_sigma,3.55,0.12,,dimensionless,Table 14 (label table_continuumG),0,SU(8) / 0++,
+LTW2004,8,4,0++,m/sqrt_sigma,6.40,0.30,,dimensionless,Table 14 (label table_continuumG),1,SU(8) / 0++*,star: poor fit (per caption)
+LTW2004,8,4,2++,m/sqrt_sigma,4.73,0.22,,dimensionless,Table 14 (label table_continuumG),0,SU(8) / 2++,
+LTW2004,inf,4,0++,m/sqrt_sigma,3.307,0.053,,dimensionless,Table 14 (label table_continuumG),0,SU(\infty) / 0++,fit m/sqrt_sigma(N)=m(inf)+c/N^2 to continuum values (eqn eqn_Nmk)
+LTW2004,inf,4,0++,m/sqrt_sigma,6.07,0.17,,dimensionless,Table 14 (label table_continuumG),1,SU(\infty) / 0++*,fit m/sqrt_sigma(N)=m(inf)+c/N^2 to continuum values (eqn eqn_Nmk)
+LTW2004,inf,4,2++,m/sqrt_sigma,4.80,0.14,,dimensionless,Table 14 (label table_continuumG),0,SU(\infty) / 2++,fit m/sqrt_sigma(N)=m(inf)+c/N^2 to continuum values (eqn eqn_Nmk)

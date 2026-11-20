@@ -1,0 +1,43 @@
+source_id,N,dim,JPC,quantity,value,err_stat,err_sys,units,table,level,row_label,note
+Chen2006,3,4,0++,r0*m,4.16,0.11,0.04,dimensionless,Table XXI (label summary1; 21st table float in source),0,0^++,err_stat=continuum-extrapolation stat; err_sys=1% anisotropy
+Chen2006,3,4,0++,m,1710,50,80,MeV,Table XXI (label summary1; 21st table float in source),0,0^++,err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV
+Chen2006,3,4,2++,r0*m,5.83,0.05,0.06,dimensionless,Table XXI (label summary1; 21st table float in source),0,2^++,err_stat=continuum-extrapolation stat; err_sys=1% anisotropy
+Chen2006,3,4,2++,m,2390,30,120,MeV,Table XXI (label summary1; 21st table float in source),0,2^++,err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV
+Chen2006,3,4,0-+,r0*m,6.25,0.06,0.06,dimensionless,Table XXI (label summary1; 21st table float in source),0,0^-+,err_stat=continuum-extrapolation stat; err_sys=1% anisotropy
+Chen2006,3,4,0-+,m,2560,35,120,MeV,Table XXI (label summary1; 21st table float in source),0,0^-+,err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV
+Chen2006,3,4,1+-,r0*m,7.27,0.04,0.07,dimensionless,Table XXI (label summary1; 21st table float in source),0,1^+-,err_stat=continuum-extrapolation stat; err_sys=1% anisotropy
+Chen2006,3,4,1+-,m,2980,30,140,MeV,Table XXI (label summary1; 21st table float in source),0,1^+-,err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV
+Chen2006,3,4,2-+,r0*m,7.42,0.07,0.07,dimensionless,Table XXI (label summary1; 21st table float in source),0,2^-+,err_stat=continuum-extrapolation stat; err_sys=1% anisotropy
+Chen2006,3,4,2-+,m,3040,40,150,MeV,Table XXI (label summary1; 21st table float in source),0,2^-+,err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV
+Chen2006,3,4,3+-,r0*m,8.79,0.03,0.09,dimensionless,Table XXI (label summary1; 21st table float in source),0,3^+-,err_stat=continuum-extrapolation stat; err_sys=1% anisotropy
+Chen2006,3,4,3+-,m,3600,40,170,MeV,Table XXI (label summary1; 21st table float in source),0,3^+-,err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV
+Chen2006,3,4,3++,r0*m,8.94,0.06,0.09,dimensionless,Table XXI (label summary1; 21st table float in source),0,3^++,err_stat=continuum-extrapolation stat; err_sys=1% anisotropy
+Chen2006,3,4,3++,m,3670,50,180,MeV,Table XXI (label summary1; 21st table float in source),0,3^++,err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV
+Chen2006,3,4,1--,r0*m,9.34,0.04,0.09,dimensionless,Table XXI (label summary1; 21st table float in source),0,1^--,err_stat=continuum-extrapolation stat; err_sys=1% anisotropy
+Chen2006,3,4,1--,m,3830,40,190,MeV,Table XXI (label summary1; 21st table float in source),0,1^--,err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV
+Chen2006,3,4,2--,r0*m,9.77,0.04,0.10,dimensionless,Table XXI (label summary1; 21st table float in source),0,2^--,err_stat=continuum-extrapolation stat; err_sys=1% anisotropy
+Chen2006,3,4,2--,m,4010,45,200,MeV,Table XXI (label summary1; 21st table float in source),0,2^--,err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV
+Chen2006,3,4,3--,r0*m,10.25,0.04,0.10,dimensionless,Table XXI (label summary1; 21st table float in source),0,3^--,err_stat=continuum-extrapolation stat; err_sys=1% anisotropy; source typo '10.25(4))(10)' read as 10.25(4)(10)
+Chen2006,3,4,3--,m,4200,45,200,MeV,Table XXI (label summary1; 21st table float in source),0,3^--,err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV
+Chen2006,3,4,2+-,r0*m,10.32,0.07,0.10,dimensionless,Table XXI (label summary1; 21st table float in source),0,2^+-,err_stat=continuum-extrapolation stat; err_sys=1% anisotropy
+Chen2006,3,4,2+-,m,4230,50,200,MeV,Table XXI (label summary1; 21st table float in source),0,2^+-,err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV
+Chen2006,3,4,0+-,r0*m,11.66,0.07,0.12,dimensionless,Table XXI (label summary1; 21st table float in source),0,0^+-,err_stat=continuum-extrapolation stat; err_sys=1% anisotropy
+Chen2006,3,4,0+-,m,4780,60,230,MeV,Table XXI (label summary1; 21st table float in source),0,0^+-,err_stat=combined r0*m error; err_sys=from 1/r0=410(20) MeV
+Chen2006,3,4,0++,r0*m,4.16,0.11,,dimensionless,Table VIII (label comparison; column 'this work'),0,A_1++,"per cubic irrep R^PC (row_label), before combining into J"
+Chen2006,3,4,2++,r0*m,5.82,0.05,,dimensionless,Table VIII (label comparison; column 'this work'),0,E++,"per cubic irrep R^PC (row_label), before combining into J"
+Chen2006,3,4,2++,r0*m,5.83,0.04,,dimensionless,Table VIII (label comparison; column 'this work'),0,T_2++,"per cubic irrep R^PC (row_label), before combining into J"
+Chen2006,3,4,3++,r0*m,9.00,0.08,,dimensionless,Table VIII (label comparison; column 'this work'),0,A_2++,"per cubic irrep R^PC (row_label), before combining into J"
+Chen2006,3,4,3++,r0*m,8.87,0.08,,dimensionless,Table VIII (label comparison; column 'this work'),0,T_1++,"per cubic irrep R^PC (row_label), before combining into J"
+Chen2006,3,4,0-+,r0*m,6.25,0.06,,dimensionless,Table VIII (label comparison; column 'this work'),0,A_1-+,"per cubic irrep R^PC (row_label), before combining into J"
+Chen2006,3,4,1+-,r0*m,7.27,0.04,,dimensionless,Table VIII (label comparison; column 'this work'),0,T_1+-,"per cubic irrep R^PC (row_label), before combining into J"
+Chen2006,3,4,2-+,r0*m,7.49,0.07,,dimensionless,Table VIII (label comparison; column 'this work'),0,E-+,"per cubic irrep R^PC (row_label), before combining into J"
+Chen2006,3,4,2-+,r0*m,7.34,0.11,,dimensionless,Table VIII (label comparison; column 'this work'),0,T_2-+,"per cubic irrep R^PC (row_label), before combining into J"
+Chen2006,3,4,3+-,r0*m,8.80,0.03,,dimensionless,Table VIII (label comparison; column 'this work'),0,T_2+-,"per cubic irrep R^PC (row_label), before combining into J"
+Chen2006,3,4,3+-,r0*m,8.78,0.05,,dimensionless,Table VIII (label comparison; column 'this work'),0,A_2+-,"per cubic irrep R^PC (row_label), before combining into J"
+Chen2006,3,4,1--,r0*m,9.34,0.04,,dimensionless,Table VIII (label comparison; column 'this work'),0,T_1--,"per cubic irrep R^PC (row_label), before combining into J"
+Chen2006,3,4,2--,r0*m,9.71,0.03,,dimensionless,Table VIII (label comparison; column 'this work'),0,E--,"per cubic irrep R^PC (row_label), before combining into J"
+Chen2006,3,4,2--,r0*m,9.83,0.08,,dimensionless,Table VIII (label comparison; column 'this work'),0,T_2--,"per cubic irrep R^PC (row_label), before combining into J"
+Chen2006,3,4,3--,r0*m,10.25,0.04,,dimensionless,Table VIII (label comparison; column 'this work'),0,A_2--,"per cubic irrep R^PC (row_label), before combining into J"
+Chen2006,3,4,2+-,r0*m,10.32,0.07,,dimensionless,Table VIII (label comparison; column 'this work'),0,E+-,"per cubic irrep R^PC (row_label), before combining into J"
+Chen2006,3,4,0+-,r0*m,11.66,0.07,,dimensionless,Table VIII (label comparison; column 'this work'),0,A_1+-,"per cubic irrep R^PC (row_label), before combining into J"
+Chen2006,3,4,,1/r0,410,20,,MeV,Table XXI caption (label summary1),,,scale convention used by the authors

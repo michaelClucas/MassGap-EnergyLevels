@@ -9,6 +9,6 @@ Research program: can the Yang-Mills mass gap be explained with the mathematics 
 - A numerical gap at finite volume or lattice spacing is an observation, not a proof.
 - Lattice and measured numbers come from `data/` with citations in `data/SOURCES.md`. Don't hardcode them in scripts.
 - Python lives in `.venv/`, pinned in `requirements.txt`. Lean 4 project lives in `lean/`.
-- 14 CPU cores shared with other work: this program uses at most 3 unless load is low. Intel iGPU, no CUDA. Long jobs run in the background and log to `work/<id>/run.log`.
+- CPU: this program owns logical CPUs 9-11 only (3 CPUs); 0-3 are reserved for the user. Run every compute command as `python tools/pin.py <command>` and size threads/workers to 3 total. Intel iGPU, no CUDA. Long jobs run in the background and log to `work/<id>/run.log`.
 - Repo is public. No personal info, credentials, or absolute local paths in committed files. Don't change the git identity, don't force-push.
 - Never claim the Millennium problem is solved. Use "candidate" or "partial" unless `RESULT.md` exists.

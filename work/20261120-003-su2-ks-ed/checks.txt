@@ -1,0 +1,63 @@
+plaq1 g2=0.2: spin basis j_max=40 E0=-17.1316130607 E1=-13.2600318384; group-manifold FD E0=-17.1316130606 E1=-13.2600318389; max dev 4.6e-10; SC-PT Delta=466.966667 vs ED 3.871581
+plaq1 g2=0.3: spin basis j_max=40 E0=-10.5310390970 E1=-6.7265094322; group-manifold FD E0=-10.5310390976 E1=-6.7265094327; max dev 6.3e-10; SC-PT Delta=138.721605 vs ED 3.804530
+plaq1 g2=0.5: spin basis j_max=40 E0=-5.3305158609 E1=-1.6669658084; group-manifold FD E0=-5.3305158612 E1=-1.6669658099; max dev 1.5e-09; SC-PT Delta=30.616667 vs ED 3.663550
+plaq1 g2=0.7: spin basis j_max=40 E0=-3.1785285412 E1=0.3325975899; group-manifold FD E0=-3.1785285417 E1=0.3325975899; max dev 4.7e-10; SC-PT Delta=11.934354 vs ED 3.511126
+plaq1 g2=1.0: spin basis j_max=40 E0=-1.6667637179 E1=1.6023354676; group-manifold FD E0=-1.6667637159 E1=1.6023354670; max dev 2.0e-09; SC-PT Delta=5.233333 vs ED 3.269099
+plaq1 g2=1.5: spin basis j_max=40 E0=-0.6712170059 E1=2.4460244088; group-manifold FD E0=-0.6712170003 E1=2.4460244122; max dev 5.7e-09; SC-PT Delta=3.356173 vs ED 3.117241
+plaq1 g2=2.0: spin basis j_max=40 E0=-0.3132797432 E1=3.1130088225; group-manifold FD E0=-0.3132797420 E1=3.1130088229; max dev 1.2e-09; SC-PT Delta=3.466667 vs ED 3.426289
+plaq1 g2=3.0: spin basis j_max=40 E0=-0.0974519235 E1=4.5381738947; group-manifold FD E0=-0.0974519187 E1=4.5381738995; max dev 4.8e-09; SC-PT Delta=4.638272 vs ED 4.635626
+plaq1 g2=5.0: spin basis j_max=40 E0=-0.0212955625 E1=7.5084950190; group-manifold FD E0=-0.0212955508 E1=7.5084950219; max dev 1.2e-08; SC-PT Delta=7.529867 vs ED 7.529791
+plaq1 g2=10.0: spin basis j_max=40 E0=-0.0026663704 E1=15.0010663662; group-manifold FD E0=-0.0026663651 E1=15.0010663723; max dev 6.1e-09; SC-PT Delta=15.003733 vs ED 15.003733
+ladder2 j_max=0.5: dim 4, |W-W^T|=4.4e-16, reflection consistency err 0.0e+00
+  ladder2 j_max=0.5: dims P+ 3, P- 1; spec(P+) u spec(P-) vs full spectrum at g2=1: max dev 6.7e-16
+ladder2 j_max=1.0: dim 11, |W-W^T|=8.9e-16, reflection consistency err 6.7e-16
+  ladder2 j_max=1.0: dims P+ 8, P- 3; spec(P+) u spec(P-) vs full spectrum at g2=1: max dev 3.6e-15
+ladder2 j_max=1.5: dim 23, |W-W^T|=8.9e-16, reflection consistency err 7.8e-16
+  ladder2 j_max=1.5: dims P+ 15, P- 8; spec(P+) u spec(P-) vs full spectrum at g2=1: max dev 1.1e-14
+ladder2 j_max=2.0: dim 42, |W-W^T|=8.9e-16, reflection consistency err 8.9e-16
+  ladder2 j_max=2.0: dims P+ 27, P- 15; spec(P+) u spec(P-) vs full spectrum at g2=1: max dev 2.5e-14
+ladder2 j_max=3.0: dim 106, |W-W^T|=8.9e-16, reflection consistency err 1.4e-15
+  ladder2 j_max=3.0: dims P+ 64, P- 42; spec(P+) u spec(P-) vs full spectrum at g2=1: max dev 7.8e-14
+ladder2 j_max=4.0: dim 215, |W-W^T|=1.1e-15, reflection consistency err 2.2e-15
+  ladder2 j_max=4.0: dims P+ 125, P- 90; spec(P+) u spec(P-) vs full spectrum at g2=1: max dev 9.9e-14
+ladder2 j_max=5.0: dim 381, |W-W^T|=1.1e-15, reflection consistency err 2.7e-15
+  ladder2 j_max=5.0: dims P+ 216, P- 165; spec(P+) u spec(P-) vs full spectrum at g2=1: max dev 2.4e-13
+ladder2 j_max=6.0: dim 616, |W-W^T|=1.1e-15, reflection consistency err 2.7e-15
+  ladder2 j_max=6.0: dims P+ 343, P- 273; spec(P+) u spec(P-) vs full spectrum at g2=1: max dev 6.0e-13
+ladder2 j_max=7.0: dim 932, |W-W^T|=1.1e-15, reflection consistency err 2.7e-15
+  ladder2 j_max=7.0: dims P+ 512, P- 420; spec(P+) u spec(P-) vs full spectrum at g2=1: max dev 6.8e-13
+ladder2 j_max=8.0: dim 1341, |W-W^T|=1.1e-15, reflection consistency err 3.1e-15
+  ladder2 j_max=8.0: dims P+ 729, P- 612; spec(P+) u spec(P-) vs full spectrum at g2=1: max dev 1.0e-12
+periodic2x2 j_max=0.5: dim 23, |W-W^dag|=5.6e-16, max |Im W| 0.0e+00
+  periodic2x2 j_max=0.5 g2=0.2: lowest 5 levels [-25.483035, -13.243885, 0.249747, 0.3, 0.3]
+  periodic2x2 j_max=0.5 g2=0.3: lowest 5 levels [-16.77813, -8.456482, 0.374632, 0.45, 0.45]
+  periodic2x2 j_max=0.5 g2=0.5: lowest 5 levels [-9.67494, -4.365048, 0.624538, 0.75, 0.75]
+  periodic2x2 j_max=0.5 g2=0.7: lowest 5 levels [-6.515047, -2.372372, 0.875045, 1.05, 1.05]
+  periodic2x2 j_max=0.5 g2=1.0: lowest 5 levels [-4.034948, -0.589454, 1.254145, 1.5, 1.5]
+  periodic2x2 j_max=0.5 g2=1.5: lowest 5 levels [-2.033224, 1.230482, 1.909116, 2.25, 2.25]
+  periodic2x2 j_max=0.5 g2=2.0: lowest 5 levels [-1.090381, 2.46899, 2.61269, 3.0, 3.0]
+  periodic2x2 j_max=0.5 g2=3.0: lowest 5 levels [-0.375885, 4.132133, 4.321866, 4.5, 4.5]
+  periodic2x2 j_max=0.5 g2=5.0: lowest 5 levels [-0.08475, 7.238584, 7.460211, 7.5, 7.5]
+  periodic2x2 j_max=0.5 g2=10.0: lowest 5 levels [-0.010662, 14.861131, 14.995002, 15.0, 15.0]
+periodic2x2 j_max=1.0: dim 622, |W-W^dag|=6.7e-16, max |Im W| 0.0e+00
+  periodic2x2 j_max=1.0 g2=0.2: lowest 5 levels [-43.224864, -34.873553, -33.636294, -29.778034, -29.767163]
+  periodic2x2 j_max=1.0 g2=0.3: lowest 5 levels [-28.311313, -22.691566, -21.852604, -19.19372, -19.188553]
+  periodic2x2 j_max=1.0 g2=0.5: lowest 5 levels [-16.051788, -12.567809, -12.035748, -10.268882, -10.265827]
+  periodic2x2 j_max=1.0 g2=0.7: lowest 5 levels [-10.532686, -7.897807, -7.485708, -6.031277, -6.018505]
+  periodic2x2 j_max=1.0 g2=1.0: lowest 5 levels [-6.164164, -4.02168, -3.694444, -2.497493, -2.385548]
+  periodic2x2 j_max=1.0 g2=1.5: lowest 5 levels [-2.718742, -0.489866, -0.331858, 0.551293, 0.648483]
+  periodic2x2 j_max=1.0 g2=2.0: lowest 5 levels [-1.281939, 1.480186, 1.607504, 2.208461, 2.232107]
+  periodic2x2 j_max=1.0 g2=3.0: lowest 5 levels [-0.392976, 3.744617, 4.089221, 4.252223, 4.252223]
+  periodic2x2 j_max=1.0 g2=5.0: lowest 5 levels [-0.085284, 7.15014, 7.415223, 7.445371, 7.445371]
+  periodic2x2 j_max=1.0 g2=10.0: lowest 5 levels [-0.010666, 14.849887, 14.989494, 14.993151, 14.993151]
+periodic2x2 j_max=1.5: dim 9418, |W-W^dag|=7.8e-16, max |Im W| 0.0e+00
+  periodic2x2 j_max=1.5 g2=0.2: lowest 5 levels [-53.654647, -50.1239, -49.392671, -47.400811, -47.022259]
+  periodic2x2 j_max=1.5 g2=0.3: lowest 5 levels [-34.905157, -32.529184, -32.036898, -30.664007, -30.396589]
+  periodic2x2 j_max=1.5 g2=0.5: lowest 5 levels [-19.379571, -17.891015, -17.578376, -16.649593, -16.463048]
+  periodic2x2 j_max=1.5 g2=0.7: lowest 5 levels [-12.349755, -11.173545, -10.919207, -10.105826, -9.950734]
+  periodic2x2 j_max=1.5 g2=1.0: lowest 5 levels [-6.859862, -5.731298, -5.493105, -4.603911, -4.484169]
+  periodic2x2 j_max=1.5 g2=1.5: lowest 5 levels [-2.81549, -1.104773, -0.919714, 0.109714, 0.303709]
+  periodic2x2 j_max=1.5 g2=2.0: lowest 5 levels [-1.291726, 1.339161, 1.398533, 2.145741, 2.153905]
+  periodic2x2 j_max=1.5 g2=3.0: lowest 5 levels [-0.393139, 3.734935, 4.074552, 4.246524, 4.256453]
+  periodic2x2 j_max=1.5 g2=5.0: lowest 5 levels [-0.085284, 7.149857, 7.414922, 7.445204, 7.447224]
+  periodic2x2 j_max=1.5 g2=10.0: lowest 5 levels [-0.010666, 14.849885, 14.989492, 14.99315, 14.9934]
