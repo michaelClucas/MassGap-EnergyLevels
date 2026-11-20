@@ -1,0 +1,98 @@
+===== build 2 (SchurBound, StrongCoupling compiled; BlochObstruction failed, fixed next) =====
+⚠ [4027/4129] Replayed MassGap.Basic
+warning: MassGap\Basic.lean: imports `Mathlib.Analysis.InnerProductSpace.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [4028/4129] Ran MassGap.Basic:irArts
+warning: MassGap\Basic.lean: imports `Mathlib.Analysis.InnerProductSpace.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [4694/4702] Built MassGap.StrongCoupling (73s)
+warning: MassGap\StrongCoupling.lean: imports `Mathlib.Tactic.FieldSimp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: MassGap\StrongCoupling.lean: imports `Mathlib.Tactic.Ring` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: MassGap\StrongCoupling.lean: imports `Mathlib.Basic.Real.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [4695/4702] Ran MassGap.StrongCoupling:irArts
+warning: MassGap\StrongCoupling.lean: imports `Mathlib.Tactic.FieldSimp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: MassGap\StrongCoupling.lean: imports `Mathlib.Tactic.Ring` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: MassGap\StrongCoupling.lean: imports `Mathlib.Basic.Real.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✖ [4696/4702] Building MassGap.BlochObstruction (77s)
+warning: MassGap\BlochObstruction.lean: imports `Mathlib.LinearAlgebra.Eigenspace.Matrix` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: MassGap\BlochObstruction.lean: imports `Mathlib.LinearAlgebra.Matrix.NonsingularInverse` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: MassGap\BlochObstruction.lean: imports `Mathlib.LinearAlgebra.Matrix.Hermitian` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: MassGap\BlochObstruction.lean: imports `Mathlib.Analysis.RCLike.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+trace: .> LEAN_PATH=~\Documents\SideWork\MassGap-EnergyLevels\lean\.lake\packages\Cli\.lake\build\lib\lean;~\Documents\SideWork\MassGap-EnergyLevels\lean\.lake\packages\batteries\.lake\build\lib\lean;~\Documents\SideWork\MassGap-EnergyLevels\lean\.lake\packages\Qq\.lake\build\lib\lean;~\Documents\SideWork\MassGap-EnergyLevels\lean\.lake\packages\aesop\.lake\build\lib\lean;~\Documents\SideWork\MassGap-EnergyLevels\lean\.lake\packages\proofwidgets\.lake\build\lib\lean;~\Documents\SideWork\MassGap-EnergyLevels\lean\.lake\packages\importGraph\.lake\build\lib\lean;~\Documents\SideWork\MassGap-EnergyLevels\lean\.lake\packages\LeanSearchClient\.lake\build\lib\lean;~\Documents\SideWork\MassGap-EnergyLevels\lean\.lake\packages\plausible\.lake\build\lib\lean;~\Documents\SideWork\MassGap-EnergyLevels\lean\.lake\packages\mathlib\.lake\build\lib\lean;~\Documents\SideWork\MassGap-EnergyLevels\lean\.lake\build\lib\lean ~\.elan\toolchains\leanprover--lean4---v4.36.0\bin\lean.exe ~\Documents\SideWork\MassGap-EnergyLevels\lean\MassGap\BlochObstruction.lean -o ~\Documents\SideWork\MassGap-EnergyLevels\lean\.lake\build\lib\lean\MassGap\BlochObstruction.olean -i ~\Documents\SideWork\MassGap-EnergyLevels\lean\.lake\build\lib\lean\MassGap\BlochObstruction.ilean -c ~\Documents\SideWork\MassGap-EnergyLevels\lean\.lake\build\ir\MassGap\BlochObstruction.c --setup ~\Documents\SideWork\MassGap-EnergyLevels\lean\.lake\build\ir\MassGap\BlochObstruction.setup.json --json
+error: MassGap/BlochObstruction.lean:65:70: unsolved goals
+e δ x : ℝ
+⊢ x = e + δ ∨ e = x ↔ e = x ∨ x = e + δ
+warning: MassGap/BlochObstruction.lean:69:8: This simp argument is unused:
+  Fin.exists_fin_two
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [eq_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [4698/4702] Built MassGap.SchurBound (78s)
+warning: MassGap\SchurBound.lean: imports `Mathlib.LinearAlgebra.Matrix.PosDef` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: MassGap\SchurBound.lean: imports `Mathlib.Analysis.InnerProductSpace.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: MassGap/SchurBound.lean:31:0: automatically included section variable(s) unused in theorem `MassGap.Schur.fromBlocks_sub_smul_one`:
+  [Fintype m]
+  [Fintype n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] [Fintype n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [4699/4702] Ran MassGap.SchurBound:irArts
+warning: MassGap\SchurBound.lean: imports `Mathlib.LinearAlgebra.Matrix.PosDef` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: MassGap\SchurBound.lean: imports `Mathlib.Analysis.InnerProductSpace.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Some required targets logged failures:
+- MassGap.BlochObstruction
+error: build failed
+
+===== build 3 (BlochObstruction compiled, full build OK) =====
+⚠ [4684/4702] Replayed MassGap.StrongCoupling
+warning: MassGap\StrongCoupling.lean: imports `Mathlib.Tactic.FieldSimp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: MassGap\StrongCoupling.lean: imports `Mathlib.Tactic.Ring` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: MassGap\StrongCoupling.lean: imports `Mathlib.Basic.Real.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [4685/4702] Ran MassGap.StrongCoupling:irArts
+warning: MassGap\StrongCoupling.lean: imports `Mathlib.Tactic.FieldSimp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: MassGap\StrongCoupling.lean: imports `Mathlib.Tactic.Ring` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: MassGap\StrongCoupling.lean: imports `Mathlib.Basic.Real.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [4694/4702] Replayed MassGap.Basic
+warning: MassGap\Basic.lean: imports `Mathlib.Analysis.InnerProductSpace.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [4695/4702] Ran MassGap.Basic:irArts
+warning: MassGap\Basic.lean: imports `Mathlib.Analysis.InnerProductSpace.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [4696/4702] Replayed MassGap.SchurBound
+warning: MassGap\SchurBound.lean: imports `Mathlib.LinearAlgebra.Matrix.PosDef` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: MassGap\SchurBound.lean: imports `Mathlib.Analysis.InnerProductSpace.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: MassGap/SchurBound.lean:31:0: automatically included section variable(s) unused in theorem `MassGap.Schur.fromBlocks_sub_smul_one`:
+  [Fintype m]
+  [Fintype n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] [Fintype n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [4697/4702] Ran MassGap.SchurBound:irArts
+warning: MassGap\SchurBound.lean: imports `Mathlib.LinearAlgebra.Matrix.PosDef` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: MassGap\SchurBound.lean: imports `Mathlib.Analysis.InnerProductSpace.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [4698/4702] Built MassGap.BlochObstruction (158s)
+warning: MassGap\BlochObstruction.lean: imports `Mathlib.LinearAlgebra.Eigenspace.Matrix` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: MassGap\BlochObstruction.lean: imports `Mathlib.LinearAlgebra.Matrix.NonsingularInverse` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: MassGap\BlochObstruction.lean: imports `Mathlib.LinearAlgebra.Matrix.Hermitian` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: MassGap\BlochObstruction.lean: imports `Mathlib.Analysis.RCLike.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [4699/4702] Ran MassGap.BlochObstruction:irArts
+warning: MassGap\BlochObstruction.lean: imports `Mathlib.LinearAlgebra.Eigenspace.Matrix` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: MassGap\BlochObstruction.lean: imports `Mathlib.LinearAlgebra.Matrix.NonsingularInverse` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: MassGap\BlochObstruction.lean: imports `Mathlib.LinearAlgebra.Matrix.Hermitian` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: MassGap\BlochObstruction.lean: imports `Mathlib.Analysis.RCLike.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [4700/4702] Built MassGap (22s)
+Build completed successfully (4702 jobs).
+
+===== build 4 (up-to-date check + #print axioms via axioms_check.lean) =====
+warning: MassGap\SchurBound.lean: imports `Mathlib.LinearAlgebra.Matrix.PosDef` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: MassGap\SchurBound.lean: imports `Mathlib.Analysis.InnerProductSpace.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (4702 jobs).
+'MassGap.Bloch.spectrum_fromBlocks_diag' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassGap.Bloch.band_data_do_not_bound_in_sector_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassGap.Bloch.twoBlock_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassGap.Bloch.in_block_gap_of_band_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassGap.Bloch.overlapping_bands_example' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassGap.Schur.schur_lower_bound_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassGap.Schur.schur_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassGap.Schur.feshbach_form_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassGap.StrongCoupling.secondOrder_gap' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,60 @@
+model,source,table,JPC,level,value,units,status_vs_013,note
+MSB-helicity-B,arXiv:0802.0088,Table III (Model B),0++,0,1.724,GeV,correct,"H0 = 2|p| + (9/4)sigma r - 3 alpha_s/r, M = M0 - P I delta_J0; sigma = 0.185 GeV^2 (mesons), alpha_s = 0.45 (chosen near refs 7-8), I = 0.45 GeV tuned to lattice 0++/0-+"
+MSB-helicity-B,arXiv:0802.0088,Table III (Model B),0++,1,2.543,GeV,correct,
+MSB-helicity-B,arXiv:0802.0088,Table III (Model B),0-+,0,2.624,GeV,correct,
+MSB-helicity-B,arXiv:0802.0088,Table III (Model B),0-+,1,3.443,GeV,correct,
+MSB-helicity-B,arXiv:0802.0088,Table III (Model B),2++,0,2.588,GeV,correct,D+ state
+MSB-helicity-B,arXiv:0802.0088,Table III (Model B),2++,1,3.077,GeV,correct,S+ state
+MSB-helicity-B,arXiv:0802.0088,Table III (Model B),2-+,0,3.077,GeV,correct,
+MSB-helicity-B,arXiv:0802.0088,Table III (Model B),2-+,1,3.732,GeV,correct,
+MSB-helicity-B,arXiv:0802.0088,Table III (Model B),3++,0,3.254,GeV,correct,
+MSB-helicity-B,arXiv:0802.0088,Table III (Model B),4++,0,3.768,GeV,added (omitted in 013),
+KS-Simonov,hep-ph/9911291,Table 6,0++,0,1.58,GeV,correct,"authors: no fitting parameters; sigma_f = 0.238 GeV^2 (caption) / 0.228 (text) chosen 'for comparison with lattice' vs 0.18 in Table 5, alpha_s = 0.3; ratios depend on the sigma choice (2++/0++ = 1.71 in Table 5, 1.64 in Table 6)"
+KS-Simonov,hep-ph/9911291,Table 6,0++,1,2.71,GeV,correct,
+KS-Simonov,hep-ph/9911291,Table 6,2++,0,2.59,GeV,correct,
+KS-Simonov,hep-ph/9911291,Table 6,2++,1,3.73,GeV,correct,
+KS-Simonov,hep-ph/9911291,Table 6,0-+,0,2.56,GeV,correct,
+KS-Simonov,hep-ph/9911291,Table 6,0-+,1,3.77,GeV,correct,
+KS-Simonov,hep-ph/9911291,Table 6,2-+,0,3.03,GeV,correct,
+KS-Simonov,hep-ph/9911291,Table 6,2-+,1,4.15,GeV,correct,
+KS-Simonov,hep-ph/9911291,Table 6,3++,0,3.58,GeV,correct,
+KS-Simonov,hep-ph/9911291,Table 6,1--,0,3.49,GeV,correct,
+KS-Simonov,hep-ph/9911291,Table 6,2--,0,3.71,GeV,correct,
+KS-Simonov,hep-ph/9911291,Table 6,3--,0,4.03,GeV,added (omitted in 013; no AT2020 3-- state),
+SS2003-CoulombGauge,hep-ph/0308268 (Szczepaniak-Swanson PLB 577 (2003) 61),Table 1; also 0802.0088 Table III col. CGQCD [8],0++,0,1.98,GeV,"values correct, source WRONG in 013 (was attributed to SSJC PRL 76 (1996) 2011, which gives only a figure)","no free parameters: scale and RG parameters fixed by Wilson-loop static potential (per paper); one-gluon-exchange estimate lowers 0++ to 1.79"
+SS2003-CoulombGauge,hep-ph/0308268,Table 1,0++,1,3.26,GeV,values correct; source wrong,
+SS2003-CoulombGauge,hep-ph/0308268,Table 1,2++,0,2.42,GeV,values correct; source wrong,
+SS2003-CoulombGauge,hep-ph/0308268,Table 1,2++,1,3.11,GeV,values correct; source wrong,
+SS2003-CoulombGauge,hep-ph/0308268,Table 1,0-+,0,2.22,GeV,values correct; source wrong,
+SS2003-CoulombGauge,hep-ph/0308268,Table 1,0-+,1,3.43,GeV,values correct; source wrong,
+SS2003-CoulombGauge,hep-ph/0308268,Table 1,2-+,0,3.09,GeV,values correct; source wrong,
+SS2003-CoulombGauge,hep-ph/0308268,Table 1,2-+,1,4.13,GeV,values correct; source wrong,
+SS2003-CoulombGauge,hep-ph/0308268,Table 1,3++,0,3.33,GeV,values correct; source wrong,
+SS2003-CoulombGauge,hep-ph/0308268,Table 1,4++,0,3.99,GeV,added (omitted in 013),
+BMT-AdS7,hep-th/0003115,Tables 1-2,0++,0,2.7034,R_AdS=1,correct,S4 n=0; ratios parameter-free; Fig. 2 sets scale on 2++
+BMT-AdS7,hep-th/0003115,Tables 1-2,0++,1,4.7007,R_AdS=1,"WRONG in 013 (used S4 n=1 = sqrt(46.986) = 6.8547; the second 0++ is the T4 member degenerate with 2++, Table 1 and text 'dilaton mode (0++) ... degenerate with the tensor')",
+BMT-AdS7,hep-th/0003115,Tables 1-2,2++,0,4.7007,R_AdS=1,correct,T4
+BMT-AdS7,hep-th/0003115,Tables 1-2,0-+,0,5.6555,R_AdS=1,correct,V4
+BMT-AdS7,hep-th/0003115,Tables 1-2,0-+,1,8.5140,R_AdS=1,added (sqrt(72.489) V4 n=1),
+BMT-AdS7,hep-th/0003115,Tables 1-2,1+-,0,7.3059,R_AdS=1,correct,N4
+BMT-AdS7,hep-th/0003115,Tables 1-2,1--,0,9.1129,R_AdS=1,correct,M4
+FluxTube-IP,Isgur-Paton PRD 31 (1985) 2910 via arXiv:0810.4453,Table V of 0810.4453,0++,0,1.52,GeV,correct (vs review; primary not on arXiv),parameters chosen by hand; review: splittings insensitive to them
+FluxTube-IP,via arXiv:0810.4453,Table V,1+-,0,2.25,GeV,correct (vs review),
+FluxTube-IP,via arXiv:0810.4453,Table V,0++,1,2.75,GeV,correct (vs review),
+FluxTube-IP,via arXiv:0810.4453,Table V,0-+,0,2.79,GeV,correct (vs review),degenerate 0++/0+-/0-+/0--
+FluxTube-IP,via arXiv:0810.4453,Table V,2++,0,2.84,GeV,correct (vs review),
+FluxTube-IP,via arXiv:0810.4453,Table V,1+-,1,3.25,GeV,correct (vs review),
+FluxTube-IP,via arXiv:0810.4453,Table V,3+-,0,3.35,GeV,correct (vs review),
+Bag-JJ,Jaffe-Johnson PLB 60 (1976) 201 via arXiv:0810.4453,text of 0810.4453 Sec. bag model,0++,0,0.96,GeV,correct (vs review),(TE)^2; B only sets scale
+Bag-JJ,via arXiv:0810.4453,text,2++,0,0.96,GeV,correct (vs review),(TE)^2
+Bag-JJ,via arXiv:0810.4453,text,0-+,0,1.3,GeV,correct (vs review),(TE)(TM)
+Bag-JJ,via arXiv:0810.4453,text,2-+,0,1.3,GeV,correct (vs review),(TE)(TM)
+Bag-JJ,via arXiv:0810.4453,text,0++,1,1.45,GeV,added (omitted in 013),(TE)^3
+Bag-JJ,via arXiv:0810.4453,text,1+-,0,1.45,GeV,correct (vs review),(TE)^3
+Bag-JJ,via arXiv:0810.4453,text,3+-,0,1.45,GeV,added (omitted in 013),(TE)^3
+HardWall-Dirichlet,Boschi-Filho/Braga via arXiv:0810.4453,Table VIII,0++,0,1.63,GeV,correct,0++ is input
+HardWall-Dirichlet,via arXiv:0810.4453,Table VIII,2++,0,2.41,GeV,correct,
+HardWall-Dirichlet,via arXiv:0810.4453,Table VIII,0++,1,2.67,GeV,correct,
+HardWall-Neumann,via arXiv:0810.4453,Table VIII,0++,0,1.63,GeV,correct,0++ is input
+HardWall-Neumann,via arXiv:0810.4453,Table VIII,2++,0,2.54,GeV,correct,
+HardWall-Neumann,via arXiv:0810.4453,Table VIII,0++,1,2.98,GeV,correct,

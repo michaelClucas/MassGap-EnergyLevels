@@ -1,0 +1,333 @@
+setting,variant,k,JPC,level,lattice,err,model,role,pull_lattice,pull_budget5pct,model_state
+4D SU(3) AT2020,"rel k=2 (m,kappa; C0=0)",2,0++,0,3.405,0.021,3.4071,fit,0.1,0.012,gg L=0 S=0 n=0
+4D SU(3) AT2020,"rel k=2 (m,kappa; C0=0)",2,2++,0,4.894,0.022,4.9273,fit,1.51,0.136,gg L=0 S=2 n=0
+4D SU(3) AT2020,"rel k=2 (m,kappa; C0=0)",2,0-+,0,5.276,0.045,25.9468,pred,459.35,77.242,gg L=1 S=1 n=0
+4D SU(3) AT2020,"rel k=2 (m,kappa; C0=0)",2,0++,1,5.855,0.041,5.8751,pred,0.49,0.068,gg L=0 S=0 n=1
+4D SU(3) AT2020,"rel k=2 (m,kappa; C0=0)",2,1+-,0,6.065,0.04,,pred,,,no state in model
+4D SU(3) AT2020,"rel k=2 (m,kappa; C0=0)",2,2-+,0,6.32,0.09,-4.696,pred,-122.4,-33.528,gg L=1 S=1 n=0
+4D SU(3) AT2020,"rel k=2 (m,kappa; C0=0)",2,2++,1,6.788,0.04,6.4082,pred,-9.5,-1.111,gg L=2 S=0 n=0
+4D SU(3) AT2020,"rel k=2 (m,kappa; C0=0)",2,3+-,0,7.27,0.12,,pred,,,no state in model
+4D SU(3) AT2020,"rel k=2 (m,kappa; C0=0)",2,0-+,1,7.29,0.13,26.9776,pred,151.44,50.874,gg L=1 S=1 n=1
+4D SU(3) AT2020,"rel k=2 (m,kappa; C0=0)",2,4++,0,7.6,0.12,-24.3108,pred,-265.92,-80.078,gg L=2 S=2 n=0
+4D SU(3) AT2020,"rel k=2 (m,kappa; C0=0)",2,3++,0,7.71,0.09,7.7443,pred,0.38,0.087,gg L=2 S=2 n=0
+4D SU(3) AT2020,"rel k=2 (m,kappa; C0=0)",2,1+-,1,7.82,0.06,,pred,,,no state in model
+4D SU(3) AT2020,"rel k=2 (m,kappa; C0=0)",2,2--,0,8.08,0.15,,pred,,,no state in model
+4D SU(3) AT2020,"rel k=2 (m,kappa; C0=0)",2,2-+,1,8.18,0.08,-2.3407,pred,-131.51,-25.244,gg L=1 S=1 n=1
+4D SU(3) AT2020,"rel k=2 (m,kappa; C0=0)",2,1--,0,8.31,0.1,6.4499,pred,-18.6,-4.353,ggg K=0 S=1 n=0
+4D SU(3) AT2020,"rel k=2 (m,kappa; C0=0)",2,1-+,0,8.48,0.12,15.7759,pred,60.8,16.557,gg L=1 S=1 n=0
+4D SU(3) AT2020,"rel k=2 (m,kappa; C0=0)",2,1-+,1,8.57,0.13,17.2702,pred,66.92,19.429,gg L=1 S=1 n=1
+4D SU(3) AT2020,"rel k=2 (m,kappa; C0=0)",2,1-+,2,8.66,0.15,18.34,pred,64.53,21.124,gg L=1 S=1 n=2
+4D SU(3) AT2020,"rel k=2 (m,kappa; C0=0)",2,2+-,0,8.74,0.12,,pred,,,no state in model
+4D SU(3) AT2020,"rel k=2 (m,kappa; C0=0)",2,4+-,0,9.02,0.1,,pred,,,no state in model
+4D SU(inf) AT2021,"rel k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,0++,0,3.072,0.014,3.1555,pred,5.97,0.541,gg L=0 S=0 n=0
+4D SU(inf) AT2021,"rel k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,2++,0,4.599,0.014,4.657,pred,4.14,0.252,gg L=0 S=2 n=0
+4D SU(inf) AT2021,"rel k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,0-+,0,4.711,0.026,22.2106,pred,673.06,73.844,gg L=1 S=1 n=0
+4D SU(inf) AT2021,"rel k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,1+-,0,5.76,0.025,,pred,,,no state in model
+4D SU(inf) AT2021,"rel k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,0++,1,5.845,0.05,5.5021,pred,-6.86,-1.157,gg L=0 S=0 n=1
+4D SU(inf) AT2021,"rel k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,2-+,0,6.031,0.038,-3.3491,pred,-246.84,-30.862,gg L=1 S=1 n=0
+4D SU(inf) AT2021,"rel k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,2++,1,6.582,0.036,6.0048,pred,-16.03,-1.744,gg L=2 S=0 n=0
+4D SU(inf) AT2021,"rel k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,3+-,0,6.988,0.041,,pred,,,no state in model
+4D SU(inf) AT2021,"rel k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,0-+,1,7.05,0.068,23.2863,pred,238.77,45.227,gg L=1 S=1 n=1
+4D SU(inf) AT2021,"rel k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,4++,0,7.182,0.071,-19.4155,pred,-374.61,-72.66,gg L=2 S=2 n=0
+4D SU(inf) AT2021,"rel k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,1--,0,7.26,0.11,6.025,pred,-11.23,-3.256,ggg K=0 S=1 n=0
+4D SU(inf) AT2021,"rel k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,3++,0,7.263,0.056,7.3052,pred,0.75,0.115,gg L=2 S=2 n=0
+4D SU(inf) AT2021,"rel k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,1+-,1,7.473,0.057,,pred,,,no state in model
+4D SU(inf) AT2021,"rel k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,2--,0,7.91,0.056,,pred,,,no state in model
+4D SU(inf) AT2021,"rel k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,2-+,1,7.936,0.054,-1.1675,pred,-168.58,-22.733,gg L=1 S=1 n=1
+4D SU(inf) AT2021,"rel k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,1-+,0,8.415,0.076,13.7382,pred,70.04,12.45,gg L=1 S=1 n=0
+4D SU(inf) AT2021,"rel k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,2+-,0,8.566,0.076,,pred,,,no state in model
+4D SU(3) AT2020,"rel k=3 (m,kappa,C0)",3,0++,0,3.405,0.021,3.3997,fit,-0.25,-0.031,gg L=0 S=0 n=0
+4D SU(3) AT2020,"rel k=3 (m,kappa,C0)",3,2++,0,4.894,0.022,4.8912,fit,-0.13,-0.012,gg L=0 S=2 n=0
+4D SU(3) AT2020,"rel k=3 (m,kappa,C0)",3,0-+,0,5.276,0.045,5.3123,fit,0.81,0.136,gg L=1 S=1 n=0
+4D SU(3) AT2020,"rel k=3 (m,kappa,C0)",3,0++,1,5.855,0.041,5.9836,pred,3.14,0.435,gg L=0 S=0 n=1
+4D SU(3) AT2020,"rel k=3 (m,kappa,C0)",3,1+-,0,6.065,0.04,,pred,,,no state in model
+4D SU(3) AT2020,"rel k=3 (m,kappa,C0)",3,2-+,0,6.32,0.09,5.9241,pred,-4.4,-1.205,gg L=1 S=1 n=0
+4D SU(3) AT2020,"rel k=3 (m,kappa,C0)",3,2++,1,6.788,0.04,6.9465,pred,3.96,0.464,gg L=0 S=2 n=1
+4D SU(3) AT2020,"rel k=3 (m,kappa,C0)",3,3+-,0,7.27,0.12,,pred,,,no state in model
+4D SU(3) AT2020,"rel k=3 (m,kappa,C0)",3,0-+,1,7.29,0.13,7.0918,pred,-1.52,-0.512,gg L=1 S=1 n=1
+4D SU(3) AT2020,"rel k=3 (m,kappa,C0)",3,4++,0,7.6,0.12,7.0837,pred,-4.3,-1.296,gg L=2 S=2 n=0
+4D SU(3) AT2020,"rel k=3 (m,kappa,C0)",3,3++,0,7.71,0.09,7.168,pred,-6.02,-1.369,gg L=2 S=2 n=0
+4D SU(3) AT2020,"rel k=3 (m,kappa,C0)",3,1+-,1,7.82,0.06,,pred,,,no state in model
+4D SU(3) AT2020,"rel k=3 (m,kappa,C0)",3,2--,0,8.08,0.15,,pred,,,no state in model
+4D SU(3) AT2020,"rel k=3 (m,kappa,C0)",3,2-+,1,8.18,0.08,7.6019,pred,-7.23,-1.387,gg L=1 S=1 n=1
+4D SU(3) AT2020,"rel k=3 (m,kappa,C0)",3,1--,0,8.31,0.1,6.5125,pred,-17.97,-4.206,ggg K=0 S=1 n=0
+4D SU(3) AT2020,"rel k=3 (m,kappa,C0)",3,1-+,0,8.48,0.12,5.8346,pred,-22.05,-6.003,gg L=1 S=1 n=0
+4D SU(3) AT2020,"rel k=3 (m,kappa,C0)",3,1-+,1,8.57,0.13,7.4913,pred,-8.3,-2.409,gg L=1 S=1 n=1
+4D SU(3) AT2020,"rel k=3 (m,kappa,C0)",3,1-+,2,8.66,0.15,8.8817,pred,1.48,0.484,gg L=1 S=1 n=2
+4D SU(3) AT2020,"rel k=3 (m,kappa,C0)",3,2+-,0,8.74,0.12,,pred,,,no state in model
+4D SU(3) AT2020,"rel k=3 (m,kappa,C0)",3,4+-,0,9.02,0.1,,pred,,,no state in model
+4D SU(inf) AT2021,"rel k=3 (m,kappa,C0) (same params, lambda fixed)",0,0++,0,3.072,0.014,3.3035,pred,16.53,1.501,gg L=0 S=0 n=0
+4D SU(inf) AT2021,"rel k=3 (m,kappa,C0) (same params, lambda fixed)",0,2++,0,4.599,0.014,4.7016,pred,7.33,0.445,gg L=0 S=2 n=0
+4D SU(inf) AT2021,"rel k=3 (m,kappa,C0) (same params, lambda fixed)",0,0-+,0,4.711,0.026,5.1056,pred,15.18,1.665,gg L=1 S=1 n=0
+4D SU(inf) AT2021,"rel k=3 (m,kappa,C0) (same params, lambda fixed)",0,1+-,0,5.76,0.025,,pred,,,no state in model
+4D SU(inf) AT2021,"rel k=3 (m,kappa,C0) (same params, lambda fixed)",0,0++,1,5.845,0.05,5.7318,pred,-2.26,-0.382,gg L=0 S=0 n=1
+4D SU(inf) AT2021,"rel k=3 (m,kappa,C0) (same params, lambda fixed)",0,2-+,0,6.031,0.038,5.6937,pred,-8.88,-1.11,gg L=1 S=1 n=0
+4D SU(inf) AT2021,"rel k=3 (m,kappa,C0) (same params, lambda fixed)",0,2++,1,6.582,0.036,6.6322,pred,1.39,0.152,gg L=0 S=2 n=1
+4D SU(inf) AT2021,"rel k=3 (m,kappa,C0) (same params, lambda fixed)",0,3+-,0,6.988,0.041,,pred,,,no state in model
+4D SU(inf) AT2021,"rel k=3 (m,kappa,C0) (same params, lambda fixed)",0,0-+,1,7.05,0.068,6.7664,pred,-4.17,-0.79,gg L=1 S=1 n=1
+4D SU(inf) AT2021,"rel k=3 (m,kappa,C0) (same params, lambda fixed)",0,4++,0,7.182,0.071,6.7807,pred,-5.65,-1.096,gg L=2 S=2 n=0
+4D SU(inf) AT2021,"rel k=3 (m,kappa,C0) (same params, lambda fixed)",0,1--,0,7.26,0.11,6.2917,pred,-8.8,-2.553,ggg K=0 S=1 n=0
+4D SU(inf) AT2021,"rel k=3 (m,kappa,C0) (same params, lambda fixed)",0,3++,0,7.263,0.056,6.8416,pred,-7.52,-1.147,gg L=2 S=2 n=0
+4D SU(inf) AT2021,"rel k=3 (m,kappa,C0) (same params, lambda fixed)",0,1+-,1,7.473,0.057,,pred,,,no state in model
+4D SU(inf) AT2021,"rel k=3 (m,kappa,C0) (same params, lambda fixed)",0,2--,0,7.91,0.056,,pred,,,no state in model
+4D SU(inf) AT2021,"rel k=3 (m,kappa,C0) (same params, lambda fixed)",0,2-+,1,7.936,0.054,7.2634,pred,-12.46,-1.68,gg L=1 S=1 n=1
+4D SU(inf) AT2021,"rel k=3 (m,kappa,C0) (same params, lambda fixed)",0,1-+,0,8.415,0.076,5.5974,pred,-37.07,-6.59,gg L=1 S=1 n=0
+4D SU(inf) AT2021,"rel k=3 (m,kappa,C0) (same params, lambda fixed)",0,2+-,0,8.566,0.076,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,0++,0,4.3683,0.0073,4.3683,fit,0.0,0.0,gg |L|=0 n=0
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,0--,0,6.391,0.014,6.4851,pred,6.72,0.294,ggg K=0 n=0
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,0++,1,6.486,0.013,7.001,pred,39.62,1.587,gg |L|=0 n=1
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,2++,0,7.241,0.017,7.241,fit,0.0,0.0,gg |L|=2 n=0
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,2-+,0,7.261,0.016,7.241,pred,-1.25,-0.055,gg |L|=2 n=0
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,0--,1,7.983,0.026,8.8011,pred,31.47,2.045,ggg K=0 n=1
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,0++,2,8.012,0.027,8.8357,pred,30.51,2.052,gg |L|=0 n=2
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,2--,0,8.599,0.03,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,0++,3,8.632,0.029,10.3363,pred,58.77,3.94,gg |L|=0 n=3
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,2+-,0,8.665,0.024,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,2++,1,8.73,0.022,8.9542,pred,10.19,0.513,gg |L|=2 n=1
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,2-+,1,8.76,0.023,8.9542,pred,8.45,0.443,gg |L|=2 n=1
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,0-+,0,9.234,0.043,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,0--,2,9.338,0.038,10.6061,pred,33.37,2.707,ggg K=0 n=2
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,0++,4,9.353,0.034,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,0++,5,9.414,0.037,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,2++,2,9.589,0.046,10.4003,pred,17.64,1.684,gg |L|=2 n=2
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,2+-,1,9.871,0.063,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,2--,1,9.94,0.044,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,1+-,0,9.964,0.058,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,2++,4,9.99,0.19,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,2-+,2,9.992,0.033,10.4003,pred,12.37,0.815,gg |L|=2 n=2
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,1--,0,10.039,0.044,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,2-+,3,10.05,0.09,11.6736,pred,18.04,3.18,gg |L|=2 n=3
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,2++,3,10.082,0.054,11.6736,pred,29.47,3.139,gg |L|=2 n=3
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,0--,3,10.145,0.052,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,1++,0,10.221,0.05,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,1+-,1,10.26,0.086,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,1-+,1,10.294,0.055,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,1-+,0,10.316,0.046,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,1--,1,10.341,0.06,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,1++,1,10.443,0.044,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,0-+,1,10.47,0.08,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,0+-,0,10.55,0.06,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,2-+,4,10.86,0.09,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,2+-,2,11.17,0.09,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,1--,2,11.25,0.08,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,1+-,2,11.27,0.08,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,2--,2,11.285,0.054,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,1++,2,11.415,0.087,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,0-+,2,11.44,0.1,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,1-+,2,11.5,0.05,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,0+-,1,11.55,0.12,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,2--,3,12.09,0.12,,pred,,,no state in model
+3D SU(3) AT2016,"rel k=2 (m,C0)",2,2--,4,12.09,0.12,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,0++,0,4.116,0.006,4.2673,pred,25.22,0.735,gg |L|=0 n=0
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,0--,0,6.06,0.009,6.3393,pred,31.03,0.921,ggg K=0 n=0
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,0++,1,6.308,0.01,6.7265,pred,41.85,1.326,gg |L|=0 n=1
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,2++,0,6.914,0.013,6.946,pred,2.46,0.092,gg |L|=2 n=0
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,2-+,0,6.93,0.013,6.946,pred,1.23,0.046,gg |L|=2 n=0
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,0--,1,7.759,0.015,8.5024,pred,49.56,1.915,ggg K=0 n=1
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,0++,2,7.844,0.014,8.4413,pred,42.67,1.522,gg |L|=0 n=2
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,0++,3,8.147,0.019,9.8452,pred,89.38,4.164,gg |L|=0 n=3
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,2--,0,8.223,0.018,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,2+-,0,8.224,0.02,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,2++,1,8.423,0.015,8.5497,pred,8.45,0.301,gg |L|=2 n=1
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,2-+,1,8.488,0.021,8.5497,pred,2.94,0.145,gg |L|=2 n=1
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,0++,4,8.95,0.025,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,0-+,0,8.998,0.028,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,0++,5,9.087,0.02,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,0--,2,9.11,0.035,10.1886,pred,30.82,2.361,ggg K=0 n=2
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,1+-,0,9.38,0.031,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,1--,0,9.401,0.029,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,2++,2,9.59,0.09,9.9036,pred,3.48,0.643,gg |L|=2 n=2
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,2--,1,9.592,0.024,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,2+-,1,9.629,0.025,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,0--,3,9.709,0.03,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,2-+,2,9.732,0.032,9.9036,pred,5.36,0.352,gg |L|=2 n=2
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,1--,1,9.74,0.032,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,1+-,1,9.828,0.036,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,2++,3,9.866,0.034,11.0963,pred,36.19,2.488,gg |L|=2 n=3
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,1-+,0,9.886,0.027,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,2-+,3,9.905,0.03,11.0963,pred,39.71,2.401,gg |L|=2 n=3
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,1++,0,9.912,0.026,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,1-+,1,9.969,0.03,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,1++,1,9.984,0.032,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,0-+,1,10.101,0.033,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,0+-,0,10.133,0.037,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,1--,2,10.684,0.044,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,1+-,2,10.712,0.046,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,2--,2,10.715,0.041,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,2++,4,10.81,0.1,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,2+-,2,10.87,0.041,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,2-+,4,10.914,0.039,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,1--,3,10.98,0.06,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,1+-,3,10.99,0.06,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,1++,2,11.04,0.043,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,1++,3,11.157,0.08,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,1-+,2,11.195,0.04,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,2+-,3,11.26,0.06,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,2--,3,11.34,0.06,,pred,,,no state in model
+3D SU(inf) AT2016,"rel k=2 (m,C0) (same m, C0)",0,0+-,1,11.35,0.057,,pred,,,no state in model
+4D SU(3) AT2020,"nr k=2 (m,kappa; C0=0)",2,0++,0,3.405,0.021,3.3385,fit,-3.17,-0.388,gg L=0 S=0 n=0
+4D SU(3) AT2020,"nr k=2 (m,kappa; C0=0)",2,2++,0,4.894,0.022,5.6775,fit,35.61,3.189,gg L=0 S=2 n=0
+4D SU(3) AT2020,"nr k=2 (m,kappa; C0=0)",2,0-+,0,5.276,0.045,6.9393,pred,36.96,6.215,gg L=1 S=1 n=0
+4D SU(3) AT2020,"nr k=2 (m,kappa; C0=0)",2,0++,1,5.855,0.041,7.5877,pred,42.26,5.862,gg L=0 S=0 n=1
+4D SU(3) AT2020,"nr k=2 (m,kappa; C0=0)",2,1+-,0,6.065,0.04,,pred,,,no state in model
+4D SU(3) AT2020,"nr k=2 (m,kappa; C0=0)",2,2-+,0,6.32,0.09,6.1817,pred,-1.54,-0.421,gg L=1 S=1 n=0
+4D SU(3) AT2020,"nr k=2 (m,kappa; C0=0)",2,2++,1,6.788,0.04,8.3554,pred,39.19,4.586,gg L=2 S=0 n=0
+4D SU(3) AT2020,"nr k=2 (m,kappa; C0=0)",2,3+-,0,7.27,0.12,,pred,,,no state in model
+4D SU(3) AT2020,"nr k=2 (m,kappa; C0=0)",2,0-+,1,7.29,0.13,10.0615,pred,21.32,7.162,gg L=1 S=1 n=1
+4D SU(3) AT2020,"nr k=2 (m,kappa; C0=0)",2,4++,0,7.6,0.12,7.3268,pred,-2.28,-0.686,gg L=2 S=2 n=0
+4D SU(3) AT2020,"nr k=2 (m,kappa; C0=0)",2,3++,0,7.71,0.09,8.9199,pred,13.44,3.056,gg L=2 S=2 n=0
+4D SU(3) AT2020,"nr k=2 (m,kappa; C0=0)",2,1+-,1,7.82,0.06,,pred,,,no state in model
+4D SU(3) AT2020,"nr k=2 (m,kappa; C0=0)",2,2--,0,8.08,0.15,,pred,,,no state in model
+4D SU(3) AT2020,"nr k=2 (m,kappa; C0=0)",2,2-+,1,8.18,0.08,9.1583,pred,12.23,2.347,gg L=1 S=1 n=1
+4D SU(3) AT2020,"nr k=2 (m,kappa; C0=0)",2,1--,0,8.31,0.1,6.8445,pred,-14.65,-3.429,ggg K=0 S=1 n=0
+4D SU(3) AT2020,"nr k=2 (m,kappa; C0=0)",2,1-+,0,8.48,0.12,7.1016,pred,-11.49,-3.128,gg L=1 S=1 n=0
+4D SU(3) AT2020,"nr k=2 (m,kappa; C0=0)",2,1-+,1,8.57,0.13,9.9974,pred,10.98,3.188,gg L=1 S=1 n=1
+4D SU(3) AT2020,"nr k=2 (m,kappa; C0=0)",2,1-+,2,8.66,0.15,12.4112,pred,25.01,8.186,gg L=1 S=1 n=2
+4D SU(3) AT2020,"nr k=2 (m,kappa; C0=0)",2,2+-,0,8.74,0.12,,pred,,,no state in model
+4D SU(3) AT2020,"nr k=2 (m,kappa; C0=0)",2,4+-,0,9.02,0.1,,pred,,,no state in model
+4D SU(inf) AT2021,"nr k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,0++,0,3.072,0.014,3.1195,pred,3.39,0.308,gg L=0 S=0 n=0
+4D SU(inf) AT2021,"nr k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,2++,0,4.599,0.014,5.3528,pred,53.84,3.272,gg L=0 S=2 n=0
+4D SU(inf) AT2021,"nr k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,0-+,0,4.711,0.026,6.3619,pred,63.5,6.967,gg L=1 S=1 n=0
+4D SU(inf) AT2021,"nr k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,1+-,0,5.76,0.025,,pred,,,no state in model
+4D SU(inf) AT2021,"nr k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,0++,1,5.845,0.05,7.0971,pred,25.04,4.223,gg L=0 S=0 n=1
+4D SU(inf) AT2021,"nr k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,2-+,0,6.031,0.038,5.8866,pred,-3.8,-0.475,gg L=1 S=1 n=0
+4D SU(inf) AT2021,"nr k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,2++,1,6.582,0.036,7.8513,pred,35.26,3.834,gg L=2 S=0 n=0
+4D SU(inf) AT2021,"nr k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,3+-,0,6.988,0.041,,pred,,,no state in model
+4D SU(inf) AT2021,"nr k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,0-+,1,7.05,0.068,9.2947,pred,33.01,6.253,gg L=1 S=1 n=1
+4D SU(inf) AT2021,"nr k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,4++,0,7.182,0.071,7.057,pred,-1.76,-0.341,gg L=2 S=2 n=0
+4D SU(inf) AT2021,"nr k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,1--,0,7.26,0.11,6.4224,pred,-7.61,-2.208,ggg K=0 S=1 n=0
+4D SU(inf) AT2021,"nr k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,3++,0,7.263,0.056,8.3573,pred,19.54,2.978,gg L=2 S=2 n=0
+4D SU(inf) AT2021,"nr k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,1+-,1,7.473,0.057,,pred,,,no state in model
+4D SU(inf) AT2021,"nr k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,2--,0,7.91,0.056,,pred,,,no state in model
+4D SU(inf) AT2021,"nr k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,2-+,1,7.936,0.054,8.6291,pred,12.83,1.731,gg L=1 S=1 n=1
+4D SU(inf) AT2021,"nr k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,1-+,0,8.415,0.076,6.6095,pred,-23.76,-4.223,gg L=1 S=1 n=0
+4D SU(inf) AT2021,"nr k=2 (m,kappa; C0=0) (same params, lambda fixed)",0,2+-,0,8.566,0.076,,pred,,,no state in model
+4D SU(3) AT2020,"nr k=3 (m,kappa,C0)",3,0++,0,3.405,0.021,3.3816,fit,-1.12,-0.137,gg L=0 S=0 n=0
+4D SU(3) AT2020,"nr k=3 (m,kappa,C0)",3,2++,0,4.894,0.022,4.8727,fit,-0.97,-0.087,gg L=0 S=2 n=0
+4D SU(3) AT2020,"nr k=3 (m,kappa,C0)",3,0-+,0,5.276,0.045,5.4729,fit,4.37,0.736,gg L=1 S=1 n=0
+4D SU(3) AT2020,"nr k=3 (m,kappa,C0)",3,0++,1,5.855,0.041,6.3774,pred,12.74,1.767,gg L=0 S=0 n=1
+4D SU(3) AT2020,"nr k=3 (m,kappa,C0)",3,1+-,0,6.065,0.04,,pred,,,no state in model
+4D SU(3) AT2020,"nr k=3 (m,kappa,C0)",3,2-+,0,6.32,0.09,6.1074,pred,-2.36,-0.647,gg L=1 S=1 n=0
+4D SU(3) AT2020,"nr k=3 (m,kappa,C0)",3,2++,1,6.788,0.04,7.1687,pred,9.52,1.114,gg L=0 S=2 n=1
+4D SU(3) AT2020,"nr k=3 (m,kappa,C0)",3,3+-,0,7.27,0.12,,pred,,,no state in model
+4D SU(3) AT2020,"nr k=3 (m,kappa,C0)",3,0-+,1,7.29,0.13,7.5769,pred,2.21,0.741,gg L=1 S=1 n=1
+4D SU(3) AT2020,"nr k=3 (m,kappa,C0)",3,4++,0,7.6,0.12,7.3331,pred,-2.22,-0.67,gg L=2 S=2 n=0
+4D SU(3) AT2020,"nr k=3 (m,kappa,C0)",3,3++,0,7.71,0.09,7.3862,pred,-3.6,-0.818,gg L=2 S=2 n=0
+4D SU(3) AT2020,"nr k=3 (m,kappa,C0)",3,1+-,1,7.82,0.06,,pred,,,no state in model
+4D SU(3) AT2020,"nr k=3 (m,kappa,C0)",3,2--,0,8.08,0.15,,pred,,,no state in model
+4D SU(3) AT2020,"nr k=3 (m,kappa,C0)",3,2-+,1,8.18,0.08,8.0219,pred,-1.98,-0.379,gg L=1 S=1 n=1
+4D SU(3) AT2020,"nr k=3 (m,kappa,C0)",3,1--,0,8.31,0.1,6.521,pred,-17.89,-4.186,ggg K=0 S=1 n=0
+4D SU(3) AT2020,"nr k=3 (m,kappa,C0)",3,1-+,0,8.48,0.12,5.9985,pred,-20.68,-5.631,gg L=1 S=1 n=0
+4D SU(3) AT2020,"nr k=3 (m,kappa,C0)",3,1-+,1,8.57,0.13,7.932,pred,-4.91,-1.425,gg L=1 S=1 n=1
+4D SU(3) AT2020,"nr k=3 (m,kappa,C0)",3,1-+,2,8.66,0.15,9.5502,pred,5.93,1.943,gg L=1 S=1 n=2
+4D SU(3) AT2020,"nr k=3 (m,kappa,C0)",3,2+-,0,8.74,0.12,,pred,,,no state in model
+4D SU(3) AT2020,"nr k=3 (m,kappa,C0)",3,4+-,0,9.02,0.1,,pred,,,no state in model
+4D SU(inf) AT2021,"nr k=3 (m,kappa,C0) (same params, lambda fixed)",0,0++,0,3.072,0.014,3.2713,pred,14.24,1.292,gg L=0 S=0 n=0
+4D SU(inf) AT2021,"nr k=3 (m,kappa,C0) (same params, lambda fixed)",0,2++,0,4.599,0.014,4.6832,pred,6.02,0.366,gg L=0 S=2 n=0
+4D SU(inf) AT2021,"nr k=3 (m,kappa,C0) (same params, lambda fixed)",0,0-+,0,4.711,0.026,5.2474,pred,20.63,2.263,gg L=1 S=1 n=0
+4D SU(inf) AT2021,"nr k=3 (m,kappa,C0) (same params, lambda fixed)",0,1+-,0,5.76,0.025,,pred,,,no state in model
+4D SU(inf) AT2021,"nr k=3 (m,kappa,C0) (same params, lambda fixed)",0,0++,1,5.845,0.05,6.0847,pred,4.79,0.808,gg L=0 S=0 n=1
+4D SU(inf) AT2021,"nr k=3 (m,kappa,C0) (same params, lambda fixed)",0,2-+,0,6.031,0.038,5.8571,pred,-4.58,-0.572,gg L=1 S=1 n=0
+4D SU(inf) AT2021,"nr k=3 (m,kappa,C0) (same params, lambda fixed)",0,2++,1,6.582,0.036,6.83,pred,6.89,0.749,gg L=0 S=2 n=1
+4D SU(inf) AT2021,"nr k=3 (m,kappa,C0) (same params, lambda fixed)",0,3+-,0,6.988,0.041,,pred,,,no state in model
+4D SU(inf) AT2021,"nr k=3 (m,kappa,C0) (same params, lambda fixed)",0,0-+,1,7.05,0.068,7.2023,pred,2.24,0.424,gg L=1 S=1 n=1
+4D SU(inf) AT2021,"nr k=3 (m,kappa,C0) (same params, lambda fixed)",0,4++,0,7.182,0.071,7.0062,pred,-2.48,-0.48,gg L=2 S=2 n=0
+4D SU(inf) AT2021,"nr k=3 (m,kappa,C0) (same params, lambda fixed)",0,1--,0,7.26,0.11,6.2854,pred,-8.86,-2.57,ggg K=0 S=1 n=0
+4D SU(inf) AT2021,"nr k=3 (m,kappa,C0) (same params, lambda fixed)",0,3++,0,7.263,0.056,7.0401,pred,-3.98,-0.607,gg L=2 S=2 n=0
+4D SU(inf) AT2021,"nr k=3 (m,kappa,C0) (same params, lambda fixed)",0,1+-,1,7.473,0.057,,pred,,,no state in model
+4D SU(inf) AT2021,"nr k=3 (m,kappa,C0) (same params, lambda fixed)",0,2--,0,7.91,0.056,,pred,,,no state in model
+4D SU(inf) AT2021,"nr k=3 (m,kappa,C0) (same params, lambda fixed)",0,2-+,1,7.936,0.054,7.6351,pred,-5.57,-0.751,gg L=1 S=1 n=1
+4D SU(inf) AT2021,"nr k=3 (m,kappa,C0) (same params, lambda fixed)",0,1-+,0,8.415,0.076,5.7439,pred,-35.15,-6.247,gg L=1 S=1 n=0
+4D SU(inf) AT2021,"nr k=3 (m,kappa,C0) (same params, lambda fixed)",0,2+-,0,8.566,0.076,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,0++,0,4.3683,0.0073,4.3683,fit,-0.0,-0.0,gg |L|=0 n=0
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,0--,0,6.391,0.014,6.4266,pred,2.54,0.111,ggg K=0 n=0
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,0++,1,6.486,0.013,7.1332,pred,49.78,1.994,gg |L|=0 n=1
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,2++,0,7.241,0.017,7.241,fit,0.0,0.0,gg |L|=2 n=0
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,2-+,0,7.261,0.016,7.241,pred,-1.25,-0.055,gg |L|=2 n=0
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,0--,1,7.983,0.026,8.8608,pred,33.76,2.195,ggg K=0 n=1
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,0++,2,8.012,0.027,9.1383,pred,41.71,2.805,gg |L|=0 n=2
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,2--,0,8.599,0.03,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,0++,3,8.632,0.029,10.8312,pred,75.83,5.084,gg |L|=0 n=3
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,2+-,0,8.665,0.024,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,2++,1,8.73,0.022,9.1645,pred,19.75,0.994,gg |L|=2 n=1
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,2-+,1,8.76,0.023,9.1645,pred,17.59,0.922,gg |L|=2 n=1
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,0-+,0,9.234,0.043,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,0--,2,9.338,0.038,10.7946,pred,38.33,3.109,ggg K=0 n=2
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,0++,4,9.353,0.034,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,0++,5,9.414,0.037,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,2++,2,9.589,0.046,10.8225,pred,26.82,2.561,gg |L|=2 n=2
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,2+-,1,9.871,0.063,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,2--,1,9.94,0.044,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,1+-,0,9.964,0.058,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,2++,4,9.99,0.19,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,2-+,2,9.992,0.033,10.8225,pred,25.17,1.659,gg |L|=2 n=2
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,1--,0,10.039,0.044,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,2-+,3,10.05,0.09,12.3129,pred,25.14,4.433,gg |L|=2 n=3
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,2++,3,10.082,0.054,12.3129,pred,41.31,4.4,gg |L|=2 n=3
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,0--,3,10.145,0.052,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,1++,0,10.221,0.05,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,1+-,1,10.26,0.086,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,1-+,1,10.294,0.055,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,1-+,0,10.316,0.046,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,1--,1,10.341,0.06,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,1++,1,10.443,0.044,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,0-+,1,10.47,0.08,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,0+-,0,10.55,0.06,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,2-+,4,10.86,0.09,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,2+-,2,11.17,0.09,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,1--,2,11.25,0.08,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,1+-,2,11.27,0.08,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,2--,2,11.285,0.054,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,1++,2,11.415,0.087,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,0-+,2,11.44,0.1,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,1-+,2,11.5,0.05,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,0+-,1,11.55,0.12,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,2--,3,12.09,0.12,,pred,,,no state in model
+3D SU(3) AT2016,"nr k=2 (m,C0)",2,2--,4,12.09,0.12,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,0++,0,4.116,0.006,4.261,pred,24.17,0.704,gg |L|=0 n=0
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,0--,0,6.06,0.009,6.2776,pred,24.18,0.718,ggg K=0 n=0
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,0++,1,6.308,0.01,6.8255,pred,51.75,1.64,gg |L|=0 n=1
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,2++,0,6.914,0.013,6.9277,pred,1.05,0.04,gg |L|=2 n=0
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,2-+,0,6.93,0.013,6.9277,pred,-0.18,-0.007,gg |L|=2 n=0
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,0--,1,7.759,0.015,8.5352,pred,51.75,1.999,ggg K=0 n=1
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,0++,2,7.844,0.014,8.683,pred,59.93,2.138,gg |L|=0 n=2
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,0++,3,8.147,0.019,10.2505,pred,110.71,5.158,gg |L|=0 n=3
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,2--,0,8.223,0.018,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,2+-,0,8.224,0.02,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,2++,1,8.423,0.015,8.709,pred,19.07,0.679,gg |L|=2 n=1
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,2-+,1,8.488,0.021,8.709,pred,10.53,0.52,gg |L|=2 n=1
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,0++,4,8.95,0.025,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,0-+,0,8.998,0.028,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,0++,5,9.087,0.02,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,0--,2,9.11,0.035,10.3273,pred,34.78,2.665,ggg K=0 n=2
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,1+-,0,9.38,0.031,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,1--,0,9.401,0.029,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,2++,2,9.59,0.09,10.244,pred,7.27,1.34,gg |L|=2 n=2
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,2--,1,9.592,0.024,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,2+-,1,9.629,0.025,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,0--,3,9.709,0.03,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,2-+,2,9.732,0.032,10.244,pred,16.0,1.05,gg |L|=2 n=2
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,1--,1,9.74,0.032,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,1+-,1,9.828,0.036,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,2++,3,9.866,0.034,11.6235,pred,51.69,3.554,gg |L|=2 n=3
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,1-+,0,9.886,0.027,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,2-+,3,9.905,0.03,11.6235,pred,57.28,3.464,gg |L|=2 n=3
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,1++,0,9.912,0.026,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,1-+,1,9.969,0.03,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,1++,1,9.984,0.032,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,0-+,1,10.101,0.033,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,0+-,0,10.133,0.037,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,1--,2,10.684,0.044,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,1+-,2,10.712,0.046,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,2--,2,10.715,0.041,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,2++,4,10.81,0.1,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,2+-,2,10.87,0.041,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,2-+,4,10.914,0.039,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,1--,3,10.98,0.06,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,1+-,3,10.99,0.06,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,1++,2,11.04,0.043,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,1++,3,11.157,0.08,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,1-+,2,11.195,0.04,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,2+-,3,11.26,0.06,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,2--,3,11.34,0.06,,pred,,,no state in model
+3D SU(inf) AT2016,"nr k=2 (m,C0) (same m, C0)",0,0+-,1,11.35,0.057,,pred,,,no state in model

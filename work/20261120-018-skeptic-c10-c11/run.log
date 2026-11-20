@@ -1,0 +1,62 @@
+
+== P. Peierls: E/N = -(2t/pi) E(m = 1 - d^2) for half-filled spinless dimerized ring ==  (0s)
+skeptic_checks.py:34: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  num = -integrate.quad(lambda k: 2 * np.sqrt(np.cos(k) ** 2 + d * d * np.sin(k) ** 2), -np.pi / 2, np.pi / 2,
+d=   0.1  E/N quad -0.646801579361  closed -0.646801579361  gain 1.018181e-02  (1/pi)d^2[ln(1/d)+ln4-1/2] 1.015052e-02  ratio 1.003082
+d=  0.01  E/N quad -0.636794576972  closed -0.636794576972  gain 1.748046e-04  (1/pi)d^2[ln(1/d)+ln4-1/2] 1.747987e-04  ratio 1.000034
+d= 0.001  E/N quad -0.636622253291  closed -0.636622253291  gain 2.480924e-06  (1/pi)d^2[ln(1/d)+ln4-1/2] 2.480923e-06  ratio 1.000000
+=> gain = (1/pi) d^2 ln(1/d) + ((ln 4 - 1/2)/pi) d^2 + o(d^2); b = 0.28212
+
+== G. Gribov D(p) = p^2/(p^4+gamma^4), C(t) = int dp/(2pi) D(p) e^{ipt} ==  (0s)
+gamma=1.0 t=0.0: numeric +3.53553391e-01  e^-a(cos a - sin a)/(2 sqrt2 gamma) +3.53553391e-01
+gamma=1.0 t=1.0: numeric +1.92818025e-02  e^-a(cos a - sin a)/(2 sqrt2 gamma) +1.92818025e-02
+gamma=1.0 t=2.0: numeric -7.14990701e-02  e^-a(cos a - sin a)/(2 sqrt2 gamma) -7.14990701e-02
+gamma=1.0 t=4.0: numeric -2.63184572e-02  e^-a(cos a - sin a)/(2 sqrt2 gamma) -2.63184572e-02
+gamma=2.0 t=0.0: numeric +1.76776695e-01  e^-a(cos a - sin a)/(2 sqrt2 gamma) +1.76776695e-01
+gamma=2.0 t=1.0: numeric -3.57495351e-02  e^-a(cos a - sin a)/(2 sqrt2 gamma) -3.57495351e-02
+gamma=2.0 t=2.0: numeric -1.31592286e-02  e^-a(cos a - sin a)/(2 sqrt2 gamma) -1.31592286e-02
+gamma=2.0 t=4.0: numeric +8.62346446e-04  e^-a(cos a - sin a)/(2 sqrt2 gamma) +8.62346414e-04
+=> prefactor is 1/(2 sqrt2 gamma) (dimension 1/mass); work-014 README writes gamma/(2 sqrt2): typo, sign change at a = pi/4 unaffected
+
+== D. anharmonic oscillator, sinc-DVR exact vs Gaussian (Hartree) symmetric gap Omega ==  (0s)
+mu=+1 lam=0.1: E0 0.5591463272  gap 1.210356e+00 (grid change 1.1e-13)  Omega_sym 1.2212  ratio 1.009
+mu=+1 lam=1: E0 0.8037706512  gap 1.934122e+00 (grid change 1.4e-12)  Omega_sym 2.0000  ratio 1.034
+mu=+0 lam=1: E0 0.6679862592  gap 1.725658e+00 (grid change 1.2e-12)  Omega_sym 1.8171  ratio 1.053
+mu=-1 lam=0.1: E0 -0.1541248290  gap 2.968899e-01 (grid change 2.5e-13)  Omega_sym 0.4855  ratio 1.635
+mu=-2 lam=0.1: E0 -1.5654358559  gap 1.508778e-02 (grid change 5.7e-13)  Omega_sym 0.2880  ratio 19.09
+mu=-3 lam=0.1: E0 -4.4360270509  gap 1.039557e-04 (grid change 8.4e-13)  Omega_sym 0.1974  ratio 1899
+mu=-4 lam=0.1: E0 -8.6118807193  gap 2.077103e-07 (grid change 5.8e-13)  Omega_sym 0.1492  ratio 7.182e+05
+
+== W. 2D Watson integral W_2(m) = int d^2k/(2pi)^2 1/(m^2 + 4 - 2cos k1 - 2cos k2) ==  (7s)
+m=0.01: W_2 1.00871848  (1/4pi) ln(32/m^2) 1.00873010
+m=0.001: W_2 1.37519774  (1/4pi) ln(32/m^2) 1.37519790
+m=0.0001: W_2 1.74166570  (1/4pi) ln(32/m^2) 1.74166570
+
+== A. AKLT: h = P_2 (projector), open-chain eps_n, Knabe / Gosset-Mozgunov ==  (7s)
+open n=6 dense (dim 141): #zero modes in Sz=0 2, eps_n 0.39845123, Knabe 0.24806, GM 0.27956
+open n=8 dense (dim 1107): #zero modes in Sz=0 2, eps_n 0.37934913, Knabe 0.27591, GM 0.29602
+open n=10 dense (dim 8953): #zero modes in Sz=0 2, eps_n 0.36984447, Knabe 0.29108, GM 0.30107
+open n=12 Lanczos (dim 73789): lowest [-0.          0.          0.36435607  0.36638978  0.36883136  0.37193071]  eps_n 0.36435607, Knabe 0.30079, GM 0.30262
+ring n=12: lowest [-0.          0.35012044  0.41878362]  gap 0.350120
+
+== R. O(3) rotor chain, H/g = (1/2) sum L^2 + x V, V = -sum n.n, x = 1/g^2 ==  (219s)
+site check: max |n.n - 1| on l <= lmax-1: 2.220446049250313e-16
+ring L=5 lmax=2 (M=0 dim 8953): E0/g coeffs [ 0.          0.         -0.83333333  0.        ]
+   gap/g coeffs [ 1.         -0.66666667  0.07407407  0.01728395]
+ring L=5 lmax=3 (M=0 dim 116304): E0/g coeffs [ 0.          0.         -0.83333333  0.          0.02314815]
+   gap/g coeffs [ 1.         -0.66666667  0.07407407  0.01728395  0.00261937]
+exact rationals: -2/3 = -0.6666666667, 2/27 = 0.0740740741, 7/405 = 0.0172839506; E0 x^2 per site -1/6
+
+== R2. spot checks of certified rotor intervals (own ED, larger l_max, upper bounds by min-max) ==  (223s)
+L=2 open g=0.25 lmax=12 dim=1469: E0 -2.71401222  levels [-2.714012 -2.582216 -2.318911 -1.924601]  gap 0.131797  015 interval (0.1318, 0.1318)
+L=2 open g=0.5 lmax=12 dim=1469: E0 -0.85242854  levels [-0.852429 -0.564412 -0.003679  0.517782]  gap 0.288016  015 interval (0.2879914092, 0.288024011)
+L=3 open g=0.35 lmax=7 dim=18152: E0 -3.30810697  levels [-3.308107 -3.176484 -2.914406 -2.52362 ]  gap 0.131623  015 interval (0.13109, 0.13204)
+L=3 ring g=0.35 lmax=7 dim=18152: E0 -5.43810411  levels [-5.438104 -5.311501 -5.058554 -4.679744]  gap 0.126603  015 interval (0.12446, 0.12824)
+
+== B. Bakry-Emery: Riemannian Hessian of S = -sum n_i.n_{i+1} on (S^2)^N ==  (447s)
+N=6 ring, Neel config: min Hess eigenvalue per |u|^2 = -4.0
+N=6 ring, random configs: min found -3.4557 (bound -4)
+
+total 449s

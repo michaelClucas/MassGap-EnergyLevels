@@ -1,0 +1,400 @@
+
+#### 4D fit rel k=2 (m,kappa; C0=0): m/sqrt(sigma) = 0.3000, kappa = N alpha_s = 1.2551 (alpha_s = 0.4184), C0/sqrt(sigma) = 0.0000; fit residual chi2 = 2.3
+
+== 4D SU(3) AT2020 / rel k=2 (m,kappa; C0=0)  (k = 2; fit set [('0++', 0), ('2++', 0)])
+JPC   lev      lattice    model  pull_lat  pull_5%  role  model state
+0++     0   3.405(0.021)    3.407       0.1     0.01  fit   gg L=0 S=0 n=0
+2++     0   4.894(0.022)    4.927       1.5     0.14  fit   gg L=0 S=2 n=0
+0-+     0   5.276(0.045)   25.947     459.4    77.24  pred  gg L=1 S=1 n=0
+0++     1   5.855(0.041)    5.875       0.5     0.07  pred  gg L=0 S=0 n=1
+1+-     0   6.065(0.040)      nan       nan      nan  pred  no state in model
+2-+     0   6.320(0.090)   -4.696    -122.4   -33.53  pred  gg L=1 S=1 n=0
+2++     1   6.788(0.040)    6.408      -9.5    -1.11  pred  gg L=2 S=0 n=0
+3+-     0   7.270(0.120)      nan       nan      nan  pred  no state in model
+0-+     1   7.290(0.130)   26.978     151.4    50.87  pred  gg L=1 S=1 n=1
+4++     0   7.600(0.120)  -24.311    -265.9   -80.08  pred  gg L=2 S=2 n=0
+3++     0   7.710(0.090)    7.744       0.4     0.09  pred  gg L=2 S=2 n=0
+1+-     1   7.820(0.060)      nan       nan      nan  pred  no state in model
+2--     0   8.080(0.150)      nan       nan      nan  pred  no state in model
+2-+     1   8.180(0.080)   -2.341    -131.5   -25.24  pred  gg L=1 S=1 n=1
+1--     0   8.310(0.100)    6.450     -18.6    -4.35  pred  ggg K=0 S=1 n=0
+1-+     0   8.480(0.120)   15.776      60.8    16.56  pred  gg L=1 S=1 n=0
+1-+     1   8.570(0.130)   17.270      66.9    19.43  pred  gg L=1 S=1 n=1
+1-+     2   8.660(0.150)   18.340      64.5    21.12  pred  gg L=1 S=1 n=2
+2+-     0   8.740(0.120)      nan       nan      nan  pred  no state in model
+4+-     0   9.020(0.100)      nan       nan      nan  pred  no state in model
+predictions: 18 lattice states (12 with a model counterpart); within 1 sigma(lat): 2; chi2/pred lattice-only = 29142.2, with 5% budget = 1487.20
+
+== 4D SU(inf) AT2021 / rel k=2 (m,kappa; C0=0) (same params, lambda fixed)  (k = 0; fit set [])
+JPC   lev      lattice    model  pull_lat  pull_5%  role  model state
+0++     0   3.072(0.014)    3.156       6.0     0.54  pred  gg L=0 S=0 n=0
+2++     0   4.599(0.014)    4.657       4.1     0.25  pred  gg L=0 S=2 n=0
+0-+     0   4.711(0.026)   22.211     673.1    73.84  pred  gg L=1 S=1 n=0
+1+-     0   5.760(0.025)      nan       nan      nan  pred  no state in model
+0++     1   5.845(0.050)    5.502      -6.9    -1.16  pred  gg L=0 S=0 n=1
+2-+     0   6.031(0.038)   -3.349    -246.8   -30.86  pred  gg L=1 S=1 n=0
+2++     1   6.582(0.036)    6.005     -16.0    -1.74  pred  gg L=2 S=0 n=0
+3+-     0   6.988(0.041)      nan       nan      nan  pred  no state in model
+0-+     1   7.050(0.068)   23.286     238.8    45.23  pred  gg L=1 S=1 n=1
+4++     0   7.182(0.071)  -19.415    -374.6   -72.66  pred  gg L=2 S=2 n=0
+1--     0   7.260(0.110)    6.025     -11.2    -3.26  pred  ggg K=0 S=1 n=0
+3++     0   7.263(0.056)    7.305       0.8     0.11  pred  gg L=2 S=2 n=0
+1+-     1   7.473(0.057)      nan       nan      nan  pred  no state in model
+2--     0   7.910(0.056)      nan       nan      nan  pred  no state in model
+2-+     1   7.936(0.054)   -1.167    -168.6   -22.73  pred  gg L=1 S=1 n=1
+1-+     0   8.415(0.076)   13.738      70.0    12.45  pred  gg L=1 S=1 n=0
+2+-     0   8.566(0.076)      nan       nan      nan  pred  no state in model
+predictions: 17 lattice states (12 with a model counterpart); within 1 sigma(lat): 1; chi2/pred lattice-only = 62091.6, with 5% budget = 1201.46
+
+#### 4D fit rel k=3 (m,kappa,C0): m/sqrt(sigma) = 3.1323, kappa = N alpha_s = 0.7187 (alpha_s = 0.2396), C0/sqrt(sigma) = -3.3044; fit residual chi2 = 0.731
+
+== 4D SU(3) AT2020 / rel k=3 (m,kappa,C0)  (k = 3; fit set [('0++', 0), ('0-+', 0), ('2++', 0)])
+JPC   lev      lattice    model  pull_lat  pull_5%  role  model state
+0++     0   3.405(0.021)    3.400      -0.3    -0.03  fit   gg L=0 S=0 n=0
+2++     0   4.894(0.022)    4.891      -0.1    -0.01  fit   gg L=0 S=2 n=0
+0-+     0   5.276(0.045)    5.312       0.8     0.14  fit   gg L=1 S=1 n=0
+0++     1   5.855(0.041)    5.984       3.1     0.44  pred  gg L=0 S=0 n=1
+1+-     0   6.065(0.040)      nan       nan      nan  pred  no state in model
+2-+     0   6.320(0.090)    5.924      -4.4    -1.21  pred  gg L=1 S=1 n=0
+2++     1   6.788(0.040)    6.947       4.0     0.46  pred  gg L=0 S=2 n=1
+3+-     0   7.270(0.120)      nan       nan      nan  pred  no state in model
+0-+     1   7.290(0.130)    7.092      -1.5    -0.51  pred  gg L=1 S=1 n=1
+4++     0   7.600(0.120)    7.084      -4.3    -1.30  pred  gg L=2 S=2 n=0
+3++     0   7.710(0.090)    7.168      -6.0    -1.37  pred  gg L=2 S=2 n=0
+1+-     1   7.820(0.060)      nan       nan      nan  pred  no state in model
+2--     0   8.080(0.150)      nan       nan      nan  pred  no state in model
+2-+     1   8.180(0.080)    7.602      -7.2    -1.39  pred  gg L=1 S=1 n=1
+1--     0   8.310(0.100)    6.513     -18.0    -4.21  pred  ggg K=0 S=1 n=0
+1-+     0   8.480(0.120)    5.835     -22.0    -6.00  pred  gg L=1 S=1 n=0
+1-+     1   8.570(0.130)    7.491      -8.3    -2.41  pred  gg L=1 S=1 n=1
+1-+     2   8.660(0.150)    8.882       1.5     0.48  pred  gg L=1 S=1 n=2
+2+-     0   8.740(0.120)      nan       nan      nan  pred  no state in model
+4+-     0   9.020(0.100)      nan       nan      nan  pred  no state in model
+predictions: 17 lattice states (11 with a model counterpart); within 1 sigma(lat): 0; chi2/pred lattice-only = 94.0, with 5% budget = 6.12
+
+== 4D SU(inf) AT2021 / rel k=3 (m,kappa,C0) (same params, lambda fixed)  (k = 0; fit set [])
+JPC   lev      lattice    model  pull_lat  pull_5%  role  model state
+0++     0   3.072(0.014)    3.303      16.5     1.50  pred  gg L=0 S=0 n=0
+2++     0   4.599(0.014)    4.702       7.3     0.45  pred  gg L=0 S=2 n=0
+0-+     0   4.711(0.026)    5.106      15.2     1.67  pred  gg L=1 S=1 n=0
+1+-     0   5.760(0.025)      nan       nan      nan  pred  no state in model
+0++     1   5.845(0.050)    5.732      -2.3    -0.38  pred  gg L=0 S=0 n=1
+2-+     0   6.031(0.038)    5.694      -8.9    -1.11  pred  gg L=1 S=1 n=0
+2++     1   6.582(0.036)    6.632       1.4     0.15  pred  gg L=0 S=2 n=1
+3+-     0   6.988(0.041)      nan       nan      nan  pred  no state in model
+0-+     1   7.050(0.068)    6.766      -4.2    -0.79  pred  gg L=1 S=1 n=1
+4++     0   7.182(0.071)    6.781      -5.7    -1.10  pred  gg L=2 S=2 n=0
+1--     0   7.260(0.110)    6.292      -8.8    -2.55  pred  ggg K=0 S=1 n=0
+3++     0   7.263(0.056)    6.842      -7.5    -1.15  pred  gg L=2 S=2 n=0
+1+-     1   7.473(0.057)      nan       nan      nan  pred  no state in model
+2--     0   7.910(0.056)      nan       nan      nan  pred  no state in model
+2-+     1   7.936(0.054)    7.263     -12.5    -1.68  pred  gg L=1 S=1 n=1
+1-+     0   8.415(0.076)    5.597     -37.1    -6.59  pred  gg L=1 S=1 n=0
+2+-     0   8.566(0.076)      nan       nan      nan  pred  no state in model
+predictions: 17 lattice states (12 with a model counterpart); within 1 sigma(lat): 0; chi2/pred lattice-only = 196.4, with 5% budget = 5.21
+
+#### 2+1D fit rel k=2 (m,C0): m/sqrt(sigma) = 2.4635, C0/sqrt(sigma) = -2.3482; g^2N/sqrt(sigma) = 5.4380 (lattice input); fit chi2 = 6.73e-23
+
+== 3D SU(3) AT2016 / rel k=2 (m,C0)  (k = 2; fit set [('0++', 0), ('2++', 0)])
+JPC   lev      lattice    model  pull_lat  pull_5%  role  model state
+0++     0   4.368(0.007)    4.368       0.0     0.00  fit   gg |L|=0 n=0
+0--     0   6.391(0.014)    6.485       6.7     0.29  pred  ggg K=0 n=0
+0++     1   6.486(0.013)    7.001      39.6     1.59  pred  gg |L|=0 n=1
+2++     0   7.241(0.017)    7.241       0.0     0.00  fit   gg |L|=2 n=0
+2-+     0   7.261(0.016)    7.241      -1.2    -0.06  pred  gg |L|=2 n=0
+0--     1   7.983(0.026)    8.801      31.5     2.05  pred  ggg K=0 n=1
+0++     2   8.012(0.027)    8.836      30.5     2.05  pred  gg |L|=0 n=2
+2--     0   8.599(0.030)      nan       nan      nan  pred  no state in model
+0++     3   8.632(0.029)   10.336      58.8     3.94  pred  gg |L|=0 n=3
+2+-     0   8.665(0.024)      nan       nan      nan  pred  no state in model
+2++     1   8.730(0.022)    8.954      10.2     0.51  pred  gg |L|=2 n=1
+2-+     1   8.760(0.023)    8.954       8.4     0.44  pred  gg |L|=2 n=1
+0-+     0   9.234(0.043)      nan       nan      nan  pred  no state in model
+0--     2   9.338(0.038)   10.606      33.4     2.71  pred  ggg K=0 n=2
+0++     4   9.353(0.034)      nan       nan      nan  pred  no state in model
+0++     5   9.414(0.037)      nan       nan      nan  pred  no state in model
+2++     2   9.589(0.046)   10.400      17.6     1.68  pred  gg |L|=2 n=2
+2+-     1   9.871(0.063)      nan       nan      nan  pred  no state in model
+2--     1   9.940(0.044)      nan       nan      nan  pred  no state in model
+1+-     0   9.964(0.058)      nan       nan      nan  pred  no state in model
+2++     4   9.990(0.190)      nan       nan      nan  pred  no state in model
+2-+     2   9.992(0.033)   10.400      12.4     0.82  pred  gg |L|=2 n=2
+1--     0  10.039(0.044)      nan       nan      nan  pred  no state in model
+2-+     3  10.050(0.090)   11.674      18.0     3.18  pred  gg |L|=2 n=3
+2++     3  10.082(0.054)   11.674      29.5     3.14  pred  gg |L|=2 n=3
+0--     3  10.145(0.052)      nan       nan      nan  pred  no state in model
+1++     0  10.221(0.050)      nan       nan      nan  pred  no state in model
+1+-     1  10.260(0.086)      nan       nan      nan  pred  no state in model
+1-+     1  10.294(0.055)      nan       nan      nan  pred  no state in model
+1-+     0  10.316(0.046)      nan       nan      nan  pred  no state in model
+1--     1  10.341(0.060)      nan       nan      nan  pred  no state in model
+1++     1  10.443(0.044)      nan       nan      nan  pred  no state in model
+0-+     1  10.470(0.080)      nan       nan      nan  pred  no state in model
+0+-     0  10.550(0.060)      nan       nan      nan  pred  no state in model
+2-+     4  10.860(0.090)      nan       nan      nan  pred  no state in model
+2+-     2  11.170(0.090)      nan       nan      nan  pred  no state in model
+1--     2  11.250(0.080)      nan       nan      nan  pred  no state in model
+1+-     2  11.270(0.080)      nan       nan      nan  pred  no state in model
+2--     2  11.285(0.054)      nan       nan      nan  pred  no state in model
+1++     2  11.415(0.087)      nan       nan      nan  pred  no state in model
+0-+     2  11.440(0.100)      nan       nan      nan  pred  no state in model
+1-+     2  11.500(0.050)      nan       nan      nan  pred  no state in model
+0+-     1  11.550(0.120)      nan       nan      nan  pred  no state in model
+2--     3  12.090(0.120)      nan       nan      nan  pred  no state in model
+2--     4  12.090(0.120)      nan       nan      nan  pred  no state in model
+predictions: 43 lattice states (13 with a model counterpart); within 1 sigma(lat): 0; chi2/pred lattice-only = 764.5, with 5% budget = 4.44
+
+== 3D SU(inf) AT2016 / rel k=2 (m,C0) (same m, C0)  (k = 0; fit set [])
+JPC   lev      lattice    model  pull_lat  pull_5%  role  model state
+0++     0   4.116(0.006)    4.267      25.2     0.73  pred  gg |L|=0 n=0
+0--     0   6.060(0.009)    6.339      31.0     0.92  pred  ggg K=0 n=0
+0++     1   6.308(0.010)    6.726      41.8     1.33  pred  gg |L|=0 n=1
+2++     0   6.914(0.013)    6.946       2.5     0.09  pred  gg |L|=2 n=0
+2-+     0   6.930(0.013)    6.946       1.2     0.05  pred  gg |L|=2 n=0
+0--     1   7.759(0.015)    8.502      49.6     1.91  pred  ggg K=0 n=1
+0++     2   7.844(0.014)    8.441      42.7     1.52  pred  gg |L|=0 n=2
+0++     3   8.147(0.019)    9.845      89.4     4.16  pred  gg |L|=0 n=3
+2--     0   8.223(0.018)      nan       nan      nan  pred  no state in model
+2+-     0   8.224(0.020)      nan       nan      nan  pred  no state in model
+2++     1   8.423(0.015)    8.550       8.4     0.30  pred  gg |L|=2 n=1
+2-+     1   8.488(0.021)    8.550       2.9     0.15  pred  gg |L|=2 n=1
+0++     4   8.950(0.025)      nan       nan      nan  pred  no state in model
+0-+     0   8.998(0.028)      nan       nan      nan  pred  no state in model
+0++     5   9.087(0.020)      nan       nan      nan  pred  no state in model
+0--     2   9.110(0.035)   10.189      30.8     2.36  pred  ggg K=0 n=2
+1+-     0   9.380(0.031)      nan       nan      nan  pred  no state in model
+1--     0   9.401(0.029)      nan       nan      nan  pred  no state in model
+2++     2   9.590(0.090)    9.904       3.5     0.64  pred  gg |L|=2 n=2
+2--     1   9.592(0.024)      nan       nan      nan  pred  no state in model
+2+-     1   9.629(0.025)      nan       nan      nan  pred  no state in model
+0--     3   9.709(0.030)      nan       nan      nan  pred  no state in model
+2-+     2   9.732(0.032)    9.904       5.4     0.35  pred  gg |L|=2 n=2
+1--     1   9.740(0.032)      nan       nan      nan  pred  no state in model
+1+-     1   9.828(0.036)      nan       nan      nan  pred  no state in model
+2++     3   9.866(0.034)   11.096      36.2     2.49  pred  gg |L|=2 n=3
+1-+     0   9.886(0.027)      nan       nan      nan  pred  no state in model
+2-+     3   9.905(0.030)   11.096      39.7     2.40  pred  gg |L|=2 n=3
+1++     0   9.912(0.026)      nan       nan      nan  pred  no state in model
+1-+     1   9.969(0.030)      nan       nan      nan  pred  no state in model
+1++     1   9.984(0.032)      nan       nan      nan  pred  no state in model
+0-+     1  10.101(0.033)      nan       nan      nan  pred  no state in model
+0+-     0  10.133(0.037)      nan       nan      nan  pred  no state in model
+1--     2  10.684(0.044)      nan       nan      nan  pred  no state in model
+1+-     2  10.712(0.046)      nan       nan      nan  pred  no state in model
+2--     2  10.715(0.041)      nan       nan      nan  pred  no state in model
+2++     4  10.810(0.100)      nan       nan      nan  pred  no state in model
+2+-     2  10.870(0.041)      nan       nan      nan  pred  no state in model
+2-+     4  10.914(0.039)      nan       nan      nan  pred  no state in model
+1--     3  10.980(0.060)      nan       nan      nan  pred  no state in model
+1+-     3  10.990(0.060)      nan       nan      nan  pred  no state in model
+1++     2  11.040(0.043)      nan       nan      nan  pred  no state in model
+1++     3  11.157(0.080)      nan       nan      nan  pred  no state in model
+1-+     2  11.195(0.040)      nan       nan      nan  pred  no state in model
+2+-     3  11.260(0.060)      nan       nan      nan  pred  no state in model
+2--     3  11.340(0.060)      nan       nan      nan  pred  no state in model
+0+-     1  11.350(0.057)      nan       nan      nan  pred  no state in model
+predictions: 47 lattice states (15 with a model counterpart); within 1 sigma(lat): 0; chi2/pred lattice-only = 1305.3, with 5% budget = 2.98
+
+#### 4D fit nr k=2 (m,kappa; C0=0): m/sqrt(sigma) = 0.9484, kappa = N alpha_s = 1.4213 (alpha_s = 0.4738), C0/sqrt(sigma) = 0.0000; fit residual chi2 = 1.28e+03
+
+== 4D SU(3) AT2020 / nr k=2 (m,kappa; C0=0)  (k = 2; fit set [('0++', 0), ('2++', 0)])
+JPC   lev      lattice    model  pull_lat  pull_5%  role  model state
+0++     0   3.405(0.021)    3.339      -3.2    -0.39  fit   gg L=0 S=0 n=0
+2++     0   4.894(0.022)    5.677      35.6     3.19  fit   gg L=0 S=2 n=0
+0-+     0   5.276(0.045)    6.939      37.0     6.22  pred  gg L=1 S=1 n=0
+0++     1   5.855(0.041)    7.588      42.3     5.86  pred  gg L=0 S=0 n=1
+1+-     0   6.065(0.040)      nan       nan      nan  pred  no state in model
+2-+     0   6.320(0.090)    6.182      -1.5    -0.42  pred  gg L=1 S=1 n=0
+2++     1   6.788(0.040)    8.355      39.2     4.59  pred  gg L=2 S=0 n=0
+3+-     0   7.270(0.120)      nan       nan      nan  pred  no state in model
+0-+     1   7.290(0.130)   10.062      21.3     7.16  pred  gg L=1 S=1 n=1
+4++     0   7.600(0.120)    7.327      -2.3    -0.69  pred  gg L=2 S=2 n=0
+3++     0   7.710(0.090)    8.920      13.4     3.06  pred  gg L=2 S=2 n=0
+1+-     1   7.820(0.060)      nan       nan      nan  pred  no state in model
+2--     0   8.080(0.150)      nan       nan      nan  pred  no state in model
+2-+     1   8.180(0.080)    9.158      12.2     2.35  pred  gg L=1 S=1 n=1
+1--     0   8.310(0.100)    6.845     -14.7    -3.43  pred  ggg K=0 S=1 n=0
+1-+     0   8.480(0.120)    7.102     -11.5    -3.13  pred  gg L=1 S=1 n=0
+1-+     1   8.570(0.130)    9.997      11.0     3.19  pred  gg L=1 S=1 n=1
+1-+     2   8.660(0.150)   12.411      25.0     8.19  pred  gg L=1 S=1 n=2
+2+-     0   8.740(0.120)      nan       nan      nan  pred  no state in model
+4+-     0   9.020(0.100)      nan       nan      nan  pred  no state in model
+predictions: 18 lattice states (12 with a model counterpart); within 1 sigma(lat): 0; chi2/pred lattice-only = 547.7, with 5% budget = 21.63
+
+== 4D SU(inf) AT2021 / nr k=2 (m,kappa; C0=0) (same params, lambda fixed)  (k = 0; fit set [])
+JPC   lev      lattice    model  pull_lat  pull_5%  role  model state
+0++     0   3.072(0.014)    3.120       3.4     0.31  pred  gg L=0 S=0 n=0
+2++     0   4.599(0.014)    5.353      53.8     3.27  pred  gg L=0 S=2 n=0
+0-+     0   4.711(0.026)    6.362      63.5     6.97  pred  gg L=1 S=1 n=0
+1+-     0   5.760(0.025)      nan       nan      nan  pred  no state in model
+0++     1   5.845(0.050)    7.097      25.0     4.22  pred  gg L=0 S=0 n=1
+2-+     0   6.031(0.038)    5.887      -3.8    -0.48  pred  gg L=1 S=1 n=0
+2++     1   6.582(0.036)    7.851      35.3     3.83  pred  gg L=2 S=0 n=0
+3+-     0   6.988(0.041)      nan       nan      nan  pred  no state in model
+0-+     1   7.050(0.068)    9.295      33.0     6.25  pred  gg L=1 S=1 n=1
+4++     0   7.182(0.071)    7.057      -1.8    -0.34  pred  gg L=2 S=2 n=0
+1--     0   7.260(0.110)    6.422      -7.6    -2.21  pred  ggg K=0 S=1 n=0
+3++     0   7.263(0.056)    8.357      19.5     2.98  pred  gg L=2 S=2 n=0
+1+-     1   7.473(0.057)      nan       nan      nan  pred  no state in model
+2--     0   7.910(0.056)      nan       nan      nan  pred  no state in model
+2-+     1   7.936(0.054)    8.629      12.8     1.73  pred  gg L=1 S=1 n=1
+1-+     0   8.415(0.076)    6.609     -23.8    -4.22  pred  gg L=1 S=1 n=0
+2+-     0   8.566(0.076)      nan       nan      nan  pred  no state in model
+predictions: 17 lattice states (12 with a model counterpart); within 1 sigma(lat): 0; chi2/pred lattice-only = 924.1, with 5% budget = 13.82
+
+#### 4D fit nr k=3 (m,kappa,C0): m/sqrt(sigma) = 3.4362, kappa = N alpha_s = 0.8896 (alpha_s = 0.2965), C0/sqrt(sigma) = -3.6829; fit residual chi2 = 21.3
+
+== 4D SU(3) AT2020 / nr k=3 (m,kappa,C0)  (k = 3; fit set [('0++', 0), ('0-+', 0), ('2++', 0)])
+JPC   lev      lattice    model  pull_lat  pull_5%  role  model state
+0++     0   3.405(0.021)    3.382      -1.1    -0.14  fit   gg L=0 S=0 n=0
+2++     0   4.894(0.022)    4.873      -1.0    -0.09  fit   gg L=0 S=2 n=0
+0-+     0   5.276(0.045)    5.473       4.4     0.74  fit   gg L=1 S=1 n=0
+0++     1   5.855(0.041)    6.377      12.7     1.77  pred  gg L=0 S=0 n=1
+1+-     0   6.065(0.040)      nan       nan      nan  pred  no state in model
+2-+     0   6.320(0.090)    6.107      -2.4    -0.65  pred  gg L=1 S=1 n=0
+2++     1   6.788(0.040)    7.169       9.5     1.11  pred  gg L=0 S=2 n=1
+3+-     0   7.270(0.120)      nan       nan      nan  pred  no state in model
+0-+     1   7.290(0.130)    7.577       2.2     0.74  pred  gg L=1 S=1 n=1
+4++     0   7.600(0.120)    7.333      -2.2    -0.67  pred  gg L=2 S=2 n=0
+3++     0   7.710(0.090)    7.386      -3.6    -0.82  pred  gg L=2 S=2 n=0
+1+-     1   7.820(0.060)      nan       nan      nan  pred  no state in model
+2--     0   8.080(0.150)      nan       nan      nan  pred  no state in model
+2-+     1   8.180(0.080)    8.022      -2.0    -0.38  pred  gg L=1 S=1 n=1
+1--     0   8.310(0.100)    6.521     -17.9    -4.19  pred  ggg K=0 S=1 n=0
+1-+     0   8.480(0.120)    5.999     -20.7    -5.63  pred  gg L=1 S=1 n=0
+1-+     1   8.570(0.130)    7.932      -4.9    -1.42  pred  gg L=1 S=1 n=1
+1-+     2   8.660(0.150)    9.550       5.9     1.94  pred  gg L=1 S=1 n=2
+2+-     0   8.740(0.120)      nan       nan      nan  pred  no state in model
+4+-     0   9.020(0.100)      nan       nan      nan  pred  no state in model
+predictions: 17 lattice states (11 with a model counterpart); within 1 sigma(lat): 0; chi2/pred lattice-only = 99.3, with 5% budget = 5.60
+
+== 4D SU(inf) AT2021 / nr k=3 (m,kappa,C0) (same params, lambda fixed)  (k = 0; fit set [])
+JPC   lev      lattice    model  pull_lat  pull_5%  role  model state
+0++     0   3.072(0.014)    3.271      14.2     1.29  pred  gg L=0 S=0 n=0
+2++     0   4.599(0.014)    4.683       6.0     0.37  pred  gg L=0 S=2 n=0
+0-+     0   4.711(0.026)    5.247      20.6     2.26  pred  gg L=1 S=1 n=0
+1+-     0   5.760(0.025)      nan       nan      nan  pred  no state in model
+0++     1   5.845(0.050)    6.085       4.8     0.81  pred  gg L=0 S=0 n=1
+2-+     0   6.031(0.038)    5.857      -4.6    -0.57  pred  gg L=1 S=1 n=0
+2++     1   6.582(0.036)    6.830       6.9     0.75  pred  gg L=0 S=2 n=1
+3+-     0   6.988(0.041)      nan       nan      nan  pred  no state in model
+0-+     1   7.050(0.068)    7.202       2.2     0.42  pred  gg L=1 S=1 n=1
+4++     0   7.182(0.071)    7.006      -2.5    -0.48  pred  gg L=2 S=2 n=0
+1--     0   7.260(0.110)    6.285      -8.9    -2.57  pred  ggg K=0 S=1 n=0
+3++     0   7.263(0.056)    7.040      -4.0    -0.61  pred  gg L=2 S=2 n=0
+1+-     1   7.473(0.057)      nan       nan      nan  pred  no state in model
+2--     0   7.910(0.056)      nan       nan      nan  pred  no state in model
+2-+     1   7.936(0.054)    7.635      -5.6    -0.75  pred  gg L=1 S=1 n=1
+1-+     0   8.415(0.076)    5.744     -35.1    -6.25  pred  gg L=1 S=1 n=0
+2+-     0   8.566(0.076)      nan       nan      nan  pred  no state in model
+predictions: 17 lattice states (12 with a model counterpart); within 1 sigma(lat): 0; chi2/pred lattice-only = 177.3, with 5% budget = 4.62
+
+#### 2+1D fit nr k=2 (m,C0): m/sqrt(sigma) = 3.2230, C0/sqrt(sigma) = -3.7925; g^2N/sqrt(sigma) = 5.4380 (lattice input); fit chi2 = 2.24e-22
+
+== 3D SU(3) AT2016 / nr k=2 (m,C0)  (k = 2; fit set [('0++', 0), ('2++', 0)])
+JPC   lev      lattice    model  pull_lat  pull_5%  role  model state
+0++     0   4.368(0.007)    4.368      -0.0    -0.00  fit   gg |L|=0 n=0
+0--     0   6.391(0.014)    6.427       2.5     0.11  pred  ggg K=0 n=0
+0++     1   6.486(0.013)    7.133      49.8     1.99  pred  gg |L|=0 n=1
+2++     0   7.241(0.017)    7.241       0.0     0.00  fit   gg |L|=2 n=0
+2-+     0   7.261(0.016)    7.241      -1.2    -0.06  pred  gg |L|=2 n=0
+0--     1   7.983(0.026)    8.861      33.8     2.19  pred  ggg K=0 n=1
+0++     2   8.012(0.027)    9.138      41.7     2.81  pred  gg |L|=0 n=2
+2--     0   8.599(0.030)      nan       nan      nan  pred  no state in model
+0++     3   8.632(0.029)   10.831      75.8     5.08  pred  gg |L|=0 n=3
+2+-     0   8.665(0.024)      nan       nan      nan  pred  no state in model
+2++     1   8.730(0.022)    9.165      19.8     0.99  pred  gg |L|=2 n=1
+2-+     1   8.760(0.023)    9.165      17.6     0.92  pred  gg |L|=2 n=1
+0-+     0   9.234(0.043)      nan       nan      nan  pred  no state in model
+0--     2   9.338(0.038)   10.795      38.3     3.11  pred  ggg K=0 n=2
+0++     4   9.353(0.034)      nan       nan      nan  pred  no state in model
+0++     5   9.414(0.037)      nan       nan      nan  pred  no state in model
+2++     2   9.589(0.046)   10.822      26.8     2.56  pred  gg |L|=2 n=2
+2+-     1   9.871(0.063)      nan       nan      nan  pred  no state in model
+2--     1   9.940(0.044)      nan       nan      nan  pred  no state in model
+1+-     0   9.964(0.058)      nan       nan      nan  pred  no state in model
+2++     4   9.990(0.190)      nan       nan      nan  pred  no state in model
+2-+     2   9.992(0.033)   10.822      25.2     1.66  pred  gg |L|=2 n=2
+1--     0  10.039(0.044)      nan       nan      nan  pred  no state in model
+2-+     3  10.050(0.090)   12.313      25.1     4.43  pred  gg |L|=2 n=3
+2++     3  10.082(0.054)   12.313      41.3     4.40  pred  gg |L|=2 n=3
+0--     3  10.145(0.052)      nan       nan      nan  pred  no state in model
+1++     0  10.221(0.050)      nan       nan      nan  pred  no state in model
+1+-     1  10.260(0.086)      nan       nan      nan  pred  no state in model
+1-+     1  10.294(0.055)      nan       nan      nan  pred  no state in model
+1-+     0  10.316(0.046)      nan       nan      nan  pred  no state in model
+1--     1  10.341(0.060)      nan       nan      nan  pred  no state in model
+1++     1  10.443(0.044)      nan       nan      nan  pred  no state in model
+0-+     1  10.470(0.080)      nan       nan      nan  pred  no state in model
+0+-     0  10.550(0.060)      nan       nan      nan  pred  no state in model
+2-+     4  10.860(0.090)      nan       nan      nan  pred  no state in model
+2+-     2  11.170(0.090)      nan       nan      nan  pred  no state in model
+1--     2  11.250(0.080)      nan       nan      nan  pred  no state in model
+1+-     2  11.270(0.080)      nan       nan      nan  pred  no state in model
+2--     2  11.285(0.054)      nan       nan      nan  pred  no state in model
+1++     2  11.415(0.087)      nan       nan      nan  pred  no state in model
+0-+     2  11.440(0.100)      nan       nan      nan  pred  no state in model
+1-+     2  11.500(0.050)      nan       nan      nan  pred  no state in model
+0+-     1  11.550(0.120)      nan       nan      nan  pred  no state in model
+2--     3  12.090(0.120)      nan       nan      nan  pred  no state in model
+2--     4  12.090(0.120)      nan       nan      nan  pred  no state in model
+predictions: 43 lattice states (13 with a model counterpart); within 1 sigma(lat): 0; chi2/pred lattice-only = 1306.0, with 5% budget = 7.87
+
+== 3D SU(inf) AT2016 / nr k=2 (m,C0) (same m, C0)  (k = 0; fit set [])
+JPC   lev      lattice    model  pull_lat  pull_5%  role  model state
+0++     0   4.116(0.006)    4.261      24.2     0.70  pred  gg |L|=0 n=0
+0--     0   6.060(0.009)    6.278      24.2     0.72  pred  ggg K=0 n=0
+0++     1   6.308(0.010)    6.825      51.7     1.64  pred  gg |L|=0 n=1
+2++     0   6.914(0.013)    6.928       1.1     0.04  pred  gg |L|=2 n=0
+2-+     0   6.930(0.013)    6.928      -0.2    -0.01  pred  gg |L|=2 n=0
+0--     1   7.759(0.015)    8.535      51.7     2.00  pred  ggg K=0 n=1
+0++     2   7.844(0.014)    8.683      59.9     2.14  pred  gg |L|=0 n=2
+0++     3   8.147(0.019)   10.250     110.7     5.16  pred  gg |L|=0 n=3
+2--     0   8.223(0.018)      nan       nan      nan  pred  no state in model
+2+-     0   8.224(0.020)      nan       nan      nan  pred  no state in model
+2++     1   8.423(0.015)    8.709      19.1     0.68  pred  gg |L|=2 n=1
+2-+     1   8.488(0.021)    8.709      10.5     0.52  pred  gg |L|=2 n=1
+0++     4   8.950(0.025)      nan       nan      nan  pred  no state in model
+0-+     0   8.998(0.028)      nan       nan      nan  pred  no state in model
+0++     5   9.087(0.020)      nan       nan      nan  pred  no state in model
+0--     2   9.110(0.035)   10.327      34.8     2.66  pred  ggg K=0 n=2
+1+-     0   9.380(0.031)      nan       nan      nan  pred  no state in model
+1--     0   9.401(0.029)      nan       nan      nan  pred  no state in model
+2++     2   9.590(0.090)   10.244       7.3     1.34  pred  gg |L|=2 n=2
+2--     1   9.592(0.024)      nan       nan      nan  pred  no state in model
+2+-     1   9.629(0.025)      nan       nan      nan  pred  no state in model
+0--     3   9.709(0.030)      nan       nan      nan  pred  no state in model
+2-+     2   9.732(0.032)   10.244      16.0     1.05  pred  gg |L|=2 n=2
+1--     1   9.740(0.032)      nan       nan      nan  pred  no state in model
+1+-     1   9.828(0.036)      nan       nan      nan  pred  no state in model
+2++     3   9.866(0.034)   11.623      51.7     3.55  pred  gg |L|=2 n=3
+1-+     0   9.886(0.027)      nan       nan      nan  pred  no state in model
+2-+     3   9.905(0.030)   11.623      57.3     3.46  pred  gg |L|=2 n=3
+1++     0   9.912(0.026)      nan       nan      nan  pred  no state in model
+1-+     1   9.969(0.030)      nan       nan      nan  pred  no state in model
+1++     1   9.984(0.032)      nan       nan      nan  pred  no state in model
+0-+     1  10.101(0.033)      nan       nan      nan  pred  no state in model
+0+-     0  10.133(0.037)      nan       nan      nan  pred  no state in model
+1--     2  10.684(0.044)      nan       nan      nan  pred  no state in model
+1+-     2  10.712(0.046)      nan       nan      nan  pred  no state in model
+2--     2  10.715(0.041)      nan       nan      nan  pred  no state in model
+2++     4  10.810(0.100)      nan       nan      nan  pred  no state in model
+2+-     2  10.870(0.041)      nan       nan      nan  pred  no state in model
+2-+     4  10.914(0.039)      nan       nan      nan  pred  no state in model
+1--     3  10.980(0.060)      nan       nan      nan  pred  no state in model
+1+-     3  10.990(0.060)      nan       nan      nan  pred  no state in model
+1++     2  11.040(0.043)      nan       nan      nan  pred  no state in model
+1++     3  11.157(0.080)      nan       nan      nan  pred  no state in model
+1-+     2  11.195(0.040)      nan       nan      nan  pred  no state in model
+2+-     3  11.260(0.060)      nan       nan      nan  pred  no state in model
+2--     3  11.340(0.060)      nan       nan      nan  pred  no state in model
+0+-     1  11.350(0.057)      nan       nan      nan  pred  no state in model
+predictions: 47 lattice states (15 with a model counterpart); within 1 sigma(lat): 1; chi2/pred lattice-only = 2021.3, with 5% budget = 4.95
+
+#### summary (per variant: SU(3) then SU(inf); chi2 per predicted state with a model counterpart)
+4D rel k=2 params=[0.3, 1.2551, 0.0]  SU3: 2/12 within 1sig, chi2/pred lat=29142.2 5%=1487.20 | SUinf: 1/12, chi2/pred lat=62091.6 5%=1201.46
+4D rel k=3 params=[3.1323, 0.7187, -3.3044]  SU3: 0/11 within 1sig, chi2/pred lat=94.0 5%=6.12 | SUinf: 0/12, chi2/pred lat=196.4 5%=5.21
+3D rel k=2 params=[2.4635, -2.3482]  SU3: 0/13 within 1sig, chi2/pred lat=764.5 5%=4.44 | SUinf: 0/15, chi2/pred lat=1305.3 5%=2.98
+4D nr k=2 params=[0.9484, 1.4213, 0.0]  SU3: 0/12 within 1sig, chi2/pred lat=547.7 5%=21.63 | SUinf: 0/12, chi2/pred lat=924.1 5%=13.82
+4D nr k=3 params=[3.4362, 0.8896, -3.6829]  SU3: 0/11 within 1sig, chi2/pred lat=99.3 5%=5.60 | SUinf: 0/12, chi2/pred lat=177.3 5%=4.62
+3D nr k=2 params=[3.223, -3.7925]  SU3: 0/13 within 1sig, chi2/pred lat=1306.0 5%=7.87 | SUinf: 1/15, chi2/pred lat=2021.3 5%=4.95

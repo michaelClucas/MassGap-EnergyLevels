@@ -1,0 +1,13 @@
+model                                      n in1sig chi2/n lat chi2/n 5% | common(2++,0-+,0++*):  n in1 chi2/n lat     5%
+MSB-helicity-B                             9      0       74.7      3.26 |  3   0       89.7   2.91
+KS-Simonov                                10      3       98.0      3.34 |  3   1      119.3   2.84
+SS2003-CoulombGauge                        9      0      273.7     12.54 |  3   0      364.9  12.91
+BMT-AdS7                                   6      0     1093.7     49.94 |  3   0      621.1  21.40
+FluxTube-IP                                5      0      447.4     12.14 |  3   0      627.8  16.42
+Bag-JJ                                     6      0      461.0     19.03 |  3   0      634.3  16.02
+HardWall-Dirichlet                         2      0       20.0      0.59 |  2   0       20.0   0.59
+HardWall-Neumann                           2      0       83.7      2.15 |  2   0       83.7   2.15
+this work: rel k=2 (m,kappa; C0=0)        11      3    22589.2   1524.03 |  3   2    46113.4 1956.88
+this work: rel k=3 (m,kappa,C0)           11      2       70.0      5.43 |  3   2        2.3   0.08
+this work: nr k=2 (m,kappa; C0=0)         11      2      431.6     19.87 |  3   0      939.2  32.60
+this work: nr k=3 (m,kappa,C0)            11      1       71.8      4.95 |  3   1       41.8   1.46
